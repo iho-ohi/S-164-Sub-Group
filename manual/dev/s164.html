@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<title>S-164 Version 1.0.0 Build 0.2.1</title>
+<title>S-164 Version 1.0.0 Build 0.2.2</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -438,7 +438,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body id="bibtexAttributes" class="book">
 <div id="header">
-<h1>S-164 Version 1.0.0 Build 0.2.1</h1>
+<h1>S-164 Version 1.0.0 Build 0.2.2</h1>
 </div>
 <div id="content">
 <div id="preamble">
@@ -465,7 +465,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Editor: Jonathan Pritchard, IIC technologies</p>
 </div>
 <div class="paragraph">
-<p>Title: S-164 Version 1.0.0 Build 0.2.1 1.0.0 Build 0.2.1</p>
+<p>Title: S-164 Version 1.0.0 Build 0.2.2 1.0.0 Build 0.2.2</p>
 </div>
 <hr>
 <div style="page-break-after: always;"></div>
@@ -782,7 +782,7 @@ The IHO Logo or other identifiers shall not be used in any derived product witho
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Jonathan Pritchard</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">0.6.2.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.2.1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">February 2023</p></td>
 </tr>
 </tbody>
@@ -1627,8 +1627,10 @@ Note Manufacturers can use their own algorithms for calculating the position of 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Load the following cell:
-2.1.1 Power Up\ENC_ROOT\GB5X01SW.000</p>
+<p>Load the following cell:</p>
+</div>
+<div class="paragraph">
+<p><strong>101AA00AA5X01SW.000</strong> (<em>was 2.1.1 Power Up\ENC_ROOT\GB5X01SW.000</em>)</p>
 </div></div></td>
 </tr>
 <tr>
@@ -1636,8 +1638,10 @@ Note Manufacturers can use their own algorithms for calculating the position of 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Load the following updates:
-2.2.1 Corrupt Update\ENC_ROOT\</p>
+<p>Load the following exchange set:</p>
+</div>
+<div class="paragraph">
+<p><strong>CorruptUpdate</strong> (<em>was 2.2.1 Corrupt Update\ENC_ROOT\</em>)</p>
 </div></div></td>
 </tr>
 <tr>
@@ -2093,14 +2097,32 @@ After loading of the update, manually annotate the objects of the update as reje
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Load the following cell:
-2.1.1 Power Up\ENC_ROOT\GB5X01SW.000
-Select Display Category Standard
-Set the Safety Contour value to 8 m
-Set the Safety Depth  value to 8 m
-Select Symbolized Boundaries
-Select Paper chart symbols
-Select Highlight date dependent
-Select Spot soundings</p>
+2.1.1 Power Up\ENC_ROOT\GB5X01SW.000</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Select Display Category Standard</p>
+</li>
+<li>
+<p>Set the Safety Contour value to 8 m</p>
+</li>
+<li>
+<p>Set the Safety Depth  value to 8 m</p>
+</li>
+<li>
+<p>Select Symbolized Boundaries</p>
+</li>
+<li>
+<p>Select Paper chart symbols</p>
+</li>
+<li>
+<p>Select Highlight date dependent</p>
+</li>
+<li>
+<p>Select Spot soundings</p>
+</li>
+</ul>
 </div></div></td>
 </tr>
 <tr>
@@ -2273,7 +2295,7 @@ Select Spot soundings</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>If the ECDIS supports SENC delivery (accepting a SENC resulting from conversion of ENC to SENC ashore, in accordance with IHO Resolution 4/2002 as amended (see IHO Publication M-3), then the manufacturer  shall  supply  a SENC version of the IHO S-64 test data set for each SENC format for which SENC delivery is to be approved.</p>
+<p>If the ECDIS supports SENC delivery (accepting a SENC resulting from conversion of ENC to SENC ashore, in accordance with IHO Resolution 4/2002 as amended (see IHO Publication M-3), then the manufacturer  shall  supply  a SENC version of the IHO S-164 test data set for each SENC format for which SENC delivery is to be approved.</p>
 </div>
 <div class="paragraph">
 <p>Note: The test data sets should be provided by the SENC producers for each SENC distributor approved for use with the EUT.</p>
@@ -2284,9 +2306,17 @@ Select Spot soundings</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>For each SENC delivery format perform the following tests from section 2.1 and 2.2 :
-2.1.1, 2.1.2, 2.1.3, 2.1.4, (2.1.5);
-(2.2.1), 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.2.8</p>
+<p>For each SENC delivery format perform the following tests from section 2.1 and 2.2 :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>2.1.1, 2.1.2, 2.1.3, 2.1.4, (2.1.5); (<em>replace with references</em>)</p>
+</li>
+<li>
+<p>(2.2.1), 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.2.8 (<em>replace with references</em>)</p>
+</li>
+</ul>
 </div></div></td>
 </tr>
 <tr>
@@ -2314,10 +2344,11 @@ The ECDIS shall provide an update mechanism for delivered SENCs that is not infe
 <div class="sect3">
 <h4 id="_organization_of_the_encrypted_tds"><a class="anchor" href="#_organization_of_the_encrypted_tds"></a>2.5.1. Organization of the Encrypted TDS</h4>
 <div class="paragraph">
-<p>The tests for loading encrypted data are stored in the root directory “IHO S-64 [S-63 TDS v1.2.1]”. The tests are subdivided into seven categories. Each category contains a number of tests which have corresponding test scripts provided in this section.</p>
+<p>(<em>rewrite when encrypted data tests are finalised</em>)
+The tests for loading encrypted data are stored in the root directory “IHO S-164 Part 15”. The tests are subdivided into seven categories. Each category contains a number of tests which have corresponding test scripts provided in this section.</p>
 </div>
 <div class="paragraph">
-<p>There are additional tests provided in “7 ENC Data Management [Optional]”. These are provided to assist manufacturers who have included additional ENC Data Management functions into their systems and are fully described in sections 2.5.7i), 2.5.7j) and 2.5.7k).</p>
+<p>There are additional tests provided in “ENC Data Management [Optional]”. These are provided to assist manufacturers who have included additional ENC Data Management functions into their systems and are fully described in sections 2.5.7i), 2.5.7j) and 2.5.7k).</p>
 </div>
 <div class="literalblock">
 <div class="content">
@@ -2331,21 +2362,22 @@ The ECDIS shall provide an update mechanism for delivered SENCs that is not infe
 <p>The ENC permits that accompany the encrypted ENC test data have been generated for the User Permit specified below. To carry out the tests described in this document manufacturers will have to create a hard lock device or program their software with the following manufacturer information and hardware ID (HW_ID).</p>
 </div>
 <div class="paragraph">
-<p>Manufacturer ID: (M_ID)		=	10 	(or 3130 hexadecimal)
+<p>(<em>insert IHO parameters</em>)
+Manufacturer ID: (M_ID)		=	10 	(or 3130 hexadecimal)
 Manufacturer Key: (M_KEY)	=	10121 	(or 3130313231 hexadecimal)
 Hardware ID: (HW_ID)		= 	12345 	(or 3132333435 hexadecimal)
 USERPERMIT             		=	66B5CBFDF7E4139D5B6086C23130</p>
 </div>
 <div class="paragraph">
-<p>This is the official manufacturer information issued for and by the Scheme Administrator (IHB) and is provided expressly for the purpose of producing encrypted ENC test data. This data is provided specifically for the following purposes:</p>
+<p>This is the official manufacturer information issued for and by the Scheme Administrator (IHO secretariat) and is provided expressly for the purpose of producing encrypted ENC test data. This data is provided specifically for the following purposes:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>OEM Type approval against the S-64 Test Data for Encrypted ENCs (This document).</p>
+<p>OEM Type approval against the S-164 Test Data for Encrypted ENCs (This document).</p>
 </li>
 <li>
-<p>OEM and Data Server self certification of their systems against the S-63 Data Protection Scheme.</p>
+<p>OEM and Data Server self certification of their systems against S-100 Part 15.</p>
 </li>
 </ul>
 </div>
@@ -2353,7 +2385,7 @@ USERPERMIT             		=	66B5CBFDF7E4139D5B6086C23130</p>
 <p>Test Certificate and Public Key</p>
 </div>
 <div class="paragraph">
-<p>The official IHO Scheme Administrator Certificate (IHO.CRT) should be used in the test data unless a different certificate or public key file is specified in the test description.</p>
+<p>The official IHO Scheme Administrator Certificate should be used in the test data unless a different certificate or public key file is specified in the test description (<em>insert link</em>).</p>
 </div>
 </div>
 </div>
@@ -2634,7 +2666,7 @@ The test ENC cell AA5STNDR.000 contains depth and land areas from Display Base p
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-02-09 12:34:12 UTC
+Last updated 2023-02-09 13:02:33 UTC
 </div>
 </div>
 </body>
