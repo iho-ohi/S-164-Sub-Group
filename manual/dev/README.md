@@ -1,1 +1,1 @@
-Asciidoc sources for the Test dataset manual
+Asciidoc sources for the Test dataset manual.
