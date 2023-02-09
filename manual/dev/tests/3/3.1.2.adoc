@@ -1,0 +1,31 @@
+<<<
+
+=== Standard Display Category
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    3.1.2   | IHO Reference | S-52 14.3
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|The purpose of the test is to verify by observation that ECDIS correctly displays all ENC objects included in the IMO Standard Display category. The test is performed by loading to ECDIS test S-57 cell and checking display against graphical plots.
+The test ENC cell AA5STNDR.000 contains depth and land areas from Display Base plus all ENC objects belonging to Standard Display according to the IHO S-52 Presentation Library. The objects belonging to Standard Display are to be shown if Standard Display is selected in ECDIS HMI and should be disappearing in the Display Base mode.
+|Setup
+a| Load cell AA5STNDR.000 from 3.1 ENC Display\Standard\ENC_ROOT with the following settings:
+
+* Select Display Category Standard Display
+* Set the Safety Contour value to 10 m
+* Set the Safety Depth value to 10 m
+* Select Symbolized Boundaries
+* Select Simplified Points
+| Action
+| Switch on Standard Display. Check ENC symbols shown in ECDIS against graphical plot.
+| Results
+a|* Confirm that depth and land areas from Display Base are shown
+* The ENC in the ECDIS should be shown as in the picture below (scale 1:70 000).
+
+.Test 3.1.2 image
+image::images/3.1/AA5STNDR.png[scaledwidth=80%,align="center"]
+
+|====================

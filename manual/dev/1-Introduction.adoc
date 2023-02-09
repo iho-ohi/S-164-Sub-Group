@@ -1,0 +1,120 @@
+= Introduction
+
+Introduction to IHO S-64 version 4
+
+== Change Control History
+
+[width="95%",caption=""]
+|====================
+|Version    |    Author | Date
+
+|Jonathan Pritchard | 0.6.2.1 | February 2023
+|====================
+
+== Introduction
+
+The International Hydrographic Organization (IHO) Test Data Sets (TDS) for Electronic Chart and Display Information System (ECDIS) have been produced to fulfil the requirement for a data set necessary to accomplish all ECDIS testing requirements as outlined in the IEC 61174 standard. The TDS has been published as IHO Publication Number 164 and consists of numerous data sets required for testing as well as this guide, the TDS Instruction Manual (TIM). The TIM provides supporting documentation about the organization, understanding, and use of the ENC TDS and is intended to be used along with the data sets included in the TDS. It aims to provide appropriate comments about each test including the information about the most suitable data elements, their location and the expected test results.
+
+
+== Acknowledgements
+Edition 1.0.0 and its subsequent clarifications has been produced with assistance from many expert contributors and members of the IHO S-100 WG, the ENC Working Group (ENCWG), and associated expert contributors; their input during the drafting and revision process has been invaluable.
+
+
+== Acronyms and Terms
+
+This publication makes extensive use of terms and acronyms described in the IHO S-32 Standard. Additionally, the following acronyms are frequently used:
+
+* TDS – Test Data Sets
+* TIM - TDS Instruction Manual
+* EUT – Equipment Under Test
+
+== References
+
+This publication provides tests based on the requirements documented in IHO standards. References to the source for a specific test are provided within this document. As specified in the IEC 61174 standard the tests provided are used to ensure conformance to the ECDIS requirements laid out in the IMO performance standard for ECDIS.
+
+*Normative References:*
+
+* IHO S-100 Edition 5.0.0
+* IHO S-98 Edition 1.0.0
+
+*Informative References:*
+
+* IHO S-32 - Hydrographic Dictionary (provides ECDIS related definitions)
+* IHO S-65 – ENC Production Guidance
+
+== Key Documents Organizations and Relationships
+
+The development and application of the TDS involves several organizations and related specifications (see Figure 1). The TDS was produced by the IHO to allow for the complete testing of ECDIS equipment (hardware and software) vis-à-vis the ECDIS Performance Standard. The ECDIS Performance Standard is specified by the International Maritime Organization (IMO) in MSC.232(82), and methods for testing this standard are the responsibility of the International Electrotechnical Commission (IEC) which publishes these requirements in document IEC 61174.
+
+All standards are subject to revision. Therefore, users of these standards must use the most recent editions of the standards indicated below. Members of IEC and ISO maintain registers of currently valid international standards.
+
+.The TDS and its relationship to other standards
+image::images/intro/standards.png[scaledwidth=60%,align="center"]
+
+
+
+The S-164 test data set contains both encrypted and unencrypted data. The inclusion of an encrypted dataset, conforming to S-100 Part 15, is so that ECDIS data loading and management operations can be tested under IEC 61174. There are also unencrypted datasets which test visualisation and operational aspects of the ECDIS. S-164 also contains datasets which test the dual fuel mode of ECDIS, mixing S-57 and S-101 electronic navigational charts.
+
+== Structure of the Instruction Manual
+
+This document consists of an introduction followed by tests arranged over 4 major sections in a task based layout. All tests are listed in a common format which is shown in the example below:
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Reference*    |    (S-164 reference)  | *IHO Reference* | (S-100 Part 9/S-98)
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Description*
+a|_A short description of what the test covers._
+|*Setup*
+a| The configuration required to perform the test including datasets to be loaded, settings to be applied and any other information as required. Where appropriate this should use the form centre the display on “location” set scale to “scale value”.(within this document the scale value assumes the EUT has a screen of the minimum specified size)
+| *Action*
+a| _The action which the test executor must perform._
+| *Results*
+a| _The result which the test executor must observe to complete the test_
+|====================
+
+*Example Table*
+
+== Organisation and Coverage of the TDS
+
+The TDS contains a named directory for each section of the TIM which requires test data. Depending on the test requirement, the folder contains an S100_ROOT directory containing the files of the exchange set (CATALOG.XML etc…), plus any required catalogues, updates or other optional/related files, e.g. .TIF, .TXT necessary).
+
+Each exchange set also contains a README.TXT file, which may have additional information regarding the content or usage of the files.
+
+The TDS data for encrypted data, located in section 2.5, contains multiple named exchange sets, each with their own S100_ROOT directory and full test scripts describing how to use the data.
+
+The location (or path) of ENC exchange set and/or ENC cell will be indicated using italic notation, e.g. PowerUp/S100_ROOT/S-101/DATASET_FILES/101AA00AA4X000.000.
+
+Some tests require specific datasets to be loaded from exchanges sets instead of the entire exchange set. This should be viewed as a requirement. Most systems enable “browsing” and can load files from almost any location including removable media. Consult with the equipment manufacturer for further information.
+
+== Required Test Items and USe of the TDS
+
+This section lists the items required for the execution of Tests specified in this document and how the TDS should be used. The following items are required:
+
+1.	IHO S-98 1.0.0 including an ECDIS Chart 1 and colour differentiation diagrams. If the manufacturer provides their own presentation library, Chart 1 has to be adapted accordingly.
+
+2.	IHO S-164 test data sets for ECDIS which includes both encrypted and unencrypted datasets, and updates, together with the associated instruction manual.
+
+3.	SENC test data sets, if supported from each SENC distributor.
+
+ECDIS Chart 1 and colour differentiation diagrams must be acquired and installed on the equipment under test (EUT) by the manufacturer, prior to the beginning of the tests.
+
+The second item, the IHO TDS, is provided as part of S-164, including the encrypted data and its test scripts. This document is to be considered the “Instruction Manual”. The IHO TDS may be upgraded from time to time to correct residual anomalies and ensure that the results of the tests conform to the description in this Manual. It is important to ensure that the tests are conducted with the latest version posted on the IHO web site at http://www.iho.int > (ENCs & ECDIS).  The version number (1.0.0) will remain the same as long as the corrections do not impact this document.
+
+The third item on the list, SENC test data set, if supported, must be provided by the manufacturer.
+
+== Notes on ECDIS screen samples (still required?)
+
+*Light Descriptions*
+Between the light characteristics abbreviation and the colour attribute it is acceptable for the ECDIS to display the light description text with or without a space. There must be a space between the light colour and signal period, for example:
+Fl W 30s7m10M or FlW 30s7m10M are both acceptable options
+Further details are given in S-52 Presentation Library edition 4.0.2 Part 1 10.6.3 Light Description Text Strings
+
+*Light Descriptions for Sectored Lights*
+The light description text string is normally not used for sector lights because it would cause clutter however OEMs are not prevented from doing so. Where OEMs have displayed the text strings in their ECDIS they must provide a method to select/deselect them from the ECDIS display. Further details are available in S-52 Presentation Library edition 4.0.2 Part 1 LIGHTS06 conditional symbology procedure.
+
+*Centred Symbols*
+There is no algorithm specified for OEMs to calculate the centre of an area. Therefore depending on the ECDIS there maybe instances where the centred symbol is not visible. If the centred symbol is not visible in the ECDIS display the zoom level should be increased until the symbol becomes visible.
+

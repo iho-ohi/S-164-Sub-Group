@@ -1,0 +1,17 @@
+//
+// this is the main body of section 2
+//
+:doctype: book
+
+<<<
+
+= S-57 Testing
+
+== Introduction
+This section describes how S-57 functionality shall be tested. The idea is that the TDS Manual for S-57 is referenced from this section and the data is unchanged from that which is currently used.
+
+This is, therefore, a _very_ short section.
+
+It should also explain how the S-57 data forms part of DF mode testing.
+
+

@@ -1,0 +1,76 @@
+//
+// this is the main body of section 2
+//
+:doctype: book
+
+// This section is the main S-100 functionality section
+// dealing with the loading and display of multiple S-100 datasets
+// the structure mirrors the existing S-64 structure.
+
+
+= Dataset Loading and Unloading
+
+== Loading of Unencrypted datasets
+
+include::tests/2/2.1.1.adoc[]
+include::tests/2/2.1.2.adoc[]
+include::tests/2/2.1.3.adoc[]
+
+include::tests/2/2.1.4.adoc[]
+include::tests/2/2.1.5.adoc[]
+
+<<<
+
+== Automatic Updates of Unencrypted ENCs
+
+include::tests/2/2.2.1.adoc[]
+include::tests/2/2.2.2.adoc[]
+include::tests/2/2.2.3.adoc[]
+include::tests/2/2.2.4.adoc[]
+include::tests/2/2.2.5.adoc[]
+include::tests/2/2.2.6.adoc[]
+include::tests/2/2.2.7.adoc[]
+include::tests/2/2.2.8.adoc[]
+
+include::tests/2/2.3.adoc[]
+include::tests/2/2.4.adoc[]
+
+// all the encrypted test datasets.
+include::tests/2/2.5-Encrypted-Tests-Intro.adoc[]
+
+= Dataset Display
+
+== Display of ENC datasets
+
+include::tests/3/3.1.1.adoc[]
+include::tests/3/3.1.2.adoc[]
+
+<<<
+= Display related functoinality
+
+== Mode and orientation
+
+== Display of latitude Bar
+
+== Feature information
+
+== Radar and Plotting information
+
+== Accuracy
+
+== Symbols
+
+== Units and Legend
+
+== Other Display related functionality
+
+
+
+<<<
+= Detection and Notification of Navigational Hazards
+
+== Detection and Notification of Navigational Hazards
+
+== Areas for which special conditions exist
+
+== Detection of safety contour

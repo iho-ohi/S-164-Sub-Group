@@ -1,0 +1,31 @@
+<<<
+
+[#InvalidSequence]
+
+=== Loading update in an invalid sequence
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:InvalidSequence[xrefstyle=short]  | IHO Reference | tbc
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|Loading corrupt update files.
+|Setup
+a| Load the following cell:
+2.1.1 Power Up\ENC_ROOT\GB5X01SW.000
+
+
+| Action
+
+a| Load the following updates:
+2.2.1 Corrupt Update\ENC_ROOT\
+
+| Results
+|====================
+
+// separate table to stop the contents shading over the page...
+|====================
+a|The update process shall install the updates up to update no. 3 and reject the installation of updates no. 4 and 5 with a permanent indication, “Chart information not up-to-date” when this chart is in use (either displayed or used as largest scale available for the chart related alerts and indications) until the not up- to-date situation is removed by successful application of a re-issue, a new edition or complete sequence of updates.
+|====================

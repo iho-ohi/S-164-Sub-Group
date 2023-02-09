@@ -1,0 +1,27 @@
+=== Display Base Category
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    3.1.1   | IHO Reference | S-52 14.3
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|The purpose of the test is to verify by observation that ECDIS correctly displays all ENC objects included in the IMO Display Base category. The test is performed by loading to ECDIS test S-57 cell and checking display against graphical plots. The test ENC cell AA5DDBASE.000 contains all ENC objects belonging to Display Base according to the IHO S-52 Presentation Library..
+|Setup
+a| Load cell AA5DBASE.000 from 3.1 ENC Display\Base\ENC_ROOT with the following settings:
+
+* Select Display Category Base
+* Set the Safety Contour value to 10 m
+* Set the Safety Depth value to 10 m
+* Select Symbolized Boundaries
+| Action
+| Check ENC symbols shown in the ECDIS against the graphical plot.
+| Results
+a|The ENC in the ECDIS should be shown like in the picture below (scale 1:60 000).
+
+.Test 3.1.1 image
+
+image::images/3.1/AA5DBASE.png[scaledwidth=80%,align="center"]
+
+|====================

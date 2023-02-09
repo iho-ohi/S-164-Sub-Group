@@ -1,0 +1,54 @@
+<<<
+
+[#SequentialUpdate]
+
+=== Loading Sequential Update
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:SequentialUpdate[xrefstyle=short]  | IHO Reference | IEC61174 / 4.4.1
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|Loading correct sequential update files.
+|Setup
+a| As for test xref:ChartLibrary[xrefstyle=short] Load the following 5 updates one by one and check the plots after each successfully applied update
+
+To create the same results as the S-164 plots.
+
+001 +
+Update review date range: 1st May 2001 – 21st May 2001
+
+002 +
+Update review date range: 1st Dec 2004 – 1st Mar 2005
+
+003 +
+Update review date range: 1st Sep 2005 – 14th Sep 2005
+
+004 +
+Update review date range: 15th Sep 2005 – 30th Sep 2005
+
+005 +
+Update review date range: 1st Oct 2005 – 14th Oct 2005
+
+| Action
+
+a| Load the following five updates:
+2.2.2 Loading of Updates\ENC_ROOT\
+| Results
+|====================
+
+// separate table to stop the contents shading over the page...
+|====================
+a| The update process shall install all updates (up to update no. 5) and indicate it in an appropriate summary report which shall contain the following information:
+
+* identification of issuing authority;
+* update numbers of the update files;
+* cell identifiers of cells affected;
+* edition number and date of cell involved;
+* number of updates in the affected cells.
+
+Review of updates shall be performed after the update process is completed and the updates have been applied to the SENC. Review the updates by selecting the given date range and confirm that display is as available in the corresponding screen plot.
+Note Manufacturers can use their own algorithms for calculating the position of centred symbols S-52 PL 8.5.1.
+|====================

@@ -1,0 +1,125 @@
+
+// *****************************************************************************
+//
+// OGC guidelines 
+//
+// - Leave no empty sections.
+// - Author the document (including spelling) in idiomatic U.S. English.
+// - Start each section with a paragraph (not a figure, table, or list).
+// - Spell out each acronym on first use (with the acronym in parentheses).
+// - Avoid domain-specific buzzwords.
+// - Write in 3rd person voice; avoid using "we".
+// - Ensure correct Grammar and use direct language.
+// - Use a colon (:) to introduce bulleted lists.
+// - Avoid pronouns with ambiguous antecedents (the problem with "it").
+//
+// Ensure that all Figures have numbers and captions.
+// Here's an example to follow:
+//
+//  [#id_of_image,reftext='{figure-caption} {counter:figure-num}']
+//  .Image caption goes here
+//  image::images/overview.png[width=600]
+// *****************************************************************************
+// *****************************************************************************
+// Provide the document title (ER or user guide name) after the colon.
+// Do not alter the testbed-number prefix.
+// The title here should match the title on the first page.
+// *****************************************************************************
+:BuildVersion: 0.2.1
+
+:title: S-164 Version 1.0.0 Build {BuildVersion}
+
+// *****************************************************************************
+// Document identifier
+// *****************************************************************************
+
+:docReference: IHO S-164
+
+// *****************************************************************************
+// TODO: Change...
+// Date posted to OGC Portal>Pending Documents, with format: yyyy-mm-dd.
+// *****************************************************************************
+
+:submissionDate: YYYY-MM-DD
+
+// *****************************************************************************
+// Names of all editors, comma-separated (e.g., John Doe, Sue Smith)
+// *****************************************************************************
+
+:editor: Jonathan Pritchard, IIC technologies
+
+// *****************************************************************************
+// Proposed working group for review (e.g. Architecture DWG, WCS SWG)
+// *****************************************************************************
+
+:workingGroup: S-100WG
+
+// *****************************************************************************
+// End of Editor's front-matter elements.
+// Editors please continue at "include::2-references.adoc[]" below.
+// *****************************************************************************
+
+// *****************************************************************************
+// Editors please do not alter the administrative front matter below.
+// *****************************************************************************
+:category: IHO Standard
+:publicationDate: 2023-03-17
+:approvalDate: 2023-12-31
+:referenceURLID: ID
+:copyrightYear: 2023
+:IHOversion: 1.0.0
+//
+:titletext: {title} {IHOversion} Build {BuildVersion}
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc: macro
+:toclevels: 3
+:numbered:
+:sectanchors:
+:source-highlighter: coderay
+// set media to output format print or screen for pdf export
+:media: print
+[[bibtexAttributes]]
+:bibtex-file: resources/bibtex-file.bib
+:bibtex-style: resources/lncs.csl
+
+// JP added to help section numbering...
+
+= {title}
+
+Publication Date: {publicationDate}
+
+Approval Date: {approvalDate}
+
+Submission Date: {submissionDate}
+
+Reference number of this document: {docReference}
+
+Reference URL for this document: http://www.iho.int/doc/S-64-{referenceURLID}
+
+Category: {category}
+
+Editor: {editor}
+
+Title: {titletext}
+
+''''
+
+:leveloffset: 1
+
+include::0-coverpage.adoc[]
+
+include::0-preface.adoc[]
+
+include::1-Introduction.adoc[]
+
+// Took out summary chapter. Now in introduction.
+//include::1-Introduction.adoc[]
+
+// Section 2 tests...
+include::2-S-100-functionality.adoc[]
+
+include::3-S-57-Tests.adoc[]
+
+include::4-DualFuelMode.adoc[]

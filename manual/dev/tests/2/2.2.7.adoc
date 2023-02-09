@@ -1,0 +1,42 @@
+<<<
+
+[#CancellationUpdate]
+
+=== Loading cancellation update
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:CancellationUpdate[xrefstyle=short]  | IHO Reference | tbc
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|Loading cancellation update.
+|Setup
+a| Load the following cell:
+2.1.1 Power Up\ENC_ROOT\GB4X0000.000
+
+
+
+| Action
+
+a| Load the following update:
+2.2.7 Cancellation\ENC_ROOT\GB4X0000.001
+
+
+| Results
+|====================
+
+// separate table to stop the contents shading over the page...
+|====================
+a|The system shall report any cell(s) that have been identified as cancelled at load time. A message shall be displayed informing the user of the cell name.
+Depending on the method adopted by the OEM for managing cancelled cells one of the following conditions must be observed:
+1.	The cancelled cell cannot be viewed in the ECDIS
+2.	The cancelled cell can be viewed in the ECDIS with the warning message defined in S-63 and specified below:
+“Cell <name> has been cancelled and may not be up to date. Under no circumstances should it be used for primary navigation”.
+
+Clarification: Systems that remove cells without consulting the user do not have to provide a warning message at load time.
+
+
+
+|====================

@@ -1,0 +1,32 @@
+<<<
+
+[#OlderEdition]
+
+=== Loading update of older edition
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:OlderEdition[xrefstyle=short]  | IHO Reference | tbc
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|Loading update file of an older edition than base cell installed.
+|Setup
+a| Load the following cell:
+2.2.5 Good Base Cells\ENC_ROOT\GB5X01SW.000 (edition 2)
+
+
+| Action
+
+a| Load the following update:
+2.2.5 Old Update\ENC_ROOT\ (edition 1)
+
+
+| Results
+|====================
+
+// separate table to stop the contents shading over the page...
+|====================
+a|The update shall not be applied successfully and the system shall provide an indication (either on screen or in an error log) the reason the update was not applied, for example “Incorrect Edition Number 1 [of update]: expecting 2”
+|====================

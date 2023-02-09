@@ -1,0 +1,22 @@
+//
+// this is the main body of section 2
+//
+:doctype: book
+<<<
+
+= Testing of Dual Fuel Mode capability
+
+== Introduction
+
+*Description of DF mode capability*
+
+== Loading and Unloading
+
+
+
+== Dataset Display
+
+== Aspects of Dataset Display
+
+== Detection of hazards
+

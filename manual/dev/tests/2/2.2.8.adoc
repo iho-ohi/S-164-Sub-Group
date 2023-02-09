@@ -1,0 +1,45 @@
+<<<
+
+[#UpdateRejection]
+
+=== Rejection of automatic update
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:UpdateRejection[xrefstyle=short]  | IHO Reference | tbc
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|Manual rejection of an automatic update.
+|Setup
+a| As result of test 2.1.1
+Load the following cell:
+2.1.1 Power Up\ENC_ROOT\GB5X01SW.000 (edition 1)
+2.1.1 Power Up\ENC_ROOT\GB5X01SE.000
+2.1.1 Power Up\ENC_ROOT\GB5X01NE.000
+
+
+
+
+| Action
+
+a| Load the following update:
+2.2.2 Loading of Updates\ENC_ROOT\GB5X01SW.001 (edition 1, update 1)
+After loading of the update, manually annotate the objects of the update as rejected using the deletion available in the manual update method.
+
+| Results
+|====================
+
+// separate table to stop the contents shading over the page...
+|====================
+a|Load the following update:
+2.2.2 Loading of Updates\ENC_ROOT\GB5X01SW.001 (edition 1, update 1)
+After loading of the update, manually annotate the objects of the update as rejected using the deletion available in the manual update method.
+
+
+The objects from the update shall remain in display as annotated by the deletion mark of the manual update method.
+
+
+
+|====================

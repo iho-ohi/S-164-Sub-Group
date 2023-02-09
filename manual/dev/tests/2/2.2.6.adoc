@@ -1,0 +1,42 @@
+<<<
+
+[#LoadReissue]
+
+=== Loading a re-issue of a data set
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:OlderEdition[xrefstyle=short]  | IHO Reference | tbc
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|Loading a re-issue of a data set.
+|Setup
+a| As result of test 2.1.1
+Load the following cell:
+2.1.1 Power Up\ENC_ROOT\GB5X01SW.000 (edition 1)
+2.1.1 Power Up\ENC_ROOT\GB5X01SE.000
+2.1.1 Power Up\ENC_ROOT\GB5X01NE.000
+
+
+| Action
+
+a| Load the following updates in sequence:
+2.2.6 Re-issue\GB5X01SW_001\ENC_ROOT\GB5X01SW.001 (edition 1)
+2.2.6 Re-issue\GB5X01SW_RE-ISSUE\ENC_ROOT\GB5X01SW.000 (re-issue, edition 1, update 3 included)
+2.2.6 Re-issue\GB5X01SW_004 \ENC_ROOT\GB5X01SW.004 (edition 1)
+Note: Data for updates 2 and 3 of GB5X01SW are included within the reissue GB5X01SW.000 and therefore GB5X01SW.002 and GB5X01SW.003 are not included in the dataset.
+
+| Results
+|====================
+
+// separate table to stop the contents shading over the page...
+|====================
+a|After loading of GB5X01SW.001 1st edition, displayed scale 1:20 000
+Note: Screen plot is based on the full text NATSUR attribute.  To reduce undue clutter in the ECDIS chart display, the use of the abbreviations of the NATSUR attribute is recommended. 
+
+
+
+
+|====================

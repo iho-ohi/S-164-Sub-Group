@@ -1,0 +1,73 @@
+//:numbered!:
+
+// *****************************************************************************
+// Editors please do not alter anything in this file!
+// *****************************************************************************
+
+.[big]*{category}*
+
+<<<
+
+
+{zwsp} +
+{zwsp} +
+
+[.text-center]
+[.font-size 18]
+*INTERNATIONAL HYDROGRAPHIC ORGANISATION*
+
+
+
+
+{zwsp} +
+{zwsp} +
+{zwsp} +
+{zwsp} +
+
+[.text-center]
+*IHO TEST DATASETS IN ECDIS*
+*Edition {IHOversion} - {publicationDate}*
+
+{zwsp} +
+{zwsp} +
+
+[.text-center]
+*INSTRUCTION MANUAL FOR THE USE OF IHO TEST DATASETS IN ECDIS*
+
+
+{zwsp} +
+{zwsp} +
+
+[.text-center]
+*Publication S-164 {IHOversion}*
+
+
+
+{zwsp} +
+{zwsp} +
+
+image::images/intro/IHOLogo_new.png[scaledwidth=70%,align="center"]
+
+
+
+{zwsp} +
+[.text-center]
+6 Published by the International Hydrographic Organisation
+[.text-center]
+4b quai Antoine 1er
+[.text-center]
+Principauté de Monaco
+
+[.text-center]
+Tel: (377) 93.10.81.00
+Fax: (377) 93.10.81.40
+
+[.text-center]
+E-mail: info@iho.int
+Web: www.iho.int
+
+''''
+
+toc::[]
+
+

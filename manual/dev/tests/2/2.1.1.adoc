@@ -1,0 +1,47 @@
+[#PowerUp]
+
+:sectnums:
+:section-refsig:
+
+=== Preparation and Power Up
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Reference*    |    xref:PowerUp[xrefstyle=short]   | *IHO Reference* | IEC61174 / _4.1.1_
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Description*
+|Loading of initial datasets and indication of own ship stationary position.
+|*Setup*
+a| Load the following cells from the exchange set:
+
+[.red]*PowerUp*
+
+* 101AA004X0000.000 (was _2.1.1 Power Up\ENC_ROOT\GB4X0000.000_)
+* 101AA005X01NW.000 (was _2.1.1 Power Up\ENC_ROOT\GB5X01NW.000_)
+
+with the following settings:
+
+* Select Display Category Other
+* Set the Safety Contour value to 8 m
+* Set the Safety Depth value to 8 m
+* Select Symbolized Boundaries
+*  _Select Paper chart symbols_
+* Select all Text groups
+* Select Accuracy
+* Select Highlight info
+* Select Highlight date dependent
+* Ship position 32°29.66’S, 060°55.86’E
+* Heading 234.0 degrees
+| *Action*
+| Load cells and view the chart display.
+| *Results*
+a| With the charts displayed the own ship shall be placed at the jetty in Micklefirth.
+
+.101AA004X0000.000
+image::images/demotest1.png[scaledwidth=70%,align="center"]
+
+_After loading of 101AA004X0000.000, displayed scale 1:50 000 Note: Screen plot above is based on the full text NATSUR attribute. To reduce undue clutter in the ECDIS chart display, the use of the abbreviations of the *NATSUR* attribute is recommended (see screen plot on next page). Note: Within this test dataset there are two omni directional lights co-located at 32º34.688S, 060º54.955E, this case is not a real-world example, as such the ECDIS may show a red-light sector._
+
+|====================

@@ -1,0 +1,37 @@
+<<<
+
+[#ChartLibrary]
+
+:sectnums:
+:section-refsig:
+
+=== Number and date in chart library
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Reference*    |    xref:ChartLibrary[xrefstyle=short]   | *IHO Reference* | IEC61164 / 4.1.1
+|====================
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Description*
+|Loading of initial datasets and confirmation of information in chart library.
+| *Setup*
+a| Load all cells from the exchange set
+
+[.red]*PowerUp* (was _2.1.1 Power Up\ENC_ROOT_)
+| *Action*
+a| Check that in the chart library the information about the cells is provided as follows
+[width="90%",options="header",caption=""]
+!===
+!ENC ! Edition (EDTN) ! Update number (UPDN) !Update Application Date (UADT) !Issue Date (ISDT)
+! 101AA004X0000.000  ! 2 ! 0 ! 20220409 !20220409
+! 101AA005X01NE.000  ! 1 ! 0 ! 20220406 !20220406
+!===
+
+{zwsp} +
+
+| *Results*
+a| The information in the chart library shall be identical to the above table.
+
+|====================

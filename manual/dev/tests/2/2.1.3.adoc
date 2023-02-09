@@ -1,0 +1,33 @@
+<<<
+
+[#AdditionalCell]
+
+:sectnums:
+:section-refsig:
+
+=== Load additional cell and check chart library
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Reference*    |   xref:AdditionalCell[xrefstyle=short]  | *IHO Reference* | IEC61164 / 4.4.1
+|====================
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Description*
+|Loading additional cell and confirmation of its addition to the chart library.
+| *Setup*
+a| As for test xref:ChartLibrary[xrefstyle=short]
+| *Action*
+a| Load the following cell from the exchange set
+
+[.red]*Settings* (was _3.3 Settings\ENC_ROOT\GB4X0001.000_)
+
+* 101AA004X00001.000
+
+Check that in the chart library the details of the cell have been added.
+
+| *Results*
+a| The information in the chart library shall reflect the cell loaded and the chart coverage shall have changed accordingly
+
+|====================

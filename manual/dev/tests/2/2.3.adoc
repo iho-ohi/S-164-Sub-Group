@@ -1,0 +1,75 @@
+<<<
+
+[#ManualUpdates]
+
+== ManualUpdates
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:ManualUpdates[xrefstyle=short]  | IHO Reference | tbc
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|Manual updates
+|Setup
+a| Load the following cell:
+2.1.1 Power Up\ENC_ROOT\GB5X01SW.000
+Select Display Category Standard
+Set the Safety Contour value to 8 m
+Set the Safety Depth  value to 8 m
+Select Symbolized Boundaries
+Select Paper chart symbols
+Select Highlight date dependent
+Select Spot soundings
+
+
+
+
+
+| Action
+
+a| 1. Using the editing tools available with the EUT, make the following changes and include a short textual description of the action to a-g:
+a. insert a dangerous wreck near: 32 31.5S, 60 57.3E
+b. insert East Cardinal buoys including topmarks near: 32 31.5S, 60 57.46E
+c. insert West Cardinal buoy including topmark near: 32 31.5S, 60 57.16E;
+d. insert a prohibited entry area between Panther and Tinker Shoals timed to come into force at 20150220;
+e. insert a cautionary area in the same location being in force from date of issue to 20150220;
+f. insert 15 metre sounding at 32 31.7S, 60 57.4E.
+g. delete fog signal of cardinal buoy at 32 31.444S, 60 55.842E
+2. Set viewing date before 20150220. Display chart cell with manual updates.
+3. Set viewing date after 20150220. Display chart cell with manual updates.
+4. Using the editing tools available with the EUT, make the following changes and include a short textual description of the action to h-j:
+h. extend western limits of the prohibited entry area;
+i. delete cautionary area;
+j. move cardinal buoy at 32 31.444S, 60 55.842E, including top mark and light, to 32 31.500S,  60 55.700E.
+5. Set viewing date before 20150220. Display chart cell with manual updates.
+6. Set viewing date after 20150220. Display chart cell with manual updates.
+7. Review manual updates.
+8. Retrieve textual description from record.
+9. Remove all manual updates from display and review them (system time and date may need to be adjusted for verification).
+
+
+| Results
+|====================
+
+// separate table to stop the contents shading over the page...
+|====================
+a|2. Set viewing date before 20150220. The ENC in the ECDIS should match the corresponding graphical plot shown below. Manual updates shall be distinguishable as described in S-52, 2.3.4.
+
+a|Set viewing date after 20150220. The ENC in the ECDIS should match the corresponding graphical plot shown above.
+
+a| 5. Set viewing date before 20150220. The ENC in the ECDIS should match the corresponding graphical plot shown above.
+
+a| 6. Set viewing date after 20150220. The ENC in the ECDIS should match the corresponding graphical plot shown above.
+
+a| 7.a-g. Review of manual updates shall be available on demand. Above is review of updates a-g
+
+a| 7.h-j. Review of manual updates shall be available on demand. Above is review of updates h-j.
+
+8. Textual description of manual update shall be retrievable from record.
+
+9. Manual updates removed from the display during the last 3 months period shall be retained and shall be available for review.
+
+
+|====================

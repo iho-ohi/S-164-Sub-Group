@@ -1,0 +1,31 @@
+<<<
+
+[#RemoveCell]
+
+:sectnums:
+:section-refsig:
+
+=== Remove cell and check chart library
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Reference*    |  xref:RemoveCell[xrefstyle=short]   | *IHO Reference* | IEC61164 / 4.4.1
+|====================
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Description*
+|Removing a cell and confirmation of its removal from the chart library.
+| *Setup*
+a| As on completion of test  xref:AdditionalCell[xrefstyle=short]
+| *Action*
+a| Remove the following cell
+
+* 101AA004X0001.000
+
+Check that in the chart library the details of the cell have been removed.
+
+| *Results*
+a| The information in the chart library shall reflect the cell removed and the chart coverage shall have changed accordingly.
+
+|====================

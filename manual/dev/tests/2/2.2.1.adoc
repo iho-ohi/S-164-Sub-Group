@@ -1,0 +1,26 @@
+[#CorruptUpdate]
+
+=== Loading Corrupted update
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:CorruptUpdate[xrefstyle=short]   | IHO Reference | IEC61174 / 4.4.1
+|====================
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|Loading corrupt update files.
+|Setup
+a| Load the following cell  from the exchange set
+
+* [.red]*PowerUp* 101AA005X01SW.000 (_was : 2.1.1 Power Up\ENC_ROOT\GB5X01SW.000_)
+
+| Action
+
+| Load the following exchange set
+
+* [.red]*CorruptUpdate* (_Was 2.2.1 Corrupt Update\ENC_ROOT\_)
+
+| Results
+a| The update process shall stop, the update flagged as invalid, and the user provided with an appropriate message.
+|====================

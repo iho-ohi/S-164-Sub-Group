@@ -1,0 +1,38 @@
+//:numbered!:
+
+.[big]*{category}*
+
+<<<
+
+toc::[]
+
+*COPYRIGHT*
+
+Copyright © {copyrightYear} International Hydrographic Organization. 3
+To obtain additional rights of use, visit http://iho.int/
+
+© Copyright International Hydrographic Organization 2023
+This work is copyright. Apart from any use permitted in accordance with the Berne Convention for the Protection of Literary and Artistic Works (1886), and except in the circumstances described below, no part may be translated, reproduced by any process, adapted, communicated or commercially exploited without prior written permission from the Secretariat of the International Hydrographic Organization (IHO).
+
+Copyright in some of the material in this publication may be owned by another party and permission for the translation and/or reproduction of that material must be obtained from the owner.
+
+This document or partial material from this document may be translated, reproduced or distributed for general information, on no more than a cost recovery basis. Copies may not be sold or distributed for profit or gain without prior written agreement of the IHO Secretariat and any other copyright holders.
+
+*WARNING*
+
+No warnings are applicable to this document
+
+*LICENSE AGREEMENT*
+
+In the event that this document or partial material from this document is reproduced, translated or distributed under the terms described above, the following statements are to be included:
+
+“Material from IHO publication [reference to extract: Title, Edition] is reproduced with the permission of the IHO Secretariat (Permission No ……./…) acting for the International Hydrographic Organization (IHO), which does not accept responsibility for the correctness of the material as reproduced: in case of doubt, the IHO’s authentic text shall prevail. The incorporation of material sourced from IHO shall not be construed as constituting an endorsement by IHO of this product.”
+
+“This [document/publication] is a translation of IHO [document/publication] [name]. The IHO has not checked this translation and therefore takes no responsibility for its accuracy. In case of doubt the source version of [name] in [language] should be consulted.”
+The IHO Logo or other identifiers shall not be used in any derived product without prior written permission from the IHO Secretariat.
+
+''''
+
+
+
+

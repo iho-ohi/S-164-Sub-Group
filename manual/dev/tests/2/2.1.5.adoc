@@ -1,0 +1,29 @@
+[#CorruptData]
+
+:sectnums:
+:section-refsig:
+
+=== Loading of corrupt data.
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Reference*    |    xref:CorruptData[xrefstyle=short]   | *IHO Reference* | IEC61164 / 4.4.1
+|====================
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|*Test Description*
+|Loading of Corrupted Data
+| *Setup*
+a| -
+| *Action*
+a| Load the following exchange set:
+
+[.red]*CorruptData* (was _2.1.5 Loading Corrupt Data\ENC_ROOT\GB5X01NE.000_)
+
+{zwsp} +
+
+| *Results*
+a| The EUT shall generate a warning when loading cell 101AA005X01NE.000 is attempted and reject installation.
+
+|====================
