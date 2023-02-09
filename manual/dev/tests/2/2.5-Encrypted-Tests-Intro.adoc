@@ -6,26 +6,28 @@
 
 === Organization of the Encrypted TDS
 
-The tests for loading encrypted data are stored in the root directory “IHO S-64 [S-63 TDS v1.2.1]”. The tests are subdivided into seven categories. Each category contains a number of tests which have corresponding test scripts provided in this section.
+(_rewrite when encrypted data tests are finalised_)
+The tests for loading encrypted data are stored in the root directory “IHO S-164 Part 15”. The tests are subdivided into seven categories. Each category contains a number of tests which have corresponding test scripts provided in this section.
 
-There are additional tests provided in “7 ENC Data Management [Optional]”. These are provided to assist manufacturers who have included additional ENC Data Management functions into their systems and are fully described in sections 2.5.7i), 2.5.7j) and 2.5.7k).
+There are additional tests provided in “ENC Data Management [Optional]”. These are provided to assist manufacturers who have included additional ENC Data Management functions into their systems and are fully described in sections 2.5.7i), 2.5.7j) and 2.5.7k).
 
  Test Definitions
 
 Default test data parameters
 
-The ENC permits that accompany the encrypted ENC test data have been generated for the User Permit specified below. To carry out the tests described in this document manufacturers will have to create a hard lock device or program their software with the following manufacturer information and hardware ID (HW_ID). 
+The ENC permits that accompany the encrypted ENC test data have been generated for the User Permit specified below. To carry out the tests described in this document manufacturers will have to create a hard lock device or program their software with the following manufacturer information and hardware ID (HW_ID).
 
+(_insert IHO parameters_)
 Manufacturer ID: (M_ID)		=	10 	(or 3130 hexadecimal)
 Manufacturer Key: (M_KEY)	=	10121 	(or 3130313231 hexadecimal)
 Hardware ID: (HW_ID)		= 	12345 	(or 3132333435 hexadecimal)
 USERPERMIT             		=	66B5CBFDF7E4139D5B6086C23130
 
-This is the official manufacturer information issued for and by the Scheme Administrator (IHB) and is provided expressly for the purpose of producing encrypted ENC test data. This data is provided specifically for the following purposes:
+This is the official manufacturer information issued for and by the Scheme Administrator (IHO secretariat) and is provided expressly for the purpose of producing encrypted ENC test data. This data is provided specifically for the following purposes:
 
-•	OEM Type approval against the S-64 Test Data for Encrypted ENCs (This document).
-•	OEM and Data Server self certification of their systems against the S-63 Data Protection Scheme.
+•	OEM Type approval against the S-164 Test Data for Encrypted ENCs (This document).
+•	OEM and Data Server self certification of their systems against S-100 Part 15.
 
 Test Certificate and Public Key
 
-The official IHO Scheme Administrator Certificate (IHO.CRT) should be used in the test data unless a different certificate or public key file is specified in the test description.
+The official IHO Scheme Administrator Certificate should be used in the test data unless a different certificate or public key file is specified in the test description (_insert link_).

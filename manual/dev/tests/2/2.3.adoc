@@ -13,15 +13,18 @@
 |Test Description
 |Manual updates
 |Setup
-a| Load the following cell:
+a|
+
+Load the following cell:
 2.1.1 Power Up\ENC_ROOT\GB5X01SW.000
-Select Display Category Standard
-Set the Safety Contour value to 8 m
-Set the Safety Depth  value to 8 m
-Select Symbolized Boundaries
-Select Paper chart symbols
-Select Highlight date dependent
-Select Spot soundings
+
+* Select Display Category Standard
+* Set the Safety Contour value to 8 m
+* Set the Safety Depth  value to 8 m
+* Select Symbolized Boundaries
+* Select Paper chart symbols
+* Select Highlight date dependent
+* Select Spot soundings
 
 
 

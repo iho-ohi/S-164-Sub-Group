@@ -1,31 +1,10 @@
 
 // *****************************************************************************
 //
-// OGC guidelines 
+// IHO guidelines
 //
-// - Leave no empty sections.
-// - Author the document (including spelling) in idiomatic U.S. English.
-// - Start each section with a paragraph (not a figure, table, or list).
-// - Spell out each acronym on first use (with the acronym in parentheses).
-// - Avoid domain-specific buzzwords.
-// - Write in 3rd person voice; avoid using "we".
-// - Ensure correct Grammar and use direct language.
-// - Use a colon (:) to introduce bulleted lists.
-// - Avoid pronouns with ambiguous antecedents (the problem with "it").
-//
-// Ensure that all Figures have numbers and captions.
-// Here's an example to follow:
-//
-//  [#id_of_image,reftext='{figure-caption} {counter:figure-num}']
-//  .Image caption goes here
-//  image::images/overview.png[width=600]
 // *****************************************************************************
-// *****************************************************************************
-// Provide the document title (ER or user guide name) after the colon.
-// Do not alter the testbed-number prefix.
-// The title here should match the title on the first page.
-// *****************************************************************************
-:BuildVersion: 0.2.1
+:BuildVersion: 0.2.2
 
 :title: S-164 Version 1.0.0 Build {BuildVersion}
 

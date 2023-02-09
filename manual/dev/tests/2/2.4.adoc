@@ -13,7 +13,7 @@
 |Test Description
 |Loading and Updating using SENC delivery (if provided).
 |Setup
-a| If the ECDIS supports SENC delivery (accepting a SENC resulting from conversion of ENC to SENC ashore, in accordance with IHO Resolution 4/2002 as amended (see IHO Publication M-3), then the manufacturer  shall  supply  a SENC version of the IHO S-64 test data set for each SENC format for which SENC delivery is to be approved.
+a| If the ECDIS supports SENC delivery (accepting a SENC resulting from conversion of ENC to SENC ashore, in accordance with IHO Resolution 4/2002 as amended (see IHO Publication M-3), then the manufacturer  shall  supply  a SENC version of the IHO S-164 test data set for each SENC format for which SENC delivery is to be approved.
 
 Note: The test data sets should be provided by the SENC producers for each SENC distributor approved for use with the EUT.
 
@@ -25,8 +25,10 @@ Note: The test data sets should be provided by the SENC producers for each SENC 
 | Action
 
 a| For each SENC delivery format perform the following tests from section 2.1 and 2.2 :
-2.1.1, 2.1.2, 2.1.3, 2.1.4, (2.1.5);
-(2.2.1), 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.2.8
+
+* 2.1.1, 2.1.2, 2.1.3, 2.1.4, (2.1.5); (_replace with references_)
+
+* (2.2.1), 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.2.8 (_replace with references_)
 
 
 | Results

@@ -14,13 +14,15 @@
 |Loading corrupt update files.
 |Setup
 a| Load the following cell:
-2.1.1 Power Up\ENC_ROOT\GB5X01SW.000
+
+*101AA00AA5X01SW.000* (_was 2.1.1 Power Up\ENC_ROOT\GB5X01SW.000_)
 
 
 | Action
 
-a| Load the following updates:
-2.2.1 Corrupt Update\ENC_ROOT\
+a| Load the following exchange set:
+
+*CorruptUpdate* (_was 2.2.1 Corrupt Update\ENC_ROOT\_)
 
 | Results
 |====================
