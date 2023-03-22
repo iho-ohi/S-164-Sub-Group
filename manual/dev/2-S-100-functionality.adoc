@@ -32,11 +32,21 @@ include::tests/2/2.2.6.adoc[]
 include::tests/2/2.2.7.adoc[]
 include::tests/2/2.2.8.adoc[]
 
+//== ManualUpdates
 include::tests/2/2.3.adoc[]
-include::tests/2/2.4.adoc[]
+//include::tests/2/2.4.adoc[]
 
 // all the encrypted test datasets.
-include::tests/2/2.5-Encrypted-Tests-Intro.adoc[]
+<<<
+== Data Protection
+//include::tests/2/2.5-Encrypted-Tests-Intro.adoc[]
+include::tests/part15/InvalidDigitalSignature.adoc[]
+
+<<<
+== Data authentication
+include::tests/part15/InvalidPermitFile.adoc[]
+include::tests/part15/InvalidDatasetPermit.adoc[]
+
 
 = Dataset Display
 
@@ -44,6 +54,8 @@ include::tests/2/2.5-Encrypted-Tests-Intro.adoc[]
 
 include::tests/3/3.1.1.adoc[]
 include::tests/3/3.1.2.adoc[]
+
+
 
 <<<
 = Display related functoinality

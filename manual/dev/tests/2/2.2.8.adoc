@@ -15,18 +15,18 @@
 |Setup
 a| As result of test 2.1.1
 Load the following cell:
-2.1.1 Power Up\ENC_ROOT\GB5X01SW.000 (edition 1)
-2.1.1 Power Up\ENC_ROOT\GB5X01SE.000
-2.1.1 Power Up\ENC_ROOT\GB5X01NE.000
 
-
-
+. 101AA00AA5X01SW.000 (_was 2.1.1 Power Up\ENC_ROOT\GB5X01SW.000 (edition 1)_)
+. 101AA00AA5X01SE.000 (_was 2.1.1 Power Up\ENC_ROOT\GB5X01SE.000_)
+. 101AA00AA5X01NE.000 (_was 2.1.1 Power Up\ENC_ROOT\GB5X01NE.000_
 
 | Action
-
 a| Load the following update:
-2.2.2 Loading of Updates\ENC_ROOT\GB5X01SW.001 (edition 1, update 1)
+
+* *101AA00AA5X01SW.001* (_was 2.2.2 Loading of Updates\ENC_ROOT\GB5X01SW.001 (edition 1, update 1)_)
+
 After loading of the update, manually annotate the objects of the update as rejected using the deletion available in the manual update method.
+
 
 | Results
 |====================
@@ -39,7 +39,5 @@ After loading of the update, manually annotate the objects of the update as reje
 
 
 The objects from the update shall remain in display as annotated by the deletion mark of the manual update method.
-
-
 
 |====================

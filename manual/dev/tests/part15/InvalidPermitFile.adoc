@@ -1,0 +1,22 @@
+
+[#TESTNAME]
+=== Invalid Permit File
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Reference    |    xref:TESTNAME[xrefstyle=short]  | IHO Reference | tbc
+|====================
+
+
+[width="95%",caption="",stripes="odd"]
+|====================
+|Test Description
+|*Description*
+|Setup
+a| _Setuphere_
+| Action
+
+a| _Action Here_
+| Results
+a| _Results here_
+|====================

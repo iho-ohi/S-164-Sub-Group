@@ -4,7 +4,7 @@
 // IHO guidelines
 //
 // *****************************************************************************
-:BuildVersion: 0.2.2
+:BuildVersion: 0.2.5
 
 :title: S-164 Version 1.0.0 Build {BuildVersion}
 

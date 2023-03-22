@@ -2,12 +2,14 @@
 
 [#NewerEdition]
 
-=== 2.2.4	Loading update of newer edition
+=== Loading update of newer edition
 
 [width="95%",caption="",stripes="odd"]
 |====================
-|Test Reference    |    xref:InvalidSequence[xrefstyle=short]  | IHO Reference | tbc
+|Test Reference    |    xref:NewerEdition[xrefstyle=short]  | IHO Reference | tbc
 |====================
+
+
 [width="95%",caption="",stripes="odd"]
 |====================
 |Test Description
@@ -20,25 +22,25 @@ Note: Following cell is already loaded:
 
 | Action
 
-a| 1. Load the following update:
-2.2.4 Loading of New Update\ENC_ROOT|GB5X01SW.001 (edition 2)
-2. Display installed chart.
-3. Install the following base cell:
-2.2.5 Good Base Cells\ENC_ROOT\GB5X01SW.000 (edition 2); and load the following update:
-2.2.4 Loading of New Update\ENC_ROOT|GB5X01SW.001 (edition 2)
-4. Display installed chart.
+a|
+. Load the following update:
+
+* 101AA00AA5X01SW.001 (_was 2.2.4 Loading of New Update\ENC_ROOT GB5X01SW.001 (edition 2)_
+
+. Display installed chart.
+. Install the following base cell:
+* 2.2.5 Good Base Cells\ENC_ROOT\GB5X01SW.000 (edition 2); and load the following update:
+* 2.2.4 Loading of New Update\ENC_ROOTGB5X01SW.001 (edition 2)
+. Display installed chart.
 
 | Results
-|====================
 
-// separate table to stop the contents shading over the page...
-|====================
-a|1.	The update process shall refuse to install the update and inform the user that chart data of a newer edition are available.
-2.	A permanent indication “Chart information not up to date” shall be available in the chart display area when such a chart is in use (either displayed on chart area or used as largest scale available for chart related alerts and indications).
-3.	Base cell and update shall be installed without any warning or error.
-4.	The “Chart information not up to date” message no longer displayed.
+a|.	The update process shall refuse to install the update and inform the user that chart data of a newer edition are available.
+.	A permanent indication “Chart information not up to date” shall be available in the chart display area when such a chart is in use (either displayed on chart area or used as largest scale available for chart related alerts and indications).
+.	Base cell and update shall be installed without any warning or error.
+.	The “Chart information not up to date” message no longer displayed.
 
-IMAGE
+*IMAGE*
 
 
 After loading of GB5X01SW.000 2nd edition, displayed scale 1:20 000
@@ -50,6 +52,5 @@ After loading of GB5X01SW.001 2nd edition, displayed scale 1:20 000, all objects
 After loading of GB5X01SW.001 2nd edition, displayed scale 1:20 000, update review highlight filtered for real changes (example 1)
 
 After loading of GB5X01SW.001 2nd edition, displayed scale 1:20 000, update review highlight filtered for real changes (example 2
-
 
 |====================
