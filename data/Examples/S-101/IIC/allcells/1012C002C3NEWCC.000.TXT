@@ -1,0 +1,856 @@
+DDFModule:
+    _recLength = 1775
+    _interchangeLevel = 3
+    _leaderIden = L
+    _inlineCodeExtensionIndicator = E
+    _versionNumber = 1
+    _appIndicator =  
+    _extendedCharSet = ` ! '
+    _fieldControlLength = 9
+    _fieldAreaStart = 256
+    _sizeFieldLength = 3
+    _sizeFieldPos = 4
+    _sizeFieldTag = 4
+  DDFFieldDefn:
+      Tag = `0000'
+      _fieldName = `'
+      _arrayDescr = `DSIDDSSIDSIDATCSDSIDFTCSCSIDCRSHCRSHCSAXCRSHVDATPRIDC2ITCRIDPTASCRIDSEGHSEGHC2ILSRIDRIASFRIDFOIDFRIDATTRFRIDSPAS'
+      _formatControls = `'
+      _data_struct_code = elementary
+      _data_type_code = char_string
+  DDFFieldDefn:
+      Tag = `DSID'
+      _fieldName = `Data Set Identification'
+      _arrayDescr = `RCNM!RCID!ENSP!ENED!PRSP!PRED!PROF!DSNM!DSTL!DSRD!DSLG!DSAB!DSED\\*DSTC'
+      _formatControls = `(b11,b14,7A,A(8),3A,b11)'
+      _data_struct_code = concatenated
+      _data_type_code = mixed_data_type
+    DDFSubfieldDefn:
+        Label = `DSTC'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `DSSI'
+      _fieldName = `Data Set Structure Information'
+      _arrayDescr = `DCOX!DCOY!DCOZ!CMFX!CMFY!CMFZ!NOIR!NOPN!NOMN!NOCN!NOXN!NOSN!NOFR'
+      _formatControls = `(3b48,10b14)'
+      _data_struct_code = vector
+      _data_type_code = mixed_data_type
+    DDFSubfieldDefn:
+        Label = `DCOX'
+        FormatString = `b48'
+    DDFSubfieldDefn:
+        Label = `DCOY'
+        FormatString = `b48'
+    DDFSubfieldDefn:
+        Label = `DCOZ'
+        FormatString = `b48'
+    DDFSubfieldDefn:
+        Label = `CMFX'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `CMFY'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `CMFZ'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NOIR'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NOPN'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NOMN'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NOCN'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NOXN'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NOSN'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NOFR'
+        FormatString = `b14'
+  DDFFieldDefn:
+      Tag = `ATCS'
+      _fieldName = `Attribute Codes'
+      _arrayDescr = `*ATCD!ANCD'
+      _formatControls = `(A,b12)'
+      _data_struct_code = array
+      _data_type_code = mixed_data_type
+    DDFSubfieldDefn:
+        Label = `ATCD'
+        FormatString = `A'
+    DDFSubfieldDefn:
+        Label = `ANCD'
+        FormatString = `b12'
+  DDFFieldDefn:
+      Tag = `FTCS'
+      _fieldName = `Feature Type Codes'
+      _arrayDescr = `*FTCD!FTNC'
+      _formatControls = `(A,b12)'
+      _data_struct_code = array
+      _data_type_code = mixed_data_type
+    DDFSubfieldDefn:
+        Label = `FTCD'
+        FormatString = `A'
+    DDFSubfieldDefn:
+        Label = `FTNC'
+        FormatString = `b12'
+  DDFFieldDefn:
+      Tag = `ATTR'
+      _fieldName = `Attribute'
+      _arrayDescr = `*NATC!ATIX!PAIX!ATIN!ATVL'
+      _formatControls = `(3b12,b11,A)'
+      _data_struct_code = array
+      _data_type_code = mixed_data_type
+    DDFSubfieldDefn:
+        Label = `NATC'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `ATIX'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `PAIX'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `ATIN'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `ATVL'
+        FormatString = `A'
+  DDFFieldDefn:
+      Tag = `CSID'
+      _fieldName = `Coordinate Reference System Record Identifier'
+      _arrayDescr = `RCNM!RCID!NCRC'
+      _formatControls = `(b11,b14,b11)'
+      _data_struct_code = vector
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `RCNM'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RCID'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NCRC'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `CRSH'
+      _fieldName = `Coordinate Reference System Header'
+      _arrayDescr = `CRIX!CRST!CSTY!CRNM!CRSI!CRSS!SCRI'
+      _formatControls = `(3b11,2A,b11,A)'
+      _data_struct_code = vector
+      _data_type_code = mixed_data_type
+    DDFSubfieldDefn:
+        Label = `CRIX'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `CRST'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `CSTY'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `CRNM'
+        FormatString = `A'
+    DDFSubfieldDefn:
+        Label = `CRSI'
+        FormatString = `A'
+    DDFSubfieldDefn:
+        Label = `CRSS'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `SCRI'
+        FormatString = `A'
+  DDFFieldDefn:
+      Tag = `CSAX'
+      _fieldName = `Coordinate System Axes'
+      _arrayDescr = `*AXTY!AXUM'
+      _formatControls = `(2b11)'
+      _data_struct_code = array
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `AXTY'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `AXUM'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `VDAT'
+      _fieldName = `Vertical Datum'
+      _arrayDescr = `DTNM!DTID!DTSR!SCRI'
+      _formatControls = `(2A,b11,A)'
+      _data_struct_code = vector
+      _data_type_code = mixed_data_type
+    DDFSubfieldDefn:
+        Label = `DTNM'
+        FormatString = `A'
+    DDFSubfieldDefn:
+        Label = `DTID'
+        FormatString = `A'
+    DDFSubfieldDefn:
+        Label = `DTSR'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `SCRI'
+        FormatString = `A'
+  DDFFieldDefn:
+      Tag = `C2IT'
+      _fieldName = `2-D Integer Coordinate Tuple'
+      _arrayDescr = `YCOO!XCOO'
+      _formatControls = `(2b24)'
+      _data_struct_code = array
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `YCOO'
+        FormatString = `b24'
+    DDFSubfieldDefn:
+        Label = `XCOO'
+        FormatString = `b24'
+  DDFFieldDefn:
+      Tag = `C2IL'
+      _fieldName = `2-D Integer Coordinate List'
+      _arrayDescr = `*YCOO!XCOO'
+      _formatControls = `(2b24)'
+      _data_struct_code = array
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `YCOO'
+        FormatString = `b24'
+    DDFSubfieldDefn:
+        Label = `XCOO'
+        FormatString = `b24'
+  DDFFieldDefn:
+      Tag = `PRID'
+      _fieldName = `Point Record Identifier'
+      _arrayDescr = `RCNM!RCID!RVER!RUIN'
+      _formatControls = `(b11,b14,b12,b11)'
+      _data_struct_code = vector
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `RCNM'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RCID'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `RVER'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `RUIN'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `CRID'
+      _fieldName = `Curve Record Identifier'
+      _arrayDescr = `RCNM!RCID!RVER!RUIN'
+      _formatControls = `(b11,b14,b12,b11)'
+      _data_struct_code = vector
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `RCNM'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RCID'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `RVER'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `RUIN'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `PTAS'
+      _fieldName = `Point Association'
+      _arrayDescr = `*RRNM!RRID!TOPI'
+      _formatControls = `(b11,b14,b11)'
+      _data_struct_code = array
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `RRNM'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RRID'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `TOPI'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `SEGH'
+      _fieldName = `Segment Header'
+      _arrayDescr = `INTP'
+      _formatControls = `(b11)'
+      _data_struct_code = vector
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `INTP'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `SRID'
+      _fieldName = `Surface Record Identifier'
+      _arrayDescr = `RCNM!RCID!RVER!RUIN'
+      _formatControls = `(b11,b14,b12,b11)'
+      _data_struct_code = vector
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `RCNM'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RCID'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `RVER'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `RUIN'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `RIAS'
+      _fieldName = `Ring Association'
+      _arrayDescr = `*RRNM!RRID!ORNT!USAG!RAUI'
+      _formatControls = `(b11,b14,3b11)'
+      _data_struct_code = array
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `RRNM'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RRID'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `ORNT'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `USAG'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RAUI'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `FRID'
+      _fieldName = `Feature Type Record Identifier'
+      _arrayDescr = `RCNM!RCID!NFTC!RVER!RUIN'
+      _formatControls = `(b11,b14,2b12,b11)'
+      _data_struct_code = vector
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `RCNM'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RCID'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `NFTC'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `RVER'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `RUIN'
+        FormatString = `b11'
+  DDFFieldDefn:
+      Tag = `FOID'
+      _fieldName = `Feature Object Identifier'
+      _arrayDescr = `AGEN!FIDN!FIDS'
+      _formatControls = `(b12,b14,b12)'
+      _data_struct_code = vector
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `AGEN'
+        FormatString = `b12'
+    DDFSubfieldDefn:
+        Label = `FIDN'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `FIDS'
+        FormatString = `b12'
+  DDFFieldDefn:
+      Tag = `SPAS'
+      _fieldName = `Spatial Association'
+      _arrayDescr = `*RRNM!RRID!ORNT!SMIN!SMAX!SAUI'
+      _formatControls = `(b11,b14,b11,2b14,b11)'
+      _data_struct_code = array
+      _data_type_code = implicit_point
+    DDFSubfieldDefn:
+        Label = `RRNM'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `RRID'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `ORNT'
+        FormatString = `b11'
+    DDFSubfieldDefn:
+        Label = `SMIN'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `SMAX'
+        FormatString = `b14'
+    DDFSubfieldDefn:
+        Label = `SAUI'
+        FormatString = `b11'
+File Offset: 1775
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 599
+    _sizeFieldLength=3, _sizeFieldPos=3, _sizeFieldTag=4
+  DDFField:
+      Tag = `DSID'
+      DataSize = 99
+      Data = `\0A\01\00\00\00S-100 Part 10a\1F1.1\1FINT.IHO.S-101.1....'
+    <DSTC>10</DSTC>
+    <DSTC>1</DSTC>
+    <DSTC>0</DSTC>
+    <DSTC>0</DSTC>
+    <DSTC>0</DSTC>
+    <DSTC>83</DSTC>
+    <DSTC>45</DSTC>
+    <DSTC>49</DSTC>
+    <DSTC>48</DSTC>
+      ...
+  DDFField:
+      Tag = `DSSI'
+      DataSize = 65
+      Data = `\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\80\96\98\00\80\96\98\00d\00\00\00\00\00\00\00...'
+   <DCOX>0.000000</DCOX>
+   <DCOY>0.000000</DCOY>
+   <DCOZ>0.000000</DCOZ>
+    <CMFX>10000000</CMFX>
+    <CMFY>10000000</CMFY>
+    <CMFZ>100</CMFZ>
+    <NOIR>0</NOIR>
+    <NOPN>1</NOPN>
+    <NOMN>0</NOMN>
+    <NOCN>1</NOCN>
+    <NOXN>0</NOXN>
+    <NOSN>4</NOSN>
+    <NOFR>4</NOFR>
+  DDFField:
+      Tag = `ATCS'
+      DataSize = 312
+      Data = `marksNavigationalSystemOf\1F\01\00categoryOfTe...'
+<ATCD>marksNavigationalSystemOf</ATCD>
+    <ANCD>1</ANCD>
+<ATCD>categoryOfTemporalVariation</ATCD>
+    <ANCD>2</ANCD>
+<ATCD>dataAssessment</ATCD>
+    <ANCD>3</ANCD>
+<ATCD>featuresDetected</ATCD>
+    <ANCD>4</ANCD>
+<ATCD>leastDepthOfDetectedFeaturesMeasured</ATCD>
+    <ANCD>5</ANCD>
+<ATCD>significantFeaturesDetected</ATCD>
+    <ANCD>6</ANCD>
+<ATCD>fullSeafloorCoverageAchieved</ATCD>
+    <ANCD>7</ANCD>
+<ATCD>horizontalPositionUncertainty</ATCD>
+    <ANCD>8</ANCD>
+<ATCD>uncertaintyFixed</ATCD>
+    <ANCD>9</ANCD>
+      ...
+  DDFField:
+      Tag = `FTCS'
+      DataSize = 82
+      Data = `NavigationalSystemOfMarks\1F\01\00QualityOfBat...'
+<FTCD>NavigationalSystemOfMarks</FTCD>
+    <FTNC>1</FTNC>
+<FTCD>QualityOfBathymetricData</FTCD>
+    <FTNC>2</FTNC>
+<FTCD>DataCoverage</FTCD>
+    <FTNC>3</FTNC>
+<FTCD>LandArea</FTCD>
+    <FTNC>4</FTNC>
+File Offset: 2398
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 106
+    _sizeFieldLength=2, _sizeFieldPos=2, _sizeFieldTag=4
+  DDFField:
+      Tag = `CSID'
+      DataSize = 7
+      Data = `\0F\01\00\00\00\02\1E'
+    <RCNM>15</RCNM>
+    <RCID>1</RCID>
+    <NCRC>2</NCRC>
+  DDFField:
+      Tag = `CRSH'
+      DataSize = 17
+      Data = `\01\01\01WGS84\1F4326\1F\02\1F\1E'
+    <CRIX>1</CRIX>
+    <CRST>1</CRST>
+    <CSTY>1</CSTY>
+<CRNM>WGS84</CRNM>
+<CRSI>4326</CRSI>
+    <CRSS>2</CRSS>
+<SCRI></SCRI>
+  DDFField:
+      Tag = `CRSH'
+      DataSize = 20
+      Data = `\02\05\03meanSeaLevel\1F\1F\FF\1F\1E'
+    <CRIX>2</CRIX>
+    <CRST>5</CRST>
+    <CSTY>3</CSTY>
+<CRNM>meanSeaLevel</CRNM>
+<CRSI></CRSI>
+    <CRSS>255</CRSS>
+<SCRI></SCRI>
+  DDFField:
+      Tag = `CSAX'
+      DataSize = 3
+      Data = `\0C\04\1E'
+    <AXTY>12</AXTY>
+    <AXUM>4</AXUM>
+  DDFField:
+      Tag = `VDAT'
+      DataSize = 18
+      Data = `meanSeaLevel\1F3\1F\02\1F\1E'
+<DTNM>meanSeaLevel</DTNM>
+<DTID>3</DTID>
+    <DTSR>2</DTSR>
+<SCRI></SCRI>
+File Offset: 2528
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 31
+    _sizeFieldLength=1, _sizeFieldPos=1, _sizeFieldTag=4
+  DDFField:
+      Tag = `PRID'
+      DataSize = 9
+      Data = `n\01\00\00\00\01\00\01\1E'
+    <RCNM>110</RCNM>
+    <RCID>1</RCID>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `C2IT'
+      DataSize = 9
+      Data = `\00T\E1\ED\00F\C3#\1E'
+    <YCOO>-304000000</YCOO>
+    <XCOO>600000000</XCOO>
+File Offset: 2583
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 92
+    _sizeFieldLength=2, _sizeFieldPos=2, _sizeFieldTag=4
+  DDFField:
+      Tag = `CRID'
+      DataSize = 9
+      Data = `x\01\00\00\00\01\00\01\1E'
+    <RCNM>120</RCNM>
+    <RCID>1</RCID>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `PTAS'
+      DataSize = 7
+      Data = `n\01\00\00\00\03\1E'
+    <RRNM>110</RRNM>
+    <RRID>1</RRID>
+    <TOPI>3</TOPI>
+  DDFField:
+      Tag = `SEGH'
+      DataSize = 2
+      Data = `\04\1E'
+    <INTP>4</INTP>
+  DDFField:
+      Tag = `C2IL'
+      DataSize = 41
+      Data = `\00T\E1\ED\00F\C3#\C0\11\D2\ED\00F\C3#\C0\11\D2\ED\F5\BA\C0#\00T\E1\ED\F5\BA\C0#\00T\E1\ED\00F\C3#...'
+    <YCOO>-304000000</YCOO>
+    <XCOO>600000000</XCOO>
+    <YCOO>-305000000</YCOO>
+    <XCOO>600000000</XCOO>
+    <YCOO>-305000000</YCOO>
+    <XCOO>599833333</XCOO>
+    <YCOO>-304000000</YCOO>
+    <XCOO>599833333</XCOO>
+    <YCOO>-304000000</YCOO>
+    <XCOO>600000000</XCOO>
+File Offset: 2699
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 31
+    _sizeFieldLength=1, _sizeFieldPos=1, _sizeFieldTag=4
+  DDFField:
+      Tag = `SRID'
+      DataSize = 9
+      Data = `\82\02\00\00\00\01\00\01\1E'
+    <RCNM>130</RCNM>
+    <RCID>2</RCID>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `RIAS'
+      DataSize = 9
+      Data = `x\01\00\00\00\01\01\01\1E'
+    <RRNM>120</RRNM>
+    <RRID>1</RRID>
+    <ORNT>1</ORNT>
+    <USAG>1</USAG>
+    <RAUI>1</RAUI>
+File Offset: 2754
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 31
+    _sizeFieldLength=1, _sizeFieldPos=1, _sizeFieldTag=4
+  DDFField:
+      Tag = `SRID'
+      DataSize = 9
+      Data = `\82\03\00\00\00\01\00\01\1E'
+    <RCNM>130</RCNM>
+    <RCID>3</RCID>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `RIAS'
+      DataSize = 9
+      Data = `x\01\00\00\00\01\01\01\1E'
+    <RRNM>120</RRNM>
+    <RRID>1</RRID>
+    <ORNT>1</ORNT>
+    <USAG>1</USAG>
+    <RAUI>1</RAUI>
+File Offset: 2809
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 31
+    _sizeFieldLength=1, _sizeFieldPos=1, _sizeFieldTag=4
+  DDFField:
+      Tag = `SRID'
+      DataSize = 9
+      Data = `\82\04\00\00\00\01\00\01\1E'
+    <RCNM>130</RCNM>
+    <RCID>4</RCID>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `RIAS'
+      DataSize = 9
+      Data = `x\01\00\00\00\01\01\01\1E'
+    <RRNM>120</RRNM>
+    <RRID>1</RRID>
+    <ORNT>1</ORNT>
+    <USAG>1</USAG>
+    <RAUI>1</RAUI>
+File Offset: 2864
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 31
+    _sizeFieldLength=1, _sizeFieldPos=1, _sizeFieldTag=4
+  DDFField:
+      Tag = `SRID'
+      DataSize = 9
+      Data = `\82\01\00\00\00\01\00\01\1E'
+    <RCNM>130</RCNM>
+    <RCID>1</RCID>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `RIAS'
+      DataSize = 9
+      Data = `x\01\00\00\00\01\01\01\1E'
+    <RRNM>120</RRNM>
+    <RRID>1</RRID>
+    <ORNT>1</ORNT>
+    <USAG>1</USAG>
+    <RAUI>1</RAUI>
+File Offset: 2919
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 79
+    _sizeFieldLength=2, _sizeFieldPos=2, _sizeFieldTag=4
+  DDFField:
+      Tag = `FRID'
+      DataSize = 11
+      Data = `d\01\00\00\00\01\00\01\00\01\1E'
+    <RCNM>100</RCNM>
+    <RCID>1</RCID>
+    <NFTC>1</NFTC>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `FOID'
+      DataSize = 9
+      Data = `\12\07\F1\0F\00\00d\00\1E'
+    <AGEN>1810</AGEN>
+    <FIDN>4081</FIDN>
+    <FIDS>100</FIDS>
+  DDFField:
+      Tag = `ATTR'
+      DataSize = 10
+      Data = `\01\00\01\00\00\00\019\1F\1E'
+    <NATC>1</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL>9</ATVL>
+  DDFField:
+      Tag = `SPAS'
+      DataSize = 16
+      Data = `\82\01\00\00\00\01\00\00\00\00\FF\FF\FF\FF\01\1E'
+    <RRNM>130</RRNM>
+    <RRID>1</RRID>
+    <ORNT>1</ORNT>
+    <SMIN>0</SMIN>
+    <SMAX>-1</SMAX>
+    <SAUI>1</SAUI>
+File Offset: 3022
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 159
+    _sizeFieldLength=2, _sizeFieldPos=3, _sizeFieldTag=4
+  DDFField:
+      Tag = `FRID'
+      DataSize = 11
+      Data = `d\02\00\00\00\02\00\01\00\01\1E'
+    <RCNM>100</RCNM>
+    <RCID>2</RCID>
+    <NFTC>2</NFTC>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `FOID'
+      DataSize = 9
+      Data = `\12\07\F2\0F\00\00d\00\1E'
+    <AGEN>1810</AGEN>
+    <FIDN>4082</FIDN>
+    <FIDS>100</FIDS>
+  DDFField:
+      Tag = `ATTR'
+      DataSize = 86
+      Data = `\02\00\01\00\00\00\016\1F\03\00\01\00\00\00\013\1F\04\00\01\00\00\00\01\1F\05\00\01\00\03\00\010\1F\06\00\01\00\03...'
+    <NATC>2</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL>6</ATVL>
+    <NATC>3</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL>3</ATVL>
+    <NATC>4</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL></ATVL>
+    <NATC>5</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>3</PAIX>
+    <ATIN>1</ATIN>
+<ATVL>0</ATVL>
+    <NATC>6</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>3</PAIX>
+    <ATIN>1</ATIN>
+<ATVL>0</ATVL>
+    <NATC>7</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL>0</ATVL>
+    <NATC>8</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL></ATVL>
+    <NATC>9</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>7</PAIX>
+    <ATIN>1</ATIN>
+<ATVL></ATVL>
+    <NATC>10</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL></ATVL>
+      ...
+  DDFField:
+      Tag = `SPAS'
+      DataSize = 16
+      Data = `\82\02\00\00\00\01\00\00\00\00\FF\FF\FF\FF\01\1E'
+    <RRNM>130</RRNM>
+    <RRID>2</RRID>
+    <ORNT>1</ORNT>
+    <SMIN>0</SMIN>
+    <SMAX>-1</SMAX>
+    <SAUI>1</SAUI>
+File Offset: 3205
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 97
+    _sizeFieldLength=2, _sizeFieldPos=2, _sizeFieldTag=4
+  DDFField:
+      Tag = `FRID'
+      DataSize = 11
+      Data = `d\03\00\00\00\03\00\01\00\01\1E'
+    <RCNM>100</RCNM>
+    <RCID>3</RCID>
+    <NFTC>3</NFTC>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `FOID'
+      DataSize = 9
+      Data = `\12\07\F3\0F\00\00d\00\1E'
+    <AGEN>1810</AGEN>
+    <FIDN>4083</FIDN>
+    <FIDS>100</FIDS>
+  DDFField:
+      Tag = `ATTR'
+      DataSize = 28
+      Data = `\0B\00\01\00\00\00\0190000\1F\0C\00\01\00\00\00\01180000\1F\1E'
+    <NATC>11</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL>90000</ATVL>
+    <NATC>12</NATC>
+    <ATIX>1</ATIX>
+    <PAIX>0</PAIX>
+    <ATIN>1</ATIN>
+<ATVL>180000</ATVL>
+  DDFField:
+      Tag = `SPAS'
+      DataSize = 16
+      Data = `\82\03\00\00\00\01\00\00\00\00\FF\FF\FF\FF\01\1E'
+    <RRNM>130</RRNM>
+    <RRID>3</RRID>
+    <ORNT>1</ORNT>
+    <SMIN>0</SMIN>
+    <SMAX>-1</SMAX>
+    <SAUI>1</SAUI>
+File Offset: 3326
+DDFRecord:
+    nReuseHeader = 0
+    nDataSize = 61
+    _sizeFieldLength=2, _sizeFieldPos=2, _sizeFieldTag=4
+  DDFField:
+      Tag = `FRID'
+      DataSize = 11
+      Data = `d\04\00\00\00\04\00\01\00\01\1E'
+    <RCNM>100</RCNM>
+    <RCID>4</RCID>
+    <NFTC>4</NFTC>
+    <RVER>1</RVER>
+    <RUIN>1</RUIN>
+  DDFField:
+      Tag = `FOID'
+      DataSize = 9
+      Data = `\12\07\F4\0F\00\00d\00\1E'
+    <AGEN>1810</AGEN>
+    <FIDN>4084</FIDN>
+    <FIDS>100</FIDS>
+  DDFField:
+      Tag = `SPAS'
+      DataSize = 16
+      Data = `\82\04\00\00\00\01\00\00\00\00\FF\FF\FF\FF\01\1E'
+    <RRNM>130</RRNM>
+    <RRID>4</RRID>
+    <ORNT>1</ORNT>
+    <SMIN>0</SMIN>
+    <SMAX>-1</SMAX>
+    <SAUI>1</SAUI>
