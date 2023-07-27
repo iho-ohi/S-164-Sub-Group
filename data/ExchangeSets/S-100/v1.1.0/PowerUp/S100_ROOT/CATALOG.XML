@@ -452,7 +452,7 @@
                         <gml:Curve>
                             <gml:segments>
 <gml:LineStringSegment>
-    <gml:posList srsName="EPSG:4326">60.98333332 -32.53833332 60.98333332 -32.53833332 61.00833332 -32.56666668 61.00833332 -32.56666668 60.98333332</gml:posList>
+    <gml:posList srsName="EPSG:4326">-32.56666668 60.98333332 -32.53833332 60.98333332 -32.53833332 61.00833332 -32.56666668 61.00833332 -32.56666668 60.98333332</gml:posList>
 </gml:LineStringSegment>
                             </gml:segments>
                         </gml:Curve>
