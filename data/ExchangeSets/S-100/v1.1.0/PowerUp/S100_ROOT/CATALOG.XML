@@ -452,7 +452,7 @@
                         <gml:Curve>
                             <gml:segments>
 <gml:LineStringSegment>
-    <gml:posList srsName="EPSG:4326">60.98333332 -32.53833332 60.98333332 -32.53833332 61.00833332 -32.56666668 61.00833332 -32.56666668 60.98333332</gml:posList>
+    <gml:posList srsName="EPSG:4326">-32.56666668 60.98333332 -32.53833332 60.98333332 -32.53833332 61.00833332 -32.56666668 61.00833332 -32.56666668 60.98333332</gml:posList>
 </gml:LineStringSegment>
                             </gml:segments>
                         </gml:Curve>
@@ -479,11 +479,6 @@
                 <S100SE:S100_SE_DigitalSignature id="101AA00CHAINS" certificateRef="urn:mrn:iho:org:AA00:1810">MDwCHB0nqXPS7HFR2AwgsW1uBuNmJYH0N37jeUj1RwwCHFakG4hugSgoPVLoS/8UKz+aQ2+On3McU987h7Y=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::101AA004X0000.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X02SE.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
         <S100XC:S100_SupportFileDiscoveryMetadata>
@@ -501,11 +496,6 @@
                 <S100SE:S100_SE_DigitalSignature id="101AA00DEVARE" certificateRef="urn:mrn:iho:org:AA00:1810">MD4CHQCcd3w2iVvg71+sW6ptRgvHnS2EnocOWzSU3t0+Ah0Aj0odt6aubsQvUwuHcKog/3Ybq6m9j2qn7WiS9w==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::101AA004X0000.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X02SE.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
         <S100XC:S100_SupportFileDiscoveryMetadata>
@@ -523,11 +513,6 @@
                 <S100SE:S100_SE_DigitalSignature id="101AA00IECTMP" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHDzrMWYEQcn8Tb2fpO1eJK/zKPu9mYKkadh77RUCHQCp7GN86R/1lCot2lFXdu/KYyui0WYQAiaCoHmQ</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::101AA004X0000.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X02SE.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
         <S100XC:S100_SupportFileDiscoveryMetadata>
@@ -545,11 +530,6 @@
                 <S100SE:S100_SE_DigitalSignature id="101AA00TESTPC" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHBv9lIP3mRzlSGI00vOfX7JqwKxPLqLFDb9ETSoCHQCT2iqjfBD743rIrh+b7cDEU5LRQjUsEWMt12nb</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::101AA004X0000.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X02SE.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
         <S100XC:S100_SupportFileDiscoveryMetadata>
@@ -567,11 +547,6 @@
                 <S100SE:S100_SE_DigitalSignature id="101AA00X4000T" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHQDgaI394dHCiRZJZK7Gr+X18kIlOp2jbsQRVJrKAhwldlsoayvXTrhbbO7EKUSOFUyRQ3xsu5FmRZ/r</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::101AA004X0000.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01NW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SE.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X01SW.000</S100XC:supportedResource>
-            <S100XC:supportedResource>file::101AA005X02SE.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
     </S100XC:supportFileDiscoveryMetadata>
