@@ -10,7 +10,7 @@ As agreed by the group in discussions
 * In general issues in other repositories should be referred to linked to avoid unecessary duplication
 
 ## Looking for Test Data?
-* This repository holds intermediate releases of test data and the accompanying manual. Releases are compiled whenever a group of tests are ready and documented in the manual. Releases are then available from this repository on the [releases]((https://github.com/iho-ohi/S-164-Sub-Group/releases) page. 
+* This repository holds intermediate releases of test data and the accompanying manual. Releases are compiled whenever a group of tests are ready and documented in the manual. Releases are then available from this repository on the [releases](https://github.com/iho-ohi/S-164-Sub-Group/releases) page. 
 * This repository also contains datasets, keys, certificates and other items required for building the various test datasets. These often include "broken" catalogues and datasets, older versions and items of dubious provenance. These are all contained in the [staging](https://github.com/iho-ohi/S-164-Sub-Group/tree/main/data/Staging) folder, with appropriate warnings. **Do not attempt to use the staging datasets**
 * The most up to date test Data, in the form of exchange sets, are in the working [Exchange Sets]((https://github.com/iho-ohi/S-164-Sub-Group/releases) area. These can be used/tested and issues raised as appropriate. These exchange sets may be under development but represent the most up to date versions outside the bundled releases. All releases are compiled from there. 
 
