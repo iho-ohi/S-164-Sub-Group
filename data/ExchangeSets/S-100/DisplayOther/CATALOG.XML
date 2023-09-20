@@ -57,13 +57,13 @@
                     <gco:Decimal>10.0</gco:Decimal>
                 </ns15:westBoundLongitude>
                 <ns15:eastBoundLongitude>
-                    <gco:Decimal>9.833333</gco:Decimal>
+                    <gco:Decimal>10.1666667</gco:Decimal>
                 </ns15:eastBoundLongitude>
                 <ns15:southBoundLatitude>
-                    <gco:Decimal>10.0</gco:Decimal>
+                    <gco:Decimal>10.1666667</gco:Decimal>
                 </ns15:southBoundLatitude>
                 <ns15:northBoundLatitude>
-                    <gco:Decimal>10.16666667</gco:Decimal>
+                    <gco:Decimal>10.3333334</gco:Decimal>
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
@@ -93,6 +93,51 @@
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">10.0 9.8333333 10.1666667 9.8333333 10.1666667 10.0 10.0 10.0 10.0 9.8333333</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:maximumDisplayScale>45000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>90000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve>
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">10.0 9.8333333 10.1666667 9.8333333 10.1666667 10.0 10.0 10.0 10.0 9.8333333</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:maximumDisplayScale>45000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>90000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve>
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">10.0 10.1666667 10.1666667 10.1666667 10.1666667 10.3333334 10.0 10.3333334 10.0 10.1666667</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:maximumDisplayScale>45000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>90000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve>
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">10.0 10.1666667 10.1666667 10.1666667 10.1666667 10.3333334 10.0 10.3333334 10.0 10.1666667</ns16:posList>
 </ns16:LineStringSegment>
                             </ns16:segments>
                         </ns16:Curve>
