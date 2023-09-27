@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<S100FC:S100_FC_FeatureCatalogue xmlns:S100FC="http://www.iho.int/S100FC/5.0" xmlns:ns2="http://www.iho.int/S100CI/5.0" xmlns:ns3="http://www.iho.int/S100Base/5.0" xmlns:ns4="http://www.iho.int/S100CD/5.0">
+    <S100FC:name>S-124</S100FC:name>
+    <S100FC:scope>Global</S100FC:scope>
+    <S100FC:versionNumber></S100FC:versionNumber>
+    <S100FC:versionDate>2019-07-31</S100FC:versionDate>
+    <S100FC:productId>S-101</S100FC:productId>
+    <S100FC:producer>
+        <ns2:role>pointOfContact</ns2:role>
+        <ns2:party>
+            <ns2:CI_Organisation>
+                <ns2:name>International Hydrographic Organization</ns2:name>
+                <ns2:contactInfo>
+                    <ns2:address>
+                        <ns2:administrativeArea>4b quai Antonie 1er</ns2:administrativeArea>
+                        <ns2:country>Monaco</ns2:country>
+                        <ns2:electronicMailAddress>info@iho.int</ns2:electronicMailAddress>
+                    </ns2:address>
+                    <ns2:onlineResource>
+                        <ns2:linkage>https://iho.int/</ns2:linkage>
+                    </ns2:onlineResource>
+                </ns2:contactInfo>
+            </ns2:CI_Organisation>
+        </ns2:party>
+    </S100FC:producer>
+    <S100FC:S100_FC_SimpleAttributes>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Chart Publication Identifier</S100FC:name>
+            <S100FC:definition>Chart Publication Identifier</S100FC:definition>
+            <S100FC:code>chartPublicationIdentifier</S100FC:code>
+            <S100FC:valueType>URN</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>List Of Light Number</S100FC:name>
+            <S100FC:definition>List of light number a navigational aid</S100FC:definition>
+            <S100FC:code>listOfLightNumber</S100FC:code>
+            <S100FC:valueType>text</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>S124_Locality Identifier</S100FC:name>
+            <S100FC:definition>URN identifier for a locality</S100FC:definition>
+            <S100FC:code>localityIdentifier</S100FC:code>
+            <S100FC:valueType>URN</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Restriction</S100FC:name>
+            <S100FC:definition>Restriction</S100FC:definition>
+            <S100FC:code>restriction</S100FC:code>
+            <S100FC:valueType>enumeration</S100FC:valueType>
+            <S100FC:listedValues>
+                <S100FC:listedValue>
+                    <S100FC:label>entry restricted </S100FC:label>
+                    <S100FC:definition></S100FC:definition>
+                    <S100FC:code>8</S100FC:code>
+                </S100FC:listedValue>
+                <S100FC:listedValue>
+                    <S100FC:label>entry prohibited </S100FC:label>
+                    <S100FC:definition></S100FC:definition>
+                    <S100FC:code>7</S100FC:code>
+                </S100FC:listedValue>
+                <S100FC:listedValue>
+                    <S100FC:label>area to be avoided </S100FC:label>
+                    <S100FC:definition></S100FC:definition>
+                    <S100FC:code>14</S100FC:code>
+                </S100FC:listedValue>
+                <S100FC:listedValue>
+                    <S100FC:label>stopping prohibited </S100FC:label>
+                    <S100FC:definition></S100FC:definition>
+                    <S100FC:code>25</S100FC:code>
+                </S100FC:listedValue>
+                <S100FC:listedValue>
+                    <S100FC:label>speed restricted </S100FC:label>
+                    <S100FC:definition></S100FC:definition>
+                    <S100FC:code>27</S100FC:code>
+                </S100FC:listedValue>
+            </S100FC:listedValues>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Display name</S100FC:name>
+            <S100FC:definition>Display name</S100FC:definition>
+            <S100FC:code>displayName</S100FC:code>
+            <S100FC:valueType>boolean</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Language</S100FC:name>
+            <S100FC:definition>Language</S100FC:definition>
+            <S100FC:code>language</S100FC:code>
+            <S100FC:valueType>text</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Name</S100FC:name>
+            <S100FC:definition>Name</S100FC:definition>
+            <S100FC:code>name</S100FC:code>
+            <S100FC:valueType>text</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Date End</S100FC:name>
+            <S100FC:definition>Date End</S100FC:definition>
+            <S100FC:code>dateEnd</S100FC:code>
+            <S100FC:valueType>S100_TruncatedDate</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Date Start</S100FC:name>
+            <S100FC:definition>Date Start</S100FC:definition>
+            <S100FC:code>dateStart</S100FC:code>
+            <S100FC:valueType>S100_TruncatedDate</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Time Of Day End</S100FC:name>
+            <S100FC:definition>Time Of Day End</S100FC:definition>
+            <S100FC:code>timeOfDayEnd</S100FC:code>
+            <S100FC:valueType>time</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Time Of Day Start</S100FC:name>
+            <S100FC:definition>Time Of Day Start</S100FC:definition>
+            <S100FC:code>timeOfDayStart</S100FC:code>
+            <S100FC:valueType>time</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>S124_Warning Hazard Type</S100FC:name>
+            <S100FC:definition>S124_Warning Hazard Type</S100FC:definition>
+            <S100FC:code>S124_warningHazardType</S100FC:code>
+            <S100FC:valueType>text</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Flip Bearing</S100FC:name>
+            <S100FC:definition>Flip Bearing</S100FC:definition>
+            <S100FC:code>flipBearing</S100FC:code>
+            <S100FC:valueType>real</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Scale Minimum</S100FC:name>
+            <S100FC:definition>Scale Minimum</S100FC:definition>
+            <S100FC:code>scaleMinimum</S100FC:code>
+            <S100FC:valueType>integer</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Text</S100FC:name>
+            <S100FC:definition>Text</S100FC:definition>
+            <S100FC:code>text</S100FC:code>
+            <S100FC:valueType>text</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Text Justification</S100FC:name>
+            <S100FC:definition>Text Justification</S100FC:definition>
+            <S100FC:code>textJustification</S100FC:code>
+            <S100FC:valueType>enumeration</S100FC:valueType>
+            <S100FC:listedValues>
+                <S100FC:listedValue>
+                    <S100FC:label>left </S100FC:label>
+                    <S100FC:definition></S100FC:definition>
+                    <S100FC:code>1</S100FC:code>
+                </S100FC:listedValue>
+                <S100FC:listedValue>
+                    <S100FC:label>centred </S100FC:label>
+                    <S100FC:definition></S100FC:definition>
+                    <S100FC:code>2</S100FC:code>
+                </S100FC:listedValue>
+                <S100FC:listedValue>
+                    <S100FC:label>right </S100FC:label>
+                    <S100FC:definition></S100FC:definition>
+                    <S100FC:code>3</S100FC:code>
+                </S100FC:listedValue>
+            </S100FC:listedValues>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>S124_Cancellation Date</S100FC:name>
+            <S100FC:definition>S124_Cancellation Date</S100FC:definition>
+            <S100FC:code>S124_cancellationDate</S100FC:code>
+            <S100FC:valueType>dateTime</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>S124_Publication Date</S100FC:name>
+            <S100FC:definition>S124_Publication Date</S100FC:definition>
+            <S100FC:code>S124_publicationDate</S100FC:code>
+            <S100FC:valueType>dateTime</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>No Message On Hand</S100FC:name>
+            <S100FC:definition>No Message On Hand</S100FC:definition>
+            <S100FC:code>noMessageOnHand</S100FC:code>
+            <S100FC:valueType>boolean</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>HeadLine</S100FC:name>
+            <S100FC:definition>HeadLine</S100FC:definition>
+            <S100FC:code>headline</S100FC:code>
+            <S100FC:valueType>text</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+    </S100FC:S100_FC_SimpleAttributes>
+    <S100FC:S100_FC_ComplexAttributes>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>S124_Chart Affected</S100FC:name>
+            <S100FC:definition>National paper chart number or ENC name.</S100FC:definition>
+            <S100FC:code>S124_chartAffected</S100FC:code>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="Chart number"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="Chart Plan Number "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="Edition Date "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="Last Notice Date"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>Feature Reference</S100FC:name>
+            <S100FC:definition>Reference to an object or feature that is external to the dataset.</S100FC:definition>
+            <S100FC:code>S124_featureReference</S100FC:code>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="featureIdentifier "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="listOfLightNumber "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_ENCFeatureReference"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>ENC Feature Reference</S100FC:name>
+            <S100FC:definition>S124_ENCFeatureReference</S100FC:definition>
+            <S100FC:code>S124_ENCFeatureReference</S100FC:code>
+            <S100FC:alias></S100FC:alias>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="editionNumber "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="ENCName "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="featureObjectIdentifier "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="updateNumber "/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>General Area</S100FC:name>
+            <S100FC:definition>The general area used to identify which broad geographic region the message affects. The geographical name which is selected for the general area should be one that can be found on charts and in nautical publications. (S-53, 6).</S100FC:definition>
+            <S100FC:code>S124_generalArea</S100FC:code>
+            <S100FC:subAttributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_localityIdentifier"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_locationName"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>Locality</S100FC:name>
+            <S100FC:definition>Name and/or identifier of an area locality</S100FC:definition>
+            <S100FC:code>S124_locality</S100FC:code>
+            <S100FC:subAttributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_localityIdentifier"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_locationName"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>S124_Location Name</S100FC:name>
+            <S100FC:definition>Name of a location</S100FC:definition>
+            <S100FC:code>S124_locationName</S100FC:code>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="language"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="text"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>S124_Affected Chart Publications</S100FC:name>
+            <S100FC:definition>Identifies paper charts, ENCs or publications that are affected by the information.</S100FC:definition>
+            <S100FC:code>S124_affectedChartPublications</S100FC:code>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_chartAffected"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="chartPublicationIdentifier "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="internationalChartAffected "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="language "/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="publicationAffected "/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>Feature Name</S100FC:name>
+            <S100FC:definition>Feature Name</S100FC:definition>
+            <S100FC:code>featureName</S100FC:code>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="displayName"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="language"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="name"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>Fixed Date Range</S100FC:name>
+            <S100FC:definition>Fixed Date Range</S100FC:definition>
+            <S100FC:code>S124_fixedDateRange</S100FC:code>
+            <S100FC:subAttributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="dateEnd"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="dateStart"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="timeOfDayEnd"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="timeOfDayStart"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>Warning Information</S100FC:name>
+            <S100FC:definition>Warning Information</S100FC:definition>
+            <S100FC:code>S124_warningInformation</S100FC:code>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="headline"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="language"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="text"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>Message Series Identifier</S100FC:name>
+            <S100FC:definition>Message Series Identifier</S100FC:definition>
+            <S100FC:code>S124_messageSeriesIdentifier</S100FC:code>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="country"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="nameOfSeries"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="productionAgency"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="warningIdentifier"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="warningNumber"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="warningType"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="year"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+        <S100FC:S100_FC_ComplexAttribute>
+            <S100FC:name>Title</S100FC:name>
+            <S100FC:definition>Title</S100FC:definition>
+            <S100FC:code>title</S100FC:code>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="language"/>
+            </S100FC:subAttributeBinding>
+            <S100FC:subAttributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="text"/>
+            </S100FC:subAttributeBinding>
+        </S100FC:S100_FC_ComplexAttribute>
+    </S100FC:S100_FC_ComplexAttributes>
+    <S100FC:S100_FC_Roles>
+        <S100FC:S100_FC_Role>
+            <S100FC:name>header</S100FC:name>
+            <S100FC:definition>header</S100FC:definition>
+            <S100FC:code>header</S100FC:code>
+            <S100FC:remarks></S100FC:remarks>
+        </S100FC:S100_FC_Role>
+        <S100FC:S100_FC_Role>
+            <S100FC:name>warning</S100FC:name>
+            <S100FC:definition>warning</S100FC:definition>
+            <S100FC:code>warning</S100FC:code>
+            <S100FC:remarks></S100FC:remarks>
+        </S100FC:S100_FC_Role>
+        <S100FC:S100_FC_Role>
+            <S100FC:name>reference</S100FC:name>
+            <S100FC:definition>reference</S100FC:definition>
+            <S100FC:code>reference</S100FC:code>
+            <S100FC:remarks></S100FC:remarks>
+        </S100FC:S100_FC_Role>
+        <S100FC:S100_FC_Role>
+            <S100FC:name>notice</S100FC:name>
+            <S100FC:definition>notice</S100FC:definition>
+            <S100FC:code>notice</S100FC:code>
+            <S100FC:remarks></S100FC:remarks>
+        </S100FC:S100_FC_Role>
+    </S100FC:S100_FC_Roles>
+    <S100FC:S100_FC_FeatureAssociations>
+        <S100FC:S100_FC_FeatureAssociation>
+            <S100FC:name>warningReference</S100FC:name>
+            <S100FC:definition>warningReference</S100FC:definition>
+            <S100FC:code>warningReference</S100FC:code>
+            <S100FC:role ref="warning"/>
+            <S100FC:role ref="reference"/>
+        </S100FC:S100_FC_FeatureAssociation>
+        <S100FC:S100_FC_FeatureAssociation>
+            <S100FC:name>warningPreamble</S100FC:name>
+            <S100FC:definition>warningPreamble</S100FC:definition>
+            <S100FC:code>warningPreamble</S100FC:code>
+            <S100FC:role ref="warning"/>
+            <S100FC:role ref="header"/>
+        </S100FC:S100_FC_FeatureAssociation>
+    </S100FC:S100_FC_FeatureAssociations>
+    <S100FC:S100_FC_InformationTypes>
+        <S100FC:S100_FC_InformationType isAbstract="false">
+            <S100FC:name>S124_NWPreamble</S100FC:name>
+            <S100FC:definition>S124_NWPreamble</S100FC:definition>
+            <S100FC:code>S124_NWPreamble</S100FC:code>
+            <S100FC:attributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_generalArea"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_locality"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_messageSeriesIdentifier"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_affectedChartPublications"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="title"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_cancellationDate"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_publicationDate"/>
+            </S100FC:attributeBinding>
+        </S100FC:S100_FC_InformationType>
+        <S100FC:S100_FC_InformationType isAbstract="false">
+            <S100FC:name>S124_References</S100FC:name>
+            <S100FC:definition>S124_References</S100FC:definition>
+            <S100FC:code>S124_References</S100FC:code>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_messageSeriesIdentifier"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="noMessageOnHand"/>
+            </S100FC:attributeBinding>
+        </S100FC:S100_FC_InformationType>
+    </S100FC:S100_FC_InformationTypes>
+    <S100FC:S100_FC_FeatureTypes>
+        <S100FC:S100_FC_FeatureType isAbstract="false">
+            <S100FC:name>S124_Text Placement</S100FC:name>
+            <S100FC:definition>S124_Text Placement</S100FC:definition>
+            <S100FC:code>S124_TextPlacement</S100FC:code>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="flipBearing"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="scaleMinimum"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="text"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:permittedValues>
+                    <S100FC:value>1</S100FC:value>
+                    <S100FC:value>2</S100FC:value>
+                    <S100FC:value>3</S100FC:value>
+                </S100FC:permittedValues>
+                <S100FC:attribute ref="textJustification"/>
+            </S100FC:attributeBinding>
+            <S100FC:featureUseType>geographic</S100FC:featureUseType>
+            <S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
+        </S100FC:S100_FC_FeatureType>
+        <S100FC:S100_FC_FeatureType isAbstract="false">
+            <S100FC:name>S124_Navigational Warning Feature Part</S100FC:name>
+            <S100FC:definition>S124_Navigational Warning Feature Part</S100FC:definition>
+            <S100FC:code>S124_NavigationalWarningFeaturePart</S100FC:code>
+            <S100FC:alias></S100FC:alias>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="featureName"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_featureReference"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_fixedDateRange"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>0</ns3:lower>
+                    <ns3:upper infinite="false">1</ns3:upper>
+                </S100FC:multiplicity>
+                <S100FC:permittedValues>
+                    <S100FC:value>8</S100FC:value>
+                    <S100FC:value>7</S100FC:value>
+                    <S100FC:value>14</S100FC:value>
+                    <S100FC:value>25</S100FC:value>
+                    <S100FC:value>27</S100FC:value>
+                </S100FC:permittedValues>
+                <S100FC:attribute ref="restriction"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="true">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_warningHazardType"/>
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <ns3:lower>1</ns3:lower>
+                    <ns3:upper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="S124_warningInformation"/>
+            </S100FC:attributeBinding>
+            <S100FC:featureUseType>geographic</S100FC:featureUseType>
+            <S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
+            <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
+            <S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
+        </S100FC:S100_FC_FeatureType>
+    </S100FC:S100_FC_FeatureTypes>
+</S100FC:S100_FC_FeatureCatalogue>
