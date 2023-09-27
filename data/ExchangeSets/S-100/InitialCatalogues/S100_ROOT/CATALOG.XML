@@ -43,12 +43,12 @@
             <S100XC:versionNumber>1.0.2</S100XC:versionNumber>
             <S100XC:issueDate>2023-07-26</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
-                <S100XC:number>1</S100XC:number>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.0.2</S100XC:productIdentifier>
+                <S100XC:number>3</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-101_1.0.2_20220524" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIGTFQ9foD3GBGUbExA9xXqvgz/J9ky5mLWkv8dYSZdZkAiBHEuXdxnSFZCRDFhkokk6czVLcx+wAGi8Qx2guD5BIBA==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-101_1.0.2_20220524" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCICr82nUIrciy8xqUGUYAaBOD7/+/Z41ARrjQKNoRnaCVAiEAjxTN14rmHu2vny2yVDa/5WNtK3DUpPNntqTyt7Bdork=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -60,8 +60,8 @@
             <S100XC:versionNumber>1.0.0</S100XC:versionNumber>
             <S100XC:issueDate>2023-09-22</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
-                <S100XC:number>1</S100XC:number>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.0.2</S100XC:productIdentifier>
+                <S100XC:number>2</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
@@ -74,12 +74,12 @@
             <S100XC:versionNumber>1.0.0</S100XC:versionNumber>
             <S100XC:issueDate>2023-07-26</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-124</S100XC:productIdentifier>
-                <S100XC:number>1</S100XC:number>
+                <S100XC:productIdentifier>INT.IHO.S-124.1.0.0</S100XC:productIdentifier>
+                <S100XC:number>4</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-124_1.0.0" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIFwiQK7raQhAmwy2oDy4qOAliEgQUzCZHIsVTnBxrxCrAiAxLs7TZx5KTP2S4Au70hF2Au8I5bChW4J+nOpgdgjdKA==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-124_1.0.0" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIG9V/S7GqWjlvhyFHxyQphBtvBVhuc2dTWFzGjEVrhI3AiB13m6f6dE3YknNAI+Cbt1zxv9pk4nkG52JzkrKdZ6ubg==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -91,12 +91,12 @@
             <S100XC:versionNumber>0.0.9</S100XC:versionNumber>
             <S100XC:issueDate>2021-01-01</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-128</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-128.0.0.9</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-128_1.0.0_20231701" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIA7AgX/v3kN65uf4OFmkPs4s+UGhU3AULeN1AQ57UGR3AiBOm7Ts5spYjdBm+4kKAeK5s1JAL6v1wVPMmqLvguyCCQ==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-128_1.0.0_20231701" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIDLiQTbCFKoJhmixiWF7gI0YeK2ycc/0PxZBUTPifgNRAiEAgufsOgT4uCQTYs0/pXJt7AL6BnjMhiW6sHDXIixGpjU=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
