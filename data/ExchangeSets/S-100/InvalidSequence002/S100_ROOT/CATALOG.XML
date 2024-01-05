@@ -2,7 +2,7 @@
 <S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:S100XC="http://www.iho.int/s100/xc/5.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:ns9="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns10="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns14="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns15="http://www.w3.org/1999/xlink" xmlns:ns16="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>InvalidSequence002</S100XC:identifier>
-        <S100XC:dateTime>2023-12-08T08:02:27Z</S100XC:dateTime>
+        <S100XC:dateTime>2024-01-05T15:01:06Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -44,10 +44,10 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SW" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIH64Ykl5OXG3PpZvdwf3vs7FvGcf9GoID3xOqU51x165AiAkj7ag3Tv9YjFxecTjOAcI5/St6+E1/OppFL5eEJv1PQ==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SW" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIDe36jpLgVK043zjiqwtSKKTP9F/FhaXLpdH9vGDBavUAiAG4iRq3T/Pot1AdXiv9FDFVjW+CBekE5JkFEw/NUx+VA==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
-            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:purpose>update</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
             <S100XC:updateNumber>2</S100XC:updateNumber>
@@ -91,21 +91,6 @@
                 <S100XC:boundingPolygon>
                     <ns16:polygon>
                         <gml:Curve gml:id="DataCoverage1">
-                            <gml:segments>
-<gml:LineStringSegment>
-    <gml:posList srsName="EPSG:4326">-32.2 60.6 -32.2 61.1 -32.5 61.1 -32.5 60.6 -32.2 60.6</gml:posList>
-</gml:LineStringSegment>
-                            </gml:segments>
-                        </gml:Curve>
-                    </ns16:polygon>
-                </S100XC:boundingPolygon>
-                <S100XC:maximumDisplayScale>45000</S100XC:maximumDisplayScale>
-                <S100XC:minimumDisplayScale>180000</S100XC:minimumDisplayScale>
-            </S100XC:dataCoverage>
-            <S100XC:dataCoverage>
-                <S100XC:boundingPolygon>
-                    <ns16:polygon>
-                        <gml:Curve gml:id="DataCoverage2">
                             <gml:segments>
 <gml:LineStringSegment>
     <gml:posList srsName="EPSG:4326">-32.2 60.6 -32.2 61.1 -32.5 61.1 -32.5 60.6 -32.2 60.6</gml:posList>

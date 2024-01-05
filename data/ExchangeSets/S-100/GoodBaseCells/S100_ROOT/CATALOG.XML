@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:S100XC="http://www.iho.int/s100/xc/5.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:ns9="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns10="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns14="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns15="http://www.w3.org/1999/xlink" xmlns:ns16="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
-        <S100XC:identifier>InvalidSequence001</S100XC:identifier>
-        <S100XC:dateTime>2024-01-05T15:01:39Z</S100XC:dateTime>
+        <S100XC:identifier>GoodBaseCells</S100XC:identifier>
+        <S100XC:dateTime>2024-01-05T15:46:08Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -30,7 +30,7 @@
         </S100XC:address>
     </S100XC:contact>
     <S100XC:exchangeCatalogueComment>
-        <gco:CharacterString>Created IIC December 2023</gco:CharacterString>
+        <gco:CharacterString>Created IIC January 2024</gco:CharacterString>
     </S100XC:exchangeCatalogueComment>
     <S100XC:certificates>
         <S100SE:schemeAdministrator id="IHO"/>
@@ -38,33 +38,32 @@
     </S100XC:certificates>
     <S100XC:datasetDiscoveryMetadata>
         <S100XC:S100_DatasetDiscoveryMetadata>
-            <S100XC:fileName>file:/S-101/DATASET_FILES/10100AA_X01SW.001</S100XC:fileName>
-            <S100XC:datasetID>urn:mrn:iho:hash:sha256:83cb1060df69091135bd2e24d7b07fe4a05f5f99edde9e4d50d00795898f6b67</S100XC:datasetID>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/10100AA_X01SW.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:5408c874be04edca773179088609a19563c3e7ebb453362c1f2bbbe46055dfcc</S100XC:datasetID>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SW" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCICjkznZIWVbVDTeIPaeQ5CyDRTPM/PIl1+Ux8sCe7FjNAiEArr7Lqar6NFDkhpeVZRYXwfeOwl1kn2HOxZPeWtBJ4kM=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SW" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQCIgviCewsHp54FJovOxg8Ot5tx7tB7ShvavVgUXgIXfAIhAMIgIltA/R5PABgnQTGK2RLl9WJJxTidWPMekv8RoQmT</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
-            <S100XC:purpose>update</S100XC:purpose>
+            <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
-            <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:updateNumber>1</S100XC:updateNumber>
-            <S100XC:issueDate>2023-10-24</S100XC:issueDate>
+            <S100XC:editionNumber>2</S100XC:editionNumber>
+            <S100XC:issueDate>2023-12-27</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:boundingBox>
                 <ns16:westBoundLongitude>
-                    <gco:Decimal>60.6</gco:Decimal>
+                    <gco:Decimal>60.8733138</gco:Decimal>
                 </ns16:westBoundLongitude>
                 <ns16:eastBoundLongitude>
-                    <gco:Decimal>61.1</gco:Decimal>
+                    <gco:Decimal>60.9666667</gco:Decimal>
                 </ns16:eastBoundLongitude>
                 <ns16:southBoundLatitude>
-                    <gco:Decimal>-32.5</gco:Decimal>
+                    <gco:Decimal>-32.5523534</gco:Decimal>
                 </ns16:southBoundLatitude>
                 <ns16:northBoundLatitude>
-                    <gco:Decimal>-32.2</gco:Decimal>
+                    <gco:Decimal>-32.5</gco:Decimal>
                 </ns16:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
@@ -93,14 +92,14 @@
                         <gml:Curve gml:id="DataCoverage1">
                             <gml:segments>
 <gml:LineStringSegment>
-    <gml:posList srsName="EPSG:4326">-32.2 60.6 -32.2 61.1 -32.5 61.1 -32.5 60.6 -32.2 60.6</gml:posList>
+    <gml:posList srsName="EPSG:4326">-32.5 60.8733138 -32.5 60.9666667 -32.55235 60.9666667 -32.5523437 60.950801 -32.5523451 60.9353118 -32.5523403 60.9280678 -32.5523359 60.9276522 -32.5523198 60.9271689 -32.5523349 60.9206524 -32.5523351 60.9176338 -32.552318 60.91628 -32.5523365 60.9136832 -32.5523382 60.9086441 -32.5523192 60.9077144 -32.5523194 60.90676 -32.552336 60.8944973 -32.5523524 60.8733269 -32.5009313 60.8733258 -32.5 60.8733138</gml:posList>
 </gml:LineStringSegment>
                             </gml:segments>
                         </gml:Curve>
                     </ns16:polygon>
                 </S100XC:boundingPolygon>
-                <S100XC:maximumDisplayScale>45000</S100XC:maximumDisplayScale>
-                <S100XC:minimumDisplayScale>180000</S100XC:minimumDisplayScale>
+                <S100XC:maximumDisplayScale>12000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>22000</S100XC:minimumDisplayScale>
             </S100XC:dataCoverage>
         </S100XC:S100_DatasetDiscoveryMetadata>
     </S100XC:datasetDiscoveryMetadata>
