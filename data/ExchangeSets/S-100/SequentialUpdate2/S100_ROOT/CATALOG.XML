@@ -47,7 +47,7 @@
                 <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SW" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQDAg1Iuu+h/KsMB7NikaYo41Of+HebgUK3qkoZnW+IrEwIhAL9j7jTNojVnX1gU1bRZNnsgYuKXyH3vmon9UzcpQJpL</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
-            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:purpose>update</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
             <S100XC:updateNumber>2</S100XC:updateNumber>
@@ -91,6 +91,21 @@
                 <S100XC:boundingPolygon>
                     <ns16:polygon>
                         <gml:Curve gml:id="DataCoverage1">
+                            <gml:segments>
+<gml:LineStringSegment>
+    <gml:posList srsName="EPSG:4326">-32.2 60.6 -32.2 61.1 -32.5 61.1 -32.5 60.6 -32.2 60.6</gml:posList>
+</gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </ns16:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:maximumDisplayScale>45000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>180000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns16:polygon>
+                        <gml:Curve gml:id="DataCoverage2">
                             <gml:segments>
 <gml:LineStringSegment>
     <gml:posList srsName="EPSG:4326">-32.2 60.6 -32.2 61.1 -32.5 61.1 -32.5 60.6 -32.2 60.6</gml:posList>
