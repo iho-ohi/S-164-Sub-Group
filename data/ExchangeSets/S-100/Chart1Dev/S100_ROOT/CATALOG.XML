@@ -2,7 +2,7 @@
 <S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:S100XC="http://www.iho.int/s100/xc/5.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:ns9="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns10="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns14="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns15="http://www.w3.org/1999/xlink" xmlns:ns16="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>Chart1Dev</S100XC:identifier>
-        <S100XC:dateTime>2024-01-24T15:13:44Z</S100XC:dateTime>
+        <S100XC:dateTime>2024-01-25T11:36:48Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -44,13 +44,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1AB1" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIAsdBNoeojOxuewe2EIEFS8azdKauiwoDpxC5UvaeaXfAiAGTM11RGu0aNQ0p+crncmIhJ5rVkX0M18jcp66WaSuWw==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1AB1" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIGRkWPJb2rsAbhhFAFFWQi7Qnvk8DkWUEUH8wzVr7yQxAiEArtbJM13Z1wdKqRkcrV6nKWc6I6FbEmIaCNdt2mf0cQo=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -80,13 +80,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1AB2" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQC27Lh92k8ZzOB5lD7fJ80J0ZEXx6xTbgZZ7q9ezJLGiQIhAJlBJw2fWgFjcCiLSnUpBAXj6ipVdvAmk6pB+/ocfg/j</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1AB2" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIQDBYen20MEiWx4xoKt2OXAABxqL1Fverkt+E0BsNImW0AIgQYbOVyMlZO5LCr14l3SGAlJ92MKYA35SOQivwLOGvnQ=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -116,13 +116,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1CDE" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCID+qMWEEvpVGz3L5Vyvl9lQUrKlaGuL+84YxuUirmsCaAiEAkusZtoymZUymO5u37UO7NbHVJXOcTQKzo2VFU/Iyf4U=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1CDE" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIBBwKLNxw1jvUsAoosPJu4/ypOqv5SJT2Dg9Fa0kv+MnAiEAtinx2b0XL0p1hcapkHOzFtyTh7hBQ4DFoYlHAHikcmk=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -152,13 +152,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1FOO" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIBe9bEkLe76eaVZeHHyDU0PJyTwMWSY+4o+q9Dv2X+nhAiA+DF1w/TxrurozFFG+1GfDpN6do9oBz5b3QDPto8y9zw==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1FOO" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQCC+WrsXLBUW0BbLN4bgQMk8bzQA5VT/iLHLcufAMvXnwIhAJ81fUp0GpYH4Ti6ZoCev2z7IbQGDemcjPDplxuJZUVn</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -188,13 +188,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1HIO" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQCheqOazNyMH8B8hBtAnHaK87wMyKm9oI08Gr//CpBZuwIhAJkX9ynRMipmCk/bJb6OLG+VtJgIqK1AGzQc1boPsNkJ</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1HIO" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIAzVsyVIO/jl2b9V70fPPG9FYczBcLnjKtVoePHsE8OkAiAfyY0fSHYeCDO3F1BacDmnwj20S8RNrbq+53MkvtOXCQ==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -224,13 +224,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1JKL" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIE3RYFJ6g+9zq3p8OPlJUwH7pNEKB/JGHsY6RI5KA1AiAiB6/KXMQVoPKkCzax+dek1c1h2TYFqoO8WviRdDUJmPEA==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1JKL" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIGO6iRYWbbvhEfU5bzLefo4eWvwplPFxJPoOkNmgUesDAiBd3JF1ME5x05qPpUFPmYMbrY6v609cUnEC1hB8vdNcqw==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -255,18 +255,18 @@
         </S100XC:S100_DatasetDiscoveryMetadata>
         <S100XC:S100_DatasetDiscoveryMetadata>
             <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1MNS.000</S100XC:fileName>
-            <S100XC:datasetID>urn:mrn:iho:hash:sha256:fae92e33ef8fa5a03b46ec74fd8c36531e27b67b691a91a388790e2a53b43d37</S100XC:datasetID>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:69a360d03bbea4520f71ba0064f1fe2586f8eca99f3e26d6d341afc2eb93d295</S100XC:datasetID>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1MNS" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCICkeOX3mK5+vIBCvwz+icYZpL5U+Vim94H24XN5OZF0tAiBuyaCLyp9TsDYl7NsJhi2mz+TlFQbp2k/Jk+tmWFZUyQ==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1MNS" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCICJHZr8L2Vd3r5VBF78sxmoOqtFYZfthCKJZb35cMzsHAiAlfHWFMSe3tHo09XbchkgVmVBbtcozMojCintk/t7OwA==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-25</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -296,13 +296,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1MOO" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIGWQJF+H1sKIM3eWd/NL7enJBcvUAgeAoK6BpPw+oYPHAiAMnbxM1VUHMw3vYqgT/Vht3XXGZYf1N3/m4au5rzsNcA==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1MOO" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCICmRUDxuAv5iTdpUv39zCjFdYk4ha4+4Cdox7gANkKs9AiBskiAzvTb8SPrnYWMBdfkMIsJ5hOQGt8FgkfFRlBZ1hA==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -332,13 +332,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1NOO" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIFfbS+ECyKsIUlXvu76qKFI27zB2h9gQ8L29hwA0gpxlAiEAnVvQfrFjNh3CeH7SkkJI+ifHEbeEqSvgNtywDm+hY2s=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1NOO" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIQCo+3PcWIjJ3VoNOsZjZG2RW5kmd0h+YhATnG+qopu03QIgYQ/XceGWGUjVpcX5/2NrGToa7hkWne/tBveuoxYbVDo=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -368,13 +368,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1PRS" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIHMY0ZiC/hrj1GR6KUN9VK7geBAjTfcFCH8/uZAZ+i/0AiEAtxqPSWqq3Vg7ofC45FKBCLiH7vFE0y4hjYCEbww6QF4=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1PRS" certificateRef="urn:mrn:iho:org:00AA:1810">MEQCIEG5v5gHM7dtvr4/QrEnHrLZSuGVa4lQglaGso/LICz6AiA6taCLGfd5eUPMDZcSE0PYzSdv5yWYDjUK8dOTnLL6Sg==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -404,13 +404,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1QO1" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIQCQb59YLR3kkaTTq8jtxrdW4N3NOAdD1Br4YFDymvTyMwIgIGvVnKdlRv8KaBaYBN5BkPOXUgRRsyYGbKNua0UpG5E=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1QO1" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIArW86opUDuuds/U7PPcY34TzGVf0+bMxBIWawpzslgrAiEApP6boT8mqUJSovBjiIsX3G/uVrYznhIM+Ygbof+rD+E=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -440,13 +440,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1QO2" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIBPLHtVN76f0+71qry4tZN+AsvGpSHHMdxkqm5umLRltAiEApZqLRZNMHun7oCTB6+AMEWB2EBzNXokySnb1igsDVWo=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1QO2" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIBtTYF89+QcVwWSiq2ZolXRhPrVORtJ4jnBBkh627vgOAiEAvFQQKuK2wpV63WULd6FSpIBt1NrkIXzt2g1vzXQfgh0=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2024-01-15</S100XC:issueDate>
+            <S100XC:issueDate>2024-01-23</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:productSpecification>
                 <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
@@ -476,7 +476,7 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1WOO" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQCUHB4nT+DqfbOUcmkLUR7ZPHW7OJh96ADZavH+Ph8veAIhAMjPe3MdCkYnWQCRKj4GDaOE3OwMbajiBTCNdcpyCORF</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1WOO" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIEoSfWlMT3vWL1MytzdN+HZycZ7q/Os5c8yq7yMEMYeAAiEAkkK7ANengpSUMiDD+j2jwa32XEcVwPih4DdQUQh3FbM=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
@@ -491,7 +491,7 @@
             <S100XC:producingAgency>
                 <cit:CI_Responsibility>
                     <cit:role>
-                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"/>
                     </cit:role>
                     <cit:party>
                         <cit:CI_Organisation>
