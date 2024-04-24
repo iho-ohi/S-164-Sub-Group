@@ -2,7 +2,7 @@
 <S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:S100XC="http://www.iho.int/s100/xc/5.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:ns9="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns10="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns14="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns15="http://www.w3.org/1999/xlink" xmlns:ns16="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>PowerUpCatalogues</S100XC:identifier>
-        <S100XC:dateTime>2023-12-15T13:48:24Z</S100XC:dateTime>
+        <S100XC:dateTime>2024-04-01T11:42:53Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -30,7 +30,7 @@
         </S100XC:address>
     </S100XC:contact>
     <S100XC:exchangeCatalogueComment>
-        <gco:CharacterString>Created IIC July 2023</gco:CharacterString>
+        <gco:CharacterString>Created IIC March 2024</gco:CharacterString>
     </S100XC:exchangeCatalogueComment>
     <S100XC:certificates>
         <S100SE:schemeAdministrator id="IHO"/>
@@ -40,38 +40,38 @@
     <S100XC:supportFileDiscoveryMetadata/>
     <S100XC:catalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
-            <S100XC:fileName>file:/S-101/CATALOGUES/S-101_FC_1.1.0.xml</S100XC:fileName>
+            <S100XC:fileName>file:/S-101/CATALOGUES/S-101_FC_1.2.3.xml</S100XC:fileName>
             <S100XC:purpose>reissue</S100XC:purpose>
             <S100XC:editionNumber>1</S100XC:editionNumber>
             <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>1.1.0</S100XC:versionNumber>
-            <S100XC:issueDate>2023-09-20</S100XC:issueDate>
+            <S100XC:versionNumber>1.2.3</S100XC:versionNumber>
+            <S100XC:issueDate>2024-04-01</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
-                <S100XC:number>1</S100XC:number>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.2.3</S100XC:productIdentifier>
+                <S100XC:number>3</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-101_FC_1.1.0" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHQCU8cJ2QziSd7NPQtPsuyO7eX2WDxpefjfoSiC3Ahw8RFzzQ65MHuiWj0N3fv1bDt64ARr0WtqUBwWA</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-101_FC_1.2.3" certificateRef="urn:mrn:iho:org:AA00:1810">MDwCHHG/Z6RE8DRd9FOA1MjNqHZ4psEEAqcKJvY3EKcCHCKUvRFpv3S+PeUZ6xn7tGItM7gfDovGrXoleL8=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
-            <S100XC:fileName>file:/S-101/CATALOGUES/S-101PortrayalCatalogue</S100XC:fileName>
+            <S100XC:fileName>file:/S-101/CATALOGUES/S-101_Portrayal-Catalogue-1.2.3</S100XC:fileName>
             <S100XC:purpose>reissue</S100XC:purpose>
             <S100XC:editionNumber>1</S100XC:editionNumber>
             <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>1.1.0</S100XC:versionNumber>
-            <S100XC:issueDate>2023-09-22</S100XC:issueDate>
+            <S100XC:versionNumber>1.2.3</S100XC:versionNumber>
+            <S100XC:issueDate>2024-04-01</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
-                <S100XC:number>1</S100XC:number>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.2.3</S100XC:productIdentifier>
+                <S100XC:number>2</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-101PortrayalCatalogue" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHQDiqDGLydrzdzRWTMNeAYLgvAaU1unGxbzKcrQKAhxBKxo0Q6E6DmqMoJDX+L0nasmnqCJkvCBobFbP</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-101_Portrayal-Catalogue-1.2" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHBBFmxyJXfnKeG6XXP58dJTxl2ZBz49akPaiYBQCHQD7e9Fk3Qzoc5XAwAI+jukog842bVE6Dxs+Cz7C</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
-            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
             <S100XC:fileName>file:/S-124/CATALOGUES/S-124_1.0.0.xml</S100XC:fileName>
@@ -81,12 +81,12 @@
             <S100XC:versionNumber>1.0.0</S100XC:versionNumber>
             <S100XC:issueDate>2023-07-26</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-124</S100XC:productIdentifier>
-                <S100XC:number>1</S100XC:number>
+                <S100XC:productIdentifier>INT.IHO.S-124.1.0.0</S100XC:productIdentifier>
+                <S100XC:number>4</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-124_1.0.0" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHQDMh5BDystoIvapO5CGm5BLP/sG8FWRHIkhc3KyAhwLDEyjTmU+Ef7lWuahJwrabIqw7jtOk0sm5Fwx</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-124_1.0.0" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHADDWAJ9JHE+u3wqBH9Q3DAGiSXrfk29MrU/mm0CHQCQTEXTxlwHmQjcmC9uG8rpq6k5q0S0c3LfF/sP</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -98,12 +98,12 @@
             <S100XC:versionNumber>1.0.0</S100XC:versionNumber>
             <S100XC:issueDate>2023-01-01</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-128</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-128.1.0.0</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-128_1.0.0_20231701" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHA6DEj/gc1K9dq8o8Tc1uiTr3T4bgWzZiWn7ot4CHQCJeA3OZL1GkxWucyDiw/wD6oWqUBt+/J+KSqDS</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-128_1.0.0_20231701" certificateRef="urn:mrn:iho:org:AA00:1810">MD0CHDAKJgknkAp06/NGm+mW+B5RXMRmITjLm18qw7wCHQCZfj6pmY9FSFm+9se6v8z6Q/PHtuXZYxPO8Ybv</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
