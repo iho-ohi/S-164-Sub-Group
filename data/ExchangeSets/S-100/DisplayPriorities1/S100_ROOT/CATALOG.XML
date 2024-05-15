@@ -2,7 +2,7 @@
 <S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.1" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:S100XC="http://www.iho.int/s100/xc/5.1" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns9="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns10="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>DisplayPriorities1</S100XC:identifier>
-        <S100XC:dateTime>2024-05-15T10:38:41Z</S100XC:dateTime>
+        <S100XC:dateTime>2024-05-15T11:09:47Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -44,7 +44,7 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG1012J4X0001" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCvO+BhR6vRov02n6b2JZIooPw9cNsYf8wSVcNRgU4a3mi9kcvHM/wJ3qhUJOrHJ9ECMQDFfHqF4hCcB5CJ35T/wFnsSgpu92y5ezoGsfuEZJIRDRoGAQzaYm/xQz1B9nRkvwI=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG1012J4X0001" certificateRef="urn:mrn:iho:2C:1823">MGUCMCQ3N9JHbq2nx9S5+YRvPKaiDV7xYgAMwzMDIKeNmhNX4B43ATfzDY42COvKVdXiLgIxALWVFms4kP+qGvZiSKZuhqnekvF2XhZ07fXVUnX7C41hgbUPofGxb5ZBJLBBgZ49Cw==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
@@ -67,7 +67,7 @@
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.2.0</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:producingAgency>
