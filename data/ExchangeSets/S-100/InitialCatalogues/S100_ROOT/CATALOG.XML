@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:S100XC="http://www.iho.int/s100/xc/5.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:ns9="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns10="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns14="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns15="http://www.w3.org/1999/xlink" xmlns:ns16="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
+<S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.1" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:S100XC="http://www.iho.int/s100/xc/5.1" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns9="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns10="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>InitialCatalogues</S100XC:identifier>
-        <S100XC:dateTime>2024-04-01T11:18:22Z</S100XC:dateTime>
+        <S100XC:dateTime>2024-06-13T13:36:47Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -30,11 +30,11 @@
         </S100XC:address>
     </S100XC:contact>
     <S100XC:exchangeCatalogueComment>
-        <gco:CharacterString>Created IIC March 2024</gco:CharacterString>
+        <gco:CharacterString>Created IIC June 2024</gco:CharacterString>
     </S100XC:exchangeCatalogueComment>
     <S100XC:certificates>
         <S100SE:schemeAdministrator id="IHO"/>
-        <S100SE:certificate id="urn:mrn:iho:org:00AA:1810" issuer="urn:mrn:iho:org:00AA:1810">MIIE6TCCBI8CFAWfuTD5n5eDTCgVmliirhKZNq3iMAsGCWCGSAFlAwQDAjCBgjELMAkGA1UEBhMCTUMxHTAbBgNVBAgMFFNDSEVNRV9BRE1JTklTVFJBVE9SMTAwLgYDVQQKDCdJbnRlcm5hdGlvbmFsIEh5ZHJvZ3JhcGhpYyBPcmdhbmlzYXRpb24xIjAgBgNVBAMMGXVybjptcm46aWhvOm9yZzowMEFBOjE4MTAwHhcNMjMwOTI3MDIxNDQ5WhcNMzMwODA1MDIxNDQ5WjB7MQswCQYDVQQGEwJNQzEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjEwMC4GA1UECgwnSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uMSIwIAYDVQQDDBl1cm46bXJuOmlobzpvcmc6MDBBQToxODEwMIIDRjCCAjkGByqGSM44BAEwggIsAoIBAQC+EN9xAQWqUPBfjaJ9km5QRiEc0rue7DCSJFLR0EH/SQ7vnPSG7rzElfcIZFh6FvvIFQOe1ePt714DJ/SNKOoQOGg6o47+Hnz2c/u8hemiaCkXVgQk2PuR1iFf/fsyfJ7QrrNIdUJm+1HzewNqjwTFFYaUbuWn6NWeZeeLgcXVoHkEftEVA4lhwZByOfgDV0PyZoCKVCKgX2AdhdrOaays4ouBpkLozd96/rlKvSH55cEN9xXy5tQeE8nzRF+mZP41RkKfjarmfjq7drXfXFt8sBswemvr4HKMobTGwHf0bss4RghcnlG0gFbrSBB3DeBRpCImNyb31VYLeMH+xfibAiEAzQiMe35HFr7FW3969q0TDAqEq0IZh/D8p+kUI+NqXu8CggEAUrvH714I1pwee/fLGdjOUC8gJ5iJhOJ0yjXJeFxRDeFxnHLJO/aWYvcelh2b+w0XxgVOQLxRkCLE7bPOblLSVWQbMGw2GIOo8qF/Duk6iYMSMp68Z2jhDdHswg7E/5dG12m2V63Df/vVRSrF5mHc7p8Npy1UGQ8lOdCU3ePmLMkk4aQLLnTpR+8mIDgg2OxGTgs5k9Nmml+SDPa6w4+jWKtBQjaolUmymB0x/6PfIoLUrNCHaJ6FDuykitPT8e1xLFURc9EKO7hPwP4t6T9TquZ6uB8hVhDAvF3G7nUK7HShtDaU5+0U+4nIdIyPObcd7ZR+k5diDoU/I7ykFylAoAOCAQUAAoIBAEJmFiNWpranj0+f41l3k9BzJFdCcODEKxS5OVv5GEX79s47OXgoi1MIp7wOgW3sEuk8EwZrnQ36ekmJDkpE237UOjYBje1LuvdIvN86nnAkFJ7PhIEUvHsXZHuWetJziPok5BXLH3GOmG4uk8IuU5zibqBkTaa69b8KLEqxm6G21Mb1VcTiev8lRRzx8jCUXuUpDs7KfSgBlxckMwZGLscLK52q5NqAXnhE2XeDbAhFOUXbLCvyvQuY+PK/LIjw+uDWEffz2c+oy43SSbh0oap0txrN2zE29gNOWU9X3An8pllr4JnjiVIAHvFVhOswno4n4JKNvo7vZO35CCmxHKwwCwYJYIZIAWUDBAMCA0cAMEQCIEMQI4hSm/zfaKxcnInIYyxUZEVCJq6yjomuKTUXNM/1AiBAJFsRsxy64U0PrQsnkmEhfWPVtcQd79jsD/wsEV6zaA==</S100SE:certificate>
+        <S100SE:certificate id="urn:mrn:iho:2C:1823" issuer="urn:mrn:iho:00AA:1810">MIICFTCCAZoCFHJFTcPuMYDe1zO8jmuqsiIHb6PPMAoGCCqGSM49BAMDMH4xCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEwMC4GA1UECgwnSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uMR4wHAYDVQQDDBV1cm46bXJuOmlobzowMEFBOjE4MTAwHhcNMjQwMTI2MTIxMjAzWhcNMjUwMTI1MTIxMjAzWjBeMQswCQYDVQQGEwJVSzEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjEZMBcGA1UECgwQSUlDIFRlY2hub2xvZ2llczEcMBoGA1UEAwwTdXJuOm1ybjppaG86MkM6MTgyMzB2MBAGByqGSM49AgEGBSuBBAAiA2IABC38damZvdFTAHhXEo9Pm6gYiV30ci+4lC/cegqlfI3MT1KRRTSH9GPjgE3qPekErfJD0oB8flg0MTiIY2pd4jZviEmd1Vjwqx7WHJgg9KBC703Zvbz/R6qEqED/8QZdmjAKBggqhkjOPQQDAwNpADBmAjEAzSrPu8H2TCOabddRjU3AxpBvhOEEtuEmwEFa3NeBQmpsSjxy0L4fj9v2xnVVsuXBAjEAyXyGlTHvzixeDef+jw/3nT0HCUbD9JmTuMwn8eNF422wJbPIAOHULIkWy1uFbsPQ</S100SE:certificate>
     </S100XC:certificates>
     <S100XC:datasetDiscoveryMetadata/>
     <S100XC:supportFileDiscoveryMetadata/>
@@ -52,7 +52,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-101_FC_1.1.0" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQCM2ZZMF1v8oQTc591ChKeSXVGXr4Xsy3GntMbl8fH4igIhAKfTZ0BcjlqGb8TPOZNKC/HL423Ek5Tdx7NEJgPre14z</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-101_FC_1.1.0" certificateRef="urn:mrn:iho:2C:1823">MGUCMCcSs2YVUECz9CgSV0baRv0EqOpiv/hr5wesc9sxhMe+LJf7De82mQ5HO/1cMwS0YwIxAP4kn6tlxHQpiljXZU/vOa5/1STs+Y2hYycu9Xu2CPmMNdpGdBNTE+eQ72Iei3DByQ==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -69,7 +69,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-101PortrayalCatalogue" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQDM1wlNbfEJzgazoIUqk2Cp8cgiTeAp/iSHPFN6wZBm7QIhAMr489GfuQxUEhw4TWd6oq1aJta06fU4nraW7R7qKbES</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-101PortrayalCatalogue" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCYjTRM0fpMFG0AGhd1wztDEI27cFQ94mQJkYTpRsTYHGmA5ycTF1YKAR8xlDta/mMCMQCwrz2dRFO6lJ7sVZ8ITlMETmhOXzSvFHAlkGkWG+bYifnhRrb6eK20Hhmm7Fy5e/8=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -86,7 +86,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-124_1.0.0" certificateRef="urn:mrn:iho:org:00AA:1810">MEYCIQCNNPhA+KnyOL8F1Lh6pRwteMoHtk5eJBGBpNvk/FCFNAIhAKTEF9a+OCKTofkfajumPv/q2X75c2UEQQ79oxazdPSf</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-124_1.0.0" certificateRef="urn:mrn:iho:2C:1823">MGUCMQCj+4o9tOQvmhylo7OFuv0cZrwwJDNMEBChAYkTrcvB0RzVKnL436GucPPX7Kl/qKsCMCydvgKu9e90HjLOhRMrYRirWuFi4RTjlPncKrp3W3d1jbXTlSzAhf3azwBUqGuyKQ==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -103,7 +103,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-128_1.0.0_20231701" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIQC0whKAYi4jDGhox9zNjjWRMBhwzYUQkUS1XkiRlIaJLgIgQHgMv39ki/GBvHtrf15zdN16RJVd1MvQ2MR5H2sLKZg=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="S-128_1.0.0_20231701" certificateRef="urn:mrn:iho:2C:1823">MGQCMAr97ZLIx3ROgTzdmmk2yQQM5EGUQMNl4C7nmJS2HUNEOY7fdhS7zq8nsed+kQ5+JAIwKHUPJ+KVoY+m2e3cPWkJWpIgqSgv6Wkp7HnAGw7GXJk6h49eGhUz9lYpkzjoMbvS</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>

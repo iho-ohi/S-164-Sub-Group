@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.0" xmlns:S100XC="http://www.iho.int/s100/xc/5.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns5="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:ns8="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns9="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns10="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
+<S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.1" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:S100XC="http://www.iho.int/s100/xc/5.1" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns9="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns10="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>UpdatedCatalogueData</S100XC:identifier>
-        <S100XC:dateTime>2023-09-29T23:59:30Z</S100XC:dateTime>
+        <S100XC:dateTime>2024-06-13T14:51:21Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -30,27 +30,27 @@
         </S100XC:address>
     </S100XC:contact>
     <S100XC:exchangeCatalogueComment>
-        <gco:CharacterString>Created IIC September 2023</gco:CharacterString>
+        <gco:CharacterString>Created IIC June 2024</gco:CharacterString>
     </S100XC:exchangeCatalogueComment>
     <S100XC:certificates>
         <S100SE:schemeAdministrator id="IHO"/>
-        <S100SE:certificate id="urn:mrn:iho:org:00AA:1810" issuer="urn:mrn:iho:org:00AA:1810">MIIE6TCCBI8CFAWfuTD5n5eDTCgVmliirhKZNq3iMAsGCWCGSAFlAwQDAjCBgjELMAkGA1UEBhMCTUMxHTAbBgNVBAgMFFNDSEVNRV9BRE1JTklTVFJBVE9SMTAwLgYDVQQKDCdJbnRlcm5hdGlvbmFsIEh5ZHJvZ3JhcGhpYyBPcmdhbmlzYXRpb24xIjAgBgNVBAMMGXVybjptcm46aWhvOm9yZzowMEFBOjE4MTAwHhcNMjMwOTI3MDIxNDQ5WhcNMzMwODA1MDIxNDQ5WjB7MQswCQYDVQQGEwJNQzEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjEwMC4GA1UECgwnSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uMSIwIAYDVQQDDBl1cm46bXJuOmlobzpvcmc6MDBBQToxODEwMIIDRjCCAjkGByqGSM44BAEwggIsAoIBAQC+EN9xAQWqUPBfjaJ9km5QRiEc0rue7DCSJFLR0EH/SQ7vnPSG7rzElfcIZFh6FvvIFQOe1ePt714DJ/SNKOoQOGg6o47+Hnz2c/u8hemiaCkXVgQk2PuR1iFf/fsyfJ7QrrNIdUJm+1HzewNqjwTFFYaUbuWn6NWeZeeLgcXVoHkEftEVA4lhwZByOfgDV0PyZoCKVCKgX2AdhdrOaays4ouBpkLozd96/rlKvSH55cEN9xXy5tQeE8nzRF+mZP41RkKfjarmfjq7drXfXFt8sBswemvr4HKMobTGwHf0bss4RghcnlG0gFbrSBB3DeBRpCImNyb31VYLeMH+xfibAiEAzQiMe35HFr7FW3969q0TDAqEq0IZh/D8p+kUI+NqXu8CggEAUrvH714I1pwee/fLGdjOUC8gJ5iJhOJ0yjXJeFxRDeFxnHLJO/aWYvcelh2b+w0XxgVOQLxRkCLE7bPOblLSVWQbMGw2GIOo8qF/Duk6iYMSMp68Z2jhDdHswg7E/5dG12m2V63Df/vVRSrF5mHc7p8Npy1UGQ8lOdCU3ePmLMkk4aQLLnTpR+8mIDgg2OxGTgs5k9Nmml+SDPa6w4+jWKtBQjaolUmymB0x/6PfIoLUrNCHaJ6FDuykitPT8e1xLFURc9EKO7hPwP4t6T9TquZ6uB8hVhDAvF3G7nUK7HShtDaU5+0U+4nIdIyPObcd7ZR+k5diDoU/I7ykFylAoAOCAQUAAoIBAEJmFiNWpranj0+f41l3k9BzJFdCcODEKxS5OVv5GEX79s47OXgoi1MIp7wOgW3sEuk8EwZrnQ36ekmJDkpE237UOjYBje1LuvdIvN86nnAkFJ7PhIEUvHsXZHuWetJziPok5BXLH3GOmG4uk8IuU5zibqBkTaa69b8KLEqxm6G21Mb1VcTiev8lRRzx8jCUXuUpDs7KfSgBlxckMwZGLscLK52q5NqAXnhE2XeDbAhFOUXbLCvyvQuY+PK/LIjw+uDWEffz2c+oy43SSbh0oap0txrN2zE29gNOWU9X3An8pllr4JnjiVIAHvFVhOswno4n4JKNvo7vZO35CCmxHKwwCwYJYIZIAWUDBAMCA0cAMEQCIEMQI4hSm/zfaKxcnInIYyxUZEVCJq6yjomuKTUXNM/1AiBAJFsRsxy64U0PrQsnkmEhfWPVtcQd79jsD/wsEV6zaA==</S100SE:certificate>
+        <S100SE:certificate id="urn:mrn:iho:2C:1823" issuer="urn:mrn:iho:00AA:1810">MIICFTCCAZoCFHJFTcPuMYDe1zO8jmuqsiIHb6PPMAoGCCqGSM49BAMDMH4xCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEwMC4GA1UECgwnSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uMR4wHAYDVQQDDBV1cm46bXJuOmlobzowMEFBOjE4MTAwHhcNMjQwMTI2MTIxMjAzWhcNMjUwMTI1MTIxMjAzWjBeMQswCQYDVQQGEwJVSzEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjEZMBcGA1UECgwQSUlDIFRlY2hub2xvZ2llczEcMBoGA1UEAwwTdXJuOm1ybjppaG86MkM6MTgyMzB2MBAGByqGSM49AgEGBSuBBAAiA2IABC38damZvdFTAHhXEo9Pm6gYiV30ci+4lC/cegqlfI3MT1KRRTSH9GPjgE3qPekErfJD0oB8flg0MTiIY2pd4jZviEmd1Vjwqx7WHJgg9KBC703Zvbz/R6qEqED/8QZdmjAKBggqhkjOPQQDAwNpADBmAjEAzSrPu8H2TCOabddRjU3AxpBvhOEEtuEmwEFa3NeBQmpsSjxy0L4fj9v2xnVVsuXBAjEAyXyGlTHvzixeDef+jw/3nT0HCUbD9JmTuMwn8eNF422wJbPIAOHULIkWy1uFbsPQ</S100SE:certificate>
     </S100XC:certificates>
     <S100XC:datasetDiscoveryMetadata>
         <S100XC:S100_DatasetDiscoveryMetadata>
             <S100XC:fileName>file:/S-101/DATASET_FILES/10100AA_X01NE.000</S100XC:fileName>
-            <S100XC:datasetID>urn:mrn:iho:hash:sha256:dcbfa42969dc288430fe5f70fb27e74cda9b60aef4d2667b8ce0b9874909c781</S100XC:datasetID>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:bb301ed4b202de5183aa6d188d5a4105e115c6d51d1f5c15cde9ee72071ba6a4</S100XC:datasetID>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01NE" certificateRef="urn:mrn:iho:org:00AA:1810">MEUCIQCJvvFnOn7/p1SqDTAmac5E59bRBM/I8nVuu2ZlUQHL0wIgTsJFekad0wtSZbvrVhltRj5FUpxVX9xm+uh6MlVxwvk=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01NE" certificateRef="urn:mrn:iho:2C:1823">MGUCMBIpBWBqmomjldv8LhCXl83CfFXDdBshjNs5ouFPdzkdX1pYz8+FrYuJ5bBxqqN/MwIxAObHNfhzUy6OSmKQFoSw7n0eF6BoY+/2QZ8OrrTDKbw8YvZeZSykrC9Ys6ApWq+UQA==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>2</S100XC:editionNumber>
-            <S100XC:issueDate>2023-09-20</S100XC:issueDate>
+            <S100XC:issueDate>2024-05-16</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:boundingBox>
                 <ns15:westBoundLongitude>
@@ -67,7 +67,7 @@
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.1.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.2.0</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:producingAgency>
@@ -89,7 +89,7 @@
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
                     <ns15:polygon>
-                        <ns16:Curve>
+                        <ns16:Curve ns16:id="DataCoverage1">
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">-32.5305945 60.9666667 -32.4563736 60.9666667 -32.456375 60.9711427 -32.4563745 60.978133 -32.4563868 60.9800104 -32.456407 60.9859498 -32.4563974 60.997284 -32.47843 60.9972729 -32.485417 60.9972679 -32.5165036 60.9972676 -32.5229898 60.9972801 -32.5298007 60.9972674 -32.532525 60.9972674 -32.5333333 60.9972705 -32.5333333 60.9666667 -32.5305945 60.9666667</ns16:posList>
