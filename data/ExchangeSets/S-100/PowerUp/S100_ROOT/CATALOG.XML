@@ -2,7 +2,7 @@
 <S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.1" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:S100XC="http://www.iho.int/s100/xc/5.1" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns9="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns10="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>PowerUp</S100XC:identifier>
-        <S100XC:dateTime>2024-06-13T15:10:40Z</S100XC:dateTime>
+        <S100XC:dateTime>2024-09-06T07:02:44Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -44,7 +44,7 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X0000" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCoN7SWQFMDg6DxDOv4387TVMAzbbMbgQ9eMaKPvxqr5Uyw21OR6RBWwKzSM0OSKe8CMQDBrPXxkPPUnm8ue0Zrh/TVpqkLTkp0Tnx7Sli9xijEnAEdNGBIsW5RWg0WHS+kYCI=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X0000" certificateRef="urn:mrn:iho:2C:1823">MGUCMAwZ+/lpZZJoFiJ5DCtLDMyUcCmgcX7ekMwRmuE+8TQj4m4SE7OGbS7AXiYG24CNlAIxAP4rJVIf6iLU3ks3QneSLbVcBeo3y1hCFM+DIU4tri17KzjJcQv42qzKknwJGvflRQ==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
@@ -67,7 +67,7 @@
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.2.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.4.1</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:producingAgency>
@@ -89,7 +89,7 @@
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
                     <ns15:polygon>
-                        <ns16:Curve ns16:id="DataCoverage1">
+                        <ns16:Curve ns16:id="DC1_2690c04">
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">-32.6250045 61.30713 -32.6249983 61.0736282 -32.624973 61.025811 -32.6249967 61.0151553 -32.6249529 60.9730305 -32.6249711 60.9521478 -32.6249948 60.9405538 -32.6249928 60.8675059 -32.6250103 60.8386846 -32.6249921 60.8385422 -32.6249972 60.775 -32.579259 60.7749975 -32.345169 60.7749963 -32.3453857 60.8699094 -32.3455075 60.8711893 -32.3455121 60.871271 -32.3455392 60.8728232 -32.3455374 60.8729062 -32.3454561 60.8742363 -32.3454482 60.8743155 -32.3452043 60.876088 -32.345192 60.8761595 -32.3449959 60.8770959 -32.3449201 60.8778737 -32.3449145 60.8779205 -32.3449068 60.8779669 -32.3444366 60.8804497 -32.344068 60.884146 -32.34412 60.8867244 -32.3441369 60.8868822 -32.344139 60.8869322 -32.3441656 60.8882975 -32.3444247 60.8921379 -32.3446061 60.8939186 -32.3447664 60.8961033 -32.3450859 60.8984974 -32.3456412 60.9020347 -32.3460109 60.9032112 -32.3462819 60.9031592 -32.3463535 60.9031495 -32.3468905 60.9031069 -32.3470761 60.9029836 -32.347142 60.9029447 -32.3472108 60.9029134 -32.3472819 60.9028901 -32.3473545 60.902875 -32.347428 60.9028682 -32.3475018 60.9028698 -32.3475751 60.9028798 -32.3476159 60.9028901 -32.3476472 60.9028981 -32.3477174 60.9029245 -32.3477852 60.9029587 -32.3483363 60.9032754 -32.3483885 60.9033085 -32.3484384 60.9033462 -32.3484857 60.9033884 -32.3493529 60.9042267 -32.349408 60.9042855 -32.349458 60.9043504 -32.3495025 60.9044207 -32.3495408 60.9044957 -32.3495728 60.9045748 -32.3495981 60.9046572 -32.3496165 60.9047421 -32.3496278 60.9048287 -32.3496318 60.9049162 -32.3496286 60.9050038 -32.3496182 60.9050905 -32.3496006 60.9051757 -32.3495761 60.9052584 -32.3495448 60.9053379 -32.3495072 60.9054135 -32.3494634 60.9054844 -32.3494141 60.9055499 -32.3493595 60.9056095 -32.3493003 60.9056625 -32.3492369 60.9057084 -32.3491405 60.9057709 -32.3485921 60.9061576 -32.3485255 60.9061994 -32.3481641 60.9064 -32.3480995 60.9064317 -32.3480327 60.9064563 -32.3479643 60.9064735 -32.3478948 60.9064833 -32.3478249 60.9064856 -32.347755 60.9064803 -32.3475621 60.9064551 -32.347813 60.9068478 -32.350326 60.9098527 -32.3503557 60.9098902 -32.3503834 60.9099296 -32.3508082 60.9105691 -32.3508376 60.9106165 -32.3511087 60.9110848 -32.3511416 60.9111469 -32.3519188 60.9127567 -32.3519386 60.9128008 -32.3533057 60.9160384 -32.354532 60.9183787 -32.3552839 60.9195308 -32.3562874 60.9206412 -32.3573587 60.9215508 -32.3574023 60.9215908 -32.3574434 60.9216344 -32.3580037 60.9222736 -32.3580437 60.9223229 -32.3582244 60.922563 -32.3582704 60.9226303 -32.3583107 60.9227026 -32.3583449 60.922779 -32.3583727 60.922859 -32.3583938 60.9229417 -32.3584081 60.9230264 -32.3586791 60.9251641 -32.3586847 60.9252202 -32.3586873 60.9252766 -32.3587579 60.9289634 -32.3589896 60.930259 -32.3590863 60.9306379 -32.3599171 60.9321984 -32.3599506 60.932268 -32.3599787 60.9323409 -32.3600012 60.9324165 -32.3602362 60.9333345 -32.3602491 60.9333918 -32.3602588 60.93345 -32.3604666 60.9349593 -32.360474 60.935032 -32.3604764 60.9351051 -32.3604737 60.9351783 -32.360466 60.9352509 -32.3604533 60.9353225 -32.3603202 60.9359405 -32.3603059 60.9359957 -32.3602891 60.9360465 -32.3596793 60.9377301 -32.3513183 60.9608715 -32.3301807 61.0200011 -32.3301483 61.0200804 -32.3301096 61.0201556 -32.3300648 61.020226 -32.3300144 61.0202908 -32.3299588 61.0203496 -32.3298986 61.0204017 -32.3298344 61.0204465 -32.3297667 61.0204838 -32.3296963 61.0205131 -32.3296238 61.0205342 -32.3295499 61.0205468 -32.3294753 61.0205508 -32.3294871 61.2810827 -32.3294704 61.3172987 -32.3626065 61.3172768 -32.6249972 61.3172616 -32.6249968 61.3118769 -32.6250045 61.30713</ns16:posList>
@@ -104,7 +104,7 @@
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
                     <ns15:polygon>
-                        <ns16:Curve ns16:id="DataCoverage2">
+                        <ns16:Curve ns16:id="DC2_9690fc8">
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">-32.345169 60.7749963 -32.3294577 60.7749955 -32.3294753 61.0205508 -32.3295499 61.0205468 -32.3296238 61.0205342 -32.3296963 61.0205131 -32.3297667 61.0204838 -32.3298344 61.0204465 -32.3298986 61.0204017 -32.3299588 61.0203496 -32.3300144 61.0202908 -32.3300648 61.020226 -32.3301096 61.0201556 -32.3301483 61.0200804 -32.3301807 61.0200011 -32.3513183 60.9608715 -32.3596793 60.9377301 -32.3602891 60.9360465 -32.3603059 60.9359957 -32.3603202 60.9359405 -32.3604533 60.9353225 -32.360466 60.9352509 -32.3604737 60.9351783 -32.3604764 60.9351051 -32.360474 60.935032 -32.3604666 60.9349593 -32.3602588 60.93345 -32.3602491 60.9333918 -32.3602362 60.9333345 -32.3600012 60.9324165 -32.3599787 60.9323409 -32.3599506 60.932268 -32.3599171 60.9321984 -32.3590863 60.9306379 -32.3589896 60.930259 -32.3587579 60.9289634 -32.3586873 60.9252766 -32.3586847 60.9252202 -32.3586791 60.9251641 -32.3584081 60.9230264 -32.3583938 60.9229417 -32.3583727 60.922859 -32.3583449 60.922779 -32.3583107 60.9227026 -32.3582704 60.9226303 -32.3582244 60.922563 -32.3580437 60.9223229 -32.3580037 60.9222736 -32.3574434 60.9216344 -32.3574023 60.9215908 -32.3573587 60.9215508 -32.3562874 60.9206412 -32.3552839 60.9195308 -32.354532 60.9183787 -32.3533057 60.9160384 -32.3519386 60.9128008 -32.3519188 60.9127567 -32.3511416 60.9111469 -32.3511087 60.9110848 -32.3508376 60.9106165 -32.3508082 60.9105691 -32.3503834 60.9099296 -32.3503557 60.9098902 -32.350326 60.9098527 -32.347813 60.9068478 -32.3475621 60.9064551 -32.347755 60.9064803 -32.3478249 60.9064856 -32.3478948 60.9064833 -32.3479643 60.9064735 -32.3480327 60.9064563 -32.3480995 60.9064317 -32.3481641 60.9064 -32.3485255 60.9061994 -32.3485921 60.9061576 -32.3491405 60.9057709 -32.3492369 60.9057084 -32.3493003 60.9056625 -32.3493595 60.9056095 -32.3494141 60.9055499 -32.3494634 60.9054844 -32.3495072 60.9054135 -32.3495448 60.9053379 -32.3495761 60.9052584 -32.3496006 60.9051757 -32.3496182 60.9050905 -32.3496286 60.9050038 -32.3496318 60.9049162 -32.3496278 60.9048287 -32.3496165 60.9047421 -32.3495981 60.9046572 -32.3495728 60.9045748 -32.3495408 60.9044957 -32.3495025 60.9044207 -32.349458 60.9043504 -32.349408 60.9042855 -32.3493529 60.9042267 -32.3484857 60.9033884 -32.3484384 60.9033462 -32.3483885 60.9033085 -32.3483363 60.9032754 -32.3477852 60.9029587 -32.3477174 60.9029245 -32.3476472 60.9028981 -32.3476159 60.9028901 -32.3475751 60.9028798 -32.3475018 60.9028698 -32.347428 60.9028682 -32.3473545 60.902875 -32.3472819 60.9028901 -32.3472108 60.9029134 -32.347142 60.9029447 -32.3470761 60.9029836 -32.3468905 60.9031069 -32.3463535 60.9031495 -32.3462819 60.9031592 -32.3460109 60.9032112 -32.3456412 60.9020347 -32.3450859 60.8984974 -32.3447664 60.8961033 -32.3446061 60.8939186 -32.3444247 60.8921379 -32.3441656 60.8882975 -32.344139 60.8869322 -32.3441369 60.8868822 -32.34412 60.8867244 -32.344068 60.884146 -32.3444366 60.8804497 -32.3449068 60.8779669 -32.3449145 60.8779205 -32.3449201 60.8778737 -32.3449959 60.8770959 -32.345192 60.8761595 -32.3452043 60.876088 -32.3454482 60.8743155 -32.3454561 60.8742363 -32.3455374 60.8729062 -32.3455392 60.8728232 -32.3455121 60.871271 -32.3455075 60.8711893 -32.3453857 60.8699094 -32.345169 60.7749963</ns16:posList>
@@ -124,7 +124,7 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01NE" certificateRef="urn:mrn:iho:2C:1823">MGUCMQDQk43KC2a7J90U2q1+GwYPU3lJnyB2i6TZIhpg6DW4D52ZJen6E2ThIdQ/PEHwJNQCMF5B4MWD3KhT8W9EjUorjAAz2WsHEjqegSwe7/zdzmKSPKI4qMjgbr0n+poRkGSaug==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01NE" certificateRef="urn:mrn:iho:2C:1823">MGUCMFBi3P8yXjL4feHsgXxnLWqA5c1xifR1F+2QMte8KRtEolGJESUyxOvdNAaLlt9igwIxALf8Fvl3lEiI+Zx8bTdPRYO2wUeuC1URCOne/G6+ku5/tVtKbYwB4fc8GvLEsZBYLw==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
@@ -147,7 +147,7 @@
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.2.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.4.1</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:producingAgency>
@@ -169,7 +169,7 @@
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
                     <ns15:polygon>
-                        <ns16:Curve ns16:id="DataCoverage1">
+                        <ns16:Curve ns16:id="DC1_355caae">
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">-32.5305945 60.9666667 -32.4563736 60.9666667 -32.456375 60.9711427 -32.4563745 60.978133 -32.4563868 60.9800104 -32.456407 60.9859498 -32.4563974 60.997284 -32.47843 60.9972729 -32.485417 60.9972679 -32.5165036 60.9972676 -32.5229898 60.9972801 -32.5298007 60.9972674 -32.532525 60.9972674 -32.5333333 60.9972705 -32.5333333 60.9666667 -32.5305945 60.9666667</ns16:posList>
@@ -189,7 +189,7 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01NW" certificateRef="urn:mrn:iho:2C:1823">MGUCMQDctCrK2CDi7fqAOGDvf85jnLkDPQRQbw1IHVQ/CwBWG7rqRIOuzCMIWJJ9Kp1vIawCMBBSP0PMlfDNb5rtm5R6IAN7apON04vuMDT3PxLcwUXBBXarioJe+gHr8t0RXIOB1w==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01NW" certificateRef="urn:mrn:iho:2C:1823">MGUCMQCa4Y+omEJVY+W1Jx7ps7TilQqnkWbhzHbGdKmGabI8tbsM1qXr5L5AS91Jy5Tu9vkCMF4ZN1XfwHapb44JnIjrn7UGa3psLBnl0h362AlVU8vvD5QmgBiV4h25ufphW9bvDA==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
@@ -212,7 +212,7 @@
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.2.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.4.1</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:producingAgency>
@@ -234,7 +234,7 @@
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
                     <ns15:polygon>
-                        <ns16:Curve ns16:id="DataCoverage1">
+                        <ns16:Curve ns16:id="DC1_f26e701">
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">-32.4563777 60.9631672 -32.4563736 60.9666667 -32.5 60.9666667 -32.5 60.8733138 -32.4563972 60.8733513 -32.4563828 60.8977441 -32.4563777 60.9631672</ns16:posList>
@@ -254,7 +254,7 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SE" certificateRef="urn:mrn:iho:2C:1823">MGQCMDwfnMgJD6LdokeYB5qWHY0oltdxrWdM2qmE//BgQfCxZbvjdpN9qDeV0Mcl9kD+6QIwFnQZG/gApkdBKs/88b2i4/iPjwjU4rRbrhsXYstiJ4S1C+Lbz9rQvnWSDmDdFdvJ</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SE" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCIWAH/UKLax6hgrYZoDDOrCDnt9eTXjlt86RFv9I6Awwtb6KU4F8WtBh6XKr9Q7RMCMQDNoXOkC/maUhxinNHn32pFGTcTonLamd286qyuP5m+N5XsvsYgH+E75Evb+8fBQ24=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
@@ -277,7 +277,7 @@
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.2.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.4.1</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:producingAgency>
@@ -299,7 +299,7 @@
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
                     <ns15:polygon>
-                        <ns16:Curve ns16:id="DataCoverage1">
+                        <ns16:Curve ns16:id="DC1_bb718ae">
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">-32.53982 60.996262 -32.540974 60.995414 -32.541966 60.994138 -32.542064 60.99401 -32.543234 60.992508 -32.548858 60.98842 -32.549766 60.987758 -32.552344 60.984316 -32.552342 60.983334 -32.55235 60.966666 -32.533334 60.966666 -32.533334 60.99727 -32.53709 60.997268 -32.53844 60.997274 -32.53982 60.996262</ns16:posList>
@@ -319,7 +319,7 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SW" certificateRef="urn:mrn:iho:2C:1823">MGQCMFcjRSOhX5F2unH3XhAroNVqQppqyXoVdfs3BXyAiQFxZbVLKxOYvW2LGgO1qXabBQIwTsZ46ISvO43Py/KRl7uAV8UXu69X0i6K/qRQrz5RVlsbKRQtA6X1fGA9hT4DxSay</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X01SW" certificateRef="urn:mrn:iho:2C:1823">MGYCMQDNMH3axvetA1f2fkJ4m3GoTo7g+MbWwKdlr280miQPipnpg8tFxZZgktGiBr5roDACMQCWkX8Wk2vFKU8lHuj4Rlzfd3uN8Uc/2yXHNOySAu8t3oTW2dRj60HEeNHdP8XzntM=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
@@ -342,7 +342,7 @@
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.2.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.4.1</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:producingAgency>
@@ -364,7 +364,7 @@
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
                     <ns15:polygon>
-                        <ns16:Curve ns16:id="DataCoverage1">
+                        <ns16:Curve ns16:id="DC1_3bc5870">
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">-32.5 60.8733138 -32.5 60.9666667 -32.55235 60.9666667 -32.5523437 60.950801 -32.5523451 60.9353118 -32.5523403 60.9280678 -32.5523359 60.9276522 -32.5523198 60.9271689 -32.5523349 60.9206524 -32.5523351 60.9176338 -32.552318 60.91628 -32.5523365 60.9136832 -32.5523382 60.9086441 -32.5523192 60.9077144 -32.5523194 60.90676 -32.552336 60.8944973 -32.5523524 60.8733269 -32.5009313 60.8733258 -32.5 60.8733138</ns16:posList>
@@ -384,7 +384,7 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X02SE" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCapYk8S0HpdsPC+rmnHzEBqDBR4+FJG25y0m30zhXWIJIChb7KUSTnHC9mOrEwoBsCMQC17St5WaT0B3bDCJwEK4QKdzqejk057TDOZMAvm6pugMp3XJLBnSZRzpy55IA3wOM=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SIG10100AA_X02SE" certificateRef="urn:mrn:iho:2C:1823">MGUCMCVO66YgQ8TErFDm1MsTr+AV/1xWgi+Xey114gRyN9CaLKsa0V7+DoQXe6UEZ7w/ngIxAI8N4gmj6cH2KcsBsishX/UZ93gISz+jZTBOIXfx0vKaiBPfir5B1f4E0sCVDrMJIw==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
@@ -407,7 +407,7 @@
                 </ns15:northBoundLatitude>
             </S100XC:boundingBox>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.2.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-101.1.4.1</S100XC:productIdentifier>
                 <S100XC:number>1</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:producingAgency>
@@ -429,7 +429,7 @@
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
                     <ns15:polygon>
-                        <ns16:Curve ns16:id="DataCoverage1">
+                        <ns16:Curve ns16:id="DC1_0dd2407">
                             <ns16:segments>
 <ns16:LineStringSegment>
     <ns16:posList srsName="EPSG:4326">-32.5666667 60.9833333 -32.5523427 60.9833333 -32.5523432 60.984005 -32.5523307 60.9843137 -32.5497629 60.9877495 -32.549194 60.9881742 -32.5488572 60.9884192 -32.5472853 60.9895407 -32.5432348 60.9925075 -32.5421464 60.9938784 -32.5420646 60.9940106 -32.5420371 60.9940581 -32.5419536 60.9941907 -32.5414748 60.9947998 -32.5409795 60.9954362 -32.5399429 60.9961922 -32.5398668 60.996227 -32.5398156 60.9962482 -32.5397616 60.9962797 -32.5384401 60.9972746 -32.5383333 60.9974077 -32.5383333 61.0083333 -32.5666667 61.0083333 -32.5666667 60.9833333</ns16:posList>
@@ -456,7 +456,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SG101AA00DEVARE" certificateRef="urn:mrn:iho:2C:1823">MGQCMC8HqUijrqzB29Vey/SSYEdRyfpfV8GH3r94YUWwYeNR2boydk1FC97UVc7AnULL4QIwag8ZOkWgs3d7e+RR5qjv5Q0XNRXfXNEAUYvrX1Fx/qS0JXg+G1/2QL5oYoPxtW9w</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SG101AA00DEVARE" certificateRef="urn:mrn:iho:2C:1823">MGUCMHiPJhDKVlI2+4cKrP84KAk3MM0lLpamDPpwJyRXROYpw3wjvYSznqAL8omYR2EiFAIxAIhkWWvloe9bmAiY3uybcJz/CUB27/+KyGm/iXu3LCEGKKvYq+Gi8b3zWsa2IkjNsA==</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::10100AA_X0000.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
@@ -473,7 +473,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SG101AA00TESTPC" certificateRef="urn:mrn:iho:2C:1823">MGUCMQCF5snQ6UmF/i7xzRqGZnJhZGk7nIzDkNwZIl7s6U8fkwlVYhVaXFCftkAkStVRVM8CMDudPRcklvyaney0nse8FlZssGOwvXdig5Ao/gF/eXbMNPdqcUnbGXuJztECMhqeZg==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SG101AA00TESTPC" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCvSecJfBORnKSrEjcSDj54mk7xSTMsWnIWhEYlH80II8A8AB+lDTP1xU/ply2Nxa8CMQCko3e+txVJhwdI4ifd91g3RT3FcqbzEwZrqloDeeNGq0d1D+NfWBTwFjUI9Bs130s=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::10100AA_X0000.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
@@ -490,7 +490,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SG101AA00X4000T" certificateRef="urn:mrn:iho:2C:1823">MGUCMDVXmuElVZ6XqM008TmftuMzt6V9Wm40LUPDQ39929PXT1Yrq/1P5h3LXVLY3x6aygIxAKlOFz5HWGUD2dGl3z1XYHaCELNwZtr6tPK5vwwfnwG9RQOCj9dz2iuGRx49X9uJzQ==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SG101AA00X4000T" certificateRef="urn:mrn:iho:2C:1823">MGQCMDeiuAi1zHkoQRYtg/SiTuvYdc6d3l9tdAPSbhTMHmnmbuObCnnTQKNniiLB6titCQIwd7nknppaas+fP5TUVnes3IikXd3772zx5g2iU7AcqwmaXa6Wkl7ScUzIhRaPMDUN</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::10100AA_X0000.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
@@ -507,7 +507,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SG101AA00IECTMP" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCTw5QQQbZQOe/+88y3W7/N8c1/wRNgJbZ3AtHlIGJmSgG62vGRQGXhLBgsD5u48FQCMQCyaqyO3+WN/VImcVMkuafGQyY5mtpsH35S2mL6S0rLaSszlB/ko3paXVf2KvBIpnE=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SG101AA00IECTMP" certificateRef="urn:mrn:iho:2C:1823">MGQCMGldoJqIHEtzMr/slMZiwu7+zmtiNaRGzB79oe11+MiWFEo9em+jNHoZVuFaEAT6IQIwC0+/XOZ9g7HRuiTEpqE6yBrMdU6CqFPuDdH9m7vXnKfCdhuh1IdkIhXV9bPPFLRw</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::10100AA_X0000.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
@@ -524,7 +524,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="SG101AA00CHAINS" certificateRef="urn:mrn:iho:2C:1823">MGYCMQDVyjyyyNP/Q+4DF4GKKKByFiWiN5xoz++d0dge57+9twh23bEwR1PipuoYyUN6BjoCMQDyxGtFCVgy3GDFIDp3eM0WBTzJSxFCqPFDd9JQVe+dXDJ5CiDO+JHSN7xXnLEIQxg=</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_DigitalSignature id="SG101AA00CHAINS" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCukbAdc9KL2GwAce8CJXqyf04d/4i4QaZZ514atgXlY2mQeFFcKUquvQkAEWWco8QCMQD53OnJJ1Ssdj7KtrovADlcfKgMY2dVQ/Shwalh1tnpiAywPEHTAnTk0iNmLJ8FBjI=</S100SE:S100_SE_DigitalSignature>
             </S100XC:digitalSignatureValue>
             <S100XC:supportedResource>file::10100AA_X0000.000</S100XC:supportedResource>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
