@@ -97,6 +97,21 @@
                 <S100XC:maximumDisplayScale>45000</S100XC:maximumDisplayScale>
                 <S100XC:minimumDisplayScale>90000</S100XC:minimumDisplayScale>
             </S100XC:dataCoverage>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC2_e8b103d">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">-32.3166667 61.3333333 -32.3166667 61.5 -32.6333333 61.5 -32.6333333 61.3333333 -32.3166667 61.3333333</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:maximumDisplayScale>45000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>90000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
         </S100XC:S100_DatasetDiscoveryMetadata>
     </S100XC:datasetDiscoveryMetadata>
     <S100XC:supportFileDiscoveryMetadata/>
