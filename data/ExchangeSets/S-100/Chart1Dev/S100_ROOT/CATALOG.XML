@@ -2,7 +2,7 @@
 <S100XC:S100_ExchangeCatalogue xmlns:S100XC="http://www.iho.int/s100/xc/5.2" xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns9="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns10="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>Chart1Dev</S100XC:identifier>
-        <S100XC:dateTime>2025-02-11T14:33:02Z</S100XC:dateTime>
+        <S100XC:dateTime>2025-02-11T14:54:35Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -39,6 +39,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1AB1" certificateRef="urn:mrn:iho:2C:1823">MGYCMQCVHiO7xirjK/zK2GFDm4Hd5Ikwp+nYAyQyaMGFncEy5K7Ki4oC3Z7ScBfK/iCA0kwCMQDenuJ9ejhjO2GgrcOwffS5ROtUway4xmi9QOZxfeu+nEVZAky/ZbWHHOuE+b17FtY=</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -101,6 +104,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1AB2" certificateRef="urn:mrn:iho:2C:1823">MGUCMBNvQYqHN33w2OANJQ1TRD5Np+pI95vy9kcESPcan5mSd7tgCt0vq30BIEX4KiOU3wIxALwVrqTOW7zIfSoxSK3Kxl0rclTXsoTF1OkS3qIeeuJ3e8SciNANHNrc5QxIUCvwgA==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -163,6 +169,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1CDE" certificateRef="urn:mrn:iho:2C:1823">MGQCMGQHWxWn3KC+Yv671wwYHLZz5yNQrmNDkgsHJJ2fdkGz/BdQdtVt2/drZAMiLoK12gIwFTUux6WR0uI/aOJyWFHpW7lSLstVfzT3XWnu5pb6NUShip1yoyPIOtvcNEEsByeW</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -225,6 +234,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1FOO" certificateRef="urn:mrn:iho:2C:1823">MGUCMD/2HimgrihZlt0JNycTxLalTIJ+Cpi38CRCXRxmTOnnzsM0IvQTLl0D1pSnHlFsNgIxAPyJYntbUP3B2AAUEFyE/V5VRG0S0/sE2g+Omi4oMppO0n4jm2sDJbIiM/bQK78MIA==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -287,6 +299,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1HIO" certificateRef="urn:mrn:iho:2C:1823">MGQCMAPtCDqwkU+yRYf45UhZ9RuRcMYnkQ+unDwm13UptMhHJjKYsnD8rdEIQbAkpR32swIwB3tIIOBFo0KqQhbpkfErHCopS8rajgKrYL+hize97edCxmKuLnzMXhubgWnQYVKM</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -349,6 +364,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1JKL" certificateRef="urn:mrn:iho:2C:1823">MGUCMD7LK/173cEb51lMqRMuPiEzPKH4pZ1JMeGQs43SNmhnFQwmdVfya3ZZjMtiqK/tYQIxAN4GF1gZh0INNqAySbs4a6wSQY3tjlkMBkR6P9A83cgPUC8t1U0hN+fIlQnVrKMj3g==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -411,6 +429,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1MNS" certificateRef="urn:mrn:iho:2C:1823">MGUCMAciFyGVhZnvDm3eJPYgT2gGiozEMTSeXwstxIAwX/uheIbR0xrwnHk5EjLo9cYb5AIxAJErNU2DoJUdA9IYNhr6S6hu8Zh+xWnWH9vFuluQ8VYPFo7S2tr+vT/H/OU06XChLQ==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -473,6 +494,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1MOO" certificateRef="urn:mrn:iho:2C:1823">MGUCMQCs68LjB7QZt6aK1Z9GKTsMg6puUNPmTDecRwQxRil+hRhdM7q7qLKz3keb4tsnd3oCMDc+xNsT3WfquNh93hrhMIHHKzB0IcAUW1Kt6USlUy1MGDNMS0NXZ3J8Xh7zFg7OsA==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -535,6 +559,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1NOO" certificateRef="urn:mrn:iho:2C:1823">MGQCMAWLkUp9K/vqsUcyEoNawtdTZxvPHaM5sXMYjufrFWQOVL9S5TDigyvE5wTxXMrJVgIwS5XzH2EYrOP1/AlyOUD7Fq2u4nw5tP5YUVQgYjwzdYwr3PbNldMpAKQ0M7U16C3e</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -597,6 +624,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1PRS" certificateRef="urn:mrn:iho:2C:1823">MGUCMFyYz9fwYyOAENPHCNgfnnlRPtp+Yuz0CUzNiYokzHocti49fTWZWWNxOtiu+kh3iQIxAKZcQiULQeAQDQ1N0OzEXaVAvgcgRHCUom3gMRaZpHO+x8/20S71FtA/MpWHujwzkw==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -659,6 +689,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1QO1" certificateRef="urn:mrn:iho:2C:1823">MGUCMFB26Q4iyR33OcHtS7d07o3ifhsFWT0Isl9m7r7W639K1l7KC2xDfdseps1omX+pXAIxAOb+9ME35eapj/uBS29FLuVmAASw4jmmFdDXqhylguqcHu/m3AebebdVD+jWSwBxDw==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -721,6 +754,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1QO2" certificateRef="urn:mrn:iho:2C:1823">MGUCMDKg8WbyT3bQtL5FrC7aNJpuKBtt0VZ9A69E1JchUeV88YnYd0nRxjNb16Rt5kaROgIxANNNtUrp0VQ6yEIu2TFSzudKuVaBp5gn28zi2HXeJdR455ntPH7DLB/YbjjagXFt3g==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
@@ -783,6 +819,9 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG101AA005C1WOO" certificateRef="urn:mrn:iho:2C:1823">MGUCMQDoCBNMReNlO0R/YqBUG5SZrLnTaFewv8FYeKbm5jDYiDn7qLRERm5XF2CFhQz3JzMCMH2eAc7mYfBy2UlE3J8aMRPbSpUQ9piu26Y7WDb1Rc10qebhgLKNYTjeGY56NoBBfw==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
