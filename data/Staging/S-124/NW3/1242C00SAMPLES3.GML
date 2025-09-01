@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S124:Dataset 
+    xmlns:S100="http://www.iho.int/s100gml/5.0" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:S124="http://www.iho.int/S124/2.0"
+    xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-124</S100:productIdentifier>
+        <S100:productEdition>2.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>1242C00SAMPLES3.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
+        <S100:datasetReferenceDate>2025-09-03</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S124:members>
+        <S124:NavwarnPreamble gml:id="ID0">
+            <S124:generalArea>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>MICKLEFIRTH NORTH-EAST</S124:text>
+                </S124:locationName>
+            </S124:generalArea>
+            <S124:locality>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>East of Rossett Island</S124:text>
+                </S124:locationName>
+            </S124:locality>
+            <S124:messageSeriesIdentifier>
+                <S124:agencyResponsibleForProduction>MFNW</S124:agencyResponsibleForProduction>
+                <S124:nameOfSeries>NAVAREA 43</S124:nameOfSeries>
+                <S124:warningNumber>37</S124:warningNumber>
+                <S124:warningType code="4">NAVAREA Navigational Warning</S124:warningType>
+                <S124:year>2025</S124:year>
+            </S124:messageSeriesIdentifier>
+            <S124:intService>false</S124:intService>
+            <S124:navwarnTypeGeneral code="10">Newly Discovered Dangers</S124:navwarnTypeGeneral>
+            <S124:publicationTime>20250625171100Z</S124:publicationTime>
+            <S124:geometry/>
+        </S124:NavwarnPreamble>
+        <S124:NavwarnPart gml:id="ID1">
+            <S124:warningInformation>
+                <S124:information>
+                    <S124:language>eng</S124:language>
+                    <S124:text>UNCHARTED ROCK REPORTED</S124:text>
+                </S124:information>
+            </S124:warningInformation>
+            <S124:header xlink:arcrole="http://www.iho.int/S-124/gml/1.0.0/roles/componentOf/header" xlink:href="#ID0"/>
+            <S124:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID1">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>-32.5074613 60.9869316 -32.5073961 60.9907965 -32.5101102 60.9906445 -32.5101320 60.9868882 -32.5074613 60.9869316</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S124:geometry>
+        </S124:NavwarnPart>
+    </S124:members>
+</S124:Dataset>

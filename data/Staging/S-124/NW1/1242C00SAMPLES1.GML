@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S124:Dataset xmlns:S100="http://www.iho.int/s100gml/5.0" 
+    xmlns:S124="http://www.iho.int/S124/2.0" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-124</S100:productIdentifier>
+        <S100:productEdition>2.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>XXXIC000000.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
+        <S100:datasetReferenceDate>2001-04-22</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S124:members>
+        <S124:NavwarnPreamble gml:id="ID00">
+            <S124:generalArea>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>Irish Sea</S124:text>
+                </S124:locationName>
+            </S124:generalArea>
+            <S124:locality>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>Northern Ireland</S124:text>
+                </S124:locationName>
+            </S124:locality>
+            <S124:messageSeriesIdentifier>
+                <S124:agencyResponsibleForProduction>UKHO</S124:agencyResponsibleForProduction>
+                <S124:countryName>GB</S124:countryName>
+                <S124:nameOfSeries>NAVAREA I</S124:nameOfSeries>
+                <S124:warningNumber>570</S124:warningNumber>
+                <S124:warningType code="4">NAVAREA Navigational Warning</S124:warningType>
+                <S124:year>21</S124:year>
+            </S124:messageSeriesIdentifier>
+            <S124:intService>true</S124:intService>
+            <S124:navwarnTypeGeneral code="1">Aids to Navigation Changes</S124:navwarnTypeGeneral>
+            <S124:publicationTime>20210422141100</S124:publicationTime>
+            <S124:geometry/>
+        </S124:NavwarnPreamble>
+        <S124:NavwarnPart gml:id="ID01">
+            <S124:warningInformation>
+                <S124:navwarnTypeDetails code="5">AIS Transmitter Out Of Service</S124:navwarnTypeDetails>
+            </S124:warningInformation>
+            <S124:header xlink:arcrole="http://www.iho.int/S-124/gml/1.0.0/roles/componentOf/header" xlink:href="#ID00"/>
+            <S124:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID01">
+                        <gml:pos>0.0 0.0</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S124:geometry>
+        </S124:NavwarnPart>
+        <S124:NavwarnPreamble gml:id="EX5_ID00">
+            <S124:generalArea>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>Celtic Sea</S124:text>
+                </S124:locationName>
+            </S124:generalArea>
+            <S124:locality>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>OFF USHANT TSS</S124:text>
+                </S124:locationName>
+            </S124:locality>
+            <S124:messageSeriesIdentifier>
+                <S124:agencyResponsibleForProduction>UKHO</S124:agencyResponsibleForProduction>
+                <S124:countryName>GB</S124:countryName>
+                <S124:nameOfSeries>NAVAREA 1</S124:nameOfSeries>
+                <S124:warningNumber>215</S124:warningNumber>
+                <S124:warningType code="4">NAVAREA Navigational Warning</S124:warningType>
+                <S124:year>21</S124:year>
+            </S124:messageSeriesIdentifier>
+            <S124:cancellationDate>20211128T085600Z</S124:cancellationDate>
+            <S124:intService>true</S124:intService>
+            <S124:navwarnTypeGeneral code="3">Drifting Hazards</S124:navwarnTypeGeneral>
+            <S124:publicationTime>20211125T085600Z</S124:publicationTime>
+            <S124:geometry/>
+        </S124:NavwarnPreamble>
+        <S124:NavwarnPart gml:id="EX5_ID01">
+            <S124:warningInformation>
+                <S124:information>
+                    <S124:language>eng</S124:language>
+                    <S124:text>SEVEN CONTAINERS ADRIFT IN VICINITY AT 250856 UTC NOV 2021.</S124:text>
+                </S124:information>
+                <S124:navwarnTypeDetails code="72">Container Adrift</S124:navwarnTypeDetails>
+            </S124:warningInformation>
+            <S124:header xlink:arcrole="http://www.iho.int/S-124/gml/1.0.0/roles/componentOf/header" xlink:href="#EX5_ID00"/>
+            <S124:geometry/>
+        </S124:NavwarnPart>
+        <S124:NavwarnPreamble gml:id="EX72_ID00">
+            <S124:generalArea>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>NORTH ATLANTIC OCEAN</S124:text>
+                </S124:locationName>
+            </S124:generalArea>
+            <S124:locality>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>OFF SAO SEBASTIAO</S124:text>
+                </S124:locationName>
+            </S124:locality>
+            <S124:messageSeriesIdentifier>
+                <S124:agencyResponsibleForProduction>UKHO</S124:agencyResponsibleForProduction>
+                <S124:countryName>GB</S124:countryName>
+                <S124:nameOfSeries>NAVAREA 1</S124:nameOfSeries>
+                <S124:warningNumber>72</S124:warningNumber>
+                <S124:warningType code="1">Local Navigational Warning</S124:warningType>
+                <S124:year>21</S124:year>
+            </S124:messageSeriesIdentifier>
+            <S124:intService>false</S124:intService>
+            <S124:navwarnTypeGeneral code="10">Newly Discovered Dangers</S124:navwarnTypeGeneral>
+            <S124:publicationTime>20211101T000100Z</S124:publicationTime>
+            <S124:geometry/>
+        </S124:NavwarnPreamble>
+        <S124:NavwarnPart gml:id="EX72_ID01">
+            <S124:warningInformation>
+                <S124:information>
+                    <S124:language>eng</S124:language>
+                    <S124:text>15 METER DEPTH REPORTED</S124:text>
+                </S124:information>
+                <S124:navwarnTypeDetails code="256">Shallow Depth Reported</S124:navwarnTypeDetails>
+            </S124:warningInformation>
+            <S124:header xlink:arcrole="http://www.iho.int/S-124/gml/1.0.0/roles/componentOf/header" xlink:href="#EX72_ID00"/>
+            <S124:geometry/>
+        </S124:NavwarnPart>
+        <S124:NavwarnPart gml:id="EX72_ID02">
+            <S124:warningInformation>
+                <S124:information>
+                    <S124:language>eng</S124:language>
+                    <S124:text>15 METER DEPTH REPORTED</S124:text>
+                </S124:information>
+                <S124:navwarnTypeDetails code="256">Shallow Depth Reported</S124:navwarnTypeDetails>
+            </S124:warningInformation>
+            <S124:header xlink:arcrole="http://www.iho.int/S-124/gml/1.0.0/roles/componentOf/header" xlink:href="#EX72_ID00"/>
+            <S124:geometry/>
+        </S124:NavwarnPart>
+    </S124:members>
+</S124:Dataset>
+
