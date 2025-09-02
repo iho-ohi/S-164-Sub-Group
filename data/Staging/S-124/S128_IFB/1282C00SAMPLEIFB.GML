@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S128:Dataset xmlns:S100="http://www.iho.int/s100gml/5.0" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" 
+    xmlns:S128="http://www.iho.int/S128/2.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-128</S100:productIdentifier>
+        <S100:productEdition>2.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>1282C00SAMPLEIFB.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
+        <S100:datasetReferenceDate>2001-04-22</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S128:members>
+        <S128:CatalogueSectionHeader gml:id="ID0">
+            <S128:catalogueSectionNumber>1</S128:catalogueSectionNumber>
+            <S128:catalogueSectionTitle>S-128 In-Force Bulletin</S128:catalogueSectionTitle>
+            <S128:information>
+                <S128:language>eng</S128:language>
+                <S128:text>example in-force bulletin implementation using S-128.</S128:text>
+            </S128:information>
+            <S128:geometry/>
+        </S128:CatalogueSectionHeader>
+        <S128:ElectronicProduct gml:id="ID1">
+            <S128:catalogueElementClassification code="5">MSI Service</S128:catalogueElementClassification>
+            <S128:notForNavigation>false</S128:notForNavigation>
+            <S128:elementContainer xlink:arcrole="http://www.iho.int/S-128/gml/1.0.0/roles/componentOf/elementContainer" xlink:href="#ID0"/>
+            <S128:editionNumber>1</S128:editionNumber>
+            <S128:datasetName>1242C00SAMPLES1.GML</S128:datasetName>
+            <S128:encodingFormat code="2">GML</S128:encodingFormat>
+            <S128:issueDate>20250701</S128:issueDate>
+            <S128:typeOfProductFormat code="1">GML</S128:typeOfProductFormat>
+            <S128:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID1">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>-32.41652731842151 61.210162872280804 -32.41687472621318 61.231007339781335 -32.4321606690469 61.230312524197984 -32.43146585346355 61.210162872280804 -32.41652731842151 61.210162872280804</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S128:geometry>
+        </S128:ElectronicProduct>
+        <S128:ElectronicProduct gml:id="ID2">
+            <S128:catalogueElementClassification code="5">MSI Service</S128:catalogueElementClassification>
+            <S128:notForNavigation>false</S128:notForNavigation>
+            <S128:elementContainer xlink:arcrole="http://www.iho.int/S-128/gml/1.0.0/roles/componentOf/elementContainer" xlink:href="#ID0"/>
+            <S128:editionNumber>1</S128:editionNumber>
+            <S128:datasetName>1242C00SAMPLES2.GML</S128:datasetName>
+            <S128:encodingFormat code="2">GML</S128:encodingFormat>
+            <S128:issueDate>20250702</S128:issueDate>
+            <S128:typeOfProductFormat code="1">GML</S128:typeOfProductFormat>
+            <S128:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID2">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>-32.51553853904902 60.9311944155654 -32.51536483515318 60.94344054022196 -32.52570021695552 60.94344054022196 -32.52578706890344 60.93119441556539 -32.51553853904902 60.9311944155654</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S128:geometry>
+        </S128:ElectronicProduct>
+        <S128:ElectronicProduct gml:id="ID3">
+            <S128:catalogueElementClassification code="5">MSI Service</S128:catalogueElementClassification>
+            <S128:notForNavigation>false</S128:notForNavigation>
+            <S128:elementContainer xlink:arcrole="http://www.iho.int/S-128/gml/1.0.0/roles/componentOf/elementContainer" xlink:href="#ID0"/>
+            <S128:editionNumber>1</S128:editionNumber>
+            <S128:datasetName>1242C00SAMPLES3.GML</S128:datasetName>
+            <S128:encodingFormat code="2">GML</S128:encodingFormat>
+            <S128:issueDate>20250703</S128:issueDate>
+            <S128:typeOfProductFormat code="1">GML</S128:typeOfProductFormat>
+            <S128:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID3">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>-32.50746130789256 60.98693165314232 -32.50739616893162 60.990796564824706 -32.510110292304084 60.99064457391585 -32.51013200529106 60.98688822716836 -32.50746130789256 60.98693165314232</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S128:geometry>
+        </S128:ElectronicProduct>
+    </S128:members>
+</S128:Dataset>
