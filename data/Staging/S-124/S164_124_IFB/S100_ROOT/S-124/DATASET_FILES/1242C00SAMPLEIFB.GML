@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<S124:Dataset xmlns:S100="http://www.iho.int/s100gml/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+<S124:Dataset xmlns:S100="http://www.iho.int/s100gml/5.0" 
+    xmlns:gml="http://www.opengis.net/gml/3.2" 
+    xmlns:S124="http://www.iho.int/S124/2.0"
+    xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
     <S100:DatasetIdentificationInformation>
         <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
         <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
         <S100:productIdentifier>S-124</S100:productIdentifier>
         <S100:productEdition>1.0.0</S100:productEdition>
         <S100:applicationProfile>1</S100:applicationProfile>
-        <S100:datasetFileIdentifier>XXXIC000000.GML</S100:datasetFileIdentifier>
+        <S100:datasetFileIdentifier>1242C00SAMPLEIFB.GML</S100:datasetFileIdentifier>
         <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
-        <S100:datasetReferenceDate>2001-04-22</S100:datasetReferenceDate>
+        <S100:datasetReferenceDate>2025-09-§6</S100:datasetReferenceDate>
         <S100:datasetLanguage>eng</S100:datasetLanguage>
         <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
         <S100:datasetPurpose>base</S100:datasetPurpose>
@@ -31,7 +35,7 @@
             </S124:messageSeriesIdentifier>
             <S124:intService>false</S124:intService>
             <S124:navwarnTypeGeneral code="8">In-Force Bulletin</S124:navwarnTypeGeneral>
-            <S124:publicationTime>20250903185500Z</S124:publicationTime>
+            <S124:publicationTime>2025-09-03</S124:publicationTime>
             <S124:geometry/>
         </S124:NavwarnPreamble>
         <S124:References gml:id="ID1">
