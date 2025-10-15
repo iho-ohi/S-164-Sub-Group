@@ -4,15 +4,34 @@ This repository contains S-100 test datasets and the test dataset manual. It als
 
 As agreed by the group in discussions
 
-* Issues relating to ENC content (i.e. S-101) will be tracked by the S-101 IHO repository
-* Issues relating to exchange set construction for S-164, and how tests are described in S-164 are also described here
-* S-98 has its own repository [here](https://github.com/iho-ohi/98-interoperability) where issues can be raised and tracked. As most S-98 issues will require testing they may also be tracked here. Where issues affect both they will be referred to in the description
-* In general issues in other repositories should be referred to linked to avoid unecessary duplication
+* Problems with datasets in relation to S-164 are tracked here
+* Issues relating to the ENC standard, S-101 will be tracked by the S-101 IHO repository
+* S-98 has its own repository [here](https://github.com/iho-ohi/98-interoperability) where issues can be raised and tracked.
+* Please link related issues to avoid unecessary duplication
 
 ## Looking for Test Data?
-* This repository holds intermediate releases of test data and the accompanying manual. Releases are compiled whenever a group of tests are ready and documented in the manual. Releases are then available from this repository on the [releases](https://github.com/iho-ohi/S-164-Sub-Group/releases) page. 
-* This repository also contains datasets, keys, certificates and other items required for building the various test datasets. These often include "broken" catalogues and datasets, older versions and items of dubious provenance. These are all contained in the [staging](https://github.com/iho-ohi/S-164-Sub-Group/tree/main/data/Staging) folder, with appropriate warnings. **Do not attempt to use the staging datasets for anything other than testing**
-* The most definitive test Data, in the form of S-100 exchange sets, are in the working [Exchange Sets](https://github.com/iho-ohi/S-164-Sub-Group/tree/main/data/ExchangeSets) area. These can be used/tested and issues raised as appropriate. These exchange sets may be under development but represent the most up to date versions outside the bundled releases. All releases are compiled from there. 
+* This repository holds intermediate releases of test data and the accompanying manual. Releases are compiled whenever a group of tests are ready and documented in the manual. Releases are then available from this repository on the [releases](https://github.com/iho-ohi/S-164-Sub-Group/releases) page.
+* In the interim, feel free to use datasets from the staging area. This contains datasets, keys, certificates and other items required for building the various test datasets. They are in the [staging](https://github.com/iho-ohi/S-164-Sub-Group/tree/main/data/Staging) folder. **Do not attempt to use the staging datasets for anything other than testing**. they are not authoritative until the manual is published and datasets released for testing.
+* Datasets will eventually be processed into exchange sets for use in testing the manual. These are located in the [Exchange Sets](https://github.com/iho-ohi/S-164-Sub-Group/tree/main/data/ExchangeSets) area. They may be under development too, though. As the manual is finalised, the exchange sets will be re-created for use in the test scripts.
+
+
+## Catalogues and Test Data
+
+The IHO publishes the official releases of all product specifications, catalogues and documentation. Copies of catalogues are linked in the table below, along with the relevant areas in the staging folders for test datasets.
+
+| Phase / Product Spec      | FC       | PC          | Sample Datasets             | 
+|---------------------------|----------|-------------|-----------------------------|
+| Ph1 / S-101               |          |             |                             | 
+| Ph1 / S-102               |          |             |                             |
+| Ph1 / S-104               |          |             |                             |
+| Ph1 / S-111               |          |             |                             |
+| Ph1 / S-124               |          |             |                             |
+| Ph1 / S-128               |          |             |                             |
+| Ph1 / S-129               |          |             |                             |
+| Ph2 / S-122               |          |             |                             |
+| Ph1 / S-123               |          |             |                             |
+| Ph1 / S-127               |          |             |                             |
+| Ph1 / S-131               |          |             |                             ||
 
 ## Release History
 
