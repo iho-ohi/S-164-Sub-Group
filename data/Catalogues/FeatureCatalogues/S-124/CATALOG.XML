@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<S100XC:S100_ExchangeCatalogue xmlns:S100XC="http://www.iho.int/s100/xc/5.2" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0">
+    <S100XC:identifier>
+        <S100XC:identifier>IHO Catalogue Exchange</S100XC:identifier>
+        <S100XC:dateTime>2025-07-17T11:43:07Z</S100XC:dateTime>
+    </S100XC:identifier>
+    <S100XC:contact>
+        <S100XC:organization>
+            <gco:CharacterString>International Hydrographic Organisation</gco:CharacterString>
+        </S100XC:organization>
+        <S100XC:address>
+            <cit:deliveryPoint>
+                <gco:CharacterString>4b quai Antoine 1er</gco:CharacterString>
+            </cit:deliveryPoint>
+            <cit:deliveryPoint>
+                <gco:CharacterString>BP 445</gco:CharacterString>
+            </cit:deliveryPoint>
+            <cit:city>
+                <gco:CharacterString>Monaco</gco:CharacterString>
+            </cit:city>
+            <cit:administrativeArea>
+                <gco:CharacterString>Monaco</gco:CharacterString>
+            </cit:administrativeArea>
+            <cit:postalCode>
+                <gco:CharacterString>MC 98011</gco:CharacterString>
+            </cit:postalCode>
+            <cit:country>
+                <gco:CharacterString>Monaco</gco:CharacterString>
+            </cit:country>
+            <cit:electronicMailAddress>
+                <gco:CharacterString>info@iho.int</gco:CharacterString>
+            </cit:electronicMailAddress>
+        </S100XC:address>
+    </S100XC:contact>
+    <S100XC:certificates>
+        <S100SE:schemeAdministrator id="IHO"/>
+        <S100SE:certificate id="urn:mrn:iho:01AA:90001" issuer="IHO">MIIDNzCCArygAwIBAgIUEyo2Mw7g4GQiPy5PX0Ald6ytpTEwCgYIKoZIzj0EAwMwgdgxCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEPMA0GA1UEBwwGTW9uYWNvMTAwLgYDVQQKDCdJbnRlcm5hdGlvbmFsIEh5ZHJvZ3JhcGhpYyBPcmdhbml6YXRpb24xKTAnBgNVBAsMIElITyBTLTEwMGU1LjIuMCBST09UIGNlcnRpZmljYXRlMR8wHQYDVQQDDBZ1cm46bXJuOmlobzowMEFBOjAxODEwMRswGQYJKoZIhvcNAQkBFgxpbmZvQGloby5pbnQwIBcNMjUwMTA5MTIzNzE2WhgPMjA3NTAxMTAxMjM3MTZaMIHMMQswCQYDVQQGEwJNQzEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjEPMA0GA1UEBwwGTW9uYWNvMTAwLgYDVQQKDCdJbnRlcm5hdGlvbmFsIEh5ZHJvZ3JhcGhpYyBPcmdhbml6YXRpb24xJDAiBgNVBAsMG0lITyBTLTEwMGU1LjIuMCBEYXRhIFNlcnZlcjEfMB0GA1UEAwwWdXJuOm1ybjppaG86MDFBQTo5MDAwMTEbMBkGCSqGSIb3DQEJARYMaW5mb0BpaG8uaW50MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAESdBwABjK2lQn9fu34UBo5Qv74dUygIahWfi+yBTvPkGttEejLm0VxgjwKbhF9LF+ERu40GajARx9uL/PfWc6gxlcFRrDZTkGbQOQmHU//cWVEaJe0guSkL2fzR4wCE6Bo08wTTALBgNVHQ8EBAMCA/gwHQYDVR0OBBYEFG/Cc3fKxETG/3KPPSTJoU30CpxYMB8GA1UdIwQYMBaAFPulsHdGyBOxVcnlA3rv52SBWqmTMAoGCCqGSM49BAMDA2kAMGYCMQDJGIlSEayS+1l2eGtmjXQQLfwgJgitXDpy4yIEuSXMi2zVi7r+Y0rA+xnHYQW0K34CMQCbQHmFqQ2K+CXmUrqRGrTLVLCkOOaP828UV7dnIj90JYt8IUfG6bkRDFWGJSO0XP8=</S100SE:certificate>
+    </S100XC:certificates>
+    <S100XC:datasetDiscoveryMetadata/>
+    <S100XC:supportFileDiscoveryMetadata/>
+    <S100XC:catalogueDiscoveryMetadata>
+        <S100XC:S100_CatalogueDiscoveryMetadata>
+            <S100XC:fileName>file:/S-124/CATALOGUES/124_FC_2.0.0.xml</S100XC:fileName>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:editionNumber>2</S100XC:editionNumber>
+            <S100XC:scope>featureCatalogue</S100XC:scope>
+            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:issueDate>2025-07-10</S100XC:issueDate>
+            <S100XC:productSpecification>
+                <S100XC:version>5.2.0</S100XC:version>
+                <S100XC:productIdentifier>S-100</S100XC:productIdentifier>
+                <S100XC:number>1</S100XC:number>
+            </S100XC:productSpecification>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData id="S-124/CATALOGUES/124_FC_2.0.0.xml" certificateRef="urn:mrn:iho:01AA:90001" dataStatus="unencrypted">MGYCMQCg/QP9xPFZXgNWgCwlf3W712jWEvFUKU1WJm426xhF043VNLqid74nVrAwfxk4QDACMQCNpGKK08Z5/u5Kq/RFCMRe1gLF1phcUoqwBVCh/30m93cJMs4b0sbqgTLVgjXDucw=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+        </S100XC:S100_CatalogueDiscoveryMetadata>
+    </S100XC:catalogueDiscoveryMetadata>
+</S100XC:S100_ExchangeCatalogue>
