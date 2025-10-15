@@ -16,22 +16,7 @@ As agreed by the group in discussions
 
 
 ## Catalogues and Test Data
-
-The IHO publishes the official releases of all product specifications, catalogues and documentation. Copies of catalogues are linked in the table below, along with the relevant areas in the staging folders for test datasets.
-
-| Phase / Product Spec      | FC       | PC          | Sample Datasets             | 
-|---------------------------|----------|-------------|-----------------------------|
-| Ph1 / S-101               | [FC_2.0.0](https://github.com/iho-ohi/S-164-Sub-Group/blob/main/data/Catalogues/FeatureCatalogues/S-101/FeatureCatalogue.xml)       |             |                             | 
-| Ph1 / S-102               |          |             |                             |
-| Ph1 / S-104               |          |             |                             |
-| Ph1 / S-111               |          |             |                             |
-| Ph1 / S-124               |          |             |                             |
-| Ph1 / S-128               |          |             |                             |
-| Ph1 / S-129               |          |             |                             |
-| Ph2 / S-122               |          |             |                             |
-| Ph1 / S-123               |          |             |                             |
-| Ph1 / S-127               |          |             |                             |
-| Ph1 / S-131               |          |             |                             ||
+The IHO publishes the official releases of all product specifications, catalogues and documentation. Copies of catalogues are included in the  [Catalogues](https://github.com/iho-ohi/S-164-Sub-Group/tree/main/data/Catalogues) area of the repository. Note that these catalogues may also be edited for test purposes. Additional catalogues will be developed for specific tests, and signed versions will be created using S-164's Scheme Administrator (which is not the same as the IHO's Scheme Administrator).
 
 ## Release History
 
