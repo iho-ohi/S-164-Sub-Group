@@ -1,0 +1,22 @@
+﻿The message should be addressed to MRCC Jussland and headed JUSSREP-INFO, with the following information:
+
+Identifier	Required Information
+A	Vessel’s name, call sign, MMSI, and flag
+B	Date and time in (UTC) in 6 figures (DDHHMM), suffixed Z
+C	Position (latitude/longitude)
+E	Course
+F	Speed
+G	Last port of call
+H	Date and time (UTC) and point of entry into Jusslandian territorial waters or date and time of departure
+I	Destination and ETA
+K	Date and time (UTC) and point of exit from Jusslandian territorial waters, or date and time of arrival in port, anchorage, waiting zone, or deballasting zone, and destination in Jusslandian waters
+L	Intentions
+M	RT watch kept
+P	Detailed description of dangerous goods or pollutants on board (See Note)
+Q	Any defects, damage, faults, or restrictions
+S	Weather conditions in the area
+T	Notification to the authorities holding information (lists, manifests, cargo plan) relating to dangerous goods on board
+U	Type of vessel, loa, and draft
+W	Number of people on board
+X	Other remarks
+Z	End of message

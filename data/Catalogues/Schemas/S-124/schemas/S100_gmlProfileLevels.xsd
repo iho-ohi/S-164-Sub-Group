@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<schema xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.iho.int/S-100/profile/s100_gmlProfile" elementFormDefault="qualified" version="4.0.0-20180502">
+	<annotation>
+		<documentation> Compliance levels schema for the S-100 GML 3.2.1 Profile.</documentation>
+	</annotation>
+	<!-- =============================================================================================
+	Copyright and License
+	Copyright 2013-2014 (IHB? - Formal statement TBD)
+	Certain parts of this document refer to or are based on the standards, documents, schemas, or other material
+	of the International Organization for Standardization (ISO), Open Geospatial Consortium (OGC), International
+	Hydrographic Organization / Organisation Hydrographique Internationale (IHO/OHI).
+	The ISO material can be obtained from any ISO member and from the Web site of the ISO Central Secretariat
+	at www.iso.org.
+	The OGC material can be obtained from the OGC Web site at www.opengeospatial.org.
+	The IHO material can be obtained from the IHO Web site at www.iho.int or from the International Hydrographic
+	Organization Secretariat.
+	
+	Permission to copy and distribute this document is hereby granted provided that this notice is retained
+	on all copies, and that the copyright holders and contributors are credited when the material is redistributed or used in
+	part or whole in derivative works.
+	Redistributions in binary form must reproduce this notice in the documentation and/or other materials
+	provided with the distribution.
+	
+	Disclaimer
+	This work is provided by the copyright holders and contributors "as is" and any express or implied warranties,
+	including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose
+	are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect,
+	incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute
+	goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of
+	liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way
+	out of the use of this software, even if advised of the possibility of such damage.
+	================================================================================================== -->
+	<!-- Original - Snowflake Software Ltd -->
+	<!-- updated by IHO TSMAD S-100 working group December 2013, May 2014 -->
+	<!-- V. 4.0.0-20180502   Raphael Malyankar Version number updated for Edition 4.0.0 -->
+	<!-- ============================================================= -->
+	<element name="complianceLevel">
+		<annotation>
+			<documentation>
+            Level 1 = 
+            Level 2 = 
+         </documentation>
+		</annotation>
+		<simpleType>
+			<restriction base="integer">
+				<enumeration value="1"/>
+				<enumeration value="2"/>
+			</restriction>
+		</simpleType>
+	</element>
+	<!-- ============================================================= -->
+	<element name="gmlProfileSchema" type="anyURI">
+		<annotation>
+			<documentation>
+            This URI references the profile schema to which a GML
+            application schema conforms.
+         </documentation>
+		</annotation>
+	</element>
+</schema>

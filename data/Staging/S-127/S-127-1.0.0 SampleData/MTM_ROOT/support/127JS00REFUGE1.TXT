@@ -1,0 +1,18 @@
+﻿The following items shall be reported to Jussland MRCC when requesting Emergency Refuge:
+1. 	Ship’s flag.
+2.	Ship’s type.
+3.	Ship’s name.
+4.	Call sign.
+5.	Gross tonnage and length overall.
+6.	The number of crew.
+7.	Name of master.
+8.	Name and address of the owner and the agent.
+9.  	Name and address of the ship’s operator name.
+10.	The reason for the emergency entry.
+11.	Details leading to the entry.
+12.	Present position, place of entry, and the ETA.
+13.	Ship contact information.
+14.  Details concerning the assistance you need (medical treatment, repair, supply, etc.).
+15.	Departure port and port of call.
+16.	Type of cargo and quantity.
+

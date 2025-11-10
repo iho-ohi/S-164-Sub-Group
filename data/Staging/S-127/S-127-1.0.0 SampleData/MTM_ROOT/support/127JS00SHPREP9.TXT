@@ -1,0 +1,30 @@
+﻿All ships that depart from foreign port and intend to enter Jussland ports are required to report following security information of ship to a designated Jussland Coast Guard Office 24 hours before arrival:
+
+1.	Name of ship.
+2.	IMO number.
+3.	Type of ship (cargo/container/cargo and passenger/oil tanker/fishing vessel/other).
+4.	Flag state.
+5.	Port of registry.
+6.	Gross tonnage.
+7.	Navigation speed.
+8.	Ship’s owner (name and address).
+9.	Ship’s operator (name and address).
+10.	Name of master.
+11.	Ship’s agent (name and address).
+12.	Date, time, and location of the ship at the time the report is made.
+13.	Port of arrival, expected date and time of arrival of the ship in port, and destination in port.
+14.	Entry position (specific area) and ETA.
+15.	All ports of call in Jussland after departure, including ETA and berth at each port.
+16.	Entry position (specific area) and ETA after departure.
+17.	Ship security alert system on board? (Yes/No/Out of order).
+18.	Ship’s operating security level (Level 1/Level 2/Level 3).     
+19.	Name and contact point of Company Security Officer.    
+20.	Name and position of Ship Security Officer. 
+21.	ISSC number and name of its issuing authority. 
+22.	Information on last ten ports of call. Include country, port name, arrival date, and departure date for each port.
+23.	Crew list. Include name, nationality, date of birth, Seaman’s number or passport number, and rank or rating of each crew member.
+24.	Passenger List. Is vessel carrying passengers? (Yes/No/Undetermined). Include the name, nationality, date of birth, passport number, port of embarkation, and port of disembarkation of each passenger.
+25.	Remarks.
+26.	Name of applicant,　call sign, and communication system (INMARSAT　telephone number and facsimile number.                 
+
+If you fail to report 24 hours before the arrival due to bad weather or some other inevitable circumstances, you should report immediately to a designated local Jussland Coast Guard office.

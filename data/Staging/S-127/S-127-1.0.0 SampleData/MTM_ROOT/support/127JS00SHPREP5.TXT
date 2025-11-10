@@ -1,0 +1,9 @@
+﻿Quarantine report
+The request should contain the following information:
+1.	Vessel name and country of registry.
+2.	Number and health of passengers and/or crew.
+3.	Ports of call within the last 50 days, along with the dates of departure.
+4.	ETA at the quarantine area.
+5.	Request for pratique.
+
+

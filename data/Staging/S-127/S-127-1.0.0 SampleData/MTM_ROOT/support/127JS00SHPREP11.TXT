@@ -1,0 +1,27 @@
+﻿The report shall contain the following information:
+1.	Vessel name.
+2.	Vessel flag.
+3.	Vessel call sign.
+4.	Position.
+5.	ETA at the pilot boarding position.
+6.	Vessels parameters (gross tons, length overall, beam, and draft).
+7.	Full maneuvering speed.
+8.	Vessel contact information (telephone number, facsimile number, and e-mail address).
+9.	Ice class of vessel and classification society.
+10.	Main engine capacity in kilowatts or horsepower.
+11.	Material of propeller.
+12.	Quantity of fuel, water, and provisions.
+
+Inbound vessels shall send Confirmation Reports to the Jussland Ice Center 24 hours and 12 hours prior to arrival at the pilot boarding position. The report shall contain the following information:
+1.	Vessel name.
+2.	Vessel flag.
+3.	Vessel call sign.
+4.	Position.
+5.	ETA at the pilot boarding position.
+
+Outbound vessels shall send a Departure Report to the Jussland Ice Center 4 hours prior to depar-ture. The report shall contain the following information:
+1.	Vessel name.
+2.	Vessel flag.
+3.	Vessel call sign.
+4.	Berth.
+5.	ETD.

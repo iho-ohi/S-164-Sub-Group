@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:S100="http://www.iho.int/s100gml/1.0"
+    xmlns="http://www.iho.int/s100gml/1.0+EXT" targetNamespace="http://www.iho.int/s100gml/1.0+EXT"
+    elementFormDefault="qualified"
+    version="4.0.0-20180502">
+<!-- ======================================================================================================== -->
+<!-- S-100 GML base schema extensions and corrections.                                                        -->
+<!-- Experimental utility file subject to change without notice. Not formally part of the S-100 GML Profile.  -->
+<!-- Add candidate extensions to the S-100 GML profile here instead of changing the profile files.            -->
+<!-- ======================================================================================================== -->
+
+<!-- ========================================================================================================
+Draft Copyright, license, and disclaimer
+© Copyright 2015 (IHB - Formal Copyright statement tbd)
+
+License (Draft)
+Certain parts of this document refer to or are based on the standards, documents, schemas, or other material
+of the International Organization for Standardization (ISO), Open Geospatial Consortium (OGC), and International
+Hydrographic Organization / Organisation Hydrographique Internationale (IHO/OHI).
+The ISO material can be obtained from any ISO member and from the Web site of the ISO Central Secretariat
+at www.iso.org.
+The OGC material can be obtained from the OGC Web site at www.opengeospatial.org.
+The IHO material can be obtained from the IHO Web site at www.iho.int or from the International Hydrographic
+Bureau.
+
+Permission to copy and distribute this document is hereby granted provided that this notice is retained
+on all copies, and that IHO & Jeppesen are credited when the material is redistributed or used in
+part or whole in derivative works.
+Redistributions in binary form must reproduce this notice in the documentation and/or other materials
+provided with the distribution.
+
+Disclaimer
+This work is provided by the copyright holders and contributors "as is" and any express or implied warranties,
+including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose
+are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect,
+incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute
+goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of
+liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way
+out of the use of this software, even if advised of the possibility of such damage.
+
+Document history
+Version 1.0	2015-09-29	Raphael Malyankar (Jeppesen)	Initial version
+V. 3.0.0-20170331   Raphael Malyankar (none) Version number updated to conform to <S100Version><Build date> format
+V 4.0.0-20180502	Raphael Malyankar	Version number updated for Edition 4.0.0; added commonly used types for
+					truncated date, etc.
+============================================================================================================= -->
+    <xs:annotation>
+        <xs:documentation>Extensions / corrections to the IHO TSMAD S-100 GML base schema (April 2014) for S-100 GML data format.</xs:documentation>
+        <xs:documentation>This file is a container for experimental updates to the custom S-100 additions in the S-100 GML profile.</xs:documentation>
+        <xs:documentation>Updated May 2018 with common types which are used by GML data formats.</xs:documentation>
+    </xs:annotation>
+
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./S100_gmlProfile.xsd"/>
+    <xs:import namespace="http://www.iho.int/s100gml/1.0" schemaLocation="s100gmlbase.xsd"/>
+    <!-- Note: See Part 10b regarding application dataset import of GML schemas instead of profile XSD, and declaration of compliance levels -->
+
+<!-- to do: add common nillable types? -->
+
+<!--    <xs:complexType name="PointType">
+        <xs:annotation><xs:documentation>S-100 point type adds an information association to the GML spatial type Point. And a separate SpatialQuality association?</xs:documentation></xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:PointType">
+                <xs:sequence>
+                    <xs:element ref="S100:informationAssociation" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="SpatialQuality" type="gml:ReferenceType" minOccurs="0" maxOccurs="1"><xs:annotation><xs:documentation>Reference to spatial uncertainty information type.</xs:documentation></xs:annotation></xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Point" type="PointType" substitutionGroup="gml:AbstractGeometricPrimitive"/>
+
+    <xs:complexType name="PointPropertyType">
+        <xs:annotation><xs:documentation>Point property using the S-100 point type.</xs:documentation></xs:annotation>
+        <xs:sequence>
+            <xs:element ref="Point" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>-->
+    <xs:complexType name="PointPropertyType">
+        <xs:annotation><xs:documentation>WIP update to spatial property types in profile. Spatial quality for an individual should be indicated by either the generic information association or the SpatialQuality role-element.</xs:documentation></xs:annotation>
+        <xs:sequence>
+            <xs:element ref="S100:pointProperty"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="PointProperty" type="PointPropertyType"/>
+    <xs:complexType name="SurfacePropertyType">
+        <xs:annotation><xs:documentation>WIP update to spatial property types in profile. Spatial quality for an individual should be indicated by either the generic information association or the SpatialQuality role-element.</xs:documentation></xs:annotation>
+        <xs:choice>
+            <xs:element ref="S100:surfaceProperty"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:element name="SurfaceProperty" type="SurfacePropertyType"/>
+    <xs:complexType name="CurvePropertyType">
+        <xs:annotation><xs:documentation>WIP update to spatial property types in profile. Spatial quality for an individual should be indicated by either the generic information association or the SpatialQuality role-element.</xs:documentation></xs:annotation>
+        <xs:choice>
+            <xs:element ref="S100:curveProperty"/>
+            <xs:element ref="S100:compositeCurveProperty"/>
+            <xs:element ref="S100:orientableCurveProperty"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:element name="CurveProperty" type="CurvePropertyType"/>
+
+    <!-- ================================================= -->
+    <!-- spatial property union types                      -->
+    <!-- these are needed if the encoding defines features -->
+    <!-- with the same tag for all different spatial types -->
+    <!-- allowed for the feature                           -->
+    <!-- ================================================= -->
+    
+    <xs:complexType name="PointOrSurfacePropertyType">
+        <xs:choice>
+            <xs:element ref="S100:pointProperty"/>
+            <xs:element ref="S100:surfaceProperty"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:element name="PointOrSurfaceProperty" type="PointOrSurfacePropertyType"/>
+    <xs:complexType name="CurveOrSurfacePropertyType">
+        <xs:choice>
+            <xs:element ref="S100:curveProperty"/>
+            <xs:element ref="S100:surfaceProperty"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:element name="CurveOrSurfaceProperty" type="CurveOrSurfacePropertyType"/>
+    <xs:complexType name="PointCurveSurfacePropertyType">
+        <xs:choice>
+            <xs:element ref="S100:pointProperty"/>
+            <xs:element ref="S100:curveProperty"/>
+            <xs:element ref="S100:surfaceProperty"/>
+        </xs:choice>
+        <!--<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>-->
+    </xs:complexType>
+    <xs:element name="PointCurveSurfaceProperty" type="PointCurveSurfacePropertyType"/>
+    <xs:complexType name="PointOrCurvePropertyType">
+        <xs:choice>
+            <xs:element ref="CurveProperty"/>
+            <xs:element ref="SurfaceProperty"/>
+        </xs:choice>
+        <!--<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>-->
+    </xs:complexType>
+    <xs:element name="PointOrCurveProperty" type="PointOrCurvePropertyType"/>
+
+    <!-- ============================================================================================== -->
+    <!-- ========= Common types used by many product specifications                                     -->
+    <!-- These may be moved to a "chameleon" schema common to all (or at least multiple) specifications -->
+    <!-- ============================================================================================== -->
+    <xs:complexType name="S100_TruncatedDate">
+        <xs:annotation>
+            <xs:documentation>built in date types from W3C XML schema, implementing S-100 truncated date</xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+            <xs:element name="gDay" type="xs:gDay"/>
+            <xs:element name="gMonth" type="xs:gMonth"/>
+            <xs:element name="gYear" type="xs:gYear"/>
+            <xs:element name="gMonthDay" type="xs:gMonthDay"/>
+            <xs:element name="gYearMonth" type="xs:gYearMonth"/>
+            <xs:element name="date" type="xs:date"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:simpleType name="ISO639-3">
+        <xs:annotation>
+            <xs:documentation>Stub for ISO 639-3 language codes. Further validation via XSLT or Schematron rules?</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ISO639-2">
+        <xs:annotation>
+            <xs:documentation>Stub for ISO 639-2 language codes. Further validation via XSLT or Schematron rules?</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ISO3166-alpha2">
+        <xs:annotation>
+            <xs:documentation>Stub for ISO 3166 alpha2 country codes. Further validation via XSLT or Schematron rules?</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Decimal0.0To360.0">
+        <xs:annotation>
+            <xs:documentation>Type for value interval [0.0, 360.0]. Also limits value to 1 decimal place.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="1"/>
+            <xs:minInclusive value="0.0"/>
+            <xs:maxInclusive value="360.0"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="NonNegativeDecimal">
+        <xs:annotation>
+            <xs:documentation>Type for decimal values with minimum 0.0.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0.0"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="NonNegativeDecimal.1">
+        <xs:annotation>
+            <xs:documentation>Type for decimal values with minimum 0.0 and at most 1 decimal place</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="NonNegativeDecimal">
+            <xs:fractionDigits value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

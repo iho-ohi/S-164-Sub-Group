@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:../../../schemas/S100/4.0.0/S100Catalog/20181015/S100_DSMD.sch" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<mdb:MD_Metadata
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0"
+    xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
+    xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0"
+    xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
+    xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
+    xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
+    xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0"
+    xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+    xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+    xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
+    xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+    xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0"
+    xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/2.0"
+    xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mda/2.0 ../../../schemas/standards.iso.org/19115/-3/mda/2.0/mda.xsd">
+
+    <mdb:metadataIdentifier>
+        <mcc:MD_Identifier>
+            <mcc:code> <gco:CharacterString>MD_127JS00EX_A0001</gco:CharacterString> </mcc:code>
+        </mcc:MD_Identifier>
+    </mdb:metadataIdentifier>
+    
+    <mdb:defaultLocale>
+        <lan:PT_Locale>
+            <lan:language> <lan:LanguageCode codeList="http://www.iho.int/S100/4.0.0/resources/Codelists/cat/codelists.xml#S100_MD_LanguageCode" codeListValue="eng">English</lan:LanguageCode> </lan:language>
+            <lan:characterEncoding>
+                <lan:MD_CharacterSetCode codeList="http://www.iho.int/S100/4.0.0/resources/Codelists/cat/codelists.xml#S100_MD_CharacterSetCode" codeListValue="UTF-8">UTF-8</lan:MD_CharacterSetCode>
+            </lan:characterEncoding>
+        </lan:PT_Locale>
+    </mdb:defaultLocale>
+    <mdb:contact>
+        <cit:CI_Responsibility>
+            <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="owner">Owner</cit:CI_RoleCode>
+            </cit:role>
+            <cit:party>
+                <cit:CI_Organisation>
+                    <cit:name> <gco:CharacterString>Jussland Hydrographic Office</gco:CharacterString> </cit:name>
+                    <cit:contactInfo>
+                        <cit:CI_Contact>
+                            <cit:address>
+                                <cit:CI_Address>
+                                    <cit:city><gco:CharacterString>Micklefirth</gco:CharacterString></cit:city>
+                                    <cit:postalCode> <gco:CharacterString>JS 111111</gco:CharacterString> </cit:postalCode>
+                                    <cit:electronicMailAddress><gco:CharacterString>office@hydro.js</gco:CharacterString></cit:electronicMailAddress>
+                                </cit:CI_Address>
+                            </cit:address>
+                        </cit:CI_Contact>
+                    </cit:contactInfo>
+                </cit:CI_Organisation>
+            </cit:party>
+        </cit:CI_Responsibility>
+    </mdb:contact>
+
+    <mdb:dateInfo>
+        <cit:CI_Date>
+            <cit:date><gco:DateTime>2018-11-29T00:00:00</gco:DateTime></cit:date>
+            <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_DateTypeCode" codeListValue="publication"/>
+            </cit:dateType>
+        </cit:CI_Date>
+    </mdb:dateInfo>
+    
+    <mdb:metadataStandard>
+        <cit:CI_Citation>
+            <cit:title> <gco:CharacterString>ISO 19115-1</gco:CharacterString> </cit:title>
+            <cit:edition> <gco:CharacterString>2018</gco:CharacterString> </cit:edition>
+            <cit:otherCitationDetails> <gco:CharacterString>Amendment 01 (2018)</gco:CharacterString> </cit:otherCitationDetails>
+        </cit:CI_Citation>
+    </mdb:metadataStandard>
+    
+    <mdb:metadataStandard>
+        <cit:CI_Citation>
+            <cit:title><gco:CharacterString>ISO 19115-3</gco:CharacterString></cit:title>
+            <cit:edition><gco:CharacterString>2016</gco:CharacterString></cit:edition>
+        </cit:CI_Citation>
+    </mdb:metadataStandard>
+
+    <mdb:identificationInfo>
+        <mri:MD_DataIdentification>
+            <mri:citation>
+                <cit:CI_Citation>
+                    <cit:title><gco:CharacterString>Jussland Marine Traffic Management</gco:CharacterString></cit:title>
+                    <cit:editionDate><gco:DateTime>2018-11-29T00:00:00</gco:DateTime></cit:editionDate>
+                </cit:CI_Citation>
+            </mri:citation>
+            <mri:abstract>
+                <gco:CharacterString>Sample dataset, partial mapping of Jussland NP2 data sample. It is not intended for implementation testing.</gco:CharacterString>
+            </mri:abstract>
+            <mri:purpose> <gco:CharacterString>New edition</gco:CharacterString> </mri:purpose>
+            <mri:pointOfContact>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="originator"/>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:contactInfo>
+                                <cit:CI_Contact>
+                                    <cit:onlineResource>
+                                        <cit:CI_OnlineResource>
+                                            <cit:linkage> <gco:CharacterString>www.hydro.js</gco:CharacterString> </cit:linkage>
+                                        </cit:CI_OnlineResource>
+                                    </cit:onlineResource>
+                                </cit:CI_Contact>
+                            </cit:contactInfo>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </mri:pointOfContact>
+            
+            <mri:spatialRepresentationType>
+                <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector"/>
+            </mri:spatialRepresentationType>
+            
+            <mri:topicCategory>
+                <mri:MD_TopicCategoryCode>transportation</mri:MD_TopicCategoryCode>
+            </mri:topicCategory>
+            
+            <mri:extent>
+                <gex:EX_Extent>
+                    <gex:geographicElement>
+                        <gex:EX_GeographicBoundingBox>
+                            <gex:westBoundLongitude><gco:Decimal>55.0</gco:Decimal></gex:westBoundLongitude>
+                            <gex:eastBoundLongitude><gco:Decimal>71.0</gco:Decimal></gex:eastBoundLongitude>
+                            <gex:southBoundLatitude><gco:Decimal>-36.0</gco:Decimal></gex:southBoundLatitude>
+                            <gex:northBoundLatitude><gco:Decimal>-22.0</gco:Decimal></gex:northBoundLatitude>
+                        </gex:EX_GeographicBoundingBox>
+                    </gex:geographicElement>
+                </gex:EX_Extent>
+            </mri:extent>
+            
+            <mri:resourceSpecificUsage>
+                <mri:MD_Usage>
+                    <mri:specificUsage><gco:CharacterString>General. Not for navigation.</gco:CharacterString></mri:specificUsage>
+                </mri:MD_Usage>
+            </mri:resourceSpecificUsage>
+            
+            <mri:defaultLocale><lan:PT_Locale>
+                <lan:language><lan:LanguageCode codeList="http://www.iho.int/S100/4.0.0/resources/Codelists/cat/codelists.xml#S100_MD_LanguageCode" codeListValue="eng">English</lan:LanguageCode></lan:language>
+                <lan:characterEncoding><lan:MD_CharacterSetCode codeList="http://www.iho.int/S100/4.0.0/resources/Codelists/cat/codelists.xml#MD_CharacterSetCode" codeListValue="UTF-8"/></lan:characterEncoding>
+            </lan:PT_Locale></mri:defaultLocale>
+            
+            <mri:supplementalInformation>
+                <gco:CharacterString>Supplementary information about the dataset</gco:CharacterString>
+            </mri:supplementalInformation>
+        </mri:MD_DataIdentification>
+        
+    </mdb:identificationInfo>
+    
+    
+    <mdb:metadataConstraints>
+        <mco:MD_SecurityConstraints>
+            <mco:classification>
+                <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_ClassificationCode" codeListValue="unclassified">available for general disclosure</mco:MD_ClassificationCode>
+            </mco:classification>
+        </mco:MD_SecurityConstraints>
+    </mdb:metadataConstraints>
+
+    <mdb:applicationSchemaInfo>
+        <mas:MD_ApplicationSchemaInformation>
+            <mas:name>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>S-127 Product Specification</gco:CharacterString>
+                    </cit:title>
+                    <cit:date>
+                        <cit:CI_Date>
+                            <cit:date> <gco:DateTime>2018-11-29T00:00:00</gco:DateTime> </cit:date>
+                            <cit:dateType>
+                                <cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_DateTypeCode" codeListValue="revision"/>
+                            </cit:dateType>
+                        </cit:CI_Date>
+                    </cit:date>
+                    <cit:edition><gco:CharacterString>1.0.0</gco:CharacterString></cit:edition>
+                    <cit:editionDate><gco:DateTime>2018-11-29T00:00:00</gco:DateTime></cit:editionDate>
+                </cit:CI_Citation>
+            </mas:name>
+            <mas:schemaLanguage>
+                <gco:CharacterString>UML</gco:CharacterString>
+            </mas:schemaLanguage>
+            <mas:constraintLanguage gco:nilReason="inapplicable"/>
+        </mas:MD_ApplicationSchemaInformation>
+    </mdb:applicationSchemaInfo>
+    
+    <mdb:metadataMaintenance>
+        <mmi:MD_MaintenanceInformation>
+            <mmi:maintenanceAndUpdateFrequency>
+                <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">as needed</mmi:MD_MaintenanceFrequencyCode>
+            </mmi:maintenanceAndUpdateFrequency>
+        </mmi:MD_MaintenanceInformation>
+    </mdb:metadataMaintenance>
+    
+</mdb:MD_Metadata>

@@ -1,0 +1,23 @@
+﻿Reports to Jussland VTS
+
+General: The report should contain the following information:
+a.	Vessel’s name and call sign.
+b.	Reporting point.
+c.	Draft.
+d.	Destination.
+e.	Any deficiencies.
+f.	Routing intentions, including ETA at the pilot station (if applicable).
+
+Vessels engaged in fishing shall report their intentions on entering or leaving the Hammond Precautionary Area.
+
+Vessels anchoring within the Micklefirth VTS area shall:
+a.	Except in case of emergency, not anchor without informing Micklefirth VTS.
+b.	Except in case of emergency, ensure as far as is reasonably practical, the vessel is an-chored within the limits of the designated anchorages.
+c.	If anchoring in an emergency, inform Micklefirth VTS as soon as is reasonably practica-ble.
+d.	Maintain a continuous listening watch on VHF channel 14 when at anchor.
+
+When reporting at the reporting points (or an outbound vessel passing the Micklefirth VTS Reporting Line, vessels must provide Micklefirth VTS with the following information:
+1.	Position.
+2.	Identity.
+3.	Intentions.
+

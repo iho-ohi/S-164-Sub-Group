@@ -1,0 +1,9 @@
+﻿Identifier	Required Information
+M	INMARSAT number
+A	Vessel name and call sign
+B	Date, time, and month of report (UTC)
+E	True course
+F	Speed in knots and tenths of knots
+H	Date, time, and point of entry into system (UTC).
+I	Destination and ETA
+L	Route information

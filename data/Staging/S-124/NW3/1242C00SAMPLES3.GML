@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<S124:Dataset 
-    xmlns:S100="http://www.iho.int/s100gml/5.0" 
-    xmlns:gml="http://www.opengis.net/gml/3.2" 
-    xmlns:S124="http://www.iho.int/S124/2.0"
-    xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+<S124:Dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile"
+ xmlns:S124="http://www.iho.int/S124/2.0" xmlns:gml="http://www.opengis.net/gml/3.2"
+ xmlns:S100="http://www.iho.int/s100gml/5.0" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
     <S100:DatasetIdentificationInformation>
         <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
         <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
@@ -43,7 +41,6 @@
             <S124:intService>false</S124:intService>
             <S124:navwarnTypeGeneral code="10">Newly Discovered Dangers</S124:navwarnTypeGeneral>
             <S124:publicationTime>20250625171100Z</S124:publicationTime>
-            <S124:geometry/>
         </S124:NavwarnPreamble>
         <S124:NavwarnPart gml:id="ID1">
             <S124:warningInformation>

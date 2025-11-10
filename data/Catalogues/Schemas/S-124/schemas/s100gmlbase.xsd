@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns="http://www.iho.int/s100gml/5.0"
+    targetNamespace="http://www.iho.int/s100gml/5.0"
+    elementFormDefault="qualified"
+    version="5.0.0-20220620">
+    <!-- ============================================================================================= -->
+    <!-- S-100 GML profile extensions.                                                                 -->
+    <!-- ============================================================================================= -->
+
+<!-- =============================================================================================
+	Draft Copyright, license, and disclaimer
+	© Copyright 2015 IHB (Formal Copyright statement tbd)
+    Extensions for S-100 3.1 © Copyright 2017,2018,2022 IHO
+	
+	License
+	Certain parts of this document refer to or are based on the standards, documents, schemas, or other material
+	of the International Organization for Standardization (ISO), Open Geospatial Consortium (OGC), and International
+	Hydrographic Organization / Organisation Hydrographique Internationale (IHO/OHI).
+	The ISO material can be obtained from any ISO member and from the Web site of the ISO Central Secretariat
+	at www.iso.org.
+	The OGC material can be obtained from the OGC Web site at www.opengeospatial.org.
+	The IHO material can be obtained from the IHO Web site at www.iho.int or from the International Hydrographic
+	Organization Secretariat.
+	
+	Permission to copy and distribute this document is hereby granted provided that this notice is retained
+	on all copies, and that IHO & Jeppesen are credited when the material is redistributed or used in
+	part or whole in derivative works.
+	Redistributions in binary form must reproduce this notice in the documentation and/or other materials
+	provided with the distribution.
+	
+	Disclaimer
+	This work is provided by the copyright holders and contributors "as is" and any express or implied warranties,
+	including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose
+	are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect,
+	incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute
+	goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of
+	liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way
+	out of the use of this software, even if advised of the possibility of such damage.
+	
+	Document history
+	IHO TSMAD S-100 working group December 2013, May 2014	Initial version
+	V 3.0.0-20170331	Raphael Malyankar (none)	version number changed to <S100Version>-<Build date> format
+    V 3.1.0-2017-08-06  Raphael Malyankar (none)    Updates for spline types
+    V. 4.0.0-20180502   Raphael Malyankar Version number updated for Edition 4.0.0
+    V. 5.0.0-20220328  Hugh Astle (Teledyne CARIS) Version number updated for Edition 5.0.0
+    V. 5.0.0-20220620  Hugh Astle (Teledyne CARIS) Updated informationAssociation and inserted S100_SpatialAttributeType.
+	================================================================================================== -->
+    <xs:annotation>
+        <xs:documentation>IHO TSMAD S-100 common components schema for S-100 GML data format - April 2014.</xs:documentation>
+    </xs:annotation>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="S100_gmlProfile.xsd"/>
+    <!-- Note: See Part 10b regarding application dataset import of GML schemas instead of profile XSD, and declaration of compliance levels -->
+
+    <xs:simpleType name="ISO-639-2">
+        <xs:annotation>
+            <xs:documentation>Stub for ISO 639-2 language codes. Further validation via XSLT or Schematron rules?</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="BearingType">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="1"/>
+            <xs:minInclusive value="0.0"/>
+            <xs:maxInclusive value="360.0"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="PlusOrMinus360Degrees">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="1"/>
+            <xs:minInclusive value="-360.0"/>
+            <xs:maxInclusive value="360.0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- ========================================================== -->
+    <!-- Types for dataset general information, March 2014          -->
+    <!-- ========================================================== -->
+    <xs:simpleType name="MD_TopicCategoryCode">
+        <xs:annotation>
+            <xs:documentation>Topic categories in S-100 Edition 1.0.0 and gmxCodelists.xml from OGC ISO 19139 XML schemas - see MD_TopicCategoryCode.
+            Alternatives to this enumeration: (1) Add the ISO 19139 schemas to this profile and use the codelist MD_TopicCategoryCode instead.
+            (2) Ise numeric codes for literals instead of labels, e.g., "1" instead of "farming".</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="farming">
+                <xs:annotation>
+                    <xs:documentation>rearing of animals and/or cultivation of plants. Examples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="biota">
+                <xs:annotation>
+                    <xs:documentation>flora and/or fauna in natural environment. Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="boundaries">
+                <xs:annotation>
+                    <xs:documentation>legal land descriptions. Examples: political and administrative boundaries</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="climatologyMeteorologyAtmosphere">
+                <xs:annotation>
+                    <xs:documentation>processes and phenomena of the atmosphere. Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="economy">
+                <xs:annotation>
+                    <xs:documentation>economic activities, conditions and employment. Examples: production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="elevation">
+                <xs:annotation>
+                    <xs:documentation>height above or below sea level. Examples: altitude, bathymetry, digital elevation models, slope, derived products</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="environment">
+                <xs:annotation>
+                    <xs:documentation>environmental resources, protection and conservation. Examples: environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="geoscientificInformation">
+                <xs:annotation>
+                    <xs:documentation>information pertaining to earth sciences. Examples: geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="health">
+                <xs:annotation>
+                    <xs:documentation>health, health services, human ecology, and safety. Examples: disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="imageryBaseMapsEarthCover">
+                <xs:annotation>
+                    <xs:documentation>base maps. Examples: land cover, topographic maps, imagery, unclassified images, annotations</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="intelligenceMilitary">
+                <xs:annotation>
+                    <xs:documentation>military bases, structures, activities. Examples: barracks, training grounds, military transportation, information collection</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="inlandWaters">
+                <xs:annotation>
+                    <xs:documentation>inland water features, drainage systems and their characteristics. Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="location">
+                <xs:annotation>
+                    <xs:documentation>positional information and services. Examples: addresses, geodetic networks, control points, postal zones and services, place names</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="oceans">
+                <xs:annotation>
+                    <xs:documentation>features and characteristics of salt water bodies (excluding inland waters). Examples: tides, tidal waves, coastal information, reefs</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="planningCadastre">
+                <xs:annotation>
+                    <xs:documentation>information used for appropriate actions for future use of the land. Examples: land use maps, zoning maps, cadastral surveys, land ownership</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="society">
+                <xs:annotation>
+                    <xs:documentation>characteristics of society and cultures. Examples: settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="structure">
+                <xs:annotation>
+                    <xs:documentation>man-made construction. Examples: buildings, museums, churches, factories, housing, monuments, shops, towers</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="transportation">
+                <xs:annotation>
+                    <xs:documentation>means and aids for conveying persons and/or goods. Examples: roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="utilitiesCommunication">
+                <xs:annotation>
+                    <xs:documentation>energy, water and waste systems and communications infrastructure and services. Examples: hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="datasetPurposeType">
+        <xs:annotation>
+            <xs:documentation>New type introduced in S-100 Ed 5 to distinguish between a Base dataset and an Update.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="base">
+                <xs:annotation>
+                    <xs:documentation>rearing of animals and/or cultivation of plants. Examples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="update">
+                <xs:annotation>
+                    <xs:documentation>flora and/or fauna in natural environment. Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- dataset general information -->
+    <xs:complexType name="DataSetIdentificationType">
+        <xs:annotation>
+            <xs:documentation>S-100 Data Set Identification. The fields correspond to S-100 10a-5.1.2.1 fields.
+            Attributes encodingSpecification and encodingSpecificationEdition are actually redundant here because in an XML schema the encoding specification and encoding specification edition are usually implicit in the namespace URI.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="encodingSpecification" type="xs:string" fixed="S-100 Part 10b">
+                <xs:annotation>
+                    <xs:documentation>Encoding specification that defines the encoding.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="encodingSpecificationEdition" type="xs:string" fixed="1.0">
+                <xs:annotation>
+                    <xs:documentation>Edition of the encoding specification</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="productIdentifier" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>Unique identifier of the data product as specified in the product specification</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="productEdition" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>Edition of the product specification</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="applicationProfile" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>Identifier that specifies a profile within the data product</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="datasetFileIdentifier" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>The file identifier of the dataset</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="datasetTitle" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>The title of the dataset</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="datasetReferenceDate" type="xs:date">
+                <xs:annotation>
+                    <xs:documentation>The reference date of the dataset</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="datasetLanguage" type="ISO-639-2" default="eng">
+                <xs:annotation>
+                    <xs:documentation>The (primary) language used in this dataset</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="datasetAbstract" type="xs:string" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>The abstract of the dataset</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="datasetTopicCategory" type="MD_TopicCategoryCode" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>A set of topic categories</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="datasetPurpose" type="datasetPurposeType" >
+                <xs:annotation>
+                    <xs:documentation>base or update</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="updateNumber" type="xs:nonNegativeInteger" >
+                <xs:annotation>
+                    <xs:documentation>Update Number, 0 for a Base dataset</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="AbstractAttributeType" abstract="true">
+        <xs:annotation>
+            <xs:documentation>Abstract type for attributes</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractGMLType"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <!-- Replaced by simple gml:ReferenceType 
+    <xs:complexType name="InformationPropertyType"> 
+        <xs:annotation>
+            <xs:documentation>Abstract type for an S-100 information associations</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="AbstractAttributeType">
+                <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType> -->
+    <xs:element name="informationAssociation" type="gml:ReferenceType"/>
+
+    <xs:complexType name="AbstractInformationType">
+        <xs:annotation>
+            <xs:documentation>Abstract type for an S-100 information type. This is the base type from which domain application schemas derive definitions for their individual information types. </xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractGMLType">
+                <!-- <xs:sequence> -->
+                    <!-- <xs:element ref="informationAssociation" maxOccurs="unbounded" minOccurs="0"/> -->
+                    <!-- <xs:element ref="invInformationAssociation" maxOccurs="unbounded" minOccurs="0"/> -->
+                <!-- </xs:sequence> -->
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="AbstractFeatureType">
+        <xs:annotation>
+            <xs:documentation>Abstract type for an S-100 feature. This is the base type from which domain application schemas derive definitions for their individual features. It derives from GML AbstractFeatureType. </xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <!-- <xs:sequence> -->
+                    <!-- <xs:element name="featureObjectIdentifier" type="FeatureObjectIdentifier" minOccurs="0"/> -->
+                    <!-- <xs:element minOccurs="0" maxOccurs="unbounded" ref="informationAssociation"/> -->
+                    <!-- <xs:element minOccurs="0" maxOccurs="unbounded" ref="featureAssociation"/> -->
+                    <!-- <xs:element minOccurs="0" maxOccurs="unbounded" ref="invFeatureAssociation"/> -->
+                <!-- </xs:sequence> -->
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="S100_SpatialAttributeType">
+        <xs:annotation>
+            <xs:documentation>S-100 Base type for the geometry of a feature.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="maskReference" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <xs:attribute name="scaleMinimum" type="xs:positiveInteger"/>
+        <xs:attribute name="scaleMaximum" type="xs:positiveInteger"/>
+    </xs:complexType>
+
+
+    <xs:complexType name="PointType">
+        <xs:annotation>
+            <xs:documentation>S-100 point type adds an information association to the GML spatial type Point</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:PointType">
+                <xs:sequence>
+                    <xs:element ref="informationAssociation" maxOccurs="unbounded" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Point" type="PointType" substitutionGroup="gml:AbstractGeometricPrimitive"/>
+
+
+    <xs:complexType name="PointPropertyType">
+        <xs:annotation>
+            <xs:documentation>Point property using the S-100 point type.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100_SpatialAttributeType">
+                <xs:sequence>
+                    <xs:element ref="Point" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="pointProperty" type="PointPropertyType"/>
+
+    <xs:complexType name="MultiPointType">
+        <xs:annotation>
+            <xs:documentation>S-100 multipoint type adds an information association to the GML spatial type MultiPoint</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:MultiPointType">
+                <xs:sequence>
+                    <xs:element ref="informationAssociation" maxOccurs="unbounded" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="MultiPoint" type="MultiPointType" substitutionGroup="gml:AbstractGeometricAggregate"/>
+
+    <xs:complexType name="MultiPointPropertyType">
+        <xs:annotation>
+            <xs:documentation>MultiPoint property using the S-100 multipoint type.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100_SpatialAttributeType">
+                <xs:sequence>
+                    <xs:element ref="MultiPoint" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="multiPointProperty" type="MultiPointPropertyType"/>
+
+    <xs:complexType name="CurveType">
+        <xs:annotation>
+            <xs:documentation>S-100 curve type adds an information association to the GML spatial type Curve</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:CurveType">
+                <xs:sequence>
+                    <xs:element ref="informationAssociation" maxOccurs="unbounded" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Curve" type="CurveType" substitutionGroup="gml:Curve"/>
+
+    <xs:complexType name="CurvePropertyType">
+        <xs:annotation>
+            <xs:documentation>Curve property using the S-100 curve type.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100_SpatialAttributeType">
+                <xs:sequence>
+                    <xs:group ref="curves" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="curveProperty" type="CurvePropertyType"/>
+
+
+    <xs:complexType name="CompositeCurveType">
+        <xs:annotation>
+            <xs:documentation>S-100 composite curve type adds an information association to the GML spatial type CompositeCurve</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:CompositeCurveType">
+                <xs:sequence>
+                    <xs:element ref="informationAssociation" maxOccurs="unbounded" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="CompositeCurve" type="CompositeCurveType" substitutionGroup="gml:AbstractCurve"/>
+
+    <xs:element name="OrientableCurve" type="gml:OrientableCurveType" substitutionGroup="gml:AbstractCurve">
+        <xs:annotation>
+            <xs:documentation>S-100 orientable curve is the same as GML orientable curve. Added for consistency.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:group name="curves">
+        <xs:annotation>
+            <xs:documentation>Group of all S-100 curve types.</xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+            <xs:element ref="Curve"/>
+            <xs:element ref="CompositeCurve"/>
+            <xs:element ref="OrientableCurve"/>
+        </xs:choice>
+    </xs:group>
+
+    <xs:complexType name="SurfaceType">
+        <xs:annotation>
+            <xs:documentation>S-100 surface type adds an information association to the GML spatial type Surface</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:SurfaceType">
+                <xs:sequence>
+                    <xs:element ref="informationAssociation" maxOccurs="unbounded" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Surface" type="SurfaceType" substitutionGroup="gml:Surface"/>
+
+    <xs:complexType name="SurfacePropertyType">
+        <xs:annotation>
+            <xs:documentation>Surface property using the S-100 surface type.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100_SpatialAttributeType">
+                <xs:sequence>
+                    <xs:element ref="Surface" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="surfaceProperty" type="SurfacePropertyType"/>
+
+    <xs:complexType name="PolygonType">
+        <xs:annotation>
+            <xs:documentation>S-100 polygon type adds an information association to the GML spatial type Polygon</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:PolygonType">
+                <xs:sequence>
+                    <xs:element ref="informationAssociation" maxOccurs="unbounded" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Polygon" type="PolygonType" substitutionGroup="gml:Polygon">
+        <xs:annotation>
+            <xs:documentation>S100 version of polygon type</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="PolygonPropertyType">
+        <xs:annotation>
+            <xs:documentation>Polygon property using the S-100 polygon type.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element ref="Polygon" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="polygonProperty" type="PolygonPropertyType"/>
+
+    <xs:complexType name="S100_ArcByCenterPointType">
+        <xs:annotation>
+            <xs:documentation>Type for S-100 arc by center point geometry</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractCurveSegmentType">
+                <xs:sequence>
+                    <xs:choice>
+                        <xs:element ref="gml:pos"/>
+                        <xs:element ref="gml:pointProperty"/>
+                    </xs:choice>
+                    <xs:element name="radius" type="gml:LengthType"/>
+                    <xs:element name="startAngle" type="BearingType" minOccurs="0"/>
+                    <xs:element name="angularDistance" type="PlusOrMinus360Degrees" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="interpolation" type="gml:CurveInterpolationType" fixed="circularArcCenterPointWithRadius"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <!-- startAngle and angularDistance optional so as to allow Circle to inherit from this type.
+        There should be a Schematron constraint to enforce their presence in Arc - or change the S-100 geometry model. -->
+    <xs:element name="S100_ArcByCenterPoint" type="S100_ArcByCenterPointType" substitutionGroup="gml:AbstractCurveSegment">
+        <xs:annotation>
+            <xs:documentation>This variant of the arc requires that the points on the arc shall be
+                computed instead of storing the coordinates directly. The single control point is
+                the center point of the arc. The other parameters are the radius, the bearing at start,
+                and the angle from the start to the end relative to the center of the arc. This
+                representation can be used only in 2D. The element radius specifies the radius of
+                the arc. The element startAngle specifies the bearing of the arc at the start. The
+                element angularDistance specifies the difference in bearing from the start to the end.
+                The sign of angularDistance specifies the direction of the arc, positive values mean the
+                direction is clockwise from start to end looking down from a point vertically above the
+                center of the arc.
+                Drawing starts at a bearing of 0.0 from the ray pointing due north from the center. If the
+                center is at a pole the reference direction follows the prime meridian starting from the pole.
+                The interpolation is fixed as "circularArcCenterPointWithRadius". Since this type always
+                describes a single arc, the GML attribute "numArc" is not used.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:complexType name="S100_CircleByCenterPointType">
+        <xs:complexContent>
+            <xs:restriction base="S100_ArcByCenterPointType">
+                <xs:sequence>
+                    <xs:choice>
+                        <xs:element ref="gml:pos"/>
+                        <xs:element ref="gml:pointProperty"/>
+                    </xs:choice>
+                    <xs:element name="radius" type="gml:LengthType"/>
+                    <xs:element name="startAngle" type="BearingType" default="0.0"/>
+                    <xs:element name="angularDistance" default="360.0">
+                        <xs:simpleType>
+                            <xs:restriction base="PlusOrMinus360Degrees">
+                                <xs:enumeration value="360.0"/>
+                                <xs:enumeration value="-360.0"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="S100_CircleByCenterPoint" type="S100_CircleByCenterPointType" substitutionGroup="S100_ArcByCenterPoint">
+        <xs:annotation>
+            <xs:documentation>An S100_CircleByCenterPoint is an S100_ArcByCenterPoint with angular
+                distance +/- 360.0 degrees to form a full circle.
+                Angular distance is assumed to be +360.0 degrees if it is missing.
+                The interpolation is fixed as "circularArcCenterPointWithRadius". This representation
+                can be used only in 2D.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <!-- types for splines and parabolic blend curves-->
+    <xs:simpleType name="S100_GM_KnotTypeType">
+        <xs:annotation>
+            <xs:documentation>This enumeration type specifies values for the knots' type (see ISO 19107:2003, 6.4.25).</xs:documentation>
+            <xs:documentation>The S-100 3.1 type extends it with "nonUniform" in keeping with the 2017 draft of 19107 </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="uniform">
+                <xs:annotation>
+                    <xs:documentation>knots are equally spaced, all multiplicity 1</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="quasiUniform">
+                <xs:annotation>
+                    <xs:documentation>the interior knots are uniform, but the first and last have multiplicity one larger than the degree of the spline</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="piecewiseBezier">
+                <xs:annotation>
+                    <xs:documentation>the underlying spline is formally a Bézier spline, but knot multiplicity is always the degree of the spline except at the ends where the knot degree is (p+1). Such a spline is a pure Bézier spline between its distinct knots</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="nonUniform">
+                <xs:annotation>
+                    <xs:documentation>knots have varying spacing and multiplicity</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="S100_GM_KnotType">
+        <xs:annotation>
+            <xs:documentation>S-100 Knot is the GML 3.2.1 definition of Knot with the erroneous "weight" element removed.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="value" type="xs:double"/>
+            <xs:element name="multiplicity" type="xs:nonNegativeInteger"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="KnotPropertyType">
+        <xs:annotation>
+            <xs:documentation>gml:KnotPropertyType encapsulates a knot to use it in a geometric type. The S100 version is needed so as to use the updated definition of knots</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Knot" type="S100_GM_KnotType">
+                <xs:annotation>
+                    <xs:documentation>A knot is a breakpoint on a piecewise spline curve.
+                        value is the value of the parameter at the knot of the spline (see ISO 19107:2003, 6.4.24.2).
+                        multiplicity is the multiplicity of this knot used in the definition of the spline (with the same weight).
+                        weight is the value of the averaging weight used for this knot of the spline.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="VectorType">
+        <xs:annotation>
+            <xs:documentation>Defintion of the Vector datatype used in splines</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="origin" minOccurs="1" maxOccurs="1">
+                <xs:complexType>
+                    <xs:choice>
+                        <xs:element ref="gml:pos"/>
+                        <xs:element ref="gml:pointProperty"/>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="dimension" type="xs:nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="offset" type="gml:doubleList" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>The number of values must be the same as "dimension" value</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="S100_GM_SplineCurveType">
+        <xs:annotation>
+            <xs:documentation><xs:documentation>Type for general splines including b-splines</xs:documentation></xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractCurveSegmentType">
+                <xs:sequence>
+                    <xs:choice>
+                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                            <xs:element ref="gml:pos"/>
+                            <xs:element ref="gml:pointProperty"/>
+                        </xs:choice>
+                        <xs:element ref="gml:posList"/>
+                    </xs:choice>
+                    <xs:element name="degree" type="xs:nonNegativeInteger"/>
+                    <xs:element name="knot" type="KnotPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="knotSpec" type="S100_GM_KnotTypeType" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="isRational" type="gml:booleanOrNilReason"/>
+                </xs:sequence>
+                <xs:attribute name="interpolation" type="gml:CurveInterpolationType"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="S100_GM_SplineCurve" type="S100_GM_SplineCurveType" substitutionGroup="gml:AbstractCurveSegment">
+        <xs:annotation>
+            <xs:documentation/>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="S100_GM_PolynomialSplineType">
+        <xs:annotation>
+            <xs:documentation><xs:documentation>Type for polynomial splines</xs:documentation></xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100_GM_SplineCurveType">
+                <xs:sequence>
+                    <xs:element name="derivativeAtStart" type="VectorType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="derivativeAtEnd" type="VectorType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="numDerivativeInterior" type="xs:nonNegativeInteger"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="S100_GM_PolynomialSpline" type="S100_GM_PolynomialSplineType" substitutionGroup="gml:AbstractCurveSegment">
+        <xs:annotation>
+            <xs:documentation/>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="S100_GM_CurveType">
+        <xs:annotation>
+            <xs:documentation><xs:documentation>Type for curve segments with other interpolations</xs:documentation></xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractCurveSegmentType">
+                <xs:sequence>
+                    <xs:choice>
+                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                            <xs:element ref="gml:pos"/>
+                            <xs:element ref="gml:pointProperty"/>
+                        </xs:choice>
+                        <xs:element ref="gml:posList"/>
+                    </xs:choice>
+                </xs:sequence>
+                <xs:attribute name="interpolation" type="gml:CurveInterpolationType"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="S100_GM_Curve" type="S100_GM_CurveType" substitutionGroup="gml:AbstractCurveSegment">
+        <xs:annotation>
+            <xs:documentation><xs:documentation>Curve segments with other interpolations</xs:documentation></xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <!-- end of types added for splines and parabolic blend curves-->
+
+    <xs:group name="Geometry">
+        <xs:annotation>
+            <xs:documentation>group combining all the allowed S-100 geometries (point, all curve types, surface, multipoint)</xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+            <xs:element ref="Point"/>
+            <xs:element ref="MultiPoint"/>
+            <xs:group ref="curves"/>
+            <xs:element ref="Surface"/>
+            <xs:element ref="Polygon"/>
+        </xs:choice>
+    </xs:group>
+
+  <xs:complexType name="S100_TruncatedDate">
+    <xs:annotation>
+      <xs:documentation>built in date types from W3C XML schema, implementing S-100 truncated date</xs:documentation>
+    </xs:annotation>
+    <xs:choice>
+      <xs:element name="gDay" type="xs:gDay"/>
+      <xs:element name="gMonth" type="xs:gMonth"/>
+      <xs:element name="gYear" type="xs:gYear"/>
+      <xs:element name="gMonthDay" type="xs:gMonthDay"/>
+      <xs:element name="gYearMonth" type="xs:gYearMonth"/>
+      <xs:element name="date" type="xs:date"/>
+    </xs:choice>
+  </xs:complexType>
+  <!-- ============================================= -->
+  <!-- types and elements for the dataset definition -->
+  <!-- ============================================= -->
+  <xs:complexType name="DatasetType">
+    <xs:annotation>
+      <xs:documentation>Dataset element for dataset as "GML document"</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="gml:AbstractFeatureType">
+        <xs:sequence>
+          <xs:element name="DatasetIdentificationInformation" type="DataSetIdentificationType" minOccurs="1">
+            <xs:annotation>
+              <xs:documentation>Dataset identification information</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:group ref="Geometry" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>Allows spatial objects to be located outside feature objects.</xs:documentation>
+            </xs:annotation>
+          </xs:group>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+	<xs:element name="complianceLevel">
+		<xs:annotation>
+			<xs:documentation>
+            Level 1 = 
+            Level 2 = 
+         </xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+</xs:schema>

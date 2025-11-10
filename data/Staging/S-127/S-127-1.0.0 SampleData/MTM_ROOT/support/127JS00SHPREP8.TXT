@@ -1,0 +1,20 @@
+﻿The occurrence of any of the following dangerous conditions on board the vessel should be reported immediately to the Captain of the Port of the vessel’s destination and the Captain of the Port of the vessel’s location:
+
+1.	Occurrence of fire.
+2.	Vessel involved in a collision or grounding.
+3.	Any defect in the ship’s hull.
+4.	Any defect in the ship’s main propulsion, electrical or steering systems.
+5.	Any defect in the ship’s radio equipment, radar, or compasses.
+6.	Any defect is the ship’s anchors or ground tackle.
+
+The report should contain the following information:
+1.	Name of ship.
+2.	Flag.
+3.	Vessel loa, beam, draft, and tonnage.
+4.	Type of ship (cargo/container/cargo and passenger/oil tanker/fishing vessel/other).
+5.	Description of dangerous condition.
+6.	Master’s name.
+7.	Ship’s owner (name and address).
+8.	Ship’s operator (name and address).
+9.	Ship’s agent (name and address).
+10.	Date, time, and location of the ship at the time the report is made.

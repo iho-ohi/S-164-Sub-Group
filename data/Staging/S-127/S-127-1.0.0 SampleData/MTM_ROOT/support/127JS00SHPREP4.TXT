@@ -1,0 +1,20 @@
+﻿Notice of ETD: Report to the Captain of the Port.
+
+The message should include the following information:
+1.	Vessel’s name, call sign, and country of registry.
+2.	Gross tonnage.
+3.	Number of passengers and/or crew.
+4.	Master’s name.
+5.	Agent’s name and contact information.
+6.	Name(s) of all dangerous cargo carried on board.
+7.	Amount of dangerous cargo, if applicable.
+8.	Stowage location of dangerous cargo, if applicable.
+9.	Operational status of the following navigational equipment:
+	a.	Radar.
+	b.	Compasses.
+	c.	Rudder angle indicator.
+	d.	Echo sounder.
+	e.	Equipment on the bridge for plotting relative motion.
+10.	Point of departure.
+11.	ETD.
+12.	Next port.

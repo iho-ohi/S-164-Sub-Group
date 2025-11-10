@@ -1,0 +1,84 @@
+Note: Pursuant to the Marine Transportation Security Regulations (MTSR), the Security Measures Respecting Designated Tall Ship Events and the Security Measures Respecting Tall Ships and Marine Facilities that Interface with Tall Ships; vessels entering Canadian waters are required to submit pre-arrival information to Transport Canada. However please note that the following pre-arrival information requirement does not apply to fishing vessels, pleasure craft, government vessels, nor to vessels operating solely on the Great Lakes or to the portions of a vessel’s voyage on the Great Lakes after pre-arrival information has been given prior to its entrance into the St. Lawrence Seaway. 
+
+Requirement:
+The master of the following vessels (including tall ships), engaged on an international voyage: 
+a)  SOLAS vessels of 500 tons gross tonnage or more; 
+b)  SOLAS and NON-SOLAS vessels carrying 12 passengers or more; 
+c)  NON-SOLAS vessels that are more than 100 tons, gross tonnage; and 
+d)  NON-SOLAS vessels that are a towing vessel engaged in towing a barge astern or alongside or pushing ahead, if the barge is carrying certain dangerous cargoes, 
+cannot enter Canadian waters until they submit their pre-arrival information to Transport Canada:  
+a)  at least 96 hours prior to entering Canadian Waters  
+b)  if the duration of the segment of the voyage before entering Canadian waters is less than 96 hours but more than 24 hours, at least 24 hours before entering Canadian waters; or  
+c)  if the duration of the segment of the voyage before entering Canadian waters is less than 24 hours,as soon as practicable before entering Canadian waters but no later than the time of departure from the last port of call. 
+
+The preferred method of receiving Pre-Arrival Information is via the 96-Hour PAIR PDF form. Forms can be obtained by emailing: 
+    TC.PAIR-NPA.TC@tc.gc.ca – to receive an English PAIR Form 
+    TC.NPA-PAIR.TC@tc.gc.ca – to receive a French PAIR Form 
+
+Once an email is sent, an attached PDF form will automatically be forwarded to the requestor. Forms can be saved and emailed to Transport Canada according to one of the following: 
+
+Vessels entering WESTERN CANADA 
+Transport Canada Marine Security Operations Centre West 
+    MARSECW@tc.gc.ca 
+    1-250-363-4850 
+
+Vessels entering EASTERN CANADA, the ST. LAWRENCE SEAWAY or the CANADIAN ARCTIC 
+Transport Canada Marine Security Operations Centre East 
+    MARSECE@tc.gc.ca 
+    1-902-427-8003 
+
+It is the responsibility of the Master of the vessel to ensure that all information provided to the 
+Government of Canada (Transport Canada) in the PAIR is complete and accurate. Masters of vessels 
+subject to the Marine Transportation Security Regulations (as described above) failing to submit, or 
+submitting incomplete or inaccurate pre-arrival information, risk subjecting their vessel to control 
+actions such as, but not limited to: inspection, detention, redirection or expulsion from Canadian 
+waters.
+
+All reasonable measures shall be taken whenever a change occurs in the information previously provided in any pre-arrival information made pursuant to the Marine Transportation Security 
+Regulations, to the Security Measures Respecting Designated Tall Ship Events and to the Security Measures Respecting Tall Ships and Marine Facilities that Interface with Tall Ships, to Transport Canada. It should be noted that: 
+a)  that the vessel does not enter Canadian waters unless the changed has been reported; and 
+b)  in the case of a change that has occurred after the vessel has entered Canadian waters, that the change is reported before the vessel’s first interface with a marine facility in Canada. 
+
+If, for any reason, vessels are unable to send the PAIR via the above preferred methods, the following contingencies should be considered: 
+a)  if unable to get a digital PDF form, see the section below for the required information  
+b)  if the email system is unserviceable, the ship may send the required information (see section below) via  any  Canadian  Coast  Guard  Marine  Communications  and  Traffic  Services  (MCTS)  centre. Contact information for MCTS Centres may be found in Part 2 of this publication. 
+
+The vessel’s pre-arrival information shall include the following:  
+a)  its name;  
+b)  its country of registry;  
+c)  the name of its registered owner;  
+d)  the name of its operator;  
+e)  the name of its classification society (not applicable to tall ships);  
+f)   its international radio call sign;  
+g)  its  International  Ship  Security  Certificate,  Canadian  Vessel  Security  Certificate  or  ship  security compliance document number;  
+h)  its International Maritime Organization number, if it is a SOLAS ship;  
+i.   the IMO Unique Company Identification Number of its company and the IMO Unique Registered Owner Identification Number of its owner 
+i)   the date of issuance, date of expiry and name of the issuing body of its International Ship Security Certificate, Canadian Vessel Security Certificate, or ship security document;   
+j)   confirmation that the vessel has an approved vessel security plan;  
+k)  the current MARSEC level;  
+l)   a statement of when its last 10 declarations of security were completed;  
+m) details of any security breaches, security incidents or security threats involving the vessel during the last ten calls at marine facilities and during the time spent at sea between those calls;  
+n)  details  of  any  deficiencies  in  its  security  equipment  and  systems,  including  the  communication systems, and the way in which the master of the vessel intends to correct them;  
+o)  if applicable, the name of its agent and contact person and their 24-hour telephone and facsimile numbers (not applicable to tall ships);  
+p)  if applicable, the name of the vessel's charterer;  
+q)  its position and the date and time at which it reached that position;  
+r)   its course and speed;  
+s)  its first port of call in Canada, with the estimated time of arrival at that port of call, and, if applicable, its final destination with the estimated time of arrival at that destination;  
+t)   the name of a contact person at the marine facility that it will visit and their 24-hour telephone and facsimile numbers;  
+u)  the following information in respect of its last ten marine facilities visited:  
+    i.   the receiving facility;  
+    ii.  the marine facility visited;  
+    iii. the city and country;  
+    iv. the date and time of arrival, and  
+    v.  the date and time of departure;  
+v)  a general description of the cargo, including cargo amount (not applicable to tall ships);  
+w)  if applicable, the presence and description of any dangerous substances or devices on board; and 
+x)  the following contact information: 
+    i.   the name of the master 
+    ii.  an email address, if applicable, and 
+    iii. a satellite or cellular telephone number, if applicable. 
+
+Request all pages of the vessel’s Interim International Ship Security Certificate (IISSC), International Ship Security Certificate (ISSC), Interim Canadian Vessel Security Certificate (ICVSC), Canadian Vessel Security Certificate (CVSC) or Ship Security Compliance document be included with the Pre-Arrival Information Report. 
+
+For any additional questions or queries regarding pre-arrival information, please contact the appropriate Marine Security Operations Centre (East or West) via email or telephone as provided 
+earlier in this section.

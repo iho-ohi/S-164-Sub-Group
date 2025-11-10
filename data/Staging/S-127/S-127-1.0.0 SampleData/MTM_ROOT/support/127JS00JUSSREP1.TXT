@@ -1,0 +1,12 @@
+﻿The following vessels are required to participate in the JUSSREP reporting system
+1.	Vessels carrying hydrocarbons or residual gases of hydrocarbons stated in the list in Annex 1 of MARPOL 73.
+2.	Non-inerted tankers carrying:
+	a.	Harmful liquid substances as defined in Annex 2 of the MARPOL Convention and classi-fied in categories A and B of Chapter 17 of the IMO International Bulk Carriers (IBC) Code.
+	b.	Bulk liquefied gas.
+	c.	Plutonium 239, Uranium 233, 235 or 238, Thorium, or any other substance containing these with the exception of minerals.
+	d.	Acetaldehyde (UN 1089), alcoholic ether (UN 1155), ethylvinylic ether (UN 1302), mo-noethylamine (UN 1036), ammonium nitrate (UN 0222), or propylene oxide (UN 1280).
+	e.	Organochlorate compounds (e.g. organochlorate pesticides UN 2761, 2762, 2995, or 2996).
+3.	Vessels carrying:
+	a.	Harmful liquid substances as defined in MARPOL Annex 2 and not listed above.
+	b.	Noxious liquid substances as defined in MARPOL Annex 3.
+	c.	Dangerous goods as defined in The International Maritime Dangerous Goods (IMDG) Code, including radioactive products listed in the INF rules, Chapter 17 of the IMO International Bulk Carriers (IBC) Code and Chapter 19 of the IMO International Gas Carriers (IGC) Code.

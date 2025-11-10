@@ -1,0 +1,13 @@
+﻿Vessels should notify the customs office which has jurisdiction at the vessel’s destination 24 hours prior to arrival concerning cargo information and 2 hours prior to arrival concerning crew and passenger information, except in the following situation;
+
+1.   Failure of communication facilities.
+2.   Abnormal weather and oceanographic phenomena.
+3.   Danger due to crucial damages.
+4.   Cargo shifting.
+5.   Force majeure.
+
+When a vessel enters into an open port without the above-mentioned notification, the notification shall be sent to the customs office immediately after entering into a port.
+
+When a vessel enters into an open port, the captain shall present a certificate of the ship’s nationality or an equivalent document to the Customs Officer, as well as submitting the following declaration of the ship’s arrival and the ship’s store list to the customs office within 24 hours after entering port:
+1.   Declaration of entry into the port—The name, nationality, and net tonnage of a ship; the number of passengers and crew; the port of departure, and the day and time of arrival.
+2.   Ship’s store list—The name and nationality of a ship and the type and quantities of the ship’s stores.

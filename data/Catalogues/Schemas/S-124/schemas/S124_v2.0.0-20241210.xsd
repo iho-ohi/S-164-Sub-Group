@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.iho.int/S124/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:S100="http://www.iho.int/s100gml/5.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    targetNamespace="http://www.iho.int/S124/1.0"
+    elementFormDefault="qualified"
+    version="1.0.0-20220818">
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schemas.s100dev.net/schemas/S100/5.0.0/S100GML/20220620/S100_gmlProfile.xsd"/>
+    <xs:import namespace="http://www.iho.int/s100gml/5.0" schemaLocation="https://schemas.s100dev.net/schemas/S100/5.0.0/S100GML/20220620/s100gmlbase.xsd"/>
+    <xs:simpleType name="atoNNumberType">
+        <xs:annotation>
+            <xs:documentation>Identifier from a list of Aids to Navigation publication, such as List of Lights.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="interoperabilityIdentifierType">
+        <xs:annotation>
+            <xs:documentation>A common unique identifier for entities which describe a single real-world feature, and which is used to identify instances of the feature in end-user systems where the feature may be included in multiple data product types.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:anyURI"/>
+    </xs:simpleType>
+    <xs:simpleType name="NameType">
+        <xs:annotation>
+            <xs:documentation>The individual name of a feature.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:complexType name="nameUsageType">
+        <xs:annotation>
+            <xs:documentation>Classification of the type and display level of the name of a feature in an end-user system.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="nameUsageLabel">
+                <xs:attribute name="code" type="nameUsageCode" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>    <xs:simpleType name="nameUsageLabel">
+        <xs:annotation>
+            <xs:documentation>Classification of the type and display level of the name of a feature in an end-user system.</xs:documentation>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Default Name Display"><xs:annotation><xs:documentation>The name is intended to be displayed when the end-user system is set to the default name/text display setting.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Alternate Name Display"><xs:annotation><xs:documentation>The name is intended to be displayed when the end-user system is set to an alternate name/text display setting, for example an alternate language.</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="nameUsageCode">
+        <xs:annotation>
+            <xs:documentation>Classification of the type and display level of the name of a feature in an end-user system.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:integer">            <xs:enumeration value="1">            </xs:enumeration>
+            <xs:enumeration value="2">            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="yearType">
+        <xs:annotation>
+            <xs:documentation>A period of one revolution of the earth around the sun.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:int"/>
+    </xs:simpleType>
+    <xs:complexType name="warningTypeType">
+        <xs:annotation>
+            <xs:documentation>The scope of the MSI warning - NAVAREA, sub-area, etc.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="warningTypeLabel">
+                <xs:attribute name="code" type="warningTypeCode" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>    <xs:simpleType name="warningTypeLabel">
+        <xs:annotation>
+            <xs:documentation>The scope of the MSI warning - NAVAREA, sub-area, etc.</xs:documentation>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Local Navigational Warning"><xs:annotation><xs:documentation>Message containing urgent information relevant to safe navigation broadcast to ships in a local area, in accordance with the provisions of the International Convention for the Safety of Life at Sea, 1974, as amended.(Adopted from S-53, 2.2.23)
+
+Local warning means a navigational warning which covers inshore waters, often within the limits of jurisdiction of a harbour or port authority. (Adopted from S-53, 2.2.10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Coastal Navigational Warning"><xs:annotation><xs:documentation>Message containing urgent information relevant to safe navigation broadcast to ships in a coastal  area, in accordance with the provisions of the International Convention for the Safety of Life at Sea, 1974, as amended.
+
+Coastal warning means a navigational warning promulgated as part of a numbered series by a National Coordinator.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sub-Area Navigational Warning"><xs:annotation><xs:documentation>Message containing urgent information relevant to safe navigation broadcast to ships in a sub-area, in accordance with the provisions of the International Convention for the Safety of Life at Sea, 1974, as amended.
+
+Sub-area warning means a navigational warning or in-force bulletin promulgated as part of a numbered series by a Sub-area Coordinator.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="NAVAREA Navigational Warning"><xs:annotation><xs:documentation>Message containing urgent information relevant to safe navigation broadcast to ships in a NAVAREA, in accordance with the provisions of the International Convention for the Safety of Life at Sea, 1974, as amended.
+
+NAVAREA warning means a navigational warning promulgated as part of a numbered series by a NAVAREA Coordinator.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="NAVAREA No Warning"><xs:annotation><xs:documentation>A message that indicates that there are no navigational warnings to be disseminated in the NAVAREA.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sub-Area No Warning"><xs:annotation><xs:documentation>A message that indicates that there are no navigational warnings to be disseminated in the sub-area.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Coastal No Warning"><xs:annotation><xs:documentation>A message that indicates that there are no navigational warnings to be disseminated in the coastal area.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Local No Warning"><xs:annotation><xs:documentation>A message that indicates that there are no navigational warnings to be disseminated in the local area.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="NAVAREA In-Force Bulletin"><xs:annotation><xs:documentation>A list of serial numbers of NAVAREA warnings which are in- force.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sub-Area In-Force Bulletin"><xs:annotation><xs:documentation>A list of serial numbers of sub-area warnings which are in-force.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Coastal In-Force Bulletin"><xs:annotation><xs:documentation>A list of serial numbers of coastal warnings which are in- force.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Local In-Force Bulletin"><xs:annotation><xs:documentation>A list of serial numbers of local warnings which are in- force.</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="warningTypeCode">
+        <xs:annotation>
+            <xs:documentation>The scope of the MSI warning - NAVAREA, sub-area, etc.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:integer">            <xs:enumeration value="1">            </xs:enumeration>
+            <xs:enumeration value="2">            </xs:enumeration>
+            <xs:enumeration value="3">            </xs:enumeration>
+            <xs:enumeration value="4">            </xs:enumeration>
+            <xs:enumeration value="5">            </xs:enumeration>
+            <xs:enumeration value="6">            </xs:enumeration>
+            <xs:enumeration value="7">            </xs:enumeration>
+            <xs:enumeration value="8">            </xs:enumeration>
+            <xs:enumeration value="9">            </xs:enumeration>
+            <xs:enumeration value="10">            </xs:enumeration>
+            <xs:enumeration value="11">            </xs:enumeration>
+            <xs:enumeration value="12">            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="warningNumberType">
+        <xs:annotation>
+            <xs:documentation>The consecutive number re-starts each calendar year at 1 (Leading zeros are not mandatory).</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:int"/>
+    </xs:simpleType>
+    <xs:simpleType name="warningIdentifierType">
+        <xs:annotation>
+            <xs:documentation>Globally unique identifier of a navigational warning in the MRN format.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:anyURI"/>
+    </xs:simpleType>
+    <xs:simpleType name="nameOfSeriesType">
+        <xs:annotation>
+            <xs:documentation>The NAVAREA or METAREA. Example: NAVAREA IV. Distinction: generalArea, locality</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="countryNameType">
+        <xs:annotation>
+            <xs:documentation>The name of a nation.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="agencyResponsibleForProductionType">
+        <xs:annotation>
+            <xs:documentation>Identifies the agency which produced the data.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="headlineType">
+        <xs:annotation>
+            <xs:documentation>Words set at the head of a passage or page to introduce or categorize.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="fileReferenceType">
+        <xs:annotation>
+            <xs:documentation>The file name of an externally referenced text file.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="fileLocatorType">
+        <xs:annotation>
+            <xs:documentation>The location of a fragment of text or other information in a support file.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="localityIdentifierType">
+        <xs:annotation>
+            <xs:documentation>Globally unique identifier for the area or locality in the MRN format.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:anyURI"/>
+    </xs:simpleType>
+    <xs:simpleType name="timeOfDayStartType">
+        <xs:annotation>
+            <xs:documentation>The time corresponding to the start of an active period.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:time"/>
+    </xs:simpleType>
+    <xs:simpleType name="timeOfDayEndType">
+        <xs:annotation>
+            <xs:documentation>The time corresponding to the end of an active period.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:time"/>
+    </xs:simpleType>
+    <xs:complexType name="dateStartType">
+        <xs:annotation>
+            <xs:documentation>The earliest date on which an object (for example a buoy) will be present.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100:S100_TruncatedDate"/>
+        </xs:complexContent>
+    </xs:complexType>    <xs:complexType name="dateEndType">
+        <xs:annotation>
+            <xs:documentation>The latest date on which an object (for example a buoy) will be present.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100:S100_TruncatedDate"/>
+        </xs:complexContent>
+    </xs:complexType>    <xs:simpleType name="lastNoticeDateType">
+        <xs:annotation>
+            <xs:documentation>Date of the last notice to mariner, such as was applied to a chart or publication.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:date"/>
+    </xs:simpleType>
+    <xs:simpleType name="editionDateType">
+        <xs:annotation>
+            <xs:documentation>Date of publishing for example of a publication, chart, or product.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:date"/>
+    </xs:simpleType>
+    <xs:simpleType name="chartPlanNumberType">
+        <xs:annotation>
+            <xs:documentation>Plan number when a chart has more than one panel.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="chartNumberType">
+        <xs:annotation>
+            <xs:documentation>Chart number. Note, can be either paper chart number or ENC file name.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="publicationAffectedType">
+        <xs:annotation>
+            <xs:documentation>Name of affected publication.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="internationalChartAffectedType">
+        <xs:annotation>
+            <xs:documentation>International paper chart number. (Not used if chartAffected carry an ENC name).</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="chartPublicationIdentifierType">
+        <xs:annotation>
+            <xs:documentation>Identifier for the chart or publication (using the MRN format).</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:anyURI"/>
+    </xs:simpleType>
+    <xs:simpleType name="intServiceType">
+        <xs:annotation>
+            <xs:documentation>An indication of an international service, true = yes, false = no.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:boolean"/>
+    </xs:simpleType>
+    <xs:simpleType name="cancellationDateType">
+        <xs:annotation>
+            <xs:documentation>Date and time of cancelling a notice or warning.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:dateTime"/>
+    </xs:simpleType>
+    <xs:complexType name="referenceCategoryType">
+        <xs:annotation>
+            <xs:documentation>Category of reference.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="referenceCategoryLabel">
+                <xs:attribute name="code" type="referenceCategoryCode" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>    <xs:simpleType name="referenceCategoryLabel">
+        <xs:annotation>
+            <xs:documentation>Category of reference.</xs:documentation>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Warning Cancellation"><xs:annotation><xs:documentation>Cancellation of warning which is no longer valid.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Warning Reference"><xs:annotation><xs:documentation>Reference to relevant warning.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="In-Force"><xs:annotation><xs:documentation>Reference to warnings or notices that are considered in-force.</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="referenceCategoryCode">
+        <xs:annotation>
+            <xs:documentation>Category of reference.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:integer">            <xs:enumeration value="1">            </xs:enumeration>
+            <xs:enumeration value="2">            </xs:enumeration>
+            <xs:enumeration value="3">            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="noMessageOnHandType">
+        <xs:annotation>
+            <xs:documentation>An indication of no active message.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:boolean"/>
+    </xs:simpleType>
+    <xs:simpleType name="scaleMinimumType">
+        <xs:annotation>
+            <xs:documentation>The minimum scale at which the feature may be used for example for ECDIS presentation.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:int"/>
+    </xs:simpleType>
+    <xs:simpleType name="textType">
+        <xs:annotation>
+            <xs:documentation>A non-formatted digital text string.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="textOffsetBearingType">
+        <xs:annotation>
+            <xs:documentation>The angular distance measured from true north that text associated with a feature is positioned from the feature in an end-user system.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:int"/>
+    </xs:simpleType>
+    <xs:simpleType name="textOffsetDistanceType">
+        <xs:annotation>
+            <xs:documentation>The distance that text associated with a feature is positioned from the feature in an end-user system.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:int"/>
+    </xs:simpleType>
+    <xs:simpleType name="textRotationType">
+        <xs:annotation>
+            <xs:documentation>A statement that expresses if text associated with a feature is to be rotated in the ECDIS display or not.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:boolean"/>
+    </xs:simpleType>
+    <xs:complexType name="restrictionType">
+        <xs:annotation>
+            <xs:documentation>The official legal statute of each kind of restricted area.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="restrictionLabel">
+                <xs:attribute name="code" type="restrictionCode" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>    <xs:simpleType name="restrictionLabel">
+        <xs:annotation>
+            <xs:documentation>The official legal statute of each kind of restricted area.</xs:documentation>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Entry Prohibited"><xs:annotation><xs:documentation>[1] An area shown on charts within which navigation and/or anchoring is prohibited. [2] In aviation terminology, a specified area within the land areas of a state or territorial waters adjacent thereto over which the flight of aircraft is prohibi­ted.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Entry Restricted"><xs:annotation><xs:documentation>A specified area designated by appropriate authority, within which navigation is restricted in accordance with certain specified conditions.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Area To Be Avoided"><xs:annotation><xs:documentation>An IMO declared routeing measure comprising an area within defined limits in which either navigation is particularly hazardous or it is exceptionally important to avoid casualties and which should be avoided by all ships, or certain classes of ships.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Stopping Prohibited"><xs:annotation><xs:documentation>An area in which a vessel is prohibited from stopping.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Speed Restricted"><xs:annotation><xs:documentation>An area within which speed is restricted.</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="restrictionCode">
+        <xs:annotation>
+            <xs:documentation>The official legal statute of each kind of restricted area.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:integer">            <xs:enumeration value="7">            </xs:enumeration>
+            <xs:enumeration value="8">            </xs:enumeration>
+            <xs:enumeration value="14">            </xs:enumeration>
+            <xs:enumeration value="25">            </xs:enumeration>
+            <xs:enumeration value="27">            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="languageType">
+        <xs:annotation>
+            <xs:documentation>The method of human communication, either spoken or written, consisting of the use of words in a structured and conventional way.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="publicationTimeType">
+        <xs:annotation>
+            <xs:documentation>Date and time of publication of the notice or warning.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:dateTime"/>
+    </xs:simpleType>
+    <xs:complexType name="navwarnTypeDetailsType">
+        <xs:annotation>
+            <xs:documentation>Detailed type of a warning or hazard.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="navwarnTypeDetailsLabel">
+                <xs:attribute name="code" type="navwarnTypeDetailsCode" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>    <xs:simpleType name="navwarnTypeDetailsLabel">
+        <xs:annotation>
+            <xs:documentation>Detailed type of a warning or hazard.</xs:documentation>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Acoustic Recorder"><xs:annotation><xs:documentation>The temporary or permanent installation of an acoustical instrument in the marine environment for the purpose of tracking the behavior of marine mammals or to monitor their ecosystems.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AIS Temporary Establishment"><xs:annotation><xs:documentation>A new AIS has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AIS Transmitter Establishment"><xs:annotation><xs:documentation>A new AIS site has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AIS Transmitter Operating Properly"><xs:annotation><xs:documentation>The terrestrial AIS transmitter is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AIS Transmitter Out Of Service"><xs:annotation><xs:documentation>The terrestrial AIS transmitter is inoperative due to a technical issue.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AIS Transmitter Removal"><xs:annotation><xs:documentation>AIS transmitter has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AIS Transmitter Temporary Removal"><xs:annotation><xs:documentation>AIS transmitter has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AIS Transmitter Unreliable"><xs:annotation><xs:documentation>The terrestrial AIS transmitter is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="All Aids To Navigation Unreliable"><xs:annotation><xs:documentation>All aids to navigation on a structure or in an area are unreliable due to environmental impact, equipment failure, etc.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Anti Pollution Exercise"><xs:annotation><xs:documentation>A large scale activity where multiple vessels, surveillance aircraft, and shore-based personnel practice a response to the discharge of a pollutant from a ship (or shore) into the marine environment, in order to evaluate the effectiveness of response capability.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Anti Pollution Operation"><xs:annotation><xs:documentation>A real time response by vessels, surveillance aircraft, and shore-based personnel to resolve the discharge of a pollutant from a ship (or shore) into the marine environment.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Aquaculture Site"><xs:annotation><xs:documentation>The installation of infrastructure at a new location where the farming of fish, shellfish and aquatic plants in fresh or salt water is undertaken; and, failures at these locations where the infrastructure is reported damaged and may be adrift.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AtoN Operating Properly"><xs:annotation><xs:documentation>The outage/failure has been corrected and the aids to navigation has resumed normal operation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Audible Signal Change"><xs:annotation><xs:documentation>The characteristics of the audible signal (device activated by e.g. sea state or wind, irrespective of visibility) have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Audible Signal Establishment"><xs:annotation><xs:documentation>A new audible signal (device activated by e.g. sea state or wind, irrespective of visibility) has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Audible Signal Operating Properly"><xs:annotation><xs:documentation>The audible signal (device activated by e.g. sea state or wind, irrespective of visibility) is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Audible Signal Out Of Service"><xs:annotation><xs:documentation>The audible signal (device activated by e.g. sea state or wind, irrespective of visibility) is inoperative.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Audible Signal Removal"><xs:annotation><xs:documentation>Audible signal (device activated by e.g. sea state or wind, irrespective of visibility) has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Audible Signal Temporary Change"><xs:annotation><xs:documentation>The characteristics of the audible signal (device activated by e.g. sea state or wind, irrespective of visibility) have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Audible Signal Temporary Establishment"><xs:annotation><xs:documentation>A new audible signal has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Audible Signal Temporary Removal"><xs:annotation><xs:documentation>Audible signal (device activated by e.g. sea state or wind, irrespective of visibility) has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Authorized Ice Routeing Information"><xs:annotation><xs:documentation>Ice routeing information provided by a recognized authority.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Change"><xs:annotation><xs:documentation>The characteristics of the beacon have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Damaged"><xs:annotation><xs:documentation>The beacon has sustained damage due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Daymark Unreliable"><xs:annotation><xs:documentation>Colour of the beacon daymark is not visible due to damage or fading of colours (out of tolerance with colour recommendations).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Establishment"><xs:annotation><xs:documentation>A new beacon has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Missing"><xs:annotation><xs:documentation>No beacon at the advertised position.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Removal"><xs:annotation><xs:documentation>Beacon has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Restored To Normal"><xs:annotation><xs:documentation>The beacon has been restored to normal condition.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Temporary Change"><xs:annotation><xs:documentation>The characteristics of the beacon have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Temporary Establishment"><xs:annotation><xs:documentation>A new beacon has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Temporary Removal"><xs:annotation><xs:documentation>Beacon has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Topmark Damaged"><xs:annotation><xs:documentation>The topmark of the beacon is damaged due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Beacon Topmark Missing"><xs:annotation><xs:documentation>The topmark of the beacon is missing.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Blasting Operation"><xs:annotation><xs:documentation>An explosive detonation was observed at sea or blasting operation is scheduled to occur.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Breakwater Construction"><xs:annotation><xs:documentation>The construction of a structure protecting a shore area, harbour, or anchorage from waves.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Bridge Horizontal Clearance Change"><xs:annotation><xs:documentation>The published horizontal clearance of the fixed or opening bridge has changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Bridge Unable To Close"><xs:annotation><xs:documentation>The functionality of an opening bridge is compromised. The bridge will remain open.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Bridge Unable To Open"><xs:annotation><xs:documentation>The functionality of an opening bridge is compromised. The bridge will remain closed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Bridge Vertical Clearance Change"><xs:annotation><xs:documentation>The published vertical clearance of the fixed or opening bridge has changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Adrift"><xs:annotation><xs:documentation>The buoy is no longer secured to its moorings and is adrift.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Change"><xs:annotation><xs:documentation>The characteristics of the buoy have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Commissioned for Navigation Season"><xs:annotation><xs:documentation>A buoy which was in ice over the winter and has been verified undamaged and in advertised position for the navigational season</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Damaged"><xs:annotation><xs:documentation>The buoy has been damaged due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Daymark Unreliable"><xs:annotation><xs:documentation>Colour of the buoy daymark is not visible due to damage or fading of colours (out of tolerance with colour recommendations).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Decommissioned for Winter"><xs:annotation><xs:documentation>A buoy which remains in the water over winter but which is declared unreliable (may be impacted by ice movement).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Destroyed"><xs:annotation><xs:documentation>The buoy has suffered extensive damage and is not useable.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Establishment"><xs:annotation><xs:documentation>A new buoy has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Missing"><xs:annotation><xs:documentation>No buoy at its advertised/charted position or in the vicinity.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Move"><xs:annotation><xs:documentation>The buoy has been or will be moved intentionally.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy off Position"><xs:annotation><xs:documentation>The buoy has been dragged off its advertised position due to wind or current affecting the mooring system.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Re-established"><xs:annotation><xs:documentation>The re-establishment of a buoy which was previously announced either destroyed or temporarily removed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Removal"><xs:annotation><xs:documentation>Buoy has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Replaced by Winter Spar"><xs:annotation><xs:documentation>A buoy which has been removed and it's location is now marked by a winter spar buoy.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Restored to Normal"><xs:annotation><xs:documentation>The buoy has been restored to normal condition.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Temporary Change"><xs:annotation><xs:documentation>The characteristics of the buoy have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Temporary Establishment"><xs:annotation><xs:documentation>A new buoy has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Temporary Removal"><xs:annotation><xs:documentation>Buoy has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Topmark Damaged"><xs:annotation><xs:documentation>The topmark of the buoy is damaged due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Topmark Missing"><xs:annotation><xs:documentation>The topmark of the buoy is missing.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Will Be Withdrawn"><xs:annotation><xs:documentation>The buoy has been scheduled for removal from service for a fixed term.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Withdrawn"><xs:annotation><xs:documentation>The buoy has been removed from service for a fixed term.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Buoy Withdrawn for Winter"><xs:annotation><xs:documentation>A buoy has been withdrawn for the winter season.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Cable Laying Operation"><xs:annotation><xs:documentation>Operations being undertaken to lay wires, fibres, wire rope or chains underwater or to bury them beneath the sea floor.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Cable Operations"><xs:annotation><xs:documentation>Underwater operations undertaken to maintain or repair a submarine cable.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Chayka Operating Properly"><xs:annotation><xs:documentation>The Chayka station is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Chayka Out Of Service"><xs:annotation><xs:documentation>The Chayka station is inoperative due to a technical issue.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Chayka Station Removal"><xs:annotation><xs:documentation>Chayka station has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Chayka Station Temporary Removal"><xs:annotation><xs:documentation>Chayka station has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Chayka Unreliable"><xs:annotation><xs:documentation>The Chayka station is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Cluster of Fishing Vessels"><xs:annotation><xs:documentation>A large concentration of fishing vessels in a small area which may interfere with, hamper, or reduce the ability of another vessel to navigate safely.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Container Adrift"><xs:annotation><xs:documentation>A cargo container which has fallen overboard and is reported adrift.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Dangerous Wreck"><xs:annotation><xs:documentation>A wreck submerged at such a depth as to be considered dangerous to surface navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Dead Whale Adrift"><xs:annotation><xs:documentation>A deceased marine mammal, typically a whale, reported adrift.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Deadhead Adrift"><xs:annotation><xs:documentation>A log which, becoming saturated with water, will start to sink at the heavier end, such that it floats vertically or nearly vertically in the water.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Derelict Vessel Adrift"><xs:annotation><xs:documentation>Any vessel abandoned at sea of sufficient size as to pose a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGLONASS Operating Properly"><xs:annotation><xs:documentation>The DGLONASS station is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGLONASS Out Of Service"><xs:annotation><xs:documentation>The DGLONASS station is inoperative due to a technical issue.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGLONASS Station Establishment"><xs:annotation><xs:documentation>A new DGLONASS station has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGLONASS Unreliable"><xs:annotation><xs:documentation>The DGLONASS station is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGPS Operating Properly"><xs:annotation><xs:documentation>The DGPS station is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGPS Out Of Service"><xs:annotation><xs:documentation>The DGPS station is inoperative due to a technical issue.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGPS Station Establishment"><xs:annotation><xs:documentation>A new DGPS station has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGPS Station Removal"><xs:annotation><xs:documentation>DGPS station has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGPS Station Temporary Removal"><xs:annotation><xs:documentation>DGPS station has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="DGPS Unreliable"><xs:annotation><xs:documentation>The DGPS station is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Diving Operation"><xs:annotation><xs:documentation>A location where divers are conducting any type of activity at or below the surface of the water.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Dock Adrift"><xs:annotation><xs:documentation>A structure, formerly attached along the shoreline or extending from the shore into a body of water to which vessels moor, which has broken free of its moorings and is adrift.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Dredging Operation"><xs:annotation><xs:documentation>Works in order to increase depth.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Drill Rig Under Tow"><xs:annotation><xs:documentation>A drill rig is under tow.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Drilling Site Operations"><xs:annotation><xs:documentation>A drill rig/drill ship has commenced operations at the specified location offshore.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="E-Chayka Operating Properly"><xs:annotation><xs:documentation>The e-Chayka station is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="E-Chayka Out Of Service"><xs:annotation><xs:documentation>The e-Chayka station is inoperative due to a technical issue.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="E-Chayka Station Establishment"><xs:annotation><xs:documentation>A new e-Chayka station has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="E-Chayka Station Removal"><xs:annotation><xs:documentation>The e-Chayka station has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="E-Chayka Station Temporary Removal"><xs:annotation><xs:documentation>The e-Chayka station has been or will be temporarily removed from service</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="E-Chayka Unreliable"><xs:annotation><xs:documentation>The e-Chayka station is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EGC MSI Service"><xs:annotation><xs:documentation>Any failure or return to operation of an EGC service offered by a recognized mobile satellite service provider.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EGNOS Operating Properly"><xs:annotation><xs:documentation>The EGNOS station is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EGNOS Out Of Service"><xs:annotation><xs:documentation>The EGNOS station is inoperative due to a technical issue.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EGNOS Station Establishment"><xs:annotation><xs:documentation>A new EGNOS station has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EGNOS Station Removal"><xs:annotation><xs:documentation>EGNOS station has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EGNOS Station Temporary Removal"><xs:annotation><xs:documentation>EGNOS station has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EGNOS Unreliable"><xs:annotation><xs:documentation>The EGNOS station is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ELORAN Operating Properly"><xs:annotation><xs:documentation>The eLORAN station is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ELORAN Out Of Service"><xs:annotation><xs:documentation>The eLORAN station is inoperative due to a technical issue.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ELORAN Station Establishment"><xs:annotation><xs:documentation>A new eLORAN station has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ELORAN Station Removal"><xs:annotation><xs:documentation>The eLORAN station has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ELORAN Station Temporary Removal"><xs:annotation><xs:documentation>The eLORAN station has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ELORAN Unreliable"><xs:annotation><xs:documentation>The eLORAN station is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Exclusion Zone"><xs:annotation><xs:documentation>An established marine area, temporary or permanent in nature, where vessel traffic is prohibited.
+
+A geographical area, within which all other vessels should remain clear unless authorised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Explosive Device"><xs:annotation><xs:documentation>Unexploded explosive devices.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fairway Marker - Light Not Synchronized"><xs:annotation><xs:documentation>The light on the fairway marker is no longer synchronized with another light or group of lights.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fairway Marker - Light Unlit"><xs:annotation><xs:documentation>The light on the fairway marker is inoperative.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fairway Marker - Light Unreliable"><xs:annotation><xs:documentation>The operation of the light on the fairway marker is unreliable due to technical problems.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fairway Marker Damaged"><xs:annotation><xs:documentation>The fairway marker has been damaged due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fairway Marker Destroyed"><xs:annotation><xs:documentation>The fairway marker has suffered extensive damage and is not useable.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fallout Hazard"><xs:annotation><xs:documentation>The area of which remains hazardous to life after an explosive detonation or the fallout from a rocket launch or space debris.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fireworks"><xs:annotation><xs:documentation>Scheduled public display of pyrotechnics, usually ignited from barges located just offshore, and often accompanied by music.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Firing Exercise"><xs:annotation><xs:documentation>An exercise within a defined area which includes the firing of weapon systems during training or testing that may affect safety at sea.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fish Aggregating Device"><xs:annotation><xs:documentation>A fish aggregating (or aggregation) device (FAD) is a man-made object used to attract ocean going pelagic fish such as marlin, tuna and mahi-mahi (dolphin fish). They usually consist of buoys or floats tethered to the ocean floor with concrete blocks or adrift.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fishing Net Adrift"><xs:annotation><xs:documentation>A fishing net (seine, purse, gill, trawl, bag or other), reported adrift, of sufficient size to pose a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Floating Debris"><xs:annotation><xs:documentation>A concentration of floating objects, which by the nature of their size and material, could pose a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Floodlit Beacon - Unlit"><xs:annotation><xs:documentation>The flood light illuminating the beacon is inoperative.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fog Signal Change"><xs:annotation><xs:documentation>The characteristics of the fog signal have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fog Signal Establishment"><xs:annotation><xs:documentation>A new fog signal has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fog Signal Operating Properly"><xs:annotation><xs:documentation>The fog signal is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fog Signal Out Of Service"><xs:annotation><xs:documentation>The fog signal is inoperative.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fog Signal Removal"><xs:annotation><xs:documentation>Fog signal has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fog Signal Temporary Change"><xs:annotation><xs:documentation>The characteristics of the fog signal have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fog Signal Temporary Establishment"><xs:annotation><xs:documentation>A new fog signal has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fog Signal Temporary Removal"><xs:annotation><xs:documentation>Fog signal has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Front and Rear Lights out of Synchronization"><xs:annotation><xs:documentation>The synchronization of the leading lights is abnormal / The synchronization of the range lights is abnormal.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Front Beacon Restored to Normal"><xs:annotation><xs:documentation>The front leading beacon has been restored to normal condition. / The front range beacon has been restored to normal condition.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Front Beacon Unreliable"><xs:annotation><xs:documentation>The front leading beacon is damaged, obscured or missing. / The front range beacon is damaged, obscured or missing.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Front Light is Operating Properly"><xs:annotation><xs:documentation>The front leading light is operating as advertised. / The front range light is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Front Light Range Reduced"><xs:annotation><xs:documentation>The nominal range of the front leading light is reduced. / The nominal range of the front range light is reduced.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Front Light Unlit"><xs:annotation><xs:documentation>The front leading light is extinguished. / The front range light is extinguished.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Front Light Unreliable"><xs:annotation><xs:documentation>The operation of the front leading light is unreliable due to technical problems. / The operation of the front range light is unreliable due to technical problems.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Front Light Without Rhythm"><xs:annotation><xs:documentation>Due to technical problems front leading light has no rhythm and is in fixed light mode. / Due to technical problems front range light has no rhythm and is in fixed light mode.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="GNSS Degradation"><xs:annotation><xs:documentation>The quality of service of a global navigation satellite system is poor due to an internal or external cause (e.g. jamming, space weather).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Hazardous Area"><xs:annotation><xs:documentation>An area which may contain known or unknown navigational hazards which could impact the safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="HF Service"><xs:annotation><xs:documentation>An outage, or return to operation, of an HF service (radiotelephone, digital selective calling or narrow band directing printing telegraphy).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="High Water Level"><xs:annotation><xs:documentation>High water level, potentially over a sustained period of time, such as with extreme weather or river freshet.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Horizontal Clearance Reduced"><xs:annotation><xs:documentation>The reduction in the horizontal distance or navigable width of a canal, channel, lock, etc.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Hydrographic Survey Activity"><xs:annotation><xs:documentation>Activity of vessels or drones/MASS, restricted in their ability to maneuver, engaged in towing of surface or subsurface scientific instruments to gather data on the measurements of subsurface features.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Boom - Installation or Removal"><xs:annotation><xs:documentation>A notice concerning the installation (or removal) of floating barriers, anchored to the bottom, used to deflect the path of floating ice in order to prevent the obstruction of locks, intakes, etc., and to prevent damage to bridge piers and other structures.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Control Zone In-Force or Deactivated"><xs:annotation><xs:documentation>Information concerning when a designated ice control zone is in force or deactivated. If in-force, mariners must follow established procedures for safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Iceberg Outside Advertised Limits"><xs:annotation><xs:documentation>An iceberg which is reported outside of the advertised limits of ice.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Jamming Exercise"><xs:annotation><xs:documentation>An exercise in which the signals of radio navigation aids, radars or radio services are disrupted by an intentional cause for training purposes.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Buoy - Light Damaged"><xs:annotation><xs:documentation>The light on the buoy is damaged due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Buoy - Light Not Synchronized"><xs:annotation><xs:documentation>The light on the buoy is no longer synchronized with another light or group of lights.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Buoy - Light Unlit"><xs:annotation><xs:documentation>The light on the buoy is extinguished.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Buoy - Light Unreliable"><xs:annotation><xs:documentation>The operation of the light on the buoy is unreliable due to technical problems.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Change"><xs:annotation><xs:documentation>The characteristics of the light have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Daymark Unreliable"><xs:annotation><xs:documentation>The light daymark is not visible due to damage or fading of colours (out of tolerance with colour recommendations).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Establishment"><xs:annotation><xs:documentation>A new light has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Operating Properly"><xs:annotation><xs:documentation>The light is operating as advertised</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Out Of Synchronization"><xs:annotation><xs:documentation>The light is no longer synchronized with another light or group of lights.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Range Reduced"><xs:annotation><xs:documentation>The nominal range of the light is less than the advertised range.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Re-Establishment"><xs:annotation><xs:documentation>The re-establishment of a light which was previously announced as either destroyed or temporarily removed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Removal"><xs:annotation><xs:documentation>Light has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Spar Buoy - Light Damaged"><xs:annotation><xs:documentation>The light on the spar buoy is damaged due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Spar Buoy - Light Not Synchronized"><xs:annotation><xs:documentation>The light on the spar buoy is no longer synchronized with another light or group of lights.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Spar Buoy - Light Unlit"><xs:annotation><xs:documentation>The light on the spar buoy is extinguished.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Spar Buoy - Light Unreliable"><xs:annotation><xs:documentation>The operation of the light on the spar buoy is unreliable due to technical problems.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Temporary Change"><xs:annotation><xs:documentation>The characteristics of the light have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Temporary Establishment"><xs:annotation><xs:documentation>A new light has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Temporary Removal"><xs:annotation><xs:documentation>Light has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Unlit"><xs:annotation><xs:documentation>The light is extinguished.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Unreliable"><xs:annotation><xs:documentation>The light is unreliable due to technical problems.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Light Without Rhythm"><xs:annotation><xs:documentation>Due to technical problems the light has no more rhythm and is in fixed light mode.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Lighted Beacon - Light Damaged"><xs:annotation><xs:documentation>The light on the beacon is damaged due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Lighted Beacon - Light Not Synchronized"><xs:annotation><xs:documentation>The light on the beacon is no longer synchronized with another light or group of lights.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Lighted Beacon - Light Unlit"><xs:annotation><xs:documentation>The light of the beacon is extinguished.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Lighted Beacon - Light Unreliable"><xs:annotation><xs:documentation>The operation of the light on the beacon is unreliable due to technical problems.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Local Health Authority Notice"><xs:annotation><xs:documentation>Notice issued by local health authorities to persons ashore or at sea.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Lock Closed"><xs:annotation><xs:documentation>Lock operation is compromised. The lock is closed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Log Adrift"><xs:annotation><xs:documentation>A log is a tree, stripped of its branches and roots, which is floating horizontally and barely awash.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Log Boom Adrift"><xs:annotation><xs:documentation>One or more sections of a chained log boom has broken free of its tow and is adrift.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LORAN C - Operating Properly"><xs:annotation><xs:documentation>The LORAN C station is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LORAN C - Out Of Service"><xs:annotation><xs:documentation>The LORAN C station is inoperative due to a technical issue.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LORAN C - Unreliable"><xs:annotation><xs:documentation>The LORAN C station is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LORAN C Station Removal"><xs:annotation><xs:documentation>LORAN C station has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LORAN C Station Temporary Removal"><xs:annotation><xs:documentation>LORAN C station has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Low Water Level"><xs:annotation><xs:documentation>Low water level, potentially over a sustained period of time, such as with extreme weather.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Marine Aids to Navigation Unreliable"><xs:annotation><xs:documentation>The position or status of Marine Aids to Navigation, over an extensive area, is unreliable due to a natural event (freshet, storm surge, flooding).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Maritime Security Level Changes"><xs:annotation><xs:documentation>The raising or lowering of the national, regional or port-specific maritime security level within a country.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="MF Service"><xs:annotation><xs:documentation>Any outage or return to operation of a MF service (radiotelephone, digital selective calling or narrow band directing printing).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Military Exercise"><xs:annotation><xs:documentation>An exercise comprised of multiple vessels and/or aircraft used to train and asses operational capacity and strategy without actual live combat.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Military Operation"><xs:annotation><xs:documentation>A military response to a specific event or situation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="MSI Service"><xs:annotation><xs:documentation>An outage of a maritime safety information broadcast service (satellite or terrestrial system).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="National Health Authority Notice"><xs:annotation><xs:documentation>Notice issued by a national health authority to persons ashore or at sea.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="NAVTEX Service Change"><xs:annotation><xs:documentation>Any failure or return to service of the International or National NAVTEX broadcast services.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="New or Amended Regulation"><xs:annotation><xs:documentation>New or updated maritime regulation which may impact navigation such as changes to navigation lanes or newly established areas to be avoided.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Numerous Fishing Vessels"><xs:annotation><xs:documentation>There are many fishing vessels operating in the area.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Object Adrift"><xs:annotation><xs:documentation>Object reported adrift and posing a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Offshore Rigs or Platform Changes"><xs:annotation><xs:documentation>Changes to offshore rig/platforms, either fixed or floating, used for oil/gas production, exploration, research, observation, etc.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Opening or Closing of Harbour"><xs:annotation><xs:documentation>The temporary or permanent closing or re-opening of a harbour.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Opening or Closing of Swing Bridge"><xs:annotation><xs:documentation>The failure, or return to operation, of the opening or closing of swing bridges.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Opening or Closing of Waters"><xs:annotation><xs:documentation>The temporary closing or re-opening of waters, e.g. waterway, bay, straits.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Pipe Laying Operation"><xs:annotation><xs:documentation>Activity comprised of one or more vessels engaged in the laying of pipe on or beneath the sea floor.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Pipe Operations"><xs:annotation><xs:documentation>Underwater operations undertaken to maintain or repair a submarine pipe.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Presence of Long Fishing Gear"><xs:annotation><xs:documentation>There are fishing vessels using long fishing gear, such as fishing net and long fishing lines.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Presence of Marine Mammals"><xs:annotation><xs:documentation>Presence of marine mammals is expected.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Presence of Naval Mines"><xs:annotation><xs:documentation>Self-contained explosive device, either floating or submerged, which could be triggered by the approach or contact with a vessel or submarine.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Presence of Submerged Fishing Net"><xs:annotation><xs:documentation>A fishing net (seine, purse, gill, trawl, bag or other), reported submerged, or partially submerged, of sufficient size to pose a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Presence of Scientific Equipment"><xs:annotation><xs:documentation>Presence of a buoy or object deployed to gather scientific information.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Change"><xs:annotation><xs:documentation>The characteristics of the RACON have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Establishment"><xs:annotation><xs:documentation>A new RACON has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Operating Properly"><xs:annotation><xs:documentation>The RACON is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Out Of Service"><xs:annotation><xs:documentation>The RACON is inoperative.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Removal"><xs:annotation><xs:documentation>RACON has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Temporary Change"><xs:annotation><xs:documentation>The characteristics of the RACON have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Temporary Establishment"><xs:annotation><xs:documentation>A new RACON has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Temporary Removal"><xs:annotation><xs:documentation>RACON has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RACON Unreliable"><xs:annotation><xs:documentation>The RACON is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Radar Surveillance System Service Change"><xs:annotation><xs:documentation>Any failure or return to service of radar in an advertised radar-monitored area which may impact the ability of maritime authorities to track and monitor the movement of vessels.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK Change"><xs:annotation><xs:documentation>The characteristics of the RAMARK have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK Establishment"><xs:annotation><xs:documentation>A new RAMARK has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK Operating Properly"><xs:annotation><xs:documentation>The RAMARK is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK Out Of Service"><xs:annotation><xs:documentation>The RAMARK is inoperative.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK removal"><xs:annotation><xs:documentation>RAMARK has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK Temporary Change"><xs:annotation><xs:documentation>The characteristics of the RAMARK have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK Temporary Establishment"><xs:annotation><xs:documentation>A new RAMARK has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK Temporary Removal"><xs:annotation><xs:documentation>RAMARK has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="RAMARK Unreliable"><xs:annotation><xs:documentation>The RAMARK is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rear Beacon Restored to Normal"><xs:annotation><xs:documentation>The rear leading beacon has been restored to normal condition. / The rear range beacon has been restored to normal condition.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rear Beacon Unreliable"><xs:annotation><xs:documentation>The rear leading beacon is damaged, obscured or missing. / The rear range beacon is damaged, obscured or missing</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rear Light is Operating Properly"><xs:annotation><xs:documentation>The rear leading light is operating as advertised. / The rear range light is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rear Light Range Reduced"><xs:annotation><xs:documentation>The nominal range of the rear leading light is reduced. / The nominal range of the rear range light is reduced.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rear Light Unlit"><xs:annotation><xs:documentation>The rear leading light is extinguished. / The rear range light is extinguished.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rear Light Unreliable"><xs:annotation><xs:documentation>The operation of the rear leading light is unreliable due to technical problems. / The operation of the rear range light is unreliable due to technical problems.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rear Light Without Rhythm"><xs:annotation><xs:documentation>Due to technical problems, the rear leading light has no rhythm and is in fixed light mode. / Due to technical problems rear range light has no rhythm and is in fixed light mode.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Regatta or Race"><xs:annotation><xs:documentation>A short or long race of sail, oar or power craft along a predetermined course which may approach or cross navigation lanes.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Renewable Energy Device or Farm Change"><xs:annotation><xs:documentation>The installation, removal, failure or damage of renewable energy devices (Wind turbines/farms, ocean current or wave power plants) which pose a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Restricted Area Changes"><xs:annotation><xs:documentation>A new or revised specified area, temporary or permanent in nature, designated by an appropriate authority within which navigation is restricted in accordance with certain specified conditions.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sandspit or Sandbar Change"><xs:annotation><xs:documentation>Significant changes to the limits or depth of a known sandbar/sandspit, or the discovery of a new sandbar/sandspit, which poses a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="SAR Exercise"><xs:annotation><xs:documentation>A large scale activity where multiple vessels, surveillance aircraft, and shore-based personnel practice search and rescue techniques, in order to evaluate the effectiveness of response capability.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="SAR Operation"><xs:annotation><xs:documentation>A real time response by vessels, surveillance aircraft, and shore-based personnel participating in an active search and rescue operation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Scientific Buoy Adrift"><xs:annotation><xs:documentation>A buoy fit for scientific purposes which has broken free of its moorings or has been left free and is adrift.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Scientific Moorings"><xs:annotation><xs:documentation>A submerged platform where a scientific instrument is secured and which may or may not be secured to the sea floor by means of an anchor chain.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Scientific Survey"><xs:annotation><xs:documentation>An activity where one or more vessels, restricted in their ability to manoeuvre, navigate along a pre-determine grid pattern in order to collect scientific data.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sea Trials"><xs:annotation><xs:documentation>Sea testing phase of a vessel.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Seaplane Operations"><xs:annotation><xs:documentation>Activity within a defined area on the water where seaplanes are actively engaged in take-off, landing or taxiing.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Seasonal Commissioning Complete"><xs:annotation><xs:documentation>The completion of the process to place summer buoys (and the removal of any winter spar buoys).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Seasonal Commissioning in Progress"><xs:annotation><xs:documentation>The commencement of the process to place summer buoys (and the removal of any winter spar buoys).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Seasonal Decommissioning Complete"><xs:annotation><xs:documentation>The completion of the process to remove summer buoys (and possibly replace some with winter spar buoys).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Seasonal Decommissioning in Progress"><xs:annotation><xs:documentation>The commencement of the process to remove summer buoys (and possibly replace some with winter spar buoys).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sector Light - Sector Obscured"><xs:annotation><xs:documentation>The light sector has been fully or partly obscured.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sector Light Change"><xs:annotation><xs:documentation>The characteristics of the sector light have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sector Light Temporary Change"><xs:annotation><xs:documentation>The characteristics of the sector light have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Security Regulation Change"><xs:annotation><xs:documentation>Changes to the national, regional or port-specific maritime security regulations.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Seismic Survey Operation"><xs:annotation><xs:documentation>The commencement or cessation of the complex operations of a seismic survey.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Shallow Depth Confirmed"><xs:annotation><xs:documentation>Confirmed significant change to the depth or position of a charted sounding/shoal, or the discovery of a new shoal, which poses a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Shallow Depth Reported"><xs:annotation><xs:documentation>Reported significant change to the depth or position of a charted sounding/shoal, or the discovery of a new shoal, which poses a hazard to safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Adrift"><xs:annotation><xs:documentation>The spar buoy is no longer secured to its moorings and has gone adrift from its advertised position.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Damaged"><xs:annotation><xs:documentation>The spar buoy has been damaged due to external factors (wind, sea state, collision with a vessel).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Destroyed"><xs:annotation><xs:documentation>The spar buoy has suffered extensive damage and is not useable.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Missing"><xs:annotation><xs:documentation>No spar buoy at its advertised position or in the vicinity.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Move"><xs:annotation><xs:documentation>The spar buoy has been or will be moved intentionally.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy off Position"><xs:annotation><xs:documentation>The spar buoy has been dragged off its advertised position due to wind or current affecting the mooring system.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Re-established"><xs:annotation><xs:documentation>The re-establishment of a spar buoy which was previously announced either destroyed or temporarily removed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Restored to Normal"><xs:annotation><xs:documentation>The spar buoy has been restored to normal condition.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Topmark Missing"><xs:annotation><xs:documentation>The topmark of the spar buoy is missing.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Spar Buoy Withdrawn"><xs:annotation><xs:documentation>The spar buoy has been removed from service for a fixed term.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Storm Surge"><xs:annotation><xs:documentation>A rise above normal water level on the open coast due only to the action of wind stress on the water surface. Storm surge resulting from a hurricane or other intense storm also includes the rise in level due to atmospheric pressure reduction as well as that due to wind stress. A storm surge is more severe when it occurs in conjunction with a high tide. Also called storm tide, storm wave, tidal wave.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Submarine Cable Changes"><xs:annotation><xs:documentation>Change in status, location or depth of a submerged or seabed cable which poses a hazard to safe navigation, anchoring or fishing.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Submarine Pipeline Changes"><xs:annotation><xs:documentation>Change in status, location or depth of a submerged or seabed pipeline which poses a hazard to safe navigation, anchoring or fishing.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Submerged Object"><xs:annotation><xs:documentation>Any object under water; not showing above water.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Subsurface Mooring"><xs:annotation><xs:documentation>A mooring which is under water and which may or may not be secured to the sea floor by means of an anchor chain.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Swimmers"><xs:annotation><xs:documentation>A single person or groups of persons will be / are swimming in or near navigation lanes.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Temporary Buoyage"><xs:annotation><xs:documentation>The establishment of a buoy or group of buoys for a limited period of time (i.e. during summer season or during marine construction projects).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Tide Gauge Change"><xs:annotation><xs:documentation>The installation or removal of a tide gauge.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Traffic Congestion"><xs:annotation><xs:documentation>An area is experiencing a significantly high volume of vessel traffic which could potentially impede the progress of a vessel.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Tsunami Warning"><xs:annotation><xs:documentation>An alert message concerning strong waves, the widespread inundation of water, due to an earthquake, landslide or volcanic eruption, which is issued when the threat is imminent, expected or occurring.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Uncharted Rock"><xs:annotation><xs:documentation>A newly located rock, submerged or partially submerged rock, which had not been previously charted.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Underwater Operations"><xs:annotation><xs:documentation>Underwater work to maintain or repair subsurface structures (e.g. drill head).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Unidentified Radar Target - Possible Iceberg"><xs:annotation><xs:documentation>An unidentified radar target, within the advertised limits of ice, but not yet visually confirmed as being an iceberg.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Unwieldy Tow"><xs:annotation><xs:documentation>A tow, which by the nature of the size, shape or dimensions of the object being towed, is cumbersome to effectively tow regardless of the conditions of the waterway.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Change"><xs:annotation><xs:documentation>The characteristics of the V-AIS have been or will be changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Establishment"><xs:annotation><xs:documentation>A new V-AIS has been or will be established.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Operating Properly"><xs:annotation><xs:documentation>Virtual AIS aid to navigation is operating as advertised.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Out Of Service"><xs:annotation><xs:documentation>Virtual AIS aid to navigation is extinguished.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Removal"><xs:annotation><xs:documentation>V-AIS has been or will be permanently removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Temporary Change"><xs:annotation><xs:documentation>The characteristics of the V-AIS have been or will be temporarily changed.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Temporary Establishment"><xs:annotation><xs:documentation>A new V-AIS has been or will be established for a limited period of time.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Temporary Removal"><xs:annotation><xs:documentation>V-AIS has been or will be temporarily removed from service.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="V-AIS Unreliable"><xs:annotation><xs:documentation>Virtual AIS aid is unreliable due to a technical issue or maintenance.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Vertical Clearance Reduced"><xs:annotation><xs:documentation>The reduction in the vertical distance between the air draft of a vessel and the lowest point on a bridge structure, cable or pipeline of which the vessel is intending to pass underneath.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Vessel Adrift"><xs:annotation><xs:documentation>A vessel at sea or which has lost mechanical capability and cannot be moored or anchored.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Vessel Disabled"><xs:annotation><xs:documentation>A vessel adrift at sea or safely anchored/moored, which has been damaged or has experienced some sort of mechanical or electrical failure so it can no longer sail.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="VHF Service Change"><xs:annotation><xs:documentation>Any outage or return to operation of any VHF service (radiotelephone or digital selective calling).</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Volcano Activity"><xs:annotation><xs:documentation>Volcano activity impacting safe navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="VTS Change"><xs:annotation><xs:documentation>Change to an existing vessel traffic service zone limit, procedure and or provision of broadcast service relating to vessels operating within that zone.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Waterway Recommended or Not Recommended For Shipping"><xs:annotation><xs:documentation>Temporary or permanent changes to a waterway/fairway which may render it unsafe/safe for marine traffic.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Wharf Construction"><xs:annotation><xs:documentation>The commencement or cessation of wharf construction.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Works in Progress"><xs:annotation><xs:documentation>An active marine project, either on the surface or under water, which may affect the navigation of vessels.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="World Health Organization Notice"><xs:annotation><xs:documentation>Notice issued by World Health Organization to persons ashore or at sea.</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="navwarnTypeDetailsCode">
+        <xs:annotation>
+            <xs:documentation>Detailed type of a warning or hazard.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:integer">            <xs:enumeration value="1">            </xs:enumeration>
+            <xs:enumeration value="2">            </xs:enumeration>
+            <xs:enumeration value="3">            </xs:enumeration>
+            <xs:enumeration value="4">            </xs:enumeration>
+            <xs:enumeration value="5">            </xs:enumeration>
+            <xs:enumeration value="6">            </xs:enumeration>
+            <xs:enumeration value="7">            </xs:enumeration>
+            <xs:enumeration value="8">            </xs:enumeration>
+            <xs:enumeration value="9">            </xs:enumeration>
+            <xs:enumeration value="10">            </xs:enumeration>
+            <xs:enumeration value="11">            </xs:enumeration>
+            <xs:enumeration value="12">            </xs:enumeration>
+            <xs:enumeration value="13">            </xs:enumeration>
+            <xs:enumeration value="14">            </xs:enumeration>
+            <xs:enumeration value="15">            </xs:enumeration>
+            <xs:enumeration value="16">            </xs:enumeration>
+            <xs:enumeration value="17">            </xs:enumeration>
+            <xs:enumeration value="18">            </xs:enumeration>
+            <xs:enumeration value="19">            </xs:enumeration>
+            <xs:enumeration value="20">            </xs:enumeration>
+            <xs:enumeration value="21">            </xs:enumeration>
+            <xs:enumeration value="22">            </xs:enumeration>
+            <xs:enumeration value="23">            </xs:enumeration>
+            <xs:enumeration value="24">            </xs:enumeration>
+            <xs:enumeration value="25">            </xs:enumeration>
+            <xs:enumeration value="26">            </xs:enumeration>
+            <xs:enumeration value="27">            </xs:enumeration>
+            <xs:enumeration value="28">            </xs:enumeration>
+            <xs:enumeration value="29">            </xs:enumeration>
+            <xs:enumeration value="30">            </xs:enumeration>
+            <xs:enumeration value="31">            </xs:enumeration>
+            <xs:enumeration value="32">            </xs:enumeration>
+            <xs:enumeration value="33">            </xs:enumeration>
+            <xs:enumeration value="34">            </xs:enumeration>
+            <xs:enumeration value="35">            </xs:enumeration>
+            <xs:enumeration value="36">            </xs:enumeration>
+            <xs:enumeration value="37">            </xs:enumeration>
+            <xs:enumeration value="38">            </xs:enumeration>
+            <xs:enumeration value="39">            </xs:enumeration>
+            <xs:enumeration value="40">            </xs:enumeration>
+            <xs:enumeration value="41">            </xs:enumeration>
+            <xs:enumeration value="42">            </xs:enumeration>
+            <xs:enumeration value="43">            </xs:enumeration>
+            <xs:enumeration value="44">            </xs:enumeration>
+            <xs:enumeration value="45">            </xs:enumeration>
+            <xs:enumeration value="46">            </xs:enumeration>
+            <xs:enumeration value="47">            </xs:enumeration>
+            <xs:enumeration value="48">            </xs:enumeration>
+            <xs:enumeration value="49">            </xs:enumeration>
+            <xs:enumeration value="50">            </xs:enumeration>
+            <xs:enumeration value="51">            </xs:enumeration>
+            <xs:enumeration value="52">            </xs:enumeration>
+            <xs:enumeration value="53">            </xs:enumeration>
+            <xs:enumeration value="54">            </xs:enumeration>
+            <xs:enumeration value="55">            </xs:enumeration>
+            <xs:enumeration value="56">            </xs:enumeration>
+            <xs:enumeration value="57">            </xs:enumeration>
+            <xs:enumeration value="58">            </xs:enumeration>
+            <xs:enumeration value="59">            </xs:enumeration>
+            <xs:enumeration value="60">            </xs:enumeration>
+            <xs:enumeration value="61">            </xs:enumeration>
+            <xs:enumeration value="62">            </xs:enumeration>
+            <xs:enumeration value="63">            </xs:enumeration>
+            <xs:enumeration value="64">            </xs:enumeration>
+            <xs:enumeration value="65">            </xs:enumeration>
+            <xs:enumeration value="66">            </xs:enumeration>
+            <xs:enumeration value="67">            </xs:enumeration>
+            <xs:enumeration value="68">            </xs:enumeration>
+            <xs:enumeration value="69">            </xs:enumeration>
+            <xs:enumeration value="70">            </xs:enumeration>
+            <xs:enumeration value="71">            </xs:enumeration>
+            <xs:enumeration value="72">            </xs:enumeration>
+            <xs:enumeration value="73">            </xs:enumeration>
+            <xs:enumeration value="74">            </xs:enumeration>
+            <xs:enumeration value="75">            </xs:enumeration>
+            <xs:enumeration value="76">            </xs:enumeration>
+            <xs:enumeration value="77">            </xs:enumeration>
+            <xs:enumeration value="78">            </xs:enumeration>
+            <xs:enumeration value="79">            </xs:enumeration>
+            <xs:enumeration value="80">            </xs:enumeration>
+            <xs:enumeration value="81">            </xs:enumeration>
+            <xs:enumeration value="82">            </xs:enumeration>
+            <xs:enumeration value="83">            </xs:enumeration>
+            <xs:enumeration value="84">            </xs:enumeration>
+            <xs:enumeration value="85">            </xs:enumeration>
+            <xs:enumeration value="86">            </xs:enumeration>
+            <xs:enumeration value="87">            </xs:enumeration>
+            <xs:enumeration value="88">            </xs:enumeration>
+            <xs:enumeration value="89">            </xs:enumeration>
+            <xs:enumeration value="90">            </xs:enumeration>
+            <xs:enumeration value="91">            </xs:enumeration>
+            <xs:enumeration value="92">            </xs:enumeration>
+            <xs:enumeration value="93">            </xs:enumeration>
+            <xs:enumeration value="94">            </xs:enumeration>
+            <xs:enumeration value="95">            </xs:enumeration>
+            <xs:enumeration value="96">            </xs:enumeration>
+            <xs:enumeration value="97">            </xs:enumeration>
+            <xs:enumeration value="98">            </xs:enumeration>
+            <xs:enumeration value="99">            </xs:enumeration>
+            <xs:enumeration value="100">            </xs:enumeration>
+            <xs:enumeration value="101">            </xs:enumeration>
+            <xs:enumeration value="102">            </xs:enumeration>
+            <xs:enumeration value="103">            </xs:enumeration>
+            <xs:enumeration value="104">            </xs:enumeration>
+            <xs:enumeration value="105">            </xs:enumeration>
+            <xs:enumeration value="106">            </xs:enumeration>
+            <xs:enumeration value="107">            </xs:enumeration>
+            <xs:enumeration value="108">            </xs:enumeration>
+            <xs:enumeration value="109">            </xs:enumeration>
+            <xs:enumeration value="110">            </xs:enumeration>
+            <xs:enumeration value="111">            </xs:enumeration>
+            <xs:enumeration value="112">            </xs:enumeration>
+            <xs:enumeration value="113">            </xs:enumeration>
+            <xs:enumeration value="114">            </xs:enumeration>
+            <xs:enumeration value="115">            </xs:enumeration>
+            <xs:enumeration value="116">            </xs:enumeration>
+            <xs:enumeration value="117">            </xs:enumeration>
+            <xs:enumeration value="118">            </xs:enumeration>
+            <xs:enumeration value="119">            </xs:enumeration>
+            <xs:enumeration value="120">            </xs:enumeration>
+            <xs:enumeration value="121">            </xs:enumeration>
+            <xs:enumeration value="122">            </xs:enumeration>
+            <xs:enumeration value="123">            </xs:enumeration>
+            <xs:enumeration value="124">            </xs:enumeration>
+            <xs:enumeration value="125">            </xs:enumeration>
+            <xs:enumeration value="126">            </xs:enumeration>
+            <xs:enumeration value="127">            </xs:enumeration>
+            <xs:enumeration value="128">            </xs:enumeration>
+            <xs:enumeration value="129">            </xs:enumeration>
+            <xs:enumeration value="130">            </xs:enumeration>
+            <xs:enumeration value="131">            </xs:enumeration>
+            <xs:enumeration value="132">            </xs:enumeration>
+            <xs:enumeration value="133">            </xs:enumeration>
+            <xs:enumeration value="134">            </xs:enumeration>
+            <xs:enumeration value="135">            </xs:enumeration>
+            <xs:enumeration value="136">            </xs:enumeration>
+            <xs:enumeration value="137">            </xs:enumeration>
+            <xs:enumeration value="138">            </xs:enumeration>
+            <xs:enumeration value="139">            </xs:enumeration>
+            <xs:enumeration value="140">            </xs:enumeration>
+            <xs:enumeration value="141">            </xs:enumeration>
+            <xs:enumeration value="142">            </xs:enumeration>
+            <xs:enumeration value="143">            </xs:enumeration>
+            <xs:enumeration value="144">            </xs:enumeration>
+            <xs:enumeration value="145">            </xs:enumeration>
+            <xs:enumeration value="146">            </xs:enumeration>
+            <xs:enumeration value="147">            </xs:enumeration>
+            <xs:enumeration value="148">            </xs:enumeration>
+            <xs:enumeration value="149">            </xs:enumeration>
+            <xs:enumeration value="150">            </xs:enumeration>
+            <xs:enumeration value="151">            </xs:enumeration>
+            <xs:enumeration value="152">            </xs:enumeration>
+            <xs:enumeration value="153">            </xs:enumeration>
+            <xs:enumeration value="154">            </xs:enumeration>
+            <xs:enumeration value="155">            </xs:enumeration>
+            <xs:enumeration value="156">            </xs:enumeration>
+            <xs:enumeration value="157">            </xs:enumeration>
+            <xs:enumeration value="158">            </xs:enumeration>
+            <xs:enumeration value="159">            </xs:enumeration>
+            <xs:enumeration value="160">            </xs:enumeration>
+            <xs:enumeration value="161">            </xs:enumeration>
+            <xs:enumeration value="162">            </xs:enumeration>
+            <xs:enumeration value="163">            </xs:enumeration>
+            <xs:enumeration value="164">            </xs:enumeration>
+            <xs:enumeration value="165">            </xs:enumeration>
+            <xs:enumeration value="166">            </xs:enumeration>
+            <xs:enumeration value="167">            </xs:enumeration>
+            <xs:enumeration value="168">            </xs:enumeration>
+            <xs:enumeration value="169">            </xs:enumeration>
+            <xs:enumeration value="170">            </xs:enumeration>
+            <xs:enumeration value="171">            </xs:enumeration>
+            <xs:enumeration value="172">            </xs:enumeration>
+            <xs:enumeration value="173">            </xs:enumeration>
+            <xs:enumeration value="174">            </xs:enumeration>
+            <xs:enumeration value="175">            </xs:enumeration>
+            <xs:enumeration value="176">            </xs:enumeration>
+            <xs:enumeration value="177">            </xs:enumeration>
+            <xs:enumeration value="178">            </xs:enumeration>
+            <xs:enumeration value="179">            </xs:enumeration>
+            <xs:enumeration value="180">            </xs:enumeration>
+            <xs:enumeration value="181">            </xs:enumeration>
+            <xs:enumeration value="182">            </xs:enumeration>
+            <xs:enumeration value="183">            </xs:enumeration>
+            <xs:enumeration value="184">            </xs:enumeration>
+            <xs:enumeration value="185">            </xs:enumeration>
+            <xs:enumeration value="186">            </xs:enumeration>
+            <xs:enumeration value="187">            </xs:enumeration>
+            <xs:enumeration value="188">            </xs:enumeration>
+            <xs:enumeration value="189">            </xs:enumeration>
+            <xs:enumeration value="190">            </xs:enumeration>
+            <xs:enumeration value="191">            </xs:enumeration>
+            <xs:enumeration value="192">            </xs:enumeration>
+            <xs:enumeration value="193">            </xs:enumeration>
+            <xs:enumeration value="194">            </xs:enumeration>
+            <xs:enumeration value="195">            </xs:enumeration>
+            <xs:enumeration value="196">            </xs:enumeration>
+            <xs:enumeration value="197">            </xs:enumeration>
+            <xs:enumeration value="198">            </xs:enumeration>
+            <xs:enumeration value="199">            </xs:enumeration>
+            <xs:enumeration value="200">            </xs:enumeration>
+            <xs:enumeration value="201">            </xs:enumeration>
+            <xs:enumeration value="202">            </xs:enumeration>
+            <xs:enumeration value="203">            </xs:enumeration>
+            <xs:enumeration value="204">            </xs:enumeration>
+            <xs:enumeration value="205">            </xs:enumeration>
+            <xs:enumeration value="206">            </xs:enumeration>
+            <xs:enumeration value="207">            </xs:enumeration>
+            <xs:enumeration value="208">            </xs:enumeration>
+            <xs:enumeration value="209">            </xs:enumeration>
+            <xs:enumeration value="210">            </xs:enumeration>
+            <xs:enumeration value="211">            </xs:enumeration>
+            <xs:enumeration value="212">            </xs:enumeration>
+            <xs:enumeration value="213">            </xs:enumeration>
+            <xs:enumeration value="214">            </xs:enumeration>
+            <xs:enumeration value="215">            </xs:enumeration>
+            <xs:enumeration value="216">            </xs:enumeration>
+            <xs:enumeration value="217">            </xs:enumeration>
+            <xs:enumeration value="218">            </xs:enumeration>
+            <xs:enumeration value="219">            </xs:enumeration>
+            <xs:enumeration value="220">            </xs:enumeration>
+            <xs:enumeration value="221">            </xs:enumeration>
+            <xs:enumeration value="222">            </xs:enumeration>
+            <xs:enumeration value="223">            </xs:enumeration>
+            <xs:enumeration value="224">            </xs:enumeration>
+            <xs:enumeration value="225">            </xs:enumeration>
+            <xs:enumeration value="226">            </xs:enumeration>
+            <xs:enumeration value="227">            </xs:enumeration>
+            <xs:enumeration value="228">            </xs:enumeration>
+            <xs:enumeration value="229">            </xs:enumeration>
+            <xs:enumeration value="230">            </xs:enumeration>
+            <xs:enumeration value="231">            </xs:enumeration>
+            <xs:enumeration value="232">            </xs:enumeration>
+            <xs:enumeration value="233">            </xs:enumeration>
+            <xs:enumeration value="234">            </xs:enumeration>
+            <xs:enumeration value="235">            </xs:enumeration>
+            <xs:enumeration value="236">            </xs:enumeration>
+            <xs:enumeration value="237">            </xs:enumeration>
+            <xs:enumeration value="238">            </xs:enumeration>
+            <xs:enumeration value="239">            </xs:enumeration>
+            <xs:enumeration value="240">            </xs:enumeration>
+            <xs:enumeration value="241">            </xs:enumeration>
+            <xs:enumeration value="242">            </xs:enumeration>
+            <xs:enumeration value="243">            </xs:enumeration>
+            <xs:enumeration value="244">            </xs:enumeration>
+            <xs:enumeration value="245">            </xs:enumeration>
+            <xs:enumeration value="246">            </xs:enumeration>
+            <xs:enumeration value="247">            </xs:enumeration>
+            <xs:enumeration value="248">            </xs:enumeration>
+            <xs:enumeration value="249">            </xs:enumeration>
+            <xs:enumeration value="250">            </xs:enumeration>
+            <xs:enumeration value="251">            </xs:enumeration>
+            <xs:enumeration value="252">            </xs:enumeration>
+            <xs:enumeration value="253">            </xs:enumeration>
+            <xs:enumeration value="254">            </xs:enumeration>
+            <xs:enumeration value="255">            </xs:enumeration>
+            <xs:enumeration value="256">            </xs:enumeration>
+            <xs:enumeration value="257">            </xs:enumeration>
+            <xs:enumeration value="258">            </xs:enumeration>
+            <xs:enumeration value="259">            </xs:enumeration>
+            <xs:enumeration value="260">            </xs:enumeration>
+            <xs:enumeration value="261">            </xs:enumeration>
+            <xs:enumeration value="262">            </xs:enumeration>
+            <xs:enumeration value="263">            </xs:enumeration>
+            <xs:enumeration value="264">            </xs:enumeration>
+            <xs:enumeration value="265">            </xs:enumeration>
+            <xs:enumeration value="266">            </xs:enumeration>
+            <xs:enumeration value="267">            </xs:enumeration>
+            <xs:enumeration value="268">            </xs:enumeration>
+            <xs:enumeration value="269">            </xs:enumeration>
+            <xs:enumeration value="270">            </xs:enumeration>
+            <xs:enumeration value="271">            </xs:enumeration>
+            <xs:enumeration value="272">            </xs:enumeration>
+            <xs:enumeration value="273">            </xs:enumeration>
+            <xs:enumeration value="274">            </xs:enumeration>
+            <xs:enumeration value="275">            </xs:enumeration>
+            <xs:enumeration value="276">            </xs:enumeration>
+            <xs:enumeration value="277">            </xs:enumeration>
+            <xs:enumeration value="278">            </xs:enumeration>
+            <xs:enumeration value="279">            </xs:enumeration>
+            <xs:enumeration value="280">            </xs:enumeration>
+            <xs:enumeration value="281">            </xs:enumeration>
+            <xs:enumeration value="282">            </xs:enumeration>
+            <xs:enumeration value="283">            </xs:enumeration>
+            <xs:enumeration value="284">            </xs:enumeration>
+            <xs:enumeration value="285">            </xs:enumeration>
+            <xs:enumeration value="286">            </xs:enumeration>
+            <xs:enumeration value="287">            </xs:enumeration>
+            <xs:enumeration value="288">            </xs:enumeration>
+            <xs:enumeration value="289">            </xs:enumeration>
+            <xs:enumeration value="290">            </xs:enumeration>
+            <xs:enumeration value="291">            </xs:enumeration>
+            <xs:enumeration value="292">            </xs:enumeration>
+            <xs:enumeration value="293">            </xs:enumeration>
+            <xs:enumeration value="294">            </xs:enumeration>
+            <xs:enumeration value="295">            </xs:enumeration>
+            <xs:enumeration value="296">            </xs:enumeration>
+            <xs:enumeration value="297">            </xs:enumeration>
+            <xs:enumeration value="298">            </xs:enumeration>
+            <xs:enumeration value="299">            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:complexType name="navwarnTypeGeneralType">
+        <xs:annotation>
+            <xs:documentation>General type of a navigational warning or navigational hazard.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="navwarnTypeGeneralLabel">
+                <xs:attribute name="code" type="navwarnTypeGeneralCode" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>    <xs:simpleType name="navwarnTypeGeneralLabel">
+        <xs:annotation>
+            <xs:documentation>General type of a navigational warning or navigational hazard.</xs:documentation>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Aids to Navigation Changes"><xs:annotation><xs:documentation>Any casualties to lights, fog signals, buoys and other aids to navigation affecting shipping; establishment of major new aids to navigation or significant changes to existing ones, when such establishment or change might be misleading to shipping.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Aquaculture and Fishing Installations"><xs:annotation><xs:documentation>New or established aquaculture and fishing installations.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Drifting Hazards"><xs:annotation><xs:documentation>Drifting hazards, including derelict ships, containers, other large items, etc.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ECDIS Operating Anomalies including Official Data Issues"><xs:annotation><xs:documentation>Operating anomalies identified within ECDIS, including issues with official data.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Other Hazards"><xs:annotation><xs:documentation>Hazards likely to constitute a danger to navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Health Advisories"><xs:annotation><xs:documentation>Health advisories or information.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Information"><xs:annotation><xs:documentation>Newly discovered icebergs, changes to ice conditions and ice related information likely to impact navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="In-Force Bulletin"><xs:annotation><xs:documentation>A list of serial numbers of warnings which are in-force.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Dangerous Natural Phenomena"><xs:annotation><xs:documentation>Natural phenomena adversely affecting the marine environment.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Newly Discovered Dangers"><xs:annotation><xs:documentation>Newly discovered rocks, shoals, reefs and wrecks likely to constitute a danger to navigation and, if relevant, their markings.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Offshore Infrastructure"><xs:annotation><xs:documentation>New or established complex structures situated at sea, including rigs, drilling platforms, offshore wind turbines, cables and pipelines.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Piracy or Robbery"><xs:annotation><xs:documentation>Acts of piracy and armed robbery against ships.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Communication or Broadcast Service Change"><xs:annotation><xs:documentation>Any failure or return to service of terrestrial or satellite radio services used to determine the position of an object.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Routeing Change"><xs:annotation><xs:documentation>Changes to the established navigational routes or specific procedures related to them.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Scientific Instruments Change"><xs:annotation><xs:documentation>Deployment or removal of scientific instruments on the surface, subsurface or on the sea floor.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Security Requirement Change"><xs:annotation><xs:documentation>Changes to the maritime security levels in a country, a specific region or port. Or, changes to maritime security regulations.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Special Operations"><xs:annotation><xs:documentation>Events which might affect the safety of shipping, sometimes over wide areas, e.g. naval exercises, missile firings, space missions, nuclear tests, ordnance dumping zones, etc.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Towing Operations"><xs:annotation><xs:documentation>Objects being towed which are impacting navigation of vessels in its vicinity.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Works"><xs:annotation><xs:documentation>Works at sea or onshore which might affect navigation.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rig List"><xs:annotation><xs:documentation>An update on the position, movement or status of rigs or drill ships within a defined area.</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:simpleType name="navwarnTypeGeneralCode">
+        <xs:annotation>
+            <xs:documentation>General type of a navigational warning or navigational hazard.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:integer">            <xs:enumeration value="1">            </xs:enumeration>
+            <xs:enumeration value="2">            </xs:enumeration>
+            <xs:enumeration value="3">            </xs:enumeration>
+            <xs:enumeration value="4">            </xs:enumeration>
+            <xs:enumeration value="5">            </xs:enumeration>
+            <xs:enumeration value="6">            </xs:enumeration>
+            <xs:enumeration value="7">            </xs:enumeration>
+            <xs:enumeration value="8">            </xs:enumeration>
+            <xs:enumeration value="9">            </xs:enumeration>
+            <xs:enumeration value="10">            </xs:enumeration>
+            <xs:enumeration value="11">            </xs:enumeration>
+            <xs:enumeration value="12">            </xs:enumeration>
+            <xs:enumeration value="13">            </xs:enumeration>
+            <xs:enumeration value="14">            </xs:enumeration>
+            <xs:enumeration value="15">            </xs:enumeration>
+            <xs:enumeration value="16">            </xs:enumeration>
+            <xs:enumeration value="17">            </xs:enumeration>
+            <xs:enumeration value="18">            </xs:enumeration>
+            <xs:enumeration value="19">            </xs:enumeration>
+            <xs:enumeration value="20">            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    <xs:complexType name="affectedChartPublicationsType">
+        <xs:annotation>
+            <xs:documentation>Identifies paper charts, ENCs or publications that are affected by the information.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="chartAffected" type="chartAffectedType" minOccurs="0" maxOccurs="1"/>            <xs:element name="chartPublicationIdentifier" type="chartPublicationIdentifierType" minOccurs="0" maxOccurs="1"/>            <xs:element name="internationalChartAffected" type="internationalChartAffectedType" minOccurs="0" maxOccurs="1"/>            <xs:element name="language" type="languageType" minOccurs="0" maxOccurs="1"/>            <xs:element name="publicationAffected" type="publicationAffectedType" minOccurs="0" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="chartAffectedType">
+        <xs:annotation>
+            <xs:documentation>Name or number of affected national paper chart or ENC.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="chartNumber" type="chartNumberType" minOccurs="1" maxOccurs="1"/>            <xs:element name="chartPlanNumber" type="chartPlanNumberType" minOccurs="0" maxOccurs="1"/>            <xs:element name="editionDate" type="editionDateType" minOccurs="1" maxOccurs="1"/>            <xs:element name="lastNoticeDate" type="lastNoticeDateType" minOccurs="0" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="fixedDateRangeType">
+        <xs:annotation>
+            <xs:documentation>An active period of a single fixed event or occurrence, as the date range between discrete start and end dates.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="dateEnd" type="dateEndType" minOccurs="0" maxOccurs="1"/>            <xs:element name="dateStart" type="dateStartType" minOccurs="0" maxOccurs="1"/>            <xs:element name="timeOfDayEnd" type="timeOfDayEndType" minOccurs="0" maxOccurs="1"/>            <xs:element name="timeOfDayStart" type="timeOfDayStartType" minOccurs="0" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="generalAreaType">
+        <xs:annotation>
+            <xs:documentation>The general area used to identify which broad geographic region the message affects. The geographical name which is selected for the general area should be one that can be found on charts and in nautical publications. (S-53, 6).</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="localityIdentifier" type="localityIdentifierType" minOccurs="0" maxOccurs="1"/>            <xs:element name="locationName" type="locationNameType" minOccurs="1" maxOccurs="unbounded"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="informationType">
+        <xs:annotation>
+            <xs:documentation>Textual information about the feature. The information may be provided as a string of text or as a file name of a single external text file that contains the text.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="fileLocator" type="fileLocatorType" minOccurs="0" maxOccurs="1"/>            <xs:element name="fileReference" type="fileReferenceType" minOccurs="0" maxOccurs="1"/>            <xs:element name="headline" type="headlineType" minOccurs="0" maxOccurs="1"/>            <xs:element name="language" type="languageType" minOccurs="1" maxOccurs="1"/>            <xs:element name="text" type="textType" minOccurs="0" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="localityType">
+        <xs:annotation>
+            <xs:documentation>Name and/or identifier of an area locality.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="localityIdentifier" type="localityIdentifierType" minOccurs="0" maxOccurs="1"/>            <xs:element name="locationName" type="locationNameType" minOccurs="1" maxOccurs="unbounded"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="locationNameType">
+        <xs:annotation>
+            <xs:documentation>Name of an area locality as defined by a competent authority.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="language" type="languageType" minOccurs="0" maxOccurs="1"/>            <xs:element name="text" type="textType" minOccurs="1" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="messageSeriesIdentifierType">
+        <xs:annotation>
+            <xs:documentation>Message series identification of the warning or notice.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="agencyResponsibleForProduction" type="agencyResponsibleForProductionType" minOccurs="1" maxOccurs="1"/>            <xs:element name="countryName" type="countryNameType" minOccurs="0" maxOccurs="1"/>            <xs:element name="nameOfSeries" type="nameOfSeriesType" minOccurs="1" maxOccurs="1"/>            <xs:element name="warningIdentifier" type="warningIdentifierType" minOccurs="0" maxOccurs="1"/>            <xs:element name="warningNumber" type="warningNumberType" minOccurs="1" maxOccurs="1"/>            <xs:element name="warningType" type="warningTypeType" minOccurs="1" maxOccurs="1"/>            <xs:element name="year" type="yearType" minOccurs="1" maxOccurs="1"/>            <xs:element name="interoperabilityIdentifier" type="interoperabilityIdentifierType" minOccurs="0" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="navwarnTitleType">
+        <xs:annotation>
+            <xs:documentation>Title of the navigational warning.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="language" type="languageType" minOccurs="0" maxOccurs="1"/>            <xs:element name="text" type="textType" minOccurs="1" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="warningInformationType">
+        <xs:annotation>
+            <xs:documentation>Detailed information about a warning.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="information" type="informationType" minOccurs="0" maxOccurs="1"/>            <xs:element name="navwarnTypeDetails" type="navwarnTypeDetailsType" minOccurs="0" maxOccurs="unbounded"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="FeatureReferenceType">
+        <xs:annotation>
+            <xs:documentation>Reference to an object or feature that is external to the dataset.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="atoNNumber" type="atoNNumberType" minOccurs="0" maxOccurs="unbounded"/>            <xs:element name="interoperabilityIdentifier" type="interoperabilityIdentifierType" minOccurs="0" maxOccurs="unbounded"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="FeatureNameType">
+        <xs:annotation>
+            <xs:documentation>Provides the name of an entity, defines the national language of the name, and provides the option to display the name at various system display settings.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- subattributes -->            <xs:element name="language" type="languageType" minOccurs="1" maxOccurs="1"/>            <xs:element name="Name" type="NameType" minOccurs="1" maxOccurs="1"/>            <xs:element name="nameUsage" type="nameUsageType" minOccurs="0" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ReferencesType" abstract="false">
+        <xs:annotation>
+            <xs:documentation>References to for example a navigational warning, nautical publication or chart.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100:AbstractInformationType">
+                <xs:sequence>
+                    <!-- attributes -->
+<!--0-->     <xs:element name="messageSeriesIdentifier" type="messageSeriesIdentifierType" minOccurs="0" maxOccurs="unbounded"/>
+<!--1-->     <xs:element name="noMessageOnHand" type="noMessageOnHandType" minOccurs="1" maxOccurs="1"/>
+<!--2-->     <xs:element name="referenceCategory" type="referenceCategoryType" minOccurs="1" maxOccurs="1"/>
+<!--3-->     <xs:element name="theWarning" type="gml:ReferenceType" minOccurs="1" maxOccurs="1"/>
+ </xs:sequence>
+            </xs:extension>        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="NavwarnPreambleType" abstract="false">
+        <xs:annotation>
+            <xs:documentation>Preamble information for warnings, notices and other types of messages in a navigational warning scheme.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100:AbstractInformationType">
+                <xs:sequence>
+                    <!-- attributes -->
+<!--0-->     <xs:element name="affectedChartPublications" type="affectedChartPublicationsType" minOccurs="0" maxOccurs="unbounded"/>
+<!--1-->     <xs:element name="generalArea" type="generalAreaType" minOccurs="1" maxOccurs="unbounded"/>
+<!--2-->     <xs:element name="locality" type="localityType" minOccurs="0" maxOccurs="unbounded"/>
+<!--3-->     <xs:element name="messageSeriesIdentifier" type="messageSeriesIdentifierType" minOccurs="1" maxOccurs="1"/>
+<!--4-->     <xs:element name="navwarnTitle" type="navwarnTitleType" minOccurs="0" maxOccurs="unbounded"/>
+<!--5-->     <xs:element name="cancellationDate" type="cancellationDateType" minOccurs="0" maxOccurs="1"/>
+<!--6-->     <xs:element name="intService" type="intServiceType" minOccurs="1" maxOccurs="1"/>
+<!--7-->     <xs:element name="navwarnTypeGeneral" type="navwarnTypeGeneralType" minOccurs="1" maxOccurs="1"/>
+<!--8-->     <xs:element name="publicationTime" type="publicationTimeType" minOccurs="1" maxOccurs="1"/>
+<!--9-->     <xs:element name="theReferences" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded"/>
+ </xs:sequence>
+            </xs:extension>        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="References" type="ReferencesType"/>
+    <xs:element name="NavwarnPreamble" type="NavwarnPreambleType"/>
+    <xs:complexType name="NavwarnPartType" abstract="false">
+        <xs:annotation>
+            <xs:documentation>Navigational warning information that may be geo-located.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100:AbstractFeatureType">
+                <xs:sequence>
+                    <!-- attributes -->
+<!--0-->  <xs:element name="restriction" type="restrictionType" minOccurs="0" maxOccurs="1"/>
+<!--1-->  <xs:element name="fixedDateRange" type="fixedDateRangeType" minOccurs="0" maxOccurs="unbounded"/>
+<!--2-->  <xs:element name="warningInformation" type="warningInformationType" minOccurs="1" maxOccurs="1"/>
+<!--3-->  <xs:element name="FeatureName" type="FeatureNameType" minOccurs="0" maxOccurs="unbounded"/>
+<!--4-->  <xs:element name="FeatureReference" type="FeatureReferenceType" minOccurs="0" maxOccurs="unbounded"/>
+<!--5-->  <xs:element name="header" type="gml:ReferenceType" minOccurs="1" maxOccurs="1"/>
+<!--6-->   <xs:element name="affects" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded"/>
+<!--7-->   <xs:element name="thePositionProvider" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="geometry" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:choice>
+                                <xs:element ref="S100:pointProperty"/>
+                                <xs:element ref="S100:curveProperty"/>
+                                <xs:element ref="S100:surfaceProperty"/>
+                            </xs:choice>
+                        </xs:complexType>
+                    </xs:element>
+ </xs:sequence>
+            </xs:extension>        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="NavwarnAreaAffectedType" abstract="false">
+        <xs:annotation>
+            <xs:documentation>An area affected by some event marked by a navigational warning.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100:AbstractFeatureType">
+                <xs:sequence>
+                    <!-- attributes -->
+<!--0-->   <xs:element name="impacts" type="gml:ReferenceType" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="geometry" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:choice>
+                                <xs:element ref="S100:pointProperty"/>
+                                <xs:element ref="S100:curveProperty"/>
+                                <xs:element ref="S100:surfaceProperty"/>
+                            </xs:choice>
+                        </xs:complexType>
+                    </xs:element>
+ </xs:sequence>
+            </xs:extension>        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="TextPlacementType" abstract="false">
+        <xs:annotation>
+            <xs:documentation>The Text Placement feature is used in association with the Feature Name attribute or a light description to optimize text positioning in ECDIS.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100:AbstractFeatureType">
+                <xs:sequence>
+                    <!-- attributes -->
+<!--0-->  <xs:element name="scaleMinimum" type="scaleMinimumType" minOccurs="0" maxOccurs="1"/>
+<!--1-->  <xs:element name="text" type="textType" minOccurs="1" maxOccurs="1"/>
+<!--2-->  <xs:element name="textOffsetBearing" type="textOffsetBearingType" minOccurs="1" maxOccurs="1"/>
+<!--3-->  <xs:element name="textOffsetDistance" type="textOffsetDistanceType" minOccurs="1" maxOccurs="1"/>
+<!--4-->  <xs:element name="textRotation" type="textRotationType" minOccurs="1" maxOccurs="1"/>
+<!--5-->   <xs:element name="theCartographicText" type="gml:ReferenceType" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="geometry" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:choice>
+                                <xs:element ref="S100:pointProperty"/>
+                            </xs:choice>
+                        </xs:complexType>
+                    </xs:element>
+ </xs:sequence>
+            </xs:extension>        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="NavwarnPart" type="NavwarnPartType"/>
+    <xs:element name="NavwarnAreaAffected" type="NavwarnAreaAffectedType"/>
+    <xs:element name="TextPlacement" type="TextPlacementType"/>
+    <xs:group name="MemberObjects">
+        <xs:annotation>
+            <xs:documentation>group of informtion, feature and meta objects, all GML members</xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+<xs:element ref="NavwarnPart"/><xs:element ref="NavwarnAreaAffected"/><xs:element ref="TextPlacement"/><xs:element ref="References"/><xs:element ref="NavwarnPreamble"/>        </xs:choice>
+    </xs:group>
+    <xs:complexType name="ThisDatasetType">
+        <xs:complexContent>
+            <xs:extension base="S100:DatasetType">
+                <xs:sequence>
+                    <xs:element name="members">
+                        <xs:complexType>
+                            <xs:complexContent>
+                                <xs:extension base="gml:AbstractFeatureMemberType">
+                                    <xs:sequence>
+                                        <xs:group ref="MemberObjects" minOccurs="0" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:extension>
+                            </xs:complexContent>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Dataset" type="ThisDatasetType"/>
+</xs:schema>

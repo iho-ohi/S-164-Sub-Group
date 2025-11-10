@@ -1,0 +1,6 @@
+﻿Immigration Reporting
+
+Vessel entering/departing a port in Jussland shall report the following infor-mation to an Immigration Inspector 2 hours prior to entering/departing:
+1.   Vessel information.— Vessel name, nationality, date of arrival or departure,  and the name of the port of entry or departure.
+2.   Crew information.—Name, nationality, date of birth, pocket-ledger number or passport number, and occupation of each crew member. For a vessel that departs from a port and returns to the same port within 14 days from the date of departure according to a planned schedule and without any change the crew information may submit a statement that there are no changes to the previous information.
+3.   Passenger information.—Name, nationality, date of birth, passport number, place of departure, and final destination of each passenger.
