@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S122:Dataset xmlns:S122="http://www.iho.int/S122/2.0" xmlns:S100="http://www.iho.int/s100gml/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-122</S100:productIdentifier>
+        <S100:productEdition>1.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>XXXIC000000.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
+        <S100:datasetReferenceDate>2001-04-22</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S122:members>
+        <S122:DataCoverage gml:id="ID0">
+            <S122:maximumDisplayScale>22000</S122:maximumDisplayScale>
+            <S122:minimumDisplayScale>350000</S122:minimumDisplayScale>
+            <S122:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID0">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.88226746689496 -32.331858474319745 61.30784201169741 -32.332553289903096 61.30853682728076 -32.62507065049384 60.87844598118652 -32.62507065049384 60.88226746689496 -32.331858474319745 60.88226746689496 -32.331858474319745 61.30784201169741 -32.332553289903096 61.30853682728076 -32.62507065049384 60.87844598118652 -32.62507065049384 60.88226746689496 -32.331858474319745</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S122:geometry>
+        </S122:DataCoverage>
+        <S122:MarineProtectedArea gml:id="ID1">
+            <S122:interoperabilityIdentifier>urn:mrn:iho:AA00:01810:MPA1</S122:interoperabilityIdentifier>
+            <S122:categoryOfMarineProtectedArea code="4">IUCN Category III</S122:categoryOfMarineProtectedArea>
+            <S122:jurisdiction code="1">International</S122:jurisdiction>
+            <S122:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID1">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.97650183038694 -32.38466445865441 60.982407762845426 -32.39187317033168 60.98423165375172 -32.399863549540214 61.0227939186277 -32.389875575529544 61.02748392381532 -32.38179834437309 61.02427040174232 -32.380148157362626 61.02487836537775 -32.37641352360212 61.02713651602364 -32.371289258674906 61.02644170044029 -32.36685980933104 61.02461780953399 -32.36460165868515 60.97650183038694 -32.38466445865441</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S122:geometry>
+        </S122:MarineProtectedArea>
+        <S122:MarineProtectedArea gml:id="ID2">
+            <S122:categoryOfMarineProtectedArea code="5">IUCN Category IV</S122:categoryOfMarineProtectedArea>
+            <S122:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID2">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.93475968 -32.54994508 60.93475968 -32.5433326 60.94499348 -32.543328 60.94499348 -32.54994316 60.93475968 -32.54994508</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S122:geometry>
+        </S122:MarineProtectedArea>
+        <S122:InformationArea gml:id="ID3">
+            <S122:categoryOfRelationship code="3">Permitted</S122:categoryOfRelationship>
+            <S122:actionOrActivity code="17">Ballast Water Exchange</S122:actionOrActivity>
+            <S122:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID3">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.96623034971593 -32.524849560678994 60.95929850410738 -32.522927284165704 60.957958735628424 -32.53061639021888 60.95941500571425 -32.55152842865138 60.96623034971593 -32.551586679454815 60.96623034971593 -32.551586679454815 60.96623034971593 -32.524849560678994</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S122:geometry>
+        </S122:InformationArea>
+        <S122:VesselTrafficServiceArea gml:id="ID4">
+            <S122:rxNCode>
+                <S122:categoryOfRxN code="3">Environmental Protection</S122:categoryOfRxN>
+                <S122:actionOrActivity code="3">Leaving Port</S122:actionOrActivity>
+            </S122:rxNCode>
+            <S122:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID4">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.906698028607245 -32.507782075273084 60.90937756556517 -32.50591804956322 60.921726735892996 -32.514713920881626 60.91992096098657 -32.51710220382239 60.906698028607245 -32.507782075273084</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S122:geometry>
+        </S122:VesselTrafficServiceArea>
+        <S122:RestrictedArea gml:id="ID5">
+            <S122:restriction code="14">Area To Be Avoided</S122:restriction>
+            <S122:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID5">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.94938872 -32.53832356 60.94997292 -32.53802944 60.95061676 -32.53783096 60.95128008 -32.53771512 60.95190444 -32.53769836 60.9525874 -32.53776432 60.95321188 -32.53791284 60.95383632 -32.53817712 60.9543828 -32.53849104 60.9548512 -32.53882144 60.95526116 -32.53931716 60.95559308 -32.53982936 60.955808 -32.5403748 60.95592524 -32.54093672 60.95592552 -32.54148204 60.9558282 -32.54202752 60.95559424 -32.54258952 60.95528228 -32.543102 60.95502236 -32.5433824 60.9548532 -32.54356496 60.95436556 -32.54394524 60.95383884 -32.5442594 60.95327304 -32.54450748 60.95257064 -32.54467296 60.95192676 -32.54473924 60.95126324 -32.5447064 60.95061936 -32.54459088 60.94995584 -32.54439272 60.9493898 -32.54412836 60.94888236 -32.54374844 60.94843344 -32.54333536 60.948043 -32.54283956 60.94788676 -32.5425586 60.94780864 -32.54231076 60.94765232 -32.54176536 60.94759356 -32.54121992 60.94767152 -32.540658 60.94780788 -32.54011252 60.94806136 -32.53958364 60.94839284 -32.53912068 60.94886108 -32.53869088 60.94934864 -32.53834368 60.94938872 -32.53832356</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S122:geometry>
+        </S122:RestrictedArea>
+        <S122:QualityOfNonBathymetricData gml:id="ID6">
+            <S122:horizontalPositionUncertainty>
+                <S122:uncertaintyFixed>1.00</S122:uncertaintyFixed>
+            </S122:horizontalPositionUncertainty>
+            <S122:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID6">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.88226746689496 -32.331858474319745 61.30784201169741 -32.332553289903096 61.30853682728076 -32.62507065049384 60.87844598118652 -32.62507065049384 60.88226746689496 -32.331858474319745 60.88226746689496 -32.331858474319745 61.30784201169741 -32.332553289903096 61.30853682728076 -32.62507065049384 60.87844598118652 -32.62507065049384 60.88226746689496 -32.331858474319745</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S122:geometry>
+        </S122:QualityOfNonBathymetricData>
+    </S122:members>
+</S122:Dataset>
+

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S127:Dataset xmlns:S127="http://www.iho.int/S127/2.0" xmlns:S100="http://www.iho.int/s100gml/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-127</S100:productIdentifier>
+        <S100:productEdition>1.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>XXXIC000000.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
+        <S100:datasetReferenceDate>2001-04-22</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S127:members>
+        <S127:DataCoverage gml:id="ID0">
+            <S127:maximumDisplayScale>12000</S127:maximumDisplayScale>
+            <S127:minimumDisplayScale>180000</S127:minimumDisplayScale>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID0">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.87971810817875 -32.62232512904984 60.882048140316066 -32.33107111188408 61.30891002787421 -32.33386715044887 61.307512008591814 -32.62139311619491 60.87971810817875 -32.62232512904984</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:DataCoverage>
+        <S127:RadioCallingInPoint gml:id="ID1">
+            <S127:featureName>
+                <S127:language>eng</S127:language>
+                <S127:name>A</S127:name>
+            </S127:featureName>
+            <S127:trafficFlow code="1">Inbound</S127:trafficFlow>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID1" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.9184248 -32.5453679</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
+        <S127:RadioCallingInPoint gml:id="ID2">
+            <S127:trafficFlow code="2">Outbound</S127:trafficFlow>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID2" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.91817376 -32.54526144</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
+        <S127:RadioCallingInPoint gml:id="ID3">
+            <S127:featureName>
+                <S127:language>eng</S127:language>
+                <S127:name>B</S127:name>
+            </S127:featureName>
+            <S127:trafficFlow code="3">One-Way</S127:trafficFlow>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID3" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.93828144 -32.52548552</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
+        <S127:RadioCallingInPoint gml:id="ID4">
+            <S127:trafficFlow code="4">Two-Way</S127:trafficFlow>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID4" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.938564 -32.5254923</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
+        <S127:WaterwayArea gml:id="ID5">
+            <S127:dynamicResource code="1">Static</S127:dynamicResource>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID5">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.91496964269475 -32.54482958625657 60.91840644009731 -32.53277166994591 60.921726735892996 -32.52869411370558 60.924930530081824 -32.52671358638886 60.92574604132989 -32.527063091209456 60.92551303811615 -32.52840285968842 60.92528003490242 -32.529742628167384 60.922891751961664 -32.52997563138111 60.92149373267927 -32.53137365066351 60.9208529738415 -32.53352893039054 60.921726735892996 -32.534635695655766 60.92324125678226 -32.535684210117566 60.92021221500374 -32.545179091077166 60.91496964269475 -32.54482958625657</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:WaterwayArea>
+        <S127:MilitaryPracticeArea gml:id="ID6">
+            <S127:categoryOfMilitaryPracticeArea code="3">Submarine Exercise Area</S127:categoryOfMilitaryPracticeArea>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID6">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.966395303687264 -32.543511792004786 60.9664535544907 -32.55230766332319 60.95899745165125 -32.552249412519764 60.95893920084782 -32.54823010708287 60.9641817731568 -32.54834660868974 60.96412352235337 -32.543511792004786 60.966395303687264 -32.543511792004786</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:MilitaryPracticeArea>
+        <S127:PilotBoardingPlace gml:id="ID7">
+            <S127:status code="1">Permanent</S127:status>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID7" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>61.0281237 -32.5519471</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:PilotBoardingPlace>
+        <S127:PilotBoardingPlace gml:id="ID8">
+            <S127:status code="3">Recommended</S127:status>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID8" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>61.0738082 -32.571069</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:PilotBoardingPlace>
+        <S127:PilotBoardingPlace gml:id="ID9">
+            <S127:featureName>
+                <S127:language>eng</S127:language>
+                <S127:name>Port Rimon</S127:name>
+            </S127:featureName>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID9" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>61.2858092 -32.4134206</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:PilotBoardingPlace>
+        <S127:PilotService gml:id="ID10">
+            <S127:remotePilot>false</S127:remotePilot>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID10">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>61.287357230603945 -32.402719600106856 61.27803710205464 -32.4101757029463 61.28549320489409 -32.42462190219772 61.29294930773353 -32.41110771580123 61.287357230603945 -32.402719600106856</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:PilotService>
+        <S127:UnderKeelClearanceManagementArea gml:id="ID11">
+            <S127:dynamicResource code="1">Static</S127:dynamicResource>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID11">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.92672650654929 -32.501221708712336 60.92515373485659 -32.499648937019636 60.9170859985811 -32.505095387140635 60.91667824295707 -32.51094959288567 60.90930951632278 -32.5057361459784 60.92806627502825 -32.49353260265916 60.9293769181055 -32.49490149653984 60.93208558046514 -32.49315397243684 60.932609837696035 -32.49385298207804 60.92987204993468 -32.49545487917245 60.93019242935356 -32.495833509394764 60.93403698238015 -32.493474351855724 60.93511462224366 -32.494755869531254 60.93403698238015 -32.49533837756559 60.93316322032865 -32.494406364710656 60.92719251297675 -32.49833829394239 60.92958079591751 -32.50084307849002 60.92943880958414 -32.50095958009688 60.929413324857634 -32.50130544424226 60.929497060387575 -32.501662230413295 60.92915119624219 -32.50195348443046 60.92839757647277 -32.50148747800299 60.92780050573758 -32.50127631884055 60.92672650654929 -32.501221708712336</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:UnderKeelClearanceManagementArea>
+    </S127:members>
+</S127:Dataset>
+

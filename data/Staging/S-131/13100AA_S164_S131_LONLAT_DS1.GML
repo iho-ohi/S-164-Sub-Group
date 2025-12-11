@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S131:Dataset xmlns:S131="http://www.iho.int/S131/2.0" xmlns:S100="http://www.iho.int/s100gml/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-131</S100:productIdentifier>
+        <S100:productEdition>1.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>XXXIC000000.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
+        <S100:datasetReferenceDate>2001-04-22</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S131:members>
+        <S131:DataCoverage gml:id="ID0">
+            <S131:maximumDisplayScale>4000</S131:maximumDisplayScale>
+            <S131:minimumDisplayScale>180000</S131:minimumDisplayScale>
+            <S131:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID0">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.88221015036311 -32.46377736413046 60.94590740391724 -32.46403949274591 60.945776339609516 -32.55185257892136 60.880113121439514 -32.55224577184453 60.88221015036311 -32.46377736413046</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S131:geometry>
+        </S131:DataCoverage>
+        <S131:OuterLimit gml:id="ID1">
+            <S131:geometry>
+                <S100:curveProperty>
+                    <S100:Curve gml:id="CID1">
+                        <gml:segments>
+                            <gml:LineStringSegment>
+                                <gml:posList>60.93791248114604 -32.51888990552864 60.9370277970689 -32.52826100353094 60.93522566283769 -32.5313737808394 60.930310751298016 -32.53638699060987 60.92664095068173 -32.54005679122616 60.92542860583528 -32.54074487884171 60.92339710906555 -32.54198998976509 60.92012050137244 -32.546052983304556 60.90973365498524 -32.54903469630529</gml:posList>
+                            </gml:LineStringSegment>
+                        </gml:segments>
+                    </S100:Curve>
+                </S100:curveProperty>
+            </S131:geometry>
+        </S131:OuterLimit>
+    </S131:members>
+</S131:Dataset>
+

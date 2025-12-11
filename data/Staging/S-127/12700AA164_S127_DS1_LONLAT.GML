@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S127:Dataset xmlns:S127="http://www.iho.int/S127/2.0" xmlns:S100="http://www.iho.int/s100gml/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-127</S100:productIdentifier>
+        <S100:productEdition>1.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>XXXIC000000.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
+        <S100:datasetReferenceDate>2001-04-22</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S127:members>
+        <S127:DataCoverage gml:id="ID0">
+            <S127:maximumDisplayScale>12000</S127:maximumDisplayScale>
+            <S127:minimumDisplayScale>180000</S127:minimumDisplayScale>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID0">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.87331372 -32.5 60.87403616 -32.5 60.87748892 -32.5 60.87926764 -32.5 60.8799278 -32.5 60.88111492 -32.5 60.88333328 -32.5 60.88464168 -32.5 60.88483884 -32.5 60.8851 -32.5 60.88547152 -32.5 60.88619168 -32.5 60.88656092 -32.5 60.88756648 -32.5 60.88846116 -32.5 60.88958888 -32.5 60.89051112 -32.5 60.89144168 -32.5 60.89206716 -32.5 60.89294724 -32.5 60.89427384 -32.5 60.89439724 -32.5 60.8948298 -32.5 60.89502452 -32.5 60.89543884 -32.5 60.89579724 -32.5 60.89634056 -32.5 60.8963462 -32.5 60.89719696 -32.5 60.897525 -32.5 60.89820832 -32.5 60.8985 -32.5 60.89943056 -32.5 60.90218336 -32.5 60.90723888 -32.5 60.90724728 -32.5 60.91289248 -32.5 60.91291292 -32.5 60.91667648 -32.5 60.91723288 -32.5 60.91764996 -32.5 60.91811828 -32.5 60.91863844 -32.5 60.91864784 -32.5 60.91924168 -32.5 60.92465832 -32.5 60.92559728 -32.5 60.92866964 -32.5 60.9295812 -32.5 60.92981704 -32.5 60.9303804 -32.5 60.93808892 -32.5 60.94107504 -32.5 60.94141944 -32.5 60.94177224 -32.5 60.94251168 -32.5 60.94310884 -32.5 60.94423592 -32.5 60.94465276 -32.5 60.94804224 -32.5 60.94905276 -32.5 60.94933332 -32.5 60.9499944 -32.5 60.95059496 -32.5 60.95198636 -32.5 60.95305276 -32.5 60.95326952 -32.5 60.95446664 -32.5 60.9546948 -32.5 60.95568336 -32.5 60.95680836 -32.5 60.95743608 -32.5 60.95847672 -32.5 60.96116388 -32.5 60.96302564 -32.5 60.96363344 -32.5 60.96444956 -32.5 60.96476944 -32.5 60.96545832 -32.5 60.96593332 -32.5 60.96608328 -32.5 60.96666668 -32.5 60.96666668 -32.500331 60.96666668 -32.5023222 60.96666668 -32.5030194 60.96666668 -32.50587228 60.96666668 -32.50895004 60.96666668 -32.50975 60.96666668 -32.51059724 60.96666668 -32.5120334 60.96666668 -32.51327784 60.96666668 -32.514253 60.96666668 -32.5143384 60.96666668 -32.51462476 60.96666668 -32.51614172 60.96666668 -32.51630832 60.96666668 -32.51677192 60.96666668 -32.51693052 60.96666668 -32.51708884 60.96666668 -32.51966628 60.96666668 -32.52072224 60.96666668 -32.52451356 60.96666668 -32.5269028 60.96666668 -32.527192 60.96666668 -32.53059444 60.96666668 -32.53208332 60.96666668 -32.53209172 60.96666668 -32.53333332 60.96666668 -32.537939 60.96666668 -32.54211748 60.96666668 -32.55235 60.95080108 -32.55234372 60.94874288 -32.55234388 60.941414 -32.55234472 60.9353118 -32.55234508 60.9336108 -32.55234416 60.93333492 -32.55234396 60.92806784 -32.55234028 60.92765224 -32.55233584 60.92716888 -32.55231976 60.92065236 -32.55233484 60.91982264 -32.55233424 60.9176338 -32.55233508 60.91628004 -32.552318 60.91368324 -32.55233652 60.91189804 -32.55233712 60.91074452 -32.55233744 60.90958028 -32.55233788 60.90864412 -32.5523382 60.90771448 -32.55231924 60.90676004 -32.55231932 60.89591896 -32.5523334 60.89449732 -32.55233592 60.87332688 -32.55235236 60.8733258 -32.50093132 60.87331372 -32.5</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:DataCoverage>
+        <S127:RadioCallingInPoint gml:id="ID1">
+            <S127:featureName>
+                <S127:language>eng</S127:language>
+                <S127:name>A</S127:name>
+            </S127:featureName>
+            <S127:trafficFlow code="1">Inbound</S127:trafficFlow>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID1" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.9184248 -32.5453679</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
+        <S127:RadioCallingInPoint gml:id="ID2">
+            <S127:trafficFlow code="2">Outbound</S127:trafficFlow>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID2" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.91817376 -32.54526144</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
+        <S127:RadioCallingInPoint gml:id="ID3">
+            <S127:featureName>
+                <S127:language>eng</S127:language>
+                <S127:name>B</S127:name>
+            </S127:featureName>
+            <S127:trafficFlow code="3">One-Way</S127:trafficFlow>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID3" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.93828144 -32.52548552</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
+        <S127:RadioCallingInPoint gml:id="ID4">
+            <S127:trafficFlow code="4">Two-Way</S127:trafficFlow>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID4" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.938564 -32.5254923</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
+        <S127:WaterwayArea gml:id="ID5">
+            <S127:dynamicResource code="1">Static</S127:dynamicResource>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID5">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.91496964269475 -32.54482958625657 60.91840644009731 -32.53277166994591 60.921726735892996 -32.52869411370558 60.924930530081824 -32.52671358638886 60.92574604132989 -32.527063091209456 60.92551303811615 -32.52840285968842 60.92528003490242 -32.529742628167384 60.922891751961664 -32.52997563138111 60.92149373267927 -32.53137365066351 60.9208529738415 -32.53352893039054 60.921726735892996 -32.534635695655766 60.92324125678226 -32.535684210117566 60.92021221500374 -32.545179091077166 60.91496964269475 -32.54482958625657</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:WaterwayArea>
+        <S127:MilitaryPracticeArea gml:id="ID6">
+            <S127:categoryOfMilitaryPracticeArea code="3">Submarine Exercise Area</S127:categoryOfMilitaryPracticeArea>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID6">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.966395303687264 -32.543511792004786 60.9664535544907 -32.55230766332319 60.95899745165125 -32.552249412519764 60.95893920084782 -32.54823010708287 60.9641817731568 -32.54834660868974 60.96412352235337 -32.543511792004786 60.966395303687264 -32.543511792004786</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:MilitaryPracticeArea>
+    </S127:members>
+</S127:Dataset>
+
