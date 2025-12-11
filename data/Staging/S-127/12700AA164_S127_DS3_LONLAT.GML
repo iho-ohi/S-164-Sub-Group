@@ -277,5 +277,15 @@
                 </S100:surfaceProperty>
             </S127:geometry>
         </S127:VesselTrafficServiceArea>
+        <S127:SignalStationWarning gml:id="ID17">
+            <S127:categoryOfSignalStationWarning code="-1">Danger,Distress,Weather,Storm,Ice Warning,Tidal Stream,Tide Gauge,Tide Scale</S127:categoryOfSignalStationWarning>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID17" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.9255304 -32.50573096</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:SignalStationWarning>
     </S127:members>
 </S127:Dataset>
