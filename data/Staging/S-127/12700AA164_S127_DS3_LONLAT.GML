@@ -306,5 +306,23 @@
                 </S100:surfaceProperty>
             </S127:geometry>
         </S127:RadarRange>
+        <S127:RouteingMeasure gml:id="ID19">
+            <S127:categoryOfRouteingMeasure code="3">Fairway System</S127:categoryOfRouteingMeasure>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID19">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>61.0015564 -32.5417717 61.081793 -32.5513973 61.0793197 -32.5625538 60.999291 -32.5529925 61.0015564 -32.5417717</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:RouteingMeasure>
     </S127:members>
 </S127:Dataset>
