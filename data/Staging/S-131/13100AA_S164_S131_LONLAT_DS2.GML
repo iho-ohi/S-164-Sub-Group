@@ -136,6 +136,77 @@
                 </S100:pointProperty>
             </S131:geometry>
         </S131:Berth>
+        <S131:DockArea gml:id="ID8">
+            <S131:depthsDescription>
+                <S131:categoryOfDepthsDescription code="3">Controlling Depth</S131:categoryOfDepthsDescription>
+                <S131:textContent>
+                    <S131:information>
+                        <S131:text>Description of controlling depths</S131:text>
+                    </S131:information>
+                </S131:textContent>
+            </S131:depthsDescription>
+            <S131:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID8">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.93494124 -32.50555856 60.93429676 -32.50559348 60.9332734 -32.50564892 60.93041964 -32.50308732 60.93086732 -32.50269076 60.93133728 -32.50304212 60.93808112 -32.50255396 60.93812176 -32.50366356 60.936047 -32.50376312 60.93606628 -32.5040338 60.93812184 -32.50395232 60.93820204 -32.50537756 60.93494124 -32.50555856</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S131:geometry>
+        </S131:DockArea>
+        <S131:Bollard gml:id="ID9">
+            <S131:height>0.93</S131:height>
+            <S131:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID9" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.932172274043644 -32.49151999189181</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S131:geometry>
+        </S131:Bollard>
+        <S131:Bollard gml:id="ID10">
+            <S131:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID10" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.93245078569756 -32.491790312026495</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S131:geometry>
+        </S131:Bollard>
+        <S131:Bollard gml:id="ID11">
+            <S131:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID11" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.93270472279378 -32.49206063216118</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S131:geometry>
+        </S131:Bollard>
+        <S131:Bollard gml:id="ID12">
+            <S131:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID12" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.93003428752389 -32.49545192112355</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S131:geometry>
+        </S131:Bollard>
+        <S131:Bollard gml:id="ID13">
+            <S131:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID13" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.93025545854317 -32.49568947518131</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S131:geometry>
+        </S131:Bollard>
     </S131:members>
 </S131:Dataset>
 
