@@ -172,6 +172,12 @@
             </S131:geometry>
         </S131:Bollard>
         <S131:Bollard gml:id="ID10">
+            <S131:featureName>
+                <S131:language>eng</S131:language>
+                <S131:name>2</S131:name>
+            </S131:featureName>
+            <S131:theCartographicText xlink:arcrole="http://www.iho.int/S-131/gml/1.0.0/roles/componentOf/theCartographicText" xlink:href="#ID14"/>
+            <S131:height>10.5</S131:height>
             <S131:geometry>
                 <S100:pointProperty>
                     <S100:Point gml:id="PID10" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
@@ -207,6 +213,18 @@
                 </S100:pointProperty>
             </S131:geometry>
         </S131:Bollard>
+        <S131:TextPlacement gml:id="ID14">
+            <S131:textOffsetBearing>270</S131:textOffsetBearing>
+            <S131:textOffsetDistance>10</S131:textOffsetDistance>
+            <S131:textType code="1">Name</S131:textType>
+            <S131:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID14" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.93245078569756 -32.491790312026495</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S131:geometry>
+        </S131:TextPlacement>
     </S131:members>
 </S131:Dataset>
 
