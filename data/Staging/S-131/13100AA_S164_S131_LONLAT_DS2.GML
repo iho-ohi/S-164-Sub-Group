@@ -56,6 +56,10 @@
             </S131:geometry>
         </S131:OuterLimit>
         <S131:HarbourAreaAdministrative gml:id="ID2">
+            <S131:featureName>
+                <S131:language>eng</S131:language>
+                <S131:name>Micklefirth Port A</S131:name>
+            </S131:featureName>
             <S131:iSPSLevel code="2">ISPS Level 2</S131:iSPSLevel>
             <S131:categoryOfHarbourFacility code="-1">Tanker Terminal,Passenger Terminal,Container Terminal,Bulk Terminal</S131:categoryOfHarbourFacility>
             <S131:geometry>

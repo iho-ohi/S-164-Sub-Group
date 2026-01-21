@@ -187,6 +187,161 @@
                 </S100:surfaceProperty>
             </S127:geometry>
         </S127:UnderKeelClearanceManagementArea>
+        <S127:VesselTrafficServiceArea gml:id="ID12">
+            <S127:requirementsForMaintenanceOfListeningWatch>false</S127:requirementsForMaintenanceOfListeningWatch>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID12">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>61.13573 -32.495197 61.2180634 -32.4612379 61.2161592 -32.4808483 61.1465326 -32.509309 61.13573 -32.495197</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:VesselTrafficServiceArea>
+        <S127:VesselTrafficServiceArea gml:id="ID13">
+            <S127:requirementsForMaintenanceOfListeningWatch>false</S127:requirementsForMaintenanceOfListeningWatch>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID13">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>61.2257515 -32.4998592 61.1399015 -32.5347501 61.1474544 -32.5134746 61.2144928 -32.4863048 61.2257515 -32.4998592</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:VesselTrafficServiceArea>
+        <S127:VesselTrafficServiceArea gml:id="ID14">
+            <S127:requirementsForMaintenanceOfListeningWatch>false</S127:requirementsForMaintenanceOfListeningWatch>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID14">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>61.2161592 -32.4808483 61.2180634 -32.4612379 61.2495284 -32.4413525 61.2673831 -32.4485168 61.2161592 -32.4808483</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:VesselTrafficServiceArea>
+        <S127:VesselTrafficServiceArea gml:id="ID15">
+            <S127:requirementsForMaintenanceOfListeningWatch>false</S127:requirementsForMaintenanceOfListeningWatch>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID15">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>61.2495284 -32.4413525 61.2682471 -32.4122966 61.2811471 -32.4270822 61.2674367 -32.4484653 61.2673831 -32.4485168 61.2495284 -32.4413525</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:VesselTrafficServiceArea>
+        <S127:VesselTrafficServiceArea gml:id="ID16">
+            <S127:requirementsForMaintenanceOfListeningWatch>false</S127:requirementsForMaintenanceOfListeningWatch>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID16">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>61.2144928 -32.4863048 61.2907477 -32.4381581 61.3024962 -32.4514581 61.2257515 -32.4998592 61.2144928 -32.4863048</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:VesselTrafficServiceArea>
+        <S127:SignalStationWarning gml:id="ID17">
+            <S127:categoryOfSignalStationWarning code="-1">Danger,Distress,Weather,Storm,Ice Warning,Tidal Stream,Tide Gauge,Tide Scale</S127:categoryOfSignalStationWarning>
+            <S127:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID17" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>60.9255304 -32.50573096</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S127:geometry>
+        </S127:SignalStationWarning>
+        <S127:RadarRange gml:id="ID18">
+            <S127:communicationChannel>12</S127:communicationChannel>
+            <S127:status code="-1">Periodic/Intermittent,Existence Doubtful</S127:status>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID18">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>60.916744 -32.5711899 60.9156679 -32.5690135 60.9156272 -32.5689498 60.9160008 -32.5685949 60.9187416 -32.5659915 60.93118 -32.5541754 60.9718893 -32.5154919 60.9788726 -32.5088101 61.0294386 -32.4607778 61.0381829 -32.4673927 61.0382446 -32.4674264 61.0449019 -32.4734425 61.0502217 -32.4789904 61.0520466 -32.4808446 61.0526769 -32.48157 61.0546759 -32.483915 61.0575634 -32.4873438 61.0597853 -32.4902913 61.0626754 -32.4940711 61.0657844 -32.4984347 61.0683173 -32.502056 61.0712939 -32.508092 61.0741244 -32.5140881 61.0749331 -32.5158415 61.0756267 -32.5175051 61.0780207 -32.5231392 61.0811206 -32.5314583 61.0831735 -32.5385049 61.08325 -32.5388709 61.0834011 -32.5396094 61.0841634 -32.5433368 61.0848224 -32.5465582 61.0859543 -32.5517456 61.0862805 -32.5561203 61.0863947 -32.5579948 61.086542 -32.5599604 61.0866132 -32.5620007 61.0866799 -32.5624464 61.0869125 -32.5684387 61.0869983 -32.5715692 61.0868652 -32.5728898 61.0867586 -32.5751874 61.0861072 -32.5825392 61.085889 -32.5844131 61.0841904 -32.5948629 61.0839493 -32.5961761 61.0836956 -32.5970157 61.08109 -32.606077 61.07788 -32.6153063 61.0773951 -32.6167001 61.0771845 -32.6173067 61.0759477 -32.6208679 61.0744352 -32.6234944 61.0736282 -32.6249983 61.0597626 -32.624991 61.0499411 -32.6249858 61.0414318 -32.6249813 61.0403233 -32.6249807 61.0377285 -32.6249793 61.025811 -32.624973 61.0160269 -32.624995 61.0151553 -32.6249967 60.9735139 -32.6249534 60.9730305 -32.6249529 60.9689827 -32.6249564 60.9583206 -32.6249657 60.9521478 -32.6249711 60.9433471 -32.6249891 60.931883 -32.6018094 60.9285302 -32.5950291 60.917351 -32.5724176 60.916744 -32.5711899</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:RadarRange>
+        <S127:RouteingMeasure gml:id="ID19">
+            <S127:categoryOfRouteingMeasure code="3">Fairway System</S127:categoryOfRouteingMeasure>
+            <S127:geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID19">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>61.0015564 -32.5417717 61.081793 -32.5513973 61.0793197 -32.5625538 60.999291 -32.5529925 61.0015564 -32.5417717</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </S127:geometry>
+        </S127:RouteingMeasure>
+        <S127:RadioCallingInPoint gml:id="ID20">
+            <S127:featureName>
+                <S127:language>eng</S127:language>
+                <S127:name>A</S127:name>
+            </S127:featureName>
+            <S127:trafficFlow code="3">One-Way</S127:trafficFlow>
+            <S127:geometry>
+                <S100:curveProperty>
+                    <S100:Curve gml:id="CID20">
+                        <gml:segments>
+                            <gml:LineStringSegment>
+                                <gml:posList>61.139207814021304 -32.53495629868251 61.147137204638646 -32.51313409144634</gml:posList>
+                            </gml:LineStringSegment>
+                        </gml:segments>
+                    </S100:Curve>
+                </S100:curveProperty>
+            </S127:geometry>
+        </S127:RadioCallingInPoint>
     </S127:members>
 </S127:Dataset>
 
