@@ -335,7 +335,7 @@
                     <S100:Curve gml:id="CID20">
                         <gml:segments>
                             <gml:LineStringSegment>
-                                <gml:posList>61.139207814021304 -32.53495629868251 61.147137204638646 -32.51313409144634</gml:posList>
+                                <gml:posList>61.139207814021304 -32.53495629868251 61.13488269186639 -32.51490345960061 61.147137204638646 -32.51313409144634</gml:posList>
                             </gml:LineStringSegment>
                         </gml:segments>
                     </S100:Curve>
