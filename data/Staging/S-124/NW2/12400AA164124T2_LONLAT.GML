@@ -53,7 +53,7 @@
             <S124:geometry>
                 <S100:pointProperty>
                     <S100:Point gml:id="PID1" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-                        <gml:pos>0.0 0.0</gml:pos>
+                        <gml:pos>60.95491652476688 -32.50691230143411</gml:pos>
                     </S100:Point>
                 </S100:pointProperty>
             </S124:geometry>
