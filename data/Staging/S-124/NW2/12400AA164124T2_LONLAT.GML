@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S124:Dataset xmlns:S124="http://www.iho.int/S124/2.0" xmlns:S100="http://www.iho.int/s100gml/5.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-124</S100:productIdentifier>
+        <S100:productEdition>1.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>XXXIC000000.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>Sample GML Encoding</S100:datasetTitle>
+        <S100:datasetReferenceDate>2001-04-22</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S124:members>
+        <S124:NavwarnPreamble gml:id="ID0">
+            <S124:generalArea>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>SCOTLAND, WEST COAST</S124:text>
+                </S124:locationName>
+            </S124:generalArea>
+            <S124:locality>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>Outer Hebrides, Westwards</S124:text>
+                </S124:locationName>
+            </S124:locality>
+            <S124:messageSeriesIdentifier>
+                <S124:agencyResponsibleForProduction>MF</S124:agencyResponsibleForProduction>
+                <S124:nameOfSeries>NAVAREA 43</S124:nameOfSeries>
+                <S124:warningNumber>36</S124:warningNumber>
+                <S124:warningType code="1">Local Navigational Warning</S124:warningType>
+                <S124:year>2025</S124:year>
+            </S124:messageSeriesIdentifier>
+            <S124:intService>false</S124:intService>
+            <S124:navwarnTypeGeneral code="17">Special Operations</S124:navwarnTypeGeneral>
+            <S124:publicationTime>20250608160500Z</S124:publicationTime>
+            <S124:geometry/>
+        </S124:NavwarnPreamble>
+        <S124:NavwarnPart gml:id="ID1">
+            <S124:warningInformation>
+                <S124:information>
+                    <S124:language>eng</S124:language>
+                    <S124:text>1. Live weapons firing in progress daily between 0800 and 2000 UTC, 21 to 25 Aug, within 29 miles of 57-32.1N 008-52.7W.
+2. This is an extremely hazardous area and mariners are requested to vacate the area during the above periods. Any vessel intending to enter the area should contact Hebrides Range Control on VHF Ch 16 or the Range Controller on telephone number 01870 604449 for advice. Maritime patrol aircraft may be in operation to support firings and mariners are requested to comply with any instructions given from them. 
+</S124:text>
+                </S124:information>
+            </S124:warningInformation>
+            <S124:header xlink:arcrole="http://www.iho.int/S-124/gml/1.0.0/roles/componentOf/header" xlink:href="#ID0"/>
+            <S124:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID1" gml:srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+                        <gml:pos>0.0 0.0</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S124:geometry>
+        </S124:NavwarnPart>
+    </S124:members>
+</S124:Dataset>
