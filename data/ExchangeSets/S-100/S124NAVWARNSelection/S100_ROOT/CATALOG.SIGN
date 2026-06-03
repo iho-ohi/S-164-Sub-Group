@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<S100SE:StandaloneDigitalSignature xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:ns2="http://standards.iso.org/iso/19115/-3/gco/1.0">
+    <S100SE:filename>CATALOG.XML</S100SE:filename>
+    <S100SE:certificates>
+        <S100SE:schemeAdministrator id="IHO"/>
+        <S100SE:certificate id="urn:mrn:iho:00AA:01810" issuer="IHO">MIICMDCCAbYCFFRsK+mYdoQfjekbgPp5TSc9+h1LMAoGCCqGSM49BAMDMH8xCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEwMC4GA1UECgwnSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uMR8wHQYDVQQDDBZ1cm46bXJuOmlobzowMEFBOjAxODEwMB4XDTI1MDkxOTA2MjY0OVoXDTM1MDkxNzA2MjY0OVoweTEfMB0GA1UEAxMWdXJuOm1ybjppaG86MDBBQTowMTgxMDExMC8GA1UEChMoSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uLjEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjELMAkGA1UEBhMCTUMwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAQ5lx33Cx0AkzmrJSEEjqHclTdCuhNacI+yJ2Xg69gmd5H8g2c6rkaQHHeEZh6G7gybW4HI0+KvILUKFvjlxdA/6wCBTEunVj9Tg7FIAhEVyarpc+Fx8teKFSVlUNnrxK0wCgYIKoZIzj0EAwMDaAAwZQIxAJavW1Gx63ILZPfQKZylT+TcI+rG/qcxc4/e3F+tPd/XbZI8DkSwzqn6t8JqO69C6wIwaY385TgSfw3EpXoxgpV5CD/f63mopwY5JcNmMwqL6sqkZU5GLuH+aXg5cmoaj5Js</S100SE:certificate>
+    </S100SE:certificates>
+    <S100SE:digitalSignature id="catalog" certificateRef="urn:mrn:iho:00AA:01810">MGUCMA5ig3s6Q5uBJG61zsh221ZY9pgZ2iEBD6qmuiNN58jrbcSnbxoaheEglveYumCRTgIxALUPbNA6o3MKoN5HLffC/RLY6mElpuLvLaVgEOwKZmKoqpXXPft9CqjmB4kqddXzoQ==</S100SE:digitalSignature>
+</S100SE:StandaloneDigitalSignature>

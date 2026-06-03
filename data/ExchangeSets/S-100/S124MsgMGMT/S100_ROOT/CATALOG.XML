@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<S100XC:S100_ExchangeCatalogue xmlns:S100XC="http://www.iho.int/s100/xc/5.2" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns9="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:ns10="http://www.w3.org/1999/xlink" xmlns:ns11="http://www.isotc211.org/2005/gco" xmlns:ns12="http://www.isotc211.org/2005/gmd" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns14="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns15="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns16="http://www.isotc211.org/2005/gts">
+    <S100XC:identifier>
+        <S100XC:identifier>S124MsgMGMT</S100XC:identifier>
+        <S100XC:dateTime>2026-06-03T09:07:18.563Z</S100XC:dateTime>
+    </S100XC:identifier>
+    <S100XC:contact>
+        <S100XC:organization>
+            <gco:CharacterString>IIC Technologies UK</gco:CharacterString>
+        </S100XC:organization>
+        <S100XC:address>
+            <cit:deliveryPoint>
+                <gco:CharacterString></gco:CharacterString>
+            </cit:deliveryPoint>
+            <cit:city>
+                <gco:CharacterString>York</gco:CharacterString>
+            </cit:city>
+            <cit:administrativeArea>
+                <gco:CharacterString>The Catalyst</gco:CharacterString>
+            </cit:administrativeArea>
+            <cit:postalCode>
+                <gco:CharacterString>BA11 5HF</gco:CharacterString>
+            </cit:postalCode>
+            <cit:country>
+                <gco:CharacterString></gco:CharacterString>
+            </cit:country>
+            <cit:electronicMailAddress>
+                <gco:CharacterString>jp@jpsworldoffun.com</gco:CharacterString>
+            </cit:electronicMailAddress>
+        </S100XC:address>
+    </S100XC:contact>
+    <S100XC:exchangeCatalogueComment>
+        <gco:CharacterString>S124MsgMGMT</gco:CharacterString>
+    </S100XC:exchangeCatalogueComment>
+    <S100XC:certificates>
+        <S100SE:schemeAdministrator id="IHO"/>
+        <S100SE:certificate id="urn:mrn:iho:00AA:01810" issuer="IHO">MIICMDCCAbYCFFRsK+mYdoQfjekbgPp5TSc9+h1LMAoGCCqGSM49BAMDMH8xCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEwMC4GA1UECgwnSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uMR8wHQYDVQQDDBZ1cm46bXJuOmlobzowMEFBOjAxODEwMB4XDTI1MDkxOTA2MjY0OVoXDTM1MDkxNzA2MjY0OVoweTEfMB0GA1UEAxMWdXJuOm1ybjppaG86MDBBQTowMTgxMDExMC8GA1UEChMoSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uLjEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjELMAkGA1UEBhMCTUMwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAQ5lx33Cx0AkzmrJSEEjqHclTdCuhNacI+yJ2Xg69gmd5H8g2c6rkaQHHeEZh6G7gybW4HI0+KvILUKFvjlxdA/6wCBTEunVj9Tg7FIAhEVyarpc+Fx8teKFSVlUNnrxK0wCgYIKoZIzj0EAwMDaAAwZQIxAJavW1Gx63ILZPfQKZylT+TcI+rG/qcxc4/e3F+tPd/XbZI8DkSwzqn6t8JqO69C6wIwaY385TgSfw3EpXoxgpV5CD/f63mopwY5JcNmMwqL6sqkZU5GLuH+aXg5cmoaj5Js</S100SE:certificate>
+        <S100SE:certificate id="urn:mrn:iho:2C00:314" issuer="urn:mrn:iho:00AA:1810">MIICFjCCAZsCFCIsxWbPzknyQt2waY6tlwR1aU1VMAoGCCqGSM49BAMDMH4xCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEwMC4GA1UECgwnSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uMR4wHAYDVQQDDBV1cm46bXJuOmlobzowMEFBOjE4MTAwHhcNMjUwNTE5MDcwNDA3WhcNMjYwNTE5MDcwNDA3WjBfMR0wGwYDVQQDExR1cm46bXJuOmlobzoyQzAwOjMxNDEZMBcGA1UEChMQSUlDIFRlY2hub2xvZ2llczEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjELMAkGA1UEBhMCVUswdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAS7DJ8kzqRc4beI79jg3R2ls6VlQf2Xh66Fnpy6wBNmy8L9WOf4yS04j+0MIhYOes+zB+0O2o1lkE7oJ9PhmGMZNG9NyUFZauE3W1an1s6b0/2c7q6XAe5kv5UBM/Syo8MwCgYIKoZIzj0EAwMDaQAwZgIxAJYRxc2PtwgWztUOp6O6VE8HLMghlfIOE2XVnt0IP5E19gxZdBXEQoLLmmoqpiwB/AIxAKODx9W7VkAzxooTx1HSYKN8/DP4HnuB0amc4zYqfYP9uSAWqmjPhkjOF1PTJ4wktw==</S100SE:certificate>
+    </S100XC:certificates>
+    <S100XC:datasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-124/DATASET_FILES/12400AA164124_UI3.GML</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:868eb98b2cee42a655639f8355b0c28717dcc108a45cb27b12b873ff004f8d77</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="12400AA164124_UI3" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDJERDu1N75dAACUQylSC4KYwnYiUZ34Qq1jEhUDm04h+TG7EJaQpSPpJLXFb9mSGECMG4E0oy2FkBiyQoUbQfa0XPmNdDQZdWdVYIBaRjqjds82DAQreEHe1FxtT4LVdtjuw==</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_DigitalSignature id="SIG12400AA164124_UI3" certificateRef="urn:mrn:iho:2C00:314">MGYCMQCzlkvPHgRKfoj1tO6cxb1JGsDN5LOWE4ebJN/McGcnass31eS7KWlc/gRYUbb7h2ECMQDJxbJ2uCGqWtPnG3c3KtYvNEZyUXmxMPG6zI048bKw9cNXGScdnXl46v0r5GAhz0E=</S100SE:S100_SE_DigitalSignature>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>cancellation</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-06-03Z</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:productSpecification>
+                <S100XC:name>Navigational Warnings</S100XC:name>
+                <S100XC:productIdentifier>S-124</S100XC:productIdentifier>
+                <S100XC:number>181</S100XC:number>
+            </S100XC:productSpecification>
+            <S100XC:encodingFormat>GML</S100XC:encodingFormat>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+    </S100XC:datasetDiscoveryMetadata>
+    <S100XC:supportFileDiscoveryMetadata/>
+    <S100XC:catalogueDiscoveryMetadata/>
+</S100XC:S100_ExchangeCatalogue>

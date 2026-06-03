@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S124:Dataset xmlns:S100="http://www.iho.int/s100gml/5.0"
+    xmlns:S124="http://www.iho.int/S124/2.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:s100_profile="http://www.iho.int/S-100/profile/s100_gmlProfile"
+    xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="DS1">
+    <S100:DatasetIdentificationInformation>
+        <S100:encodingSpecification>S-100 Part 10b</S100:encodingSpecification>
+        <S100:encodingSpecificationEdition>1.0</S100:encodingSpecificationEdition>
+        <S100:productIdentifier>S-124</S100:productIdentifier>
+        <S100:productEdition>2.0.0</S100:productEdition>
+        <S100:applicationProfile>1</S100:applicationProfile>
+        <S100:datasetFileIdentifier>16400AA164124N1.GML</S100:datasetFileIdentifier>
+        <S100:datasetTitle>WZ 337/26 - Bull Point Lighthouse White Light Unreliable</S100:datasetTitle>
+        <S100:datasetReferenceDate>2026-05-28</S100:datasetReferenceDate>
+        <S100:datasetLanguage>eng</S100:datasetLanguage>
+        <S100:datasetTopicCategory>oceans</S100:datasetTopicCategory>
+        <S100:datasetPurpose>base</S100:datasetPurpose>
+        <S100:updateNumber>0</S100:updateNumber>
+    </S100:DatasetIdentificationInformation>
+    <S124:members>
+        <S124:NavwarnPreamble gml:id="WZ-337-2026-PREAMBLE">
+            <S124:generalArea>
+                <S124:locationName>
+                    <S124:language>eng</S124:language>
+                    <S124:text>LUNDY</S124:text>
+                </S124:locationName>
+            </S124:generalArea>
+            <S124:messageSeriesIdentifier>
+                <S124:agencyResponsibleForProduction>UKHO</S124:agencyResponsibleForProduction>
+                <S124:countryName>GB</S124:countryName>
+                <S124:nameOfSeries>WZ</S124:nameOfSeries>
+                <S124:warningNumber>337</S124:warningNumber>
+                <S124:warningType code="2">Coastal Navigational Warning</S124:warningType>
+                <S124:year>2026</S124:year>
+            </S124:messageSeriesIdentifier>
+            <S124:intService>false</S124:intService>
+            <S124:navwarnTypeGeneral code="1">Aids to Navigation Changes</S124:navwarnTypeGeneral>
+            <S124:publicationTime>20260528T203100Z</S124:publicationTime>
+            <S124:geometry/>
+        </S124:NavwarnPreamble>
+        <S124:NavwarnPart gml:id="WZ-337-2026-PART-1">
+            <S124:warningInformation>
+                <S124:information>
+                    <S124:language>eng</S124:language>
+                    <S124:text>BULL POINT LIGHTHOUSE 51-11.9N 004-12.1W WHITE LIGHT UNRELIABLE.</S124:text>
+                </S124:information>
+                <S124:navwarnTypeDetails code="171">Light Unreliable</S124:navwarnTypeDetails>
+            </S124:warningInformation>
+            <S124:featureName>
+                <S124:language>eng</S124:language>
+                <S124:name>Bull Point Lighthouse</S124:name>
+            </S124:featureName>
+            <S124:header xlink:arcrole="http://www.iho.int/S-124/gml/1.0.0/roles/componentOf/header" xlink:href="#WZ-337-2026-PREAMBLE"/>
+            <S124:geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PWZ-337-2026-PART-1">
+                        <gml:pos>51.1983 -4.2017</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </S124:geometry>
+        </S124:NavwarnPart>
+        <S124:NavwarnPart gml:id="WZ-337-2026-PART-2">
+            <S124:warningInformation>
+                <S124:information>
+                    <S124:language>eng</S124:language>
+                    <S124:text>CANCEL WZ 336/26.</S124:text>
+                </S124:information>
+            </S124:warningInformation>
+            <S124:header xlink:arcrole="http://www.iho.int/S-124/gml/1.0.0/roles/componentOf/header" xlink:href="#WZ-337-2026-PREAMBLE"/>
+            <S124:geometry/>
+        </S124:NavwarnPart>
+    </S124:members>
+</S124:Dataset>
