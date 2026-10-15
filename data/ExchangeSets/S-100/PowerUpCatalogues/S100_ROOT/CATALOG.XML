@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<S100XC:S100_ExchangeCatalogue xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:S100SE="http://www.iho.int/s100/se/5.1" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:S100XC="http://www.iho.int/s100/xc/5.1" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns8="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns9="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns10="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns30="http://www.isotc211.org/2005/gts" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:ns33="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/mex/1.0">
+<S100XC:S100_ExchangeCatalogue xmlns:S100XC="http://www.iho.int/s100/xc/5.2" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns9="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:ns10="http://www.w3.org/1999/xlink" xmlns:ns11="http://www.isotc211.org/2005/gco" xmlns:ns12="http://www.isotc211.org/2005/gmd" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns14="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns15="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns16="http://www.isotc211.org/2005/gts">
     <S100XC:identifier>
         <S100XC:identifier>PowerUpCatalogues</S100XC:identifier>
-        <S100XC:dateTime>2024-09-05T11:59:14Z</S100XC:dateTime>
+        <S100XC:dateTime>2026-10-15T00:00:00Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -30,82 +30,134 @@
         </S100XC:address>
     </S100XC:contact>
     <S100XC:exchangeCatalogueComment>
-        <gco:CharacterString>Created IIC September 2024</gco:CharacterString>
+        <gco:CharacterString>S-164 §2.1.3 UpdateCatalogues test data — upgrades S-101, S-111, S-124 from 1.9.0 to 2.0.0. Created IIC October 2026.</gco:CharacterString>
     </S100XC:exchangeCatalogueComment>
     <S100XC:certificates>
         <S100SE:schemeAdministrator id="IHO"/>
-        <S100SE:certificate id="urn:mrn:iho:2C:1823" issuer="urn:mrn:iho:00AA:1810">MIICFTCCAZoCFHJFTcPuMYDe1zO8jmuqsiIHb6PPMAoGCCqGSM49BAMDMH4xCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEwMC4GA1UECgwnSW50ZXJuYXRpb25hbCBIeWRyb2dyYXBoaWMgT3JnYW5pc2F0aW9uMR4wHAYDVQQDDBV1cm46bXJuOmlobzowMEFBOjE4MTAwHhcNMjQwMTI2MTIxMjAzWhcNMjUwMTI1MTIxMjAzWjBeMQswCQYDVQQGEwJVSzEWMBQGA1UECAwNREFUQV9QUk9EVUNFUjEZMBcGA1UECgwQSUlDIFRlY2hub2xvZ2llczEcMBoGA1UEAwwTdXJuOm1ybjppaG86MkM6MTgyMzB2MBAGByqGSM49AgEGBSuBBAAiA2IABC38damZvdFTAHhXEo9Pm6gYiV30ci+4lC/cegqlfI3MT1KRRTSH9GPjgE3qPekErfJD0oB8flg0MTiIY2pd4jZviEmd1Vjwqx7WHJgg9KBC703Zvbz/R6qEqED/8QZdmjAKBggqhkjOPQQDAwNpADBmAjEAzSrPu8H2TCOabddRjU3AxpBvhOEEtuEmwEFa3NeBQmpsSjxy0L4fj9v2xnVVsuXBAjEAyXyGlTHvzixeDef+jw/3nT0HCUbD9JmTuMwn8eNF422wJbPIAOHULIkWy1uFbsPQ</S100SE:certificate>
+        <S100SE:certificate id="urn:mrn:iho:00AA:01810" issuer="IHO">MIICjzCCAhagAwIBAgIUWxTSXlwqh9J5B4+YXLUrUt4jp4kwCgYIKoZIzj0EAwMwfzELMAkGA1UEBhMCTUMxHTAbBgNVBAgMFFNDSEVNRV9BRE1JTklTVFJBVE9SMTAwLgYDVQQKDCdJbnRlcm5hdGlvbmFsIEh5ZHJvZ3JhcGhpYyBPcmdhbmlzYXRpb24xHzAdBgNVBAMMFnVybjptcm46aWhvOjAwQUE6MDE4MTAwHhcNMjUwOTA5MTExNDQ2WhcNMzUwOTA3MTExNDQ2WjB/MQswCQYDVQQGEwJNQzEdMBsGA1UECAwUU0NIRU1FX0FETUlOSVNUUkFUT1IxMDAuBgNVBAoMJ0ludGVybmF0aW9uYWwgSHlkcm9ncmFwaGljIE9yZ2FuaXNhdGlvbjEfMB0GA1UEAwwWdXJuOm1ybjppaG86MDBBQTowMTgxMDB2MBAGByqGSM49AgEGBSuBBAAiA2IABEw+GO2+h2/1CLq0yvqRt0v6D2v9PWRUR/PxcMZZX7y1UPMmgeqoZ3XGqgWLdcKa/XO7NtKFQaBZbgJCeJt41AYpZ90pm9rMUoetybMVrhIMzPfQI5mIAzQch4FgnWIhdKNTMFEwHQYDVR0OBBYEFBLnyK0YoUrvnUKV8l/iGzOSjQtGMB8GA1UdIwQYMBaAFBLnyK0YoUrvnUKV8l/iGzOSjQtGMA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwMDZwAwZAIwAJ8bf7pc+1/5pyyEFX8oRntPX9HH2knnSNNlrgrejddlrqPczME+EmA/L4LkTQQ+AjBpafe7DXA1+M5n2c7SXeQDX8XQeeNa0+IpNN3ysfrqgH/znZ7ny7ynvxci5vYrj+g=</S100SE:certificate>
     </S100XC:certificates>
     <S100XC:datasetDiscoveryMetadata/>
     <S100XC:supportFileDiscoveryMetadata/>
     <S100XC:catalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
-            <S100XC:fileName>file:/S-101/CATALOGUES/S-101_FC_1.4.1.xml</S100XC:fileName>
-            <S100XC:purpose>reissue</S100XC:purpose>
-            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:fileName>file:/S-101/CATALOGUES/101_Feature_Catalogue_2.0.0.xml</S100XC:fileName>
+            <S100XC:purpose>newEdition</S100XC:purpose>
+            <S100XC:editionNumber>202410161</S100XC:editionNumber>
             <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>1.4.1</S100XC:versionNumber>
-            <S100XC:issueDate>2024-09-05</S100XC:issueDate>
+            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:issueDate>2024-10-16</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.4.1</S100XC:productIdentifier>
-                <S100XC:number>3</S100XC:number>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>INT.IHO.S-101.2.0.0</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
             </S100XC:productSpecification>
-            <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-101_FC_1.4.1" certificateRef="urn:mrn:iho:2C:1823">MGQCMHEfKNMrr8JJAR1+vexqKfXzMPK/1ZqNafBCt3oqUB6RSR54hIeuis4O4syMtxjLCAIwSLPXkIRPnYpQy2ZHNDOQWx4oG9rb9r/pQpoxQAyxfkPuXISL8jFAqU+F+LzxB0F+</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT1" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQCSIn1630WXvfGqQWWbiXOF8SsQElid+fFDt5HHHhkuEuvjrBoAFkNlYrVHe3uiYLwCMQCl2nTTQPdlMDYWlEir4ZCI3I9xP3jSgsYJzB9xajcQskuzRdhh9f/q9aG2EXanb4I=</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
-            <S100XC:fileName>file:/S-101/CATALOGUES/S-101-Portrayal-Catalogue-1.4.1</S100XC:fileName>
-            <S100XC:purpose>reissue</S100XC:purpose>
-            <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>1.4.1</S100XC:versionNumber>
-            <S100XC:issueDate>2024-09-05</S100XC:issueDate>
+            <S100XC:fileName>file:/S-101/CATALOGUES/101_Portrayal_Catalogue_2.0.0.zip</S100XC:fileName>
+            <S100XC:purpose>newEdition</S100XC:purpose>
+            <S100XC:editionNumber>202410161</S100XC:editionNumber>
+            <S100XC:scope>portrayalCatalogue</S100XC:scope>
+            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:issueDate>2024-10-16</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-101.1.4.1</S100XC:productIdentifier>
-                <S100XC:number>2</S100XC:number>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>INT.IHO.S-101.2.0.0</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
             </S100XC:productSpecification>
-            <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-101-Portrayal-Catalogue-1.4" certificateRef="urn:mrn:iho:2C:1823">MGUCMHZhf5BrCA6B4yg/q/SQftGnmkPP0a4wr5w4uk/3EHNp94gS6MzwLsYRuaukqY4hKgIxALJ9TN5xTa2pffKSvEAlEcrM8mHvO3inJXPpNXb8visUsu6SFjJEBIqlQ7RNwcj/8A==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT2" certificateRef="urn:mrn:iho:00AA:01810">MGUCMHYxZmdUUv4ZMM874FVHW1zbEy+4ps641g9c7Mr6xfvum5O/1m10NfPsYdbjfG6q3QIxAL+xwjCzFo/w6N5eldFQ0SjtlwUdFfT3gIvW28GzRvdIcYw111mRueEJ4COpnHBn9w==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
-            <S100XC:fileName>file:/S-124/CATALOGUES/S-124_1.0.0.xml</S100XC:fileName>
-            <S100XC:purpose>reissue</S100XC:purpose>
-            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:fileName>file:/S-111/CATALOGUES/111_Feature_Catalogue_2.0.0.xml</S100XC:fileName>
+            <S100XC:purpose>newEdition</S100XC:purpose>
+            <S100XC:editionNumber>202407311</S100XC:editionNumber>
             <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>1.0.0</S100XC:versionNumber>
-            <S100XC:issueDate>2023-07-26</S100XC:issueDate>
+            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:issueDate>2024-07-31</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-124.1.0.0</S100XC:productIdentifier>
-                <S100XC:number>4</S100XC:number>
+                <S100XC:name>Surface Currents</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-05-12</S100XC:date>
+                <S100XC:productIdentifier>INT.IHO.S-111.2.0.0</S100XC:productIdentifier>
+                <S100XC:number>210</S100XC:number>
             </S100XC:productSpecification>
-            <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-124_1.0.0" certificateRef="urn:mrn:iho:2C:1823">MGQCMBdgG9Ny+SQC/boG7DZ3VzrRvgcG1J6/igmNUMV4vU7rSgWy7gI7x6wNshwHojj9qQIwC2Cr0xwmKp3SkTlRIH32pjJwB6ii8hK4qMH6WbWGQQArOz/I2nSKqBP4T4tkRbjO</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT3" certificateRef="urn:mrn:iho:00AA:01810">MGUCMCrbekWD6Bp3IZjIGEKfSTvW/LL9tELk2epX0yHohWIKdqMIzOkaaMu1327E9q3tewIxALUJoWWCCM+NToxz0sVj6IXFW20f3qsjVdjF6brGUSGkhxtrFNzpibjCFtxFTS7uRQ==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
-            <S100XC:fileName>file:/S-128/CATALOGUES/S-128_1.0.0_20231701.xml</S100XC:fileName>
-            <S100XC:purpose>reissue</S100XC:purpose>
-            <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>1.0.0</S100XC:versionNumber>
-            <S100XC:issueDate>2023-01-01</S100XC:issueDate>
+            <S100XC:fileName>file:/S-111/CATALOGUES/111_Portrayal_Catalogue_2.0.0.zip</S100XC:fileName>
+            <S100XC:purpose>newEdition</S100XC:purpose>
+            <S100XC:editionNumber>202407311</S100XC:editionNumber>
+            <S100XC:scope>portrayalCatalogue</S100XC:scope>
+            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:issueDate>2024-07-31</S100XC:issueDate>
             <S100XC:productSpecification>
-                <S100XC:productIdentifier>INT.IHO.S-128.1.0.0</S100XC:productIdentifier>
-                <S100XC:number>1</S100XC:number>
+                <S100XC:name>Surface Currents</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-05-12</S100XC:date>
+                <S100XC:productIdentifier>INT.IHO.S-111.2.0.0</S100XC:productIdentifier>
+                <S100XC:number>210</S100XC:number>
             </S100XC:productSpecification>
-            <S100XC:digitalSignatureReference>DSA</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_DigitalSignature id="S-128_1.0.0_20231701" certificateRef="urn:mrn:iho:2C:1823">MGUCMQDkDu+HA3cC8gTr5Xtkl9XoHPorsohLVelXPU1uf6YEvivnjJfbX7NYO92pdIgxtLcCMEqeBNi8vFJY2Oq0Jk6o1nb0AG8lM+38eNKrRS1eq4QSWTlpILqRt7C+GU7pgLBTXA==</S100SE:S100_SE_DigitalSignature>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT4" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQDM6oFSmY6l/Pr8RpRMCaNIXqNlKBM2pXteya95YBhxcka6v6ZL41wyOMvRbXUMjcUCMQCjGm9q18La6hAGsLpUeAkLfFCITyoT+FzaFY48y1VZY2sYz5Dr0nak3jz1whbwJ1o=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:compressionFlag>true</S100XC:compressionFlag>
+        </S100XC:S100_CatalogueDiscoveryMetadata>
+        <S100XC:S100_CatalogueDiscoveryMetadata>
+            <S100XC:fileName>file:/S-124/CATALOGUES/124_FC_2.0.0.xml</S100XC:fileName>
+            <S100XC:purpose>newEdition</S100XC:purpose>
+            <S100XC:editionNumber>202507101</S100XC:editionNumber>
+            <S100XC:scope>featureCatalogue</S100XC:scope>
+            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:issueDate>2025-07-10</S100XC:issueDate>
+            <S100XC:productSpecification>
+                <S100XC:name>Navigational Warnings</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2025-07-24</S100XC:date>
+                <S100XC:productIdentifier>INT.IHO.S-124.2.0.0</S100XC:productIdentifier>
+                <S100XC:number>181</S100XC:number>
+            </S100XC:productSpecification>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT5" certificateRef="urn:mrn:iho:00AA:01810">MGUCMFFjcMkc51C4Rpsgr6tSCuFbwbs3x1cyWVhDKbKKxWNAmotKzTRS/KVQNplgt2osbAIxAIns6jbW6MZMKwZFnFI+g+vzgXEl6YL5omIMwmmO4TqTby+53jjYOt42dMNyCoQuPg==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
+        </S100XC:S100_CatalogueDiscoveryMetadata>
+        <S100XC:S100_CatalogueDiscoveryMetadata>
+            <S100XC:fileName>file:/S-124/CATALOGUES/124_Portrayal_Catalogue_2.0.0.zip</S100XC:fileName>
+            <S100XC:purpose>newEdition</S100XC:purpose>
+            <S100XC:editionNumber>202507101</S100XC:editionNumber>
+            <S100XC:scope>portrayalCatalogue</S100XC:scope>
+            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:issueDate>2025-07-10</S100XC:issueDate>
+            <S100XC:productSpecification>
+                <S100XC:name>Navigational Warnings</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2025-07-24</S100XC:date>
+                <S100XC:productIdentifier>INT.IHO.S-124.2.0.0</S100XC:productIdentifier>
+                <S100XC:number>181</S100XC:number>
+            </S100XC:productSpecification>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT6" certificateRef="urn:mrn:iho:00AA:01810">MGQCMGNIy0Y62mTgXkoDHeTBIqVA2vBfj3SaGqG6T9A7iNTQyGOWc0j8GL1IJNiReC12swIwfomMKpTszf8I9dzmqozPbqtwPbtAiiekV7Qsx6wGGxMlPN4/7CGbKYcm6Mheq0iW</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
     </S100XC:catalogueDiscoveryMetadata>
 </S100XC:S100_ExchangeCatalogue>
