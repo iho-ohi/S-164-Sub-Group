@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- FOR TEST USE ONLY: version modified from 2.0.0 to 1.9.0 for S-164 InitialCatalogues obsolete catalogue test -->
 <S100FC:S100_FC_FeatureCatalogue xmlns:S100FC="http://www.iho.int/S100FC/5.2" xmlns:S100Base="http://www.iho.int/S100Base/5.0" xmlns:S100CI="http://www.iho.int/S100CI/5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:S100CD="http://www.iho.int/S100CD/5.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iho.int/S100FC/5.2 https://schemas.s100dev.net/schemas/S100/5.2.0/S100FC/20231214/S100FC.xsd">
 	<S100FC:name>Navigational Warnings</S100FC:name>
 	<S100FC:scope>Global</S100FC:scope>
-	<S100FC:versionNumber>2.0.0</S100FC:versionNumber>
-	<S100FC:versionDate>2025-07-10</S100FC:versionDate>
+	<S100FC:versionNumber>1.9.0</S100FC:versionNumber>
+	<S100FC:versionDate>2023-11-01</S100FC:versionDate>
 	<S100FC:productId>S-124</S100FC:productId>
 	<S100FC:producer>
 		<S100CI:role>contributor</S100CI:role>

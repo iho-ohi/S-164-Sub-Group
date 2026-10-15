@@ -55,7 +55,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT1" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQD1jwTHtMWN/odvVjydSpCXUSqpkeDXlNZhNENo9C9FLT8cLcnWiICljQUHQHqgQlgCMQCx7a581VoVVzJmKv+cLhQ9YdnBdwpOyh85p0qK1hwXLMGB8FAM0Xs0jJX3V010qys=</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT1" certificateRef="urn:mrn:iho:00AA:01810">MGUCMAnSdGxAY+Ss0DEQ1Eox2zNqUP3h1M9X/aydAE+LyPVi1PlJew5YOBZxurrSt8NdEAIxAMzIuGVJwWEuTwSWP0+CbtEZIUGHqrP/0seVWaeEg0L2D+y5W3Wuc6HjBXv0qNYiDQ==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -75,7 +75,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT2" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDdqAu3tDSnmpQMe9pCafQ6GyCwtkAnVQ9NXRr1O1nbDqOAPqkwO28Uez0NzaaEodUCMH0XzbEvtAqyEVBava349Hl03i6RtV5QwT7aHM/1AReG1f9iA0E8A/84ZGu0EjUQcQ==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT2" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQC9EQwUyVx1Dp8iTv7FVrE18t/c8oiE1jR1PRj8PBu41xwaAXWMJMQEEK2XuyUr/EECMQD1CfEVdKqDZzEtXGtMshatRTMU8y25a/sr5POaq8w1q8luSWuDFMyzHzZlFACXz3c=</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -95,7 +95,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT3" certificateRef="urn:mrn:iho:00AA:01810">MGUCMBDjJoYxHwD3lO2afa7ciNapvK+/EUsXJaNCSOSN2CDmBso35iNoG+pP0RDBXbycvAIxAIZ7z4q9saXsEscLcO/gp1NfSgUbnNNmiX94beBzNUU3e4fqNetCtXU6ORWFIQAkcQ==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT3" certificateRef="urn:mrn:iho:00AA:01810">MGUCMDcGLLlcv50+ujTcRPAJdwB7Pa0LACxzA9RbOcALoH7o9kAtB33y3gMNbyUSFngynQIxAK19jEeW4yeUH3DPzvkNuJ0bvThC8c1alvBOZ0WszFv+cohc1LxGxxBgiEJv5BBr4g==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -115,7 +115,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT4" certificateRef="urn:mrn:iho:00AA:01810">MGUCMEd/3MKV3eNJzwUl0wgMOyoTAcNT/ACJwrhZcpfKx2UKMEhiuxFWD34yMJWdN8HX+wIxANxYwHcwUBwN9lVpX0wk6do9lQqIDhPcPi0UnOeO1DaZQzTmlw6JlAnRSflpjF6qag==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT4" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDKK7vFZUJINgNVULJiFJOZkU6VTgZcXbLTDRErxfmDDebUYE59e+7BAtsiiifAy8ICMERO6sD/xoDSqRRY4pVh015/odcnCEmHyRSnWx8tVvrAdNdf/rvyN3sZdv6M7SC/rQ==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -124,18 +124,18 @@
             <S100XC:purpose>newEdition</S100XC:purpose>
             <S100XC:editionNumber>202405301</S100XC:editionNumber>
             <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:versionNumber>1.9.0</S100XC:versionNumber>
             <S100XC:issueDate>2024-05-30</S100XC:issueDate>
             <S100XC:productSpecification>
                 <S100XC:name>Water Level Information for Surface Navigation</S100XC:name>
-                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:version>1.9.0</S100XC:version>
                 <S100XC:date>2026-05-12</S100XC:date>
                 <S100XC:productIdentifier>INT.IHO.S-104.2.0.0</S100XC:productIdentifier>
                 <S100XC:number>209</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT5" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDD07oZs2o3tUeLqtci2NSufrpNS6bT6EDEu0/wloO2246mSt797hY6JdPITT3x04MCMAnRIXFYaTXleOlaMmQea7BkNh/b19+bJMcU3K3dEOUW8jTVl7TGYfTFrPgkEqIGLA==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT5" certificateRef="urn:mrn:iho:00AA:01810">MGQCMDLbj8++0YgupWmxGR06VZbW5HbnyOgO++Ry8+s/xEDKFN78pv5wXBblW4LOYA4erAIwA1FRI2NPkrPGrpN4zOkCwxtiiaHSHjO9LgWuRbHtR0D1mau8ljtKIKODPLLtNn15</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -155,7 +155,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT6" certificateRef="urn:mrn:iho:00AA:01810">MGUCMHap5jkHbFBl7B3U9V0Y6hirDpnx93wKY/vnmsJDC1UJADtb952rTxr+msg5KsUHyAIxAKNpPw0xkwdMGxZuDmIxNPOzLD4BU+NSPQfeeg7sy8cu0VETjeO5gJyqLcA06l+1eg==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT6" certificateRef="urn:mrn:iho:00AA:01810">MGUCMDii9+V22w06SqDrHerV06QEcF98GQ0Cb6xeWpq1o765qLOr7VQHSu3iGfoXEYJEIAIxAK51F5fJwfEgrG3oD1YXZv1EarWLuzXuc6XZ+cZyXAmkq2F8AnkTc0jMMief19aEdA==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -175,7 +175,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT7" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQDz51ATvzkKFHrGF1LwXSdYoQvpGWmYX4uDrrr0QDS3Dd7Q903tFGvRVeEW2Y9ap9sCMQCv7LvW87ZpWKAe/SDUw/RUK7tFDsxk4E/sxeUYqly5Y5j6mYryfrp4Lvvwhli1KE8=</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT7" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQCsh8NnVNlK+IPu3z9Cs71fULJz4Hf8LH0lQJnEgDqHQMFXJGyTic8wupof9jeYWRgCMQCruZKVunFL0njvdDty3F/L5cPIGT7tx89Ty7nJwIBMduSLe7Q7nQLWFQtiMUcH038=</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -184,18 +184,18 @@
             <S100XC:purpose>newEdition</S100XC:purpose>
             <S100XC:editionNumber>202609011</S100XC:editionNumber>
             <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:versionNumber>1.9.0</S100XC:versionNumber>
             <S100XC:issueDate>2026-09-01</S100XC:issueDate>
             <S100XC:productSpecification>
                 <S100XC:name>Marine Protected Areas</S100XC:name>
-                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:version>1.9.0</S100XC:version>
                 <S100XC:date>2025-04-01</S100XC:date>
                 <S100XC:productIdentifier>INT.IHO.S-122.2.0.0</S100XC:productIdentifier>
                 <S100XC:number>0</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT8" certificateRef="urn:mrn:iho:00AA:01810">MGUCMGkBp7PX35YCVt7asx13kNfijzPNDTZxgIS6BvlUXDyS88bXjwLGf0jcfBh+GmuXFQIxALU3kYCJi/MJY3LWnMC1YmeDQjj6D+io88A368vFDNofzZqCHPROs3V7bL8daDjGxA==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT8" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDnXN41G5z12W/dVL+QDBAZ8i2nv+WmdWgnSQM5C37WtnCiWDrKNl/nMkgmxPAGQecCMGThRShQUCXM6TzxxRNzs55LoEPevWJwkWSWvTnSeYudNFZHcCQeUXtbl6OL9rMFvw==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -204,58 +204,58 @@
             <S100XC:purpose>newEdition</S100XC:purpose>
             <S100XC:editionNumber>202609011</S100XC:editionNumber>
             <S100XC:scope>portrayalCatalogue</S100XC:scope>
-            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
+            <S100XC:versionNumber>1.9.0</S100XC:versionNumber>
             <S100XC:issueDate>2026-09-01</S100XC:issueDate>
             <S100XC:productSpecification>
                 <S100XC:name>Marine Protected Areas</S100XC:name>
-                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:version>1.9.0</S100XC:version>
                 <S100XC:date>2025-04-01</S100XC:date>
                 <S100XC:productIdentifier>INT.IHO.S-122.2.0.0</S100XC:productIdentifier>
                 <S100XC:number>0</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT9" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQDn5OGsDMjJhSWqRfzchgMkGiZsuTXRdFF61Od5eZVU9GAEIQoNO5RXo522oKQiVzgCMQDM9U8oJ9XAMOW7Z/y+J9UHh6Sm2WTwEHnjyeuMqD7GGGAI+v65whsIll92eexXFoY=</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT9" certificateRef="urn:mrn:iho:00AA:01810">MGUCMDYjxUtp7gbrkbSRW6kwe4vmfV8ApBRuxcww8b3e8Q0ZBPwURq0foC734ZKyhzu7FQIxAJBKhZ0ru8Z6eE7kTsYzCdcPvIo11gCNd8ewfaPU0ausyfwZUN/7bHGUpMhfy2EvhA==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
-            <S100XC:fileName>file:/S-124/CATALOGUES/124_FC_2.0.0.xml</S100XC:fileName>
+            <S100XC:fileName>file:/S-124/CATALOGUES/124_FC_1.9.0.xml</S100XC:fileName>
             <S100XC:purpose>newEdition</S100XC:purpose>
-            <S100XC:editionNumber>202507101</S100XC:editionNumber>
+            <S100XC:editionNumber>202311011</S100XC:editionNumber>
             <S100XC:scope>featureCatalogue</S100XC:scope>
-            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
-            <S100XC:issueDate>2025-07-10</S100XC:issueDate>
+            <S100XC:versionNumber>1.9.0</S100XC:versionNumber>
+            <S100XC:issueDate>2023-11-01</S100XC:issueDate>
             <S100XC:productSpecification>
                 <S100XC:name>Navigational Warnings</S100XC:name>
-                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:version>1.9.0</S100XC:version>
                 <S100XC:date>2025-07-24</S100XC:date>
-                <S100XC:productIdentifier>INT.IHO.S-124.2.0.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-124.1.9.0</S100XC:productIdentifier>
                 <S100XC:number>181</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT10" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQDpsXKKmsQdrUEOa36CipQBWm95ULhlJgIRjfmSaZXqk5EVXW2H51n+jAgGJNVGrl8CMQDFFRbRPs6LS26BM6r8NDhC44D5dA3lEiob1XE9WjkeK1aDF3A6bLNMutz1bTNrqw4=</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT10" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQD6z48Ygdz/R294ntVnq69HkNsKqt+hRRb+u9GFU797cyvTRIwGnJGiFLVJP7ZbpRACMFeg/LqgPtOdmIxCFpwdOx/CzWhKFO0MhLckClthmBjJHtyudeZg1VooIWASNvXtug==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
         <S100XC:S100_CatalogueDiscoveryMetadata>
-            <S100XC:fileName>file:/S-124/CATALOGUES/124_Portrayal_Catalogue_2.0.0.zip</S100XC:fileName>
+            <S100XC:fileName>file:/S-124/CATALOGUES/124_Portrayal_Catalogue_1.9.0.zip</S100XC:fileName>
             <S100XC:purpose>newEdition</S100XC:purpose>
-            <S100XC:editionNumber>202507101</S100XC:editionNumber>
+            <S100XC:editionNumber>202311011</S100XC:editionNumber>
             <S100XC:scope>portrayalCatalogue</S100XC:scope>
-            <S100XC:versionNumber>2.0.0</S100XC:versionNumber>
-            <S100XC:issueDate>2025-07-10</S100XC:issueDate>
+            <S100XC:versionNumber>1.9.0</S100XC:versionNumber>
+            <S100XC:issueDate>2023-11-01</S100XC:issueDate>
             <S100XC:productSpecification>
                 <S100XC:name>Navigational Warnings</S100XC:name>
-                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:version>1.9.0</S100XC:version>
                 <S100XC:date>2025-07-24</S100XC:date>
-                <S100XC:productIdentifier>INT.IHO.S-124.2.0.0</S100XC:productIdentifier>
+                <S100XC:productIdentifier>INT.IHO.S-124.1.9.0</S100XC:productIdentifier>
                 <S100XC:number>181</S100XC:number>
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT11" certificateRef="urn:mrn:iho:00AA:01810">MGUCMCgkZuc9sOqa/nTxaiup1qURTTypkBX4t6wW3nPm37pxNkAn3cwpqLgrTJuA352uyQIxALzstwvRb4PcmzEFP0LzSJv7IqgeJwAPxcijL6emD/GWFLjyJl8IRwmEpAj+3u89Ag==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT11" certificateRef="urn:mrn:iho:00AA:01810">MGQCMGEivfGMk5z0wmhayJNomCG0SKp7HyHGwu9ZC4Gi7d7MXCfyASuOR75/lWltFY0GHQIwOu2iTK94uWm//GCxUWOo2VASVwEJKv5oPhI/LWJhPNrALDKa7cBwlfMNMDnFuMe2</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -275,7 +275,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT12" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQD+QPprnThZIHrP62LXGYCV/TOaT9GzqCL8t73fxYXEOKrFwuqXTHQ5zM67JhDjU+QCMDKD9IvjeUPvE9HEeXbMbiys8OdxZRCVihLXWW/6Avf+s6UzVcMMug++2LgibFHE9g==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT12" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQC/DTP6vQRmSiswPRqykHJAbkOb5flql9LCNrcnEZmQ1dJezZCwt8gFC4uAw4QD8TQCMQCfUmXq7Toku2oJ9oTy8mNxU1/LAKaLtgPKdYfKLlABgkNGG+PWsV9hljSVJ5iBR6k=</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -295,7 +295,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT13" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQC0KsCUuFelB3MSCFxlI1vO7855SDc82BrpH3FYBvP5jpVVTShnM9L5qZK3LvGx3RkCMQCzcfQWTJja39mbjMooktWdeg3ER2amzAhIWZCCUZNUfYQ+wlxUZwfmEeB/1/s13m0=</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT13" certificateRef="urn:mrn:iho:00AA:01810">MGUCMDgr+pGS5sNek3XJaqxgQATRBb/18KpqgnTmS3yjdYeINbE7RdQSegYS6BMVvkCp+wIxAL1LsPU7do9aLS/qtLPlBPe/jEu3MaBcb1aK2/vxIjOgFxKtggpYnHY2hu4MYY3U+Q==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -315,7 +315,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT14" certificateRef="urn:mrn:iho:00AA:01810">MGQCMBqxlBeWXfuXw6iz6mkdxnIwJO/Zx8D/m5FMoOJoA7IeOgFUanyamry58RaYBZWidwIwWIC1WM5iYVijSH6baLc1aMdEdeUqDHIGwLutjaFykNDyMNuEWJKDpRglo9mL0hhD</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT14" certificateRef="urn:mrn:iho:00AA:01810">MGQCMHzJlTVoFI38V295wB8LK9NlIzSt2a2+7oMXrQe+K0Nq/yiIuDnrUV1YTRSwaZmE+QIwQdypDQDh38RTwJd0FGMw3pFGEzEpp/c3afMXO6gf8h1xsvYEzu2i0kdq7rEnLqWF</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -335,7 +335,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT15" certificateRef="urn:mrn:iho:00AA:01810">MGQCMDpkz8jYCsoxDfWmhkE9NYP2/b3QAjcMz8zmD5OYJ6D8B8SeKm+PX6MFNl3lZC3sRAIwZv0V9FU3PSNwvNZR1s5AMZkDth1rdfMGM38k5R3zzx1Xo5hfTbxXS1U4XO91izvI</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT15" certificateRef="urn:mrn:iho:00AA:01810">MGQCMCQ+J98rHa2288J7vh/4UtUJhv+/3DZOGDnZUtOY+Qi0RfBzlHABGLcSjz7683TaTQIwVY5ijY5Sjaneid+LG0A00bdNb7owgj9KLZybJTHcEMCYlxVdKMi7UbFES8MNKGk0</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -355,7 +355,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT16" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQCt4HuLLQDgMI9YgqwC+gXBXqEQMFp41w6cHQIb6LJvYJtBILRIT+V2Uq+R2TtW45gCMQCK54qsySe3Ut8D7ARtqvP87TcyGvXfuO8VXZutugXEBWOUezm/1i07FRGaSKxsyoY=</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT16" certificateRef="urn:mrn:iho:00AA:01810">MGUCMAVmr0sQT5XpVuFNANkTNUHqsEC4Mk6AbScA3YbDDeNLGWmHNvd7kyP0TJwlQJuuEAIxANwEs/xG8TRH7LIRONxZTbFYC515PiI2M4REUzbTf4eqsni7bnPNjBPJFZeIi35iNQ==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -375,7 +375,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT17" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQCmDSVS1p/LYebx8kyQK3FaGqf1xnsMvHmcixDww+LpiI8Uk7fwwAVC37wVkKhv8IECMQDB17WFGEmJ9381E7LaIFcKLs6OIpHOCKtZcgQdFCzQGISpMTL3gP/so9Scaytw5f4=</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT17" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDNbOuaQeHgzBEvvE4cpsS9HQ/0Tk7nFCs/bZ2d+Nuztn7fq0qMeJPNmG8MkafDdBcCMC7mAZCYgkRpBQViQ645jHvhsedI8+1suotm+HWtkFMoWVK0ys1g2datiejAGcctfg==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -395,7 +395,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT18" certificateRef="urn:mrn:iho:00AA:01810">MGUCMB4GTxonwQTBN2iZdcAyd6w4i7Hi2tscG1C/NQT9Tn2FfJ41bNcNo6RfU/lSwDpWDwIxANjKoHnsZoCLQvmYBqJ0LsIJiXNn+W0bjg4qvQy7dmb1HSSjJJkPochaacaE/2ULTQ==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT18" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDgOas73JD1WfwCEt99C7wHYOoyODnUOt76qrU+CYQiBfjh6GYdBeweS1O56j8Ae7UCMBRI4IQKLmsgCVgGY1vSehmBNOyAP8ZUWLz9OHBlsGwHcjfXsGGe1IKdpo0GUCciag==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
@@ -415,7 +415,7 @@
             </S100XC:productSpecification>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT19" certificateRef="urn:mrn:iho:00AA:01810">MGQCMF1qyC6Ktv9WJ9PPWw1AwFs0bpdQxckMKvx36eLEuW8bEws39rhoevoEUpqUqw/PIQIwVo0bQq4eSLhAL8Jtu7DtDu4pXDEuJpbimMMFzArrhZofEH9CoorEEIHEpUe1keLZ</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="CAT19" certificateRef="urn:mrn:iho:00AA:01810">MGUCMADNN7q5MQwS/h6Qduin9ZDqOFO4GgvpOIoXyhJkxx5t+7iQ623b0+uu0o7GRQ/4HgIxAKHEiUOldj7BT3ExA48I8xrhKjv/uXD0hnrPAr4lyMFJnHYu5cNCEwcPp5RFfAjS3w==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:compressionFlag>true</S100XC:compressionFlag>
         </S100XC:S100_CatalogueDiscoveryMetadata>
