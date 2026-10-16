@@ -26,7 +26,7 @@ Individual S-100 exchange sets used in S-164 testing. These are the source excha
 
 ### `DualFuel`
 
-Exchange sets for dual-fuel ECDIS testing (S-164 §4). These datasets exercise the additional display and alerting requirements for vessels carrying liquefied gas as fuel.
+Exchange sets for dual-fuel ECDIS testing (S-164 §4). A dual-fuel ECDIS is one capable of operating with both S-57 and S-101 data simultaneously. These exchange sets test correct ECDIS behaviour when S-57 and S-101 datasets are loaded together.
 
 ### `S-57`
 
