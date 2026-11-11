@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<S100XC:S100_ExchangeCatalogue xmlns:S100XC="http://www.iho.int/s100/xc/5.2" xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns9="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns10="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns23="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns25="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns26="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns31="http://www.isotc211.org/2005/gts" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns33="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
+    <S100XC:identifier>
+        <S100XC:identifier>WaterLevelAdjustment</S100XC:identifier>
+        <S100XC:dateTime>2026-11-11T14:47:44Z</S100XC:dateTime>
+    </S100XC:identifier>
+    <S100XC:contact>
+        <S100XC:organization>
+            <gco:CharacterString>International Hydrographic Organization</gco:CharacterString>
+        </S100XC:organization>
+        <S100XC:address>
+            <cit:deliveryPoint>
+                <gco:CharacterString>BP 4.4.5</gco:CharacterString>
+            </cit:deliveryPoint>
+            <cit:city>
+                <gco:CharacterString>Monaco</gco:CharacterString>
+            </cit:city>
+            <cit:administrativeArea>
+                <gco:CharacterString>Monaco</gco:CharacterString>
+            </cit:administrativeArea>
+            <cit:postalCode>
+                <gco:CharacterString>98000</gco:CharacterString>
+            </cit:postalCode>
+            <cit:country>
+                <gco:CharacterString></gco:CharacterString>
+            </cit:country>
+            <cit:electronicMailAddress>
+                <gco:CharacterString>info@iho.int</gco:CharacterString>
+            </cit:electronicMailAddress>
+        </S100XC:address>
+    </S100XC:contact>
+    <S100XC:exchangeCatalogueComment>
+        <gco:CharacterString>S-164 §2.10 Water Level Adjustment — S-101 esc_wla + S-102 + S-104 (3 periods)</gco:CharacterString>
+    </S100XC:exchangeCatalogueComment>
+    <S100XC:certificates>
+        <S100SE:schemeAdministrator id="IHO"/>
+        <S100SE:certificate id="urn:mrn:iho:00AA:01810" issuer="IHO">MIICLTCCAbQCFFHkvduwiPKlz/+lmxNKHq3AuRxyMAoGCCqGSM49BAMDMH4xCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEwMC4GA1UECgwnaW50ZXJuYXRpb25hbCBoeWRyb2dyYXBoaWMgb3JnYW5pc2F0aW9uMR4wHAYDVQQDDBV1cm46bXJuOmlobzowMEFBOjE4MTAwHhcNMjYwNzA4MDg0OTAxWhcNMzYwNzA1MDg0OTAxWjB4MR8wHQYDVQQDExZ1cm46bXJuOmlobzowMEFBOjAxODEwMTAwLgYDVQQKEydJbnRlcm5hdGlvbmFsIEh5ZHJvZ3JhcGhpYyBPcmdhbmlzYXRpb24xFjAUBgNVBAgMDURBVEFfUFJPRFVDRVIxCzAJBgNVBAYTAk1DMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE94nduvhdNKF9PaQjpVsvgqg0FvlZsyPMoi636ymNoZerpN7uK59+tBQVmSunwRqt564O3Y/A6PSNvch61lywffP6x9vOgwO21cv71W38TwbnwIfvAz07W4Z9aLppscFlMAoGCCqGSM49BAMDA2cAMGQCMC2TupucFdpmlPqJ5kYpK3ixH/E50/MBczYcZ4AEhGiFhvZk9RToq7nP9tBZIHit9wIwRYW0J3lqKrPHQEgoWadyV30jCVSU7tAOTDk972gtS0Am7Ui7+mV0Ajhyv/ZGd384</S100SE:certificate>
+    </S100XC:certificates>
+    <S100XC:datasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/10100AA164US4FL2A.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:65d3976c25eb04ba988012bfa80a81fa4147a26b8618f560b24a0400a769e878</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AA164US4FL2A" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDzS5tt11sglqdU+ko5UldaTINAfWVwyFlQDuxZ8iKJ+/BJazeUuD3JllrOhm9TJ+UCMDxzj1NWGNQa2uexidRPrF51IsgJVzijpZIbWEGdhhJaPgtBc20vO5M9Tei73ckThg==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-80.4</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-80.1</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>25.5</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>25.8</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_e93fe29">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">25.5 -80.4 25.8 -80.4 25.8 -80.1 25.5 -80.1 25.5 -80.4</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>22000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>22000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>700000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-102/DATASET_FILES/102US004FL2AI252277.h5</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:fd78fce5fbd0c7fb1bce562394c64990edebdf7d948375d44f41161fa8409229</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="102US004FL2AI252277" certificateRef="urn:mrn:iho:00AA:01810">MGQCMHsnDOVmiHHGCjFVBFZALbQKy/pTeHBuLJFOkE8SfzlfqNeDAPd3S4c7YDQGWlQSSAIwLLuHMrJ04Er2VkCI1qZuWXQI6DS3AqeKb6qGVaIBTds5YVYEOIHzC3LA04xeKIIa</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:productSpecification>
+                <S100XC:name>Bathymetric Surface</S100XC:name>
+                <S100XC:version>3.0.0</S100XC:version>
+                <S100XC:date>2026-01-10</S100XC:date>
+                <S100XC:productIdentifier>S-102</S100XC:productIdentifier>
+                <S100XC:number>215</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>HDF5</S100XC:encodingFormat>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-104/DATASET_FILES/104US00_Florida_Ovp_20260101_20260110.h5</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:f0214b33f3286df8e7b7fee22a1e05ec4662dc34a21134805152c930a8a72fd5</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="104US00_Florida_Ovp_20260101_20260110" certificateRef="urn:mrn:iho:00AA:01810">MGUCMHMsgf4DpohySR3FcTUBNi+qRzs55k8kh219tM7H88C/1iBdyJY0FIWtydygVNw6DAIxAM30AXYOp6igYHqd2CqSgg1dtXAyN9IaHfPjx4fZPLePBjBUSMRre69eOYZogqfhJQ==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:productSpecification>
+                <S100XC:name>Water Level Information for Surface Navigation</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-05-12</S100XC:date>
+                <S100XC:productIdentifier>S-104</S100XC:productIdentifier>
+                <S100XC:number>209</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>HDF5</S100XC:encodingFormat>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-104/DATASET_FILES/104US00_Florida_Ovp_20260111_20260120.h5</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:d470d3d97eb4232f711bfbc5cd90d49f55dcf99aadfb28bd95fed5e42d69b16f</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="104US00_Florida_Ovp_20260111_20260120" certificateRef="urn:mrn:iho:00AA:01810">MGQCMG9UKKdT2esaYwH8oUekUeg3Yvy4VfqSBMIhUr8OOeIyOqvbfyIF5A+sXqUDC61i1gIwSG9O2ChGN3HEB33rY8ig5v8dGtfYI9lmCPt1SLwyYXlA83o2QBHwz2FwA/Bf0gbO</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:productSpecification>
+                <S100XC:name>Water Level Information for Surface Navigation</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-05-12</S100XC:date>
+                <S100XC:productIdentifier>S-104</S100XC:productIdentifier>
+                <S100XC:number>209</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>HDF5</S100XC:encodingFormat>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-104/DATASET_FILES/104US00_Florida_Ovp_20260121_20260131.h5</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:33364251f64b1bb57436e239cb6ed21e5201e5e1cbaadc33ad8e700093c6fb11</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="104US00_Florida_Ovp_20260121_20260131" certificateRef="urn:mrn:iho:00AA:01810">MGUCMEBjszNmrywzf8SkQ7t9HCPj8EGj1QAGIP+9OueftKu3sT5dOoSJBC7uc6c7ojjgDwIxANuNG8CaP2FnJvvIzko4fN/HCoV5aAWQ7WiF9PIIRe4GsyJNWxG1o3BMG/YYK52haQ==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:productSpecification>
+                <S100XC:name>Water Level Information for Surface Navigation</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-05-12</S100XC:date>
+                <S100XC:productIdentifier>S-104</S100XC:productIdentifier>
+                <S100XC:number>209</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>HDF5</S100XC:encodingFormat>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+    </S100XC:datasetDiscoveryMetadata>
+    <S100XC:supportFileDiscoveryMetadata>
+        <S100XC:S100_SupportFileDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AAUS121AIA.TXT</S100XC:fileName>
+            <S100XC:revisionStatus>new</S100XC:revisionStatus>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:supportFileSpecification>
+                <S100XC:name>UTF-8</S100XC:name>
+            </S100XC:supportFileSpecification>
+            <S100XC:dataType>TXT_UTF-8</S100XC:dataType>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAUS121AIA" certificateRef="urn:mrn:iho:00AA:01810">MGQCMBrvKHsuwrinjb32AAo1x/KSj8BPhPpej069SNLoxiRv+8HreFhwlqdfulLYfxlO2AIwdH3TqybQjt429YOkRNPlzUFcB14z1pxOHBtN+cpFEr1orFJgBTW7zBCLBe6t+Isl</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
+        </S100XC:S100_SupportFileDiscoveryMetadata>
+        <S100XC:S100_SupportFileDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AAUS121AIB.TXT</S100XC:fileName>
+            <S100XC:revisionStatus>new</S100XC:revisionStatus>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:supportFileSpecification>
+                <S100XC:name>UTF-8</S100XC:name>
+            </S100XC:supportFileSpecification>
+            <S100XC:dataType>TXT_UTF-8</S100XC:dataType>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAUS121AIB" certificateRef="urn:mrn:iho:00AA:01810">MGUCMFPihoAqBDYLcXV+67rfwj9bI4CYwbzQFmL9Uy40kXle0pU5HL91UJHs4hmnFBhoEgIxAMwiUBxJopi1tSbz6foX2nEzfC2FNaVvFof2SHEjtGh32r3VOnVDYyjDWa8T5lil/A==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
+        </S100XC:S100_SupportFileDiscoveryMetadata>
+        <S100XC:S100_SupportFileDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AAUS121AIC.TXT</S100XC:fileName>
+            <S100XC:revisionStatus>new</S100XC:revisionStatus>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:supportFileSpecification>
+                <S100XC:name>UTF-8</S100XC:name>
+            </S100XC:supportFileSpecification>
+            <S100XC:dataType>TXT_UTF-8</S100XC:dataType>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAUS121AIC" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQDDoSXcL472jRnXStxjKDG1TuJimpzTS8dnqbC1zodKEEgI8AqZZ8ZxcjgmJc5PArsCMQDKq2ORfsTJAH81syOvweheszw5ki1JanKSsa8iD6frc514bMMbeQ5kVb6Yymo/xzE=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
+        </S100XC:S100_SupportFileDiscoveryMetadata>
+        <S100XC:S100_SupportFileDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AAUS121AID.TXT</S100XC:fileName>
+            <S100XC:revisionStatus>new</S100XC:revisionStatus>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:supportFileSpecification>
+                <S100XC:name>UTF-8</S100XC:name>
+            </S100XC:supportFileSpecification>
+            <S100XC:dataType>TXT_UTF-8</S100XC:dataType>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAUS121AID" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQDZaqTfBwy6kUhiw4/40GyTbrvkEZreUl1+RRVq611eLP06lSEgYIzW2622M3lXSC8CMQCFAaiuzXZswO4FE+H2nvpX2xKcp649VZl3H+wT0+byEMx8tiuWMMMjRBzc92Vxkng=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
+        </S100XC:S100_SupportFileDiscoveryMetadata>
+        <S100XC:S100_SupportFileDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AAUS121AIE.TXT</S100XC:fileName>
+            <S100XC:revisionStatus>new</S100XC:revisionStatus>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:supportFileSpecification>
+                <S100XC:name>UTF-8</S100XC:name>
+            </S100XC:supportFileSpecification>
+            <S100XC:dataType>TXT_UTF-8</S100XC:dataType>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAUS121AIE" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQCjcGPYIJToLMTcJYW5dqrKfShSCr9Uu1/zW5uPEUYk1CLx6Q9PClRt12UeXN1W5goCMQDXW/I+FEXfXhGXo5j2vFRX/B2qRr6ZVuKuVFX7JGH5kKwP7WTwbL4j4Dh5HIOHGjI=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
+        </S100XC:S100_SupportFileDiscoveryMetadata>
+    </S100XC:supportFileDiscoveryMetadata>
+    <S100XC:catalogueDiscoveryMetadata/>
+</S100XC:S100_ExchangeCatalogue>

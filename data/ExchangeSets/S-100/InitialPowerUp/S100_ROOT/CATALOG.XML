@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<S100XC:S100_ExchangeCatalogue xmlns:S100XC="http://www.iho.int/s100/xc/5.2" xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns9="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns10="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns23="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns25="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns26="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns31="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns33="http://www.isotc211.org/2005/gts" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
+<S100XC:S100_ExchangeCatalogue xmlns:S100XC="http://www.iho.int/s100/xc/5.2" xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns9="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns10="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns23="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns25="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns26="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns31="http://www.isotc211.org/2005/gts" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns33="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
     <S100XC:identifier>
         <S100XC:identifier>InitialPowerUp</S100XC:identifier>
-        <S100XC:dateTime>2026-10-15T14:38:50Z</S100XC:dateTime>
+        <S100XC:dateTime>2026-11-11T14:45:04Z</S100XC:dateTime>
     </S100XC:identifier>
     <S100XC:contact>
         <S100XC:organization>
@@ -44,13 +44,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AA_X0000" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDw51iTIm904jS6BapdytkWOZtYq9pvwmh6WPmTMD3bCDbHpHKNPJOHQsUu3rG2hpUCMBOFLhOxx4ZIrKwJqZsulB/CdlJ3II6ZH2ts0QuhzuR52L3MpQM0Eji58+ANoL7jEw==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AA_X0000" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQC3kQBMO3mi+ddWFU0lt/0Vhut44x6P5dEj8k6vdj5yWfWzk1uXR8TXM0/m2LOOEZECMGQKAQvnQSo+xK0EbBtmfIzXYvqhbaTbUFaWNIUijuYNdcMk5jkl7CcI9sYuteoeLg==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>7</S100XC:editionNumber>
-            <S100XC:issueDate>2026-10-15</S100XC:issueDate>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:boundingBox>
                 <ns15:westBoundLongitude>
@@ -74,6 +74,20 @@
                 <S100XC:number>214</S100XC:number>
                 <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
             </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
             <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
@@ -99,13 +113,13 @@
             <S100XC:dataProtection>false</S100XC:dataProtection>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AA_X01NW" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQClwioGi82W5Sxllr+3/YR4FATuZNFzZ5uHPgQYhRlSRdUMdyMDxDKO4eQuWblL488CMD5DqcvpLHJEulgsOxlQdqYIPpRQO/PleifSPzGgrozLNJ81TDjvnRBDfyXcytKeOw==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AA_X01NW" certificateRef="urn:mrn:iho:00AA:01810">MGUCMAvoGOO6XSxgEo19m96Bjcbqyobo/8WOyxj2cq7yAFHE+v2+gNwZCGG+07LBBR/ZBgIxAPghqRpKwpQES2UVkbJUj8F1DL1ldMGTm8ZLKK2jVi/vCstMByf1VBut+iLgo1pYhA==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:copyright>false</S100XC:copyright>
             <S100XC:purpose>newDataset</S100XC:purpose>
             <S100XC:notForNavigation>false</S100XC:notForNavigation>
             <S100XC:editionNumber>3</S100XC:editionNumber>
-            <S100XC:issueDate>2026-10-15</S100XC:issueDate>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
             <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
             <S100XC:boundingBox>
                 <ns15:westBoundLongitude>
@@ -129,6 +143,20 @@
                 <S100XC:number>214</S100XC:number>
                 <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
             </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
             <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
             <S100XC:dataCoverage>
                 <S100XC:boundingPolygon>
@@ -153,7 +181,7 @@
             <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AACHAINS.TXT</S100XC:fileName>
             <S100XC:revisionStatus>new</S100XC:revisionStatus>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2026-10-15</S100XC:issueDate>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
             <S100XC:supportFileSpecification>
                 <S100XC:name>UTF-8</S100XC:name>
             </S100XC:supportFileSpecification>
@@ -161,7 +189,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AACHAINS" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQCmCjNMLrGyJeWTAhmw0fb/IOcM83Dmm2nDtuhwomunfsFv1QVMGKorc/Boh5f/pKgCMC/UHpJ8No7NS8lJdP941+98Wzc2GfKulvi8w5VTefnUY+1S4H6dUegYLTGG9NWsUA==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AACHAINS" certificateRef="urn:mrn:iho:00AA:01810">MGUCMDOncUbX5oxX19FaZv/Ai1k80rQrwvUqUaBgbZpytrtUgelihrJGAxMpSlwWy68F9AIxAIt1ubEH3/qmSuCJLQ15aUW0RMIKV0EGtKBU4J+BZFgCgF4ucLRZiXJASbSDQFf85A==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
@@ -169,7 +197,7 @@
             <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AADEVARE.TXT</S100XC:fileName>
             <S100XC:revisionStatus>new</S100XC:revisionStatus>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2026-10-15</S100XC:issueDate>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
             <S100XC:supportFileSpecification>
                 <S100XC:name>UTF-8</S100XC:name>
             </S100XC:supportFileSpecification>
@@ -177,7 +205,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AADEVARE" certificateRef="urn:mrn:iho:00AA:01810">MGUCMCj7Q8Gr6GfdI8+DMVeLltSqOVXN12CvjddXTe8M/hBCQ8i40Pzg+mLwrF59+JllHAIxAPAjUIHSoHx0/+BKluZkFvPTJcBjHgRJ3qIjHDAXcDB0pqqIavIrMr6UGaFLeuJy+w==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AADEVARE" certificateRef="urn:mrn:iho:00AA:01810">MGQCMH5cKi3K4YbRKbycttpxmgF+bDqQFbiekRXh0n87bmwTMs4cudHVMBT01xCN3XKgygIwMmnwecVvmHSXYwnf3ae8TPwJGBoAb/tMXgdSTCOPqYZwYq2AmCDJQFP5xiIFqK4n</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
@@ -185,7 +213,7 @@
             <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AAIECTMP.TXT</S100XC:fileName>
             <S100XC:revisionStatus>new</S100XC:revisionStatus>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2026-10-15</S100XC:issueDate>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
             <S100XC:supportFileSpecification>
                 <S100XC:name>UTF-8</S100XC:name>
             </S100XC:supportFileSpecification>
@@ -193,7 +221,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAIECTMP" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQDy6VyK3by4LKaBwAas8HUrGFkJisv7d/1uEGqvgXsFoasNJ5Cy9VMQjO4zeXuyQ4ICMQCsCGlXEEkfEICx/HdRhjSgL5ANrgECQmWWZGgdqfoxVWm1T3IsRWux7Nu4cc73jsw=</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAIECTMP" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQCPKybrBy06hIHXzJqwMu53FmO8VQqIDG98Ye0+PNkIATdn/Y/o852jMFf0xNaHtCsCMBtAUnsgOaLBVeU+FghZUHXzgOjbegSQJi8VJ0I9jJfIXIk1Usd9j5wRdrbQLFstJA==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
@@ -201,7 +229,7 @@
             <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AATESTPC.TIF</S100XC:fileName>
             <S100XC:revisionStatus>new</S100XC:revisionStatus>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2026-10-15</S100XC:issueDate>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
             <S100XC:supportFileSpecification>
                 <S100XC:name>RFC-2306</S100XC:name>
             </S100XC:supportFileSpecification>
@@ -209,7 +237,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AATESTPC" certificateRef="urn:mrn:iho:00AA:01810">MGUCMHffFeCI3xlSeCkdGWz8Ask4yyhDe8VaX0GLwRsPJYkFZ2VZ2ppwRF4dm5mXgxwOWAIxAPOFNgCLWCU3MoHtKJuKy3zGRTQIW+avUScXma2+oVVyj2+/74urBL0KpNGwneMQrw==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AATESTPC" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQCtBGOmTtDLUE4EG2Y1hQ9yvWWKQ8DB3K/P/5pw1Na8O2nVgJhDZyzA8QvFGVKecRQCMQCwJIifwpUl2Ovuqf2itFo+cG/qQkpU7knwb1wXXDVMOBpkclwxrGkanm9JgT9F/ZY=</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>
@@ -217,7 +245,7 @@
             <S100XC:fileName>file:/S-101/SUPPORT_FILES/10100AAX4000T.TIF</S100XC:fileName>
             <S100XC:revisionStatus>new</S100XC:revisionStatus>
             <S100XC:editionNumber>1</S100XC:editionNumber>
-            <S100XC:issueDate>2026-10-15</S100XC:issueDate>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
             <S100XC:supportFileSpecification>
                 <S100XC:name>RFC-2306</S100XC:name>
             </S100XC:supportFileSpecification>
@@ -225,7 +253,7 @@
             <S100XC:compressionFlag>false</S100XC:compressionFlag>
             <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
             <S100XC:digitalSignatureValue>
-                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAX4000T" certificateRef="urn:mrn:iho:00AA:01810">MGUCMCjU2F+1CCl8Zgc7ygmAxLkM5InzdHvb6/5qX793XdvriYGKS73ohSVjXG47U7PbmwIxALngjtstEAQ6qktWd7SjlqWIGqLeUGCv/hrmGK/lxYdWoLzzjKjYW4DXmyMJgwhLVQ==</S100SE:S100_SE_SignatureOnData>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="10100AAX4000T" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDVMXIVbKXLa75PYp6m1AQCFDspKIkvtBqjabLJpOivlQ5CJJXrrJNu9/qdEpimo4cCMBzIUDUEGqDNadAgMr3D69GUNnGvM9GrMYxzDuRXkZoJJVpSVi5WKDDuDFxoyJ1avg==</S100SE:S100_SE_SignatureOnData>
             </S100XC:digitalSignatureValue>
             <S100XC:resourcePurpose>supportFile</S100XC:resourcePurpose>
         </S100XC:S100_SupportFileDiscoveryMetadata>

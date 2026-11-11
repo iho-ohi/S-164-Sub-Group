@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<S100XC:S100_ExchangeCatalogue xmlns:S100XC="http://www.iho.int/s100/xc/5.2" xmlns:S100SE="http://www.iho.int/s100/se/5.2" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:ns6="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:ns7="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:ns8="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:ns9="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:ns10="https://schemas.isotc211.org/19110/-/gfc/2.1" xmlns:ns11="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:ns12="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:ns13="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:ns14="http://www.w3.org/1999/xlink" xmlns:ns15="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:ns16="http://www.opengis.net/gml/3.2" xmlns:ns17="http://www.isotc211.org/2005/gco" xmlns:ns18="http://www.isotc211.org/2005/gmd" xmlns:ns19="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:ns20="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:ns21="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:ns22="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:ns23="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:ns24="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:ns25="https://schemas.isotc211.org/19110/-/fcc/2.1" xmlns:ns26="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:ns27="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:ns28="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:ns29="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:ns30="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:ns31="http://www.isotc211.org/2005/gts" xmlns:ns32="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:ns33="http://standards.iso.org/iso/19115/-3/mda/2.0" xmlns:ns34="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:ns35="http://standards.iso.org/iso/19115/-3/srv/2.0">
+    <S100XC:identifier>
+        <S100XC:identifier>Chart1</S100XC:identifier>
+        <S100XC:dateTime>2026-11-11T14:50:33Z</S100XC:dateTime>
+    </S100XC:identifier>
+    <S100XC:contact>
+        <S100XC:organization>
+            <gco:CharacterString>International Hydrographic Organization</gco:CharacterString>
+        </S100XC:organization>
+        <S100XC:address>
+            <cit:deliveryPoint>
+                <gco:CharacterString>BP 4.4.5</gco:CharacterString>
+            </cit:deliveryPoint>
+            <cit:city>
+                <gco:CharacterString>Monaco</gco:CharacterString>
+            </cit:city>
+            <cit:administrativeArea>
+                <gco:CharacterString>Monaco</gco:CharacterString>
+            </cit:administrativeArea>
+            <cit:postalCode>
+                <gco:CharacterString>98000</gco:CharacterString>
+            </cit:postalCode>
+            <cit:country>
+                <gco:CharacterString></gco:CharacterString>
+            </cit:country>
+            <cit:electronicMailAddress>
+                <gco:CharacterString>info@iho.int</gco:CharacterString>
+            </cit:electronicMailAddress>
+        </S100XC:address>
+    </S100XC:contact>
+    <S100XC:exchangeCatalogueComment>
+        <gco:CharacterString>S-164 Chart 1</gco:CharacterString>
+    </S100XC:exchangeCatalogueComment>
+    <S100XC:certificates>
+        <S100SE:schemeAdministrator id="IHO"/>
+        <S100SE:certificate id="urn:mrn:iho:00AA:01810" issuer="IHO">MIICLTCCAbQCFFHkvduwiPKlz/+lmxNKHq3AuRxyMAoGCCqGSM49BAMDMH4xCzAJBgNVBAYTAk1DMR0wGwYDVQQIDBRTQ0hFTUVfQURNSU5JU1RSQVRPUjEwMC4GA1UECgwnaW50ZXJuYXRpb25hbCBoeWRyb2dyYXBoaWMgb3JnYW5pc2F0aW9uMR4wHAYDVQQDDBV1cm46bXJuOmlobzowMEFBOjE4MTAwHhcNMjYwNzA4MDg0OTAxWhcNMzYwNzA1MDg0OTAxWjB4MR8wHQYDVQQDExZ1cm46bXJuOmlobzowMEFBOjAxODEwMTAwLgYDVQQKEydJbnRlcm5hdGlvbmFsIEh5ZHJvZ3JhcGhpYyBPcmdhbmlzYXRpb24xFjAUBgNVBAgMDURBVEFfUFJPRFVDRVIxCzAJBgNVBAYTAk1DMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE94nduvhdNKF9PaQjpVsvgqg0FvlZsyPMoi636ymNoZerpN7uK59+tBQVmSunwRqt564O3Y/A6PSNvch61lywffP6x9vOgwO21cv71W38TwbnwIfvAz07W4Z9aLppscFlMAoGCCqGSM49BAMDA2cAMGQCMC2TupucFdpmlPqJ5kYpK3ixH/E50/MBczYcZ4AEhGiFhvZk9RToq7nP9tBZIHit9wIwRYW0J3lqKrPHQEgoWadyV30jCVSU7tAOTDk972gtS0Am7Ui7+mV0Ajhyv/ZGd384</S100SE:certificate>
+    </S100XC:certificates>
+    <S100XC:datasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA004C1XMS.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:7f57b77c5e06fbc39e82775bdc5d1f6a171bdd62115e9f7705c53961272d4468</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA004C1XMS" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQDXAv/GW+dcgJroU+PCr83xQAPB3Bxg1MGnCt17c5dC0kiZbdRwtD3PNCSwVooJilYCMQD5WGYdGRAqC0zu1yQaEumewnID48nMVxJGX7Dtje6Lh+Ey9Dlv/oJwtEaIuinX8/Q=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.273883</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.136063</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.00018</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.133311</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_ba00fd3">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.133311 -5.273883 15.133311 -5.136063 15.00018 -5.136063 15.00018 -5.273883 15.133311 -5.273883</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>12000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>12000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>180000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1AB1.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:03bfc1a34ee40b06c5e902783c956f515512677d32121b895d467b690626c9f5</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1AB1" certificateRef="urn:mrn:iho:00AA:01810">MGQCMBLNvF/XKC5oZZTFx45xQogJFpU9i/AkszO8/KJKydYYgQh12jHc4H7cXAxrn/VgAAIwWjtrI27Fek64PFgEPZoeuITRAyY50bjAmz22eaR13m2EZ0C1gsyBsWpxGVT1SCRf</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.268827</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.23832</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.099261</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.128819</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_a244354">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.128819 -5.268827 15.128819 -5.23832 15.099261 -5.23832 15.099261 -5.268827 15.128819 -5.268827</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1AB2.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:b7b100f62ea621410030f22d6ea746f47b90c0b40984549310e8d2197ff0e510</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1AB2" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQD5Qy9y6hoBvll/138wCvTuSbi1NXgi9jxt5Oa+FY25oiZMs60SZVLCDTz/RaqQdA4CMQD1XCUe2v1JaHFD2UhsK+nachDF0sxg7N41djRv7qV5WXnuJKFUVQAqyFnSsS2ayew=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.236264</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.205758</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.099264</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.128822</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_6e58138">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.128822 -5.236264 15.128822 -5.205758 15.099264 -5.205758 15.099264 -5.236264 15.128822 -5.236264</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1CDE.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:3d82dcb0c0fdc464b60184aba13ad237c88cf1e9585fc5c92caf499cd40d4506</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1CDE" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQCEoq3pVFP+BcSl+qJqTjdE/fa15EJaTaVpgtKP89sTAEKrZfVnUFno49PUw+1bOEwCMHV+uFENytfOzH9kVu86nqsexEwss9jjq0IPiBi3bAvhHUheK+5gvL/pd2rRLypqUA==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.203702</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.173195</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.099233</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.128824</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_aa21450">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.128824 -5.203702 15.128824 -5.173195 15.099233 -5.173195 15.099233 -5.203702 15.128824 -5.203702</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1FOO.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:369b3c057812a46a24ca112e75792c37c32917c72b3b967a82c80cd40be2528f</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1FOO" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDhlgEQCkO3QUUWHG+vHSbQzToHsdCtI68b2CAiFzEq9DPv2B1jzwbVeBo0H6pMWYMCMERSFeQkAaJ1GHZAWPlUHG7AZYrh/O+xkt8jxkQj6GH1/Cpjd9S+JEiKzOYePLjWJA==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.17114</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.140633</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.099266</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.128822</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_390dd70">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.128822 -5.17114 15.128822 -5.140633 15.099266 -5.140633 15.099266 -5.17114 15.128822 -5.17114</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1HIO.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:c89c7c0c29b0c7ceb2bb7b90c0eae60f8656ad5b4c1e5cf04a2101fe798eaf9c</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1HIO" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQCoM6tn8FA7k3KETRG+5lWB4oRwIVV3m8XLifozQFRpgG6fqNkewxUaqFTZUArow+ICMQDb8LQihK2We6zWuT4JTqTk2KBJLzX2yLre2YrBD0dMLOGmMQPixn2qbYqaqntbVM4=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.268807</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.238286</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.067723</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.097284</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_44e9f54">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.097284 -5.268807 15.097284 -5.238286 15.067723 -5.238286 15.067723 -5.268807 15.097284 -5.268807</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1JKL.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:4bb07c258b8f5bc7a7a6342cb5b93a9f4b9283dbf69742c1245aa9fa1b62dd34</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1JKL" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDyWRF5uNVa4US75GoaU8kJNXEa0eSLqj6UHtjR08nUkv2LW+jef9X9WJg7agc3BScCMEnJ/H0gx9PvSmvU1jYBnW2cz+4spQm6BCpZwo8dMvWerjtOpKuLWJQSciM+t7Jscw==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.236273</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.205758</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.067726</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.097282</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_b2f8808">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.097282 -5.236273 15.097282 -5.205758 15.067726 -5.205758 15.067726 -5.236273 15.097282 -5.236273</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1MNS.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:e5b6aaa57d4b0cd112b7aff0bb58e0588d2620a2ad4af3b143c51f475e9844fc</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1MNS" certificateRef="urn:mrn:iho:00AA:01810">MGQCMGJfESxvczBb5tsVz0MArYS5IxNZgWVPAQbcTIdQfBF+w8yOihy7J2jpzBmjr5K6fAIwfXnVEA8GdXKxRgNv8zUzgJcKGZPXD+jtnEJdEHvjThgqkSJL99FyXcvmWofsIt+H</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.26875</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.238238</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.00464</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.034196</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_ea2e142">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.034196 -5.26875 15.034196 -5.238238 15.00464 -5.238238 15.00464 -5.26875 15.034196 -5.26875</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1MOO.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:26b4cea5bb903c3477a7e7967f0247791931d0f491b24a18823e5c23c694b0ec</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1MOO" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDiYCazrfps8zSQykUBiiDUVkY+hinYn+XxCwbUd1BDy5MoYx1O7kl9yoFQMCVPRM4CMGv82V6bX7J++uHhx/3y1B8HDLrfgnhcCo6fq/xYvuFebT3Dn2KOjARil+eqsX1QFQ==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.203696</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.173176</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.067724</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.09728</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_deeed20">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.09728 -5.203696 15.09728 -5.173176 15.067724 -5.173176 15.067724 -5.203696 15.09728 -5.203696</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1NOO.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:8a83bbfba2622093e73aef8d6beaccef5b8e153cd91e23c7ffa9ee2cd99850ae</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1NOO" certificateRef="urn:mrn:iho:00AA:01810">MGUCMCMn6XKuXY+DKNIqm6mPEQpwJF8038EwvSRXLu9qYls3a75uCbUK4/oS/R4h4muRoAIxAPrQZDV97Pi/tdBdqvKHEgnKCVtduv+mQ/cNUnlYd8uS91znb3aQ//OziUekyNfZsw==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.171157</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.140633</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.067722</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.097277</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_5e742da">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.097277 -5.171157 15.097277 -5.140633 15.067722 -5.140633 15.067722 -5.171157 15.097277 -5.171157</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1PRS.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:7accd2b86c13b26ebb9779af619af4c2bdf3b1641bc0514993baf928b35511c9</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1PRS" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQDfc4V/OmmiDpTR3fmngieWNbqZ7F9tAoa2MXbKP0ZjS0nfrHcJMWFuj42Sr9u8WDYCMD7oCtWtcOxhBwVXXK9HcI42OBDKlAx+iVIK+8OHAnkgFT9xAdZfrti7YCdMVxNIew==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.268754</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.238243</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.036185</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.06574</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_03a37d9">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.06574 -5.268754 15.06574 -5.238243 15.036185 -5.238243 15.036185 -5.268754 15.06574 -5.268754</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1QO1.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:2dce910d92c9b818a66e61dbfc3bc008ff5ac841a5761766dd1f452e72eb6ece</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1QO1" certificateRef="urn:mrn:iho:00AA:01810">MGYCMQD2TDFeT8wIUA+gpXj50XjBTWPMUlHP6cGMoLE3CxddPdZCks7/1KQH3jlxE2SvVjECMQCixO2fz13cIV1O14c0bwoHTy4YEB07Eo61gl3OMIpUsmYRotrIiMrKwc/7/lVOZO0=</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.236234</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.205719</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.036182</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.065738</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_38e52fc">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.065738 -5.236234 15.065738 -5.205719 15.036182 -5.205719 15.036182 -5.236234 15.065738 -5.236234</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1QO2.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:1da799706aade89e1cacab3ad6db9d62c14c1ceac0c0898fc0cdaaa224332742</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1QO2" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQCf4nhRJDvA7gApnkkrvM5zJ9lzQ4uiJdQ0yYc2v1vdo5oowZ0vr6ALu18zymhTNFICMEtroQrO6pk6Jp4pB07Xbc1imoaGukp2z08EnHEf4sK6qAv5xnWSLWUH8GmNrBNBug==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.203638</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.173118</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.03618</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.065736</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_317faa5">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.065736 -5.203638 15.065736 -5.173118 15.03618 -5.173118 15.03618 -5.203638 15.065736 -5.203638</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+        <S100XC:S100_DatasetDiscoveryMetadata>
+            <S100XC:fileName>file:/S-101/DATASET_FILES/101AA005C1WOO.000</S100XC:fileName>
+            <S100XC:datasetID>urn:mrn:iho:hash:sha256:209dbb005cd6bd7da6a028864f8c88d58d29d129bb0fbf84c8eb4a8f8df48cc9</S100XC:datasetID>
+            <S100XC:compressionFlag>false</S100XC:compressionFlag>
+            <S100XC:dataProtection>false</S100XC:dataProtection>
+            <S100XC:digitalSignatureReference>ECDSA-384-SHA2</S100XC:digitalSignatureReference>
+            <S100XC:digitalSignatureValue>
+                <S100SE:S100_SE_SignatureOnData dataStatus="unencrypted" id="101AA005C1WOO" certificateRef="urn:mrn:iho:00AA:01810">MGUCMQD8Jf/4QgSqrRZDA3tyOJhmftDR812KXx/xiz4BnBM3A7dYGRGrp/JT5K2xuL2eZrUCMAcbozCpuqJyBD6kxjmC3shJbO5OBZQjPq3KnekoF2wIewe82DkkauphFsp5hDeGqw==</S100SE:S100_SE_SignatureOnData>
+            </S100XC:digitalSignatureValue>
+            <S100XC:copyright>false</S100XC:copyright>
+            <S100XC:purpose>newDataset</S100XC:purpose>
+            <S100XC:notForNavigation>false</S100XC:notForNavigation>
+            <S100XC:editionNumber>1</S100XC:editionNumber>
+            <S100XC:issueDate>2026-11-11</S100XC:issueDate>
+            <S100XC:issueTime>10:14:32Z</S100XC:issueTime>
+            <S100XC:boundingBox>
+                <ns15:westBoundLongitude>
+                    <gco:Decimal>-5.171204</gco:Decimal>
+                </ns15:westBoundLongitude>
+                <ns15:eastBoundLongitude>
+                    <gco:Decimal>-5.14068</gco:Decimal>
+                </ns15:eastBoundLongitude>
+                <ns15:southBoundLatitude>
+                    <gco:Decimal>15.03618</gco:Decimal>
+                </ns15:southBoundLatitude>
+                <ns15:northBoundLatitude>
+                    <gco:Decimal>15.065692</gco:Decimal>
+                </ns15:northBoundLatitude>
+            </S100XC:boundingBox>
+            <S100XC:productSpecification>
+                <S100XC:name>Electronic Navigational Chart</S100XC:name>
+                <S100XC:version>2.0.0</S100XC:version>
+                <S100XC:date>2026-02-20</S100XC:date>
+                <S100XC:productIdentifier>S-101</S100XC:productIdentifier>
+                <S100XC:number>214</S100XC:number>
+                <S100XC:compliancyCategory>category4</S100XC:compliancyCategory>
+            </S100XC:productSpecification>
+            <S100XC:producingAgency>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#CI_RoleCode" codeListValue="producer"></cit:CI_RoleCode>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
+                            <cit:name>
+<gco:CharacterString>International Hydrographic Organization,MC,AA</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </S100XC:producingAgency>
+            <S100XC:encodingFormat>ISO/IEC 8211</S100XC:encodingFormat>
+            <S100XC:dataCoverage>
+                <S100XC:boundingPolygon>
+                    <ns15:polygon>
+                        <ns16:Curve ns16:id="DC1_3d727bd">
+                            <ns16:segments>
+<ns16:LineStringSegment>
+    <ns16:posList srsName="EPSG:4326">15.065692 -5.171204 15.065692 -5.14068 15.03618 -5.14068 15.03618 -5.171204 15.065692 -5.171204</ns16:posList>
+</ns16:LineStringSegment>
+                            </ns16:segments>
+                        </ns16:Curve>
+                    </ns15:polygon>
+                </S100XC:boundingPolygon>
+                <S100XC:optimumDisplayScale>8000</S100XC:optimumDisplayScale>
+                <S100XC:maximumDisplayScale>8000</S100XC:maximumDisplayScale>
+                <S100XC:minimumDisplayScale>45000</S100XC:minimumDisplayScale>
+            </S100XC:dataCoverage>
+        </S100XC:S100_DatasetDiscoveryMetadata>
+    </S100XC:datasetDiscoveryMetadata>
+    <S100XC:supportFileDiscoveryMetadata/>
+    <S100XC:catalogueDiscoveryMetadata/>
+</S100XC:S100_ExchangeCatalogue>
