@@ -1,6 +1,8 @@
 # S-164 Sub-Group.
 
-This repository contains S-100 test datasets and the test dataset manual. It also tracks issues related directly to the development of S-164 and any impacts they have on the development of IHO S-98 as well.
+This repository contains draft or developing version of S-100 test datasets and the test dataset manual. It also tracks issues related directly to the development of S-164 and any impacts they have on the development of IHO S-98 as well.
+
+The official S-164 is publised on the IHO website. 
 
 As agreed by the group in discussions
 
